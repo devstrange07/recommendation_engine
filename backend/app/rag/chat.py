@@ -1,4 +1,4 @@
-"""Chat agent loop with search_products tool."""
+"""Chat agent loop with search_products tool via Responses API."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ import time
 from typing import Any
 
 from app.config import get_settings
-from app.openai_client import chat_completion_kwargs, chat_model, get_openai
+from app.openai_client import chat_model, get_openai, responses_kwargs
 from app.rag.query_understanding import build_search_products_tool, parse_search_request
 from app.rag.search import COUNTRY_CURRENCY, search_products
 from app.schemas import (
@@ -122,6 +122,24 @@ _PREV_FILTERS: dict[str, dict] = {}
 def _has_openai_key() -> bool:
     key = get_settings().openai_api_key.strip()
     return bool(key) and key != "sk-your-key-here"
+
+
+def _usage_total(resp: Any) -> int:
+    usage = getattr(resp, "usage", None)
+    if not usage:
+        return 0
+    return int(getattr(usage, "total_tokens", None) or 0)
+
+
+def _first_function_call(resp: Any, name: str = "search_products") -> Any | None:
+    for item in getattr(resp, "output", None) or []:
+        if getattr(item, "type", None) == "function_call" and getattr(item, "name", None) == name:
+            return item
+    return None
+
+
+def _conversation_input(body: ChatRequest) -> list[dict[str, str]]:
+    return [{"role": m.role, "content": m.content} for m in body.messages]
 
 
 def _heuristic_search_request(body: ChatRequest) -> SearchRequest:
@@ -251,97 +269,71 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
 
     client = get_openai()
     model = chat_model()
-
-    messages: list[dict[str, Any]] = [
-        {
-            "role": "system",
-            "content": _system_prompt(body, tenant_id),
-        }
-    ]
-    for m in body.messages:
-        messages.append({"role": m.role, "content": m.content})
+    tools = [build_search_products_tool()]
+    instructions = _system_prompt(body, tenant_id)
+    input_items = _conversation_input(body)
+    rkw = responses_kwargs()
 
     t0 = time.perf_counter()
-    first = client.chat.completions.create(
+    first = client.responses.create(
         model=model,
-        messages=messages,
-        tools=[build_search_products_tool()],
+        instructions=instructions,
+        input=input_items,
+        tools=tools,
         tool_choice="auto",
-        **chat_completion_kwargs(for_tools=True),
+        **rkw,
     )
     latency["extract"] = (time.perf_counter() - t0) * 1000
-    if first.usage:
-        tokens["query_understanding"] = first.usage.total_tokens or 0
+    tokens["query_understanding"] = _usage_total(first)
 
-    msg = first.choices[0].message
-
-    if not msg.tool_calls:
+    tool_call = _first_function_call(first)
+    if not tool_call:
         debug.turn_flow.append("llm_decided_no_search")
-        reply = msg.content or ""
+        reply = getattr(first, "output_text", None) or ""
         debug.tokens = tokens
         debug.latency_ms = latency
         return ChatResponse(reply=reply, product_cards=[], debug=debug)
 
     debug.turn_flow.append("llm_decided_search")
-    # Use first search_products call
-    tool_call = msg.tool_calls[0]
     try:
-        args = json.loads(tool_call.function.arguments)
+        args = json.loads(tool_call.arguments)
         req = parse_search_request(args)
     except Exception:
         debug.turn_flow.append("filter_parse_retry")
-        # one retry: ask model to fix
-        messages.append(
-            {
-                "role": "assistant",
-                "content": msg.content,
-                "tool_calls": [
-                    {
-                        "id": tool_call.id,
-                        "type": "function",
-                        "function": {
-                            "name": tool_call.function.name,
-                            "arguments": tool_call.function.arguments,
-                        },
-                    }
-                ],
-            }
-        )
-        messages.append(
-            {
-                "role": "tool",
-                "tool_call_id": tool_call.id,
-                "content": json.dumps({"error": "invalid SearchRequest JSON, retry with valid fields"}),
-            }
-        )
-        retry = client.chat.completions.create(
+        retry = client.responses.create(
             model=model,
-            messages=messages,
-            tools=[build_search_products_tool()],
-            tool_choice={"type": "function", "function": {"name": "search_products"}},
-            **chat_completion_kwargs(for_tools=True),
+            previous_response_id=first.id,
+            input=[
+                {
+                    "type": "function_call_output",
+                    "call_id": tool_call.call_id,
+                    "output": json.dumps(
+                        {"error": "invalid SearchRequest JSON, retry with valid fields"}
+                    ),
+                }
+            ],
+            tools=tools,
+            tool_choice={"type": "function", "name": "search_products"},
+            **rkw,
         )
-        if retry.usage:
-            tokens["query_understanding"] = tokens.get("query_understanding", 0) + (
-                retry.usage.total_tokens or 0
-            )
-        msg = retry.choices[0].message
-        if not msg.tool_calls:
+        tokens["query_understanding"] = tokens.get("query_understanding", 0) + _usage_total(retry)
+        tool_call = _first_function_call(retry)
+        if not tool_call:
             debug.tokens = tokens
             debug.latency_ms = latency
             return ChatResponse(
-                reply=msg.content or "I had trouble understanding filters. Could you rephrase?",
+                reply=getattr(retry, "output_text", None)
+                or "I had trouble understanding filters. Could you rephrase?",
                 debug=debug,
             )
-        tool_call = msg.tool_calls[0]
-        args = json.loads(tool_call.function.arguments)
-        # force semantic-only if still messy
+        first = retry  # continue tool round-trip from this response
         try:
+            args = json.loads(tool_call.arguments)
             req = parse_search_request(args)
         except Exception:
-            from app.schemas import SearchRequest
-
-            req = SearchRequest(semantic_query=body.messages[-1].content if body.messages else "products")
+            req = SearchRequest(
+                semantic_query=body.messages[-1].content if body.messages else "products"
+            )
 
     debug.turn_flow.append("filters_extracted")
     debug.previous_filters = _PREV_FILTERS.get(body.session_id)
@@ -366,23 +358,6 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
     debug.injected_prompt_block = inject
     debug.turn_flow.append(f"injected_{len(hits)}_cards")
 
-    # Continue agent with tool result
-    messages.append(
-        {
-            "role": "assistant",
-            "content": msg.content,
-            "tool_calls": [
-                {
-                    "id": tool_call.id,
-                    "type": "function",
-                    "function": {
-                        "name": "search_products",
-                        "arguments": tool_call.function.arguments,
-                    },
-                }
-            ],
-        }
-    )
     tool_payload = {
         "hit_count": len(hits),
         "fallback": fallback.model_dump(),
@@ -393,25 +368,25 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
             else "Pitch up to 3 products with [ID] refs"
         ),
     }
-    messages.append(
-        {
-            "role": "tool",
-            "tool_call_id": tool_call.id,
-            "content": json.dumps(tool_payload),
-        }
-    )
 
     t1 = time.perf_counter()
-    final = client.chat.completions.create(
+    final = client.responses.create(
         model=model,
-        messages=messages,
-        **chat_completion_kwargs(),
+        previous_response_id=first.id,
+        input=[
+            {
+                "type": "function_call_output",
+                "call_id": tool_call.call_id,
+                "output": json.dumps(tool_payload),
+            }
+        ],
+        tools=tools,
+        **rkw,
     )
     latency["final_llm"] = (time.perf_counter() - t1) * 1000
-    if final.usage:
-        tokens["final"] = final.usage.total_tokens or 0
+    tokens["final"] = _usage_total(final)
 
-    reply = final.choices[0].message.content or ""
+    reply = getattr(final, "output_text", None) or ""
     debug.turn_flow.append("llm_pitched")
     debug.tokens = tokens
     debug.latency_ms = latency

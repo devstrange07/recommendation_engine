@@ -12,7 +12,7 @@ import BentoGrid from "./components/BentoGrid";
 import BentoTile from "./components/BentoTile";
 import { useConversations } from "./hooks/useConversations";
 import { DEMO_CATALOG_ID, useCatalogs } from "./hooks/useCatalogs";
-import { DebugTrace, ProductCard } from "./api";
+import { DebugTrace, ProductCard, deleteCatalog as deleteCatalogApi } from "./api";
 
 type Page = "chat" | "review" | "catalog";
 
@@ -59,7 +59,9 @@ export default function App() {
     activeId: catalogId,
     active: activeCatalog,
     create: createCatalog,
+    suggestTitle: suggestCatalogTitle,
     select: selectCatalog,
+    remove: removeCatalog,
   } = useCatalogs();
 
   useEffect(() => {
@@ -108,10 +110,26 @@ export default function App() {
   }
 
   function onNewCatalog() {
-    const name = window.prompt("Catalog name", "New catalog");
+    const name = window.prompt("Catalog name", suggestCatalogTitle("New catalog"));
     if (name === null) return;
-    createCatalog(name.trim() || "New catalog");
+    createCatalog(name.trim() || suggestCatalogTitle("New catalog"));
     setPage("catalog");
+  }
+
+  async function onDeleteCatalog() {
+    if (catalogId === DEMO_CATALOG_ID) return;
+    const ok = window.confirm(
+      `Delete catalog "${catalogTitle}"? This permanently removes catalog files and search index.`
+    );
+    if (!ok) return;
+    try {
+      await deleteCatalogApi(catalogId);
+      removeCatalog(catalogId);
+      setPage("catalog");
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      window.alert(`Failed to delete catalog: ${msg}`);
+    }
   }
 
   function toggleDebug() {
@@ -145,6 +163,11 @@ export default function App() {
             <button type="button" className="ghost catalog-mode-link" onClick={onNewCatalog}>
               New catalog
             </button>
+            {catalogId !== DEMO_CATALOG_ID && (
+              <button type="button" className="ghost catalog-mode-link" onClick={onDeleteCatalog}>
+                Delete catalog
+              </button>
+            )}
             {catalogId === DEMO_CATALOG_ID && (
               <button type="button" className="ghost catalog-mode-link" onClick={goAddProducts}>
                 Add products

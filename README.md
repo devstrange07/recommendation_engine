@@ -56,6 +56,7 @@ Health check: http://localhost:8009/health
 ## Notes
 
 - Set a real `OPENAI_API_KEY` in `.env` to use `gpt-5.4-mini` for normalize / chat. If the key is missing or still the placeholder, the app falls back to a heuristic normalizer + hash embeddings so the demo still runs locally.
+- Chat (query understanding + pitch) uses OpenAI `/v1/responses` so function tools and `CHAT_REASONING_EFFORT` (default `medium`) work together. Pipeline normalize/ingest remain on `/v1/chat/completions`.
 - **LangSmith:** set `LANGSMITH_API_KEY` (and optionally `LANGSMITH_PROJECT`, default `prism`). When present, OpenAI chat/embedding calls are wrapped and sent to LangSmith. Without the key, the app runs normally with tracing off. Check `/health` → `langsmith_key_present`.
 - Backend defaults to port **8009** (see `vite.config.ts` proxy). Port 8000 is often blocked on Windows.
 - Qdrant: `docker compose up -d` or any local Qdrant on `QDRANT_URL` (default `http://localhost:6333`).

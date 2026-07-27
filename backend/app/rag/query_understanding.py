@@ -14,47 +14,46 @@ def _category_path_description() -> str:
 
 
 def build_search_products_tool() -> dict:
+    """Responses API flat function-tool schema."""
     return {
         "type": "function",
-        "function": {
-            "name": "search_products",
-            "description": (
-                "Extract the user's cumulative product requirements from the full conversation "
-                "as of the latest message. Rewrite, don't append. Extract bare numbers for price_max; "
-                "the server binds currency from the session country. Call this before recommending products."
-            ),
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "semantic_query": {
-                        "type": "string",
-                        "description": "Rewritten cumulative intent for semantic search",
-                    },
-                    "category_path": {
-                        "type": ["string", "null"],
-                        "description": _category_path_description(),
-                    },
-                    "use_case_tags": {
-                        "type": "array",
-                        "items": {"type": "string"},
-                    },
-                    "target_audience": {
-                        "type": "array",
-                        "items": {"type": "string"},
-                    },
-                    "price_max": {
-                        "type": ["number", "null"],
-                        "description": "Max price as a bare number in the user's currency",
-                    },
-                    "billing_period": {
-                        "type": ["string", "null"],
-                        "description": "one_time | monthly | annual",
-                    },
-                    "top_k": {"type": "integer", "default": 8},
+        "name": "search_products",
+        "description": (
+            "Extract the user's cumulative product requirements from the full conversation "
+            "as of the latest message. Rewrite, don't append. Extract bare numbers for price_max; "
+            "the server binds currency from the session country. Call this before recommending products."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "semantic_query": {
+                    "type": "string",
+                    "description": "Rewritten cumulative intent for semantic search",
                 },
-                "required": ["semantic_query"],
-                "additionalProperties": False,
+                "category_path": {
+                    "type": ["string", "null"],
+                    "description": _category_path_description(),
+                },
+                "use_case_tags": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                },
+                "target_audience": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                },
+                "price_max": {
+                    "type": ["number", "null"],
+                    "description": "Max price as a bare number in the user's currency",
+                },
+                "billing_period": {
+                    "type": ["string", "null"],
+                    "description": "one_time | monthly | annual",
+                },
+                "top_k": {"type": "integer", "default": 8},
             },
+            "required": ["semantic_query"],
+            "additionalProperties": False,
         },
     }
 

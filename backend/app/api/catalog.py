@@ -9,6 +9,7 @@ from fastapi.responses import StreamingResponse
 
 from app.catalog_service import (
     create_from_form,
+    delete_catalog,
     ingest_text,
     iter_create_from_form,
     iter_ingest_file,
@@ -17,6 +18,7 @@ from app.catalog_service import (
     validate_text,
 )
 from app.deps import get_tenant_id
+from app.pipeline.paths import DEMO_TENANT
 from app.pipeline import run_pipeline as pipeline_runner
 from app.pipeline.io_utils import ensure_data_dirs
 from app.pipeline.progress import format_sse
@@ -100,6 +102,13 @@ def get_catalog_product(product_id: str, tenant_id: str = Depends(get_tenant_id)
     import json
 
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+@router.delete("")
+def delete_catalog_route(tenant_id: str = Depends(get_tenant_id)):
+    if tenant_id == DEMO_TENANT:
+        raise HTTPException(400, "demo catalog cannot be deleted")
+    return delete_catalog(tenant_id)
 
 
 @router.post("/ingest/text", response_model=IngestJobResponse)

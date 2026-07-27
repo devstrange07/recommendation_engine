@@ -72,6 +72,12 @@ export default function Catalog({
   const [streamEvents, setStreamEvents] = useState<ProgressEvent[]>([]);
   const [streamError, setStreamError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [queueStats, setQueueStats] = useState<{
+    total: number;
+    completed: number;
+    failed: number;
+    current: string | null;
+  } | null>(null);
 
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
@@ -79,7 +85,7 @@ export default function Catalog({
   const [plans, setPlans] = useState<CreatePlanRequest[]>([EMPTY_PLAN()]);
 
   const [jsonText, setJsonText] = useState(EXAMPLE_JSON);
-  const [uploadFile, setUploadFile] = useState<File | null>(null);
+  const [uploadQueue, setUploadQueue] = useState<File[]>([]);
 
   async function refresh() {
     try {
@@ -98,8 +104,21 @@ export default function Catalog({
     setStreamEvents([]);
     setStreamError(null);
     setStreaming(false);
+    setQueueStats(null);
     refresh();
   }, [tenantId]);
+
+  function dedupeFiles(existing: File[], incoming: File[]): File[] {
+    const seen = new Set(existing.map((f) => `${f.name}:${f.size}:${f.lastModified}`));
+    const next = [...existing];
+    for (const file of incoming) {
+      const key = `${file.name}:${file.size}:${file.lastModified}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      next.push(file);
+    }
+    return next;
+  }
 
   function updatePlan(i: number, patch: Partial<CreatePlanRequest>) {
     setPlans((prev) => prev.map((p, idx) => (idx === i ? { ...p, ...patch } : p)));
@@ -196,37 +215,89 @@ export default function Catalog({
     }
   }
 
-  async function ingestFile(file: File) {
-    if (isDemo) return;
-    beginStream();
+  async function submitUploadQueue() {
+    if (isDemo || uploadQueue.length === 0) return;
+    setBusy(true);
+    setStreaming(true);
+    setError(null);
+    setStreamError(null);
+    setStreamEvents([]);
+    setQueueStats({
+      total: uploadQueue.length,
+      completed: 0,
+      failed: 0,
+      current: null,
+    });
+    const allProducts = [];
     try {
-      const res = await streamIngestFile(file, tenantId, onStreamEvent);
-      afterIngest(res);
-      setUploadFile(null);
+      for (let i = 0; i < uploadQueue.length; i += 1) {
+        const file = uploadQueue[i];
+        setQueueStats((prev) =>
+          prev
+            ? {
+                ...prev,
+                current: file.name,
+              }
+            : prev
+        );
+        onStreamEvent({
+          type: "subtask",
+          phase: "ingest",
+          message: `Starting file ${i + 1}/${uploadQueue.length}: ${file.name}`,
+          detail: { file: file.name, file_index: i + 1, file_total: uploadQueue.length },
+          ts: new Date().toISOString(),
+        });
+        try {
+          const res = await streamIngestFile(file, tenantId, onStreamEvent);
+          allProducts.push(...res.products);
+          setQueueStats((prev) =>
+            prev
+              ? {
+                  ...prev,
+                  completed: prev.completed + 1,
+                }
+              : prev
+          );
+        } catch (e) {
+          const msg = e instanceof Error ? e.message : String(e);
+          setQueueStats((prev) =>
+            prev
+              ? {
+                  ...prev,
+                  failed: prev.failed + 1,
+                }
+              : prev
+          );
+          onStreamEvent({
+            type: "error",
+            phase: "ingest",
+            message: `File ${file.name} failed: ${msg}`,
+            detail: { file: file.name },
+            ts: new Date().toISOString(),
+          });
+        }
+      }
+      setLastResult({
+        tenant_id: tenantId,
+        products: allProducts,
+        pipeline_summary: null,
+      });
+      onCatalogReady?.();
+      setUploadQueue([]);
       await refresh();
-    } catch (e) {
-      const msg = e instanceof Error ? e.message : String(e);
-      setError(msg);
-      setStreamError(msg);
     } finally {
+      setQueueStats((prev) => (prev ? { ...prev, current: null } : prev));
       endStream();
     }
-  }
-
-  async function submitUpload() {
-    if (!uploadFile) return;
-    await ingestFile(uploadFile);
   }
 
   function onDrop(e: DragEvent) {
     e.preventDefault();
     setDragOver(false);
     if (isDemo) return;
-    const file = e.dataTransfer.files?.[0];
-    if (file) {
-      setUploadFile(file);
-      void ingestFile(file);
-    }
+    const files = Array.from(e.dataTransfer.files ?? []);
+    if (files.length === 0) return;
+    setUploadQueue((prev) => dedupeFiles(prev, files));
   }
 
   return (
@@ -302,33 +373,77 @@ export default function Catalog({
                   <p className="catalog-hint">
                     or click to browse · PDF, DOCX, XLSX, PPTX, images, JSON, CSV, TXT (max 20MB)
                   </p>
-                  {uploadFile && !busy && (
-                    <p className="catalog-dropzone__file">{uploadFile.name}</p>
+                  {uploadQueue.length > 0 && !busy && (
+                    <p className="catalog-dropzone__file">{uploadQueue.length} file(s) queued</p>
                   )}
                   {busy && <p className="catalog-dropzone__file">Processing…</p>}
                 </div>
                 <input
                   ref={fileInputRef}
                   type="file"
+                  multiple
                   accept={ACCEPT}
                   hidden
                   onChange={(e) => {
-                    const f = e.target.files?.[0] ?? null;
-                    setUploadFile(f);
-                    if (f) void ingestFile(f);
+                    const files = Array.from(e.target.files ?? []);
+                    if (files.length === 0) return;
+                    setUploadQueue((prev) => dedupeFiles(prev, files));
+                    e.currentTarget.value = "";
                   }}
                 />
-                {uploadFile && (
+                {uploadQueue.length > 0 && (
                   <div className="option-row">
                     <button
                       type="button"
                       className="primary"
                       disabled={busy}
-                      onClick={submitUpload}
+                      onClick={submitUploadQueue}
                     >
-                      {busy ? "Processing…" : "Upload & index"}
+                      {busy ? "Processing…" : "Start processing"}
+                    </button>
+                    <button
+                      type="button"
+                      disabled={busy}
+                      onClick={() => setUploadQueue([])}
+                    >
+                      Clear queue
                     </button>
                   </div>
+                )}
+                {uploadQueue.length > 0 && (
+                  <div className="review-list">
+                    {uploadQueue.map((file) => (
+                      <div key={`${file.name}:${file.size}:${file.lastModified}`} className="review-card">
+                        <div className="review-card__meta">
+                          {file.name} · {(file.size / 1024).toFixed(1)} KB
+                        </div>
+                        <div className="option-row">
+                          <button
+                            type="button"
+                            disabled={busy}
+                            onClick={() =>
+                              setUploadQueue((prev) =>
+                                prev.filter(
+                                  (f) =>
+                                    `${f.name}:${f.size}:${f.lastModified}` !==
+                                    `${file.name}:${file.size}:${file.lastModified}`
+                                )
+                              )
+                            }
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {queueStats && (
+                  <p className="catalog-hint">
+                    Processing {queueStats.completed + queueStats.failed}/{queueStats.total}
+                    {queueStats.current ? ` · current: ${queueStats.current}` : ""}
+                    {queueStats.failed > 0 ? ` · failed: ${queueStats.failed}` : ""}
+                  </p>
                 )}
               </div>
             )}

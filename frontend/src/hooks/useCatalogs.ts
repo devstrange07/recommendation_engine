@@ -35,6 +35,17 @@ function ensureDemo(catalogs: CatalogEntry[]): CatalogEntry[] {
   return [demoEntry(), ...catalogs];
 }
 
+function nextUniqueTitle(catalogs: CatalogEntry[], requestedTitle: string): string {
+  const base = requestedTitle.trim() || "New catalog";
+  const used = new Set(catalogs.map((c) => c.title.trim().toLowerCase()));
+  if (!used.has(base.toLowerCase())) return base;
+  let suffix = 2;
+  while (used.has(`${base} ${suffix}`.toLowerCase())) {
+    suffix += 1;
+  }
+  return `${base} ${suffix}`;
+}
+
 function loadStore(): Store {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -78,11 +89,17 @@ export function useCatalogs() {
     [store]
   );
 
+  const suggestTitle = useCallback(
+    (seed = "New catalog") => nextUniqueTitle(store.catalogs, seed),
+    [store.catalogs]
+  );
+
   const create = useCallback((title: string) => {
     const now = Date.now();
+    const uniqueTitle = nextUniqueTitle(store.catalogs, title);
     const entry: CatalogEntry = {
       id: newTenantId(),
-      title: title.trim() || "New catalog",
+      title: uniqueTitle,
       createdAt: now,
       updatedAt: now,
     };
@@ -91,7 +108,7 @@ export function useCatalogs() {
       activeId: entry.id,
     }));
     return entry.id;
-  }, []);
+  }, [store.catalogs]);
 
   const select = useCallback((id: string) => {
     setStore((prev) =>
@@ -126,6 +143,7 @@ export function useCatalogs() {
     activeId: store.activeId,
     active,
     create,
+    suggestTitle,
     select,
     rename,
     remove,

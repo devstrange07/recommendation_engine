@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor, TimeoutError
 import json
 
 import yaml
@@ -10,6 +11,7 @@ from app.config import get_settings
 from app.openai_client import chat_completion_kwargs, chat_model, get_openai
 from app.pipeline.io_utils import ensure_data_dirs, write_json
 from app.pipeline.paths import TenantPaths
+from app.pipeline.progress import ProgressCallback, emit
 from app.pipeline.review_store import load_overrides, replace_queue
 from app.schemas import (
     NormalizationBatchResponse,
@@ -168,7 +170,14 @@ def _records_from_parsed(
 
 
 def _normalize_batch(
-    batch: list[StagedProduct], vocab: dict, paths: TenantPaths
+    batch: list[StagedProduct],
+    vocab: dict,
+    paths: TenantPaths,
+    *,
+    heartbeat_seconds: float = 4.0,
+    on_progress: ProgressCallback = None,
+    batch_idx: int = 0,
+    batch_total: int = 0,
 ) -> list[NormalizationRecord]:
     if not _has_openai_key():
         from app.pipeline.heuristic_normalize import normalize_batch
@@ -205,7 +214,30 @@ def _normalize_batch(
         return _records_from_parsed(message.parsed, message.content)
 
     try:
-        return _call()
+        with ThreadPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(_call)
+            elapsed = 0.0
+            while True:
+                try:
+                    return future.result(timeout=heartbeat_seconds)
+                except TimeoutError:
+                    elapsed += heartbeat_seconds
+                    emit(
+                        on_progress,
+                        type="subtask",
+                        phase="normalize",
+                        message=(
+                            f"Normalize batch {batch_idx}/{batch_total}: "
+                            f"still running ({int(elapsed)}s)"
+                        ),
+                        detail={
+                            "batch_index": batch_idx,
+                            "batch_total": batch_total,
+                            "batch_size": len(batch),
+                            "elapsed_seconds": int(elapsed),
+                            "heartbeat": True,
+                        },
+                    )
     except Exception as first_err:
         try:
             return _call()
@@ -238,7 +270,11 @@ def _apply_overrides(record: NormalizationRecord, overrides: dict) -> Normalizat
     )
 
 
-def run(tenant_id: str = "demo") -> dict:
+def run(
+    tenant_id: str = "demo",
+    *,
+    on_progress: ProgressCallback = None,
+) -> dict:
     paths = ensure_data_dirs(tenant_id)
     vocab = load_vocab()
 
@@ -256,9 +292,39 @@ def run(tenant_id: str = "demo") -> dict:
     done = 0
     flagged = 0
     batch_size = 5
+    batch_total = (len(to_process) + batch_size - 1) // batch_size if to_process else 0
+    if batch_total == 0:
+        emit(
+            on_progress,
+            type="subtask",
+            phase="normalize",
+            message="No products need normalization",
+            detail={"batch_total": 0, "total_products": 0},
+        )
     for i in range(0, len(to_process), batch_size):
         batch = to_process[i : i + batch_size]
-        records = _normalize_batch(batch, vocab, paths)
+        batch_idx = (i // batch_size) + 1
+        emit(
+            on_progress,
+            type="subtask",
+            phase="normalize",
+            message=f"Normalize batch {batch_idx}/{batch_total}: sending {len(batch)} product(s)",
+            detail={
+                "batch_index": batch_idx,
+                "batch_total": batch_total,
+                "batch_size": len(batch),
+                "processed": done,
+                "flagged": flagged,
+            },
+        )
+        records = _normalize_batch(
+            batch,
+            vocab,
+            paths,
+            on_progress=on_progress,
+            batch_idx=batch_idx,
+            batch_total=batch_total,
+        )
         for record in records:
             overrides = load_overrides(paths, record.product_id)
             if overrides:
@@ -278,6 +344,22 @@ def run(tenant_id: str = "demo") -> dict:
                         recommended=flag.recommended,
                     )
                 )
+        emit(
+            on_progress,
+            type="subtask",
+            phase="normalize",
+            message=(
+                f"Normalize batch {batch_idx}/{batch_total}: complete "
+                f"({done}/{len(to_process)} products)"
+            ),
+            detail={
+                "batch_index": batch_idx,
+                "batch_total": batch_total,
+                "processed": done,
+                "total_products": len(to_process),
+                "flagged": flagged,
+            },
+        )
 
     existing_queue = []
     if paths.review_queue.exists():

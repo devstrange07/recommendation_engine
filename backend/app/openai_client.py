@@ -55,10 +55,17 @@ def embedding_model() -> str:
 
 
 def chat_completion_kwargs(*, for_tools: bool = False) -> dict:
-    # gpt-5.4-mini rejects tools + reasoning_effort on /v1/chat/completions
-    if for_tools:
-        return {"reasoning_effort": "none"}
+    """Kwargs for /v1/chat/completions (normalize / ingest / vision)."""
+    del for_tools  # unused; kept for call-site compatibility
     effort = get_settings().chat_reasoning_effort.strip()
     if not effort or effort.lower() == "none":
         return {}
     return {"reasoning_effort": effort}
+
+
+def responses_kwargs() -> dict:
+    """Kwargs for /v1/responses (chat agent: tools + reasoning together)."""
+    effort = get_settings().chat_reasoning_effort.strip()
+    if not effort or effort.lower() == "none":
+        return {}
+    return {"reasoning": {"effort": effort}}

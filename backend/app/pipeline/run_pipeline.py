@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import queue
+import threading
 from collections.abc import Iterator
 
 from app.pipeline import s1_preprocess, s2_normalize, s3_merge, s4_index
@@ -119,7 +121,31 @@ def iter_pipeline_progress(
             phase="normalize",
             message="Running LLM normalization",
         )
-        s2 = s2_normalize.run(tenant_id)
+        event_queue: queue.Queue[ProgressEvent] = queue.Queue()
+        normalize_result: dict | None = None
+        normalize_error: Exception | None = None
+
+        def _emit_normalize_progress(event: ProgressEvent) -> None:
+            event_queue.put(event)
+
+        def _run_normalize() -> None:
+            nonlocal normalize_result, normalize_error
+            try:
+                normalize_result = s2_normalize.run(tenant_id, on_progress=_emit_normalize_progress)
+            except Exception as exc:  # pragma: no cover - bubbled to stream
+                normalize_error = exc
+
+        normalize_thread = threading.Thread(target=_run_normalize, daemon=True)
+        normalize_thread.start()
+        while normalize_thread.is_alive() or not event_queue.empty():
+            try:
+                yield event_queue.get(timeout=0.5)
+            except queue.Empty:
+                continue
+        normalize_thread.join()
+        if normalize_error is not None:
+            raise normalize_error
+        s2 = normalize_result or {}
         parts.append(f"s2={s2}")
         yield ProgressEvent(
             type="phase_done",

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 import uuid
 from collections.abc import Iterator
 from datetime import datetime, timezone
@@ -14,6 +15,7 @@ from app.pipeline.paths import TenantPaths
 from app.pipeline.progress import ProgressCallback
 from app.pipeline.review_store import load_queue
 from app.pipeline.s0_ingest import extract_products, parse_csv_text
+from app.pipeline.s4_index import get_qdrant
 from app.schemas import (
     CreatePlanRequest,
     CreateProductRequest,
@@ -488,3 +490,30 @@ def iter_ingest_file(
         message="Ingest complete",
         detail=response.model_dump(),
     )
+
+
+def delete_catalog(tenant_id: str) -> dict[str, object]:
+    paths = TenantPaths.for_tenant(tenant_id)
+    client = get_qdrant()
+    collection_deleted = False
+    tenant_deleted = False
+    try:
+        existing = {c.name for c in client.get_collections().collections}
+        if paths.collection in existing:
+            client.delete_collection(collection_name=paths.collection)
+            collection_deleted = True
+    except Exception:
+        # Treat backend vector-store errors as non-fatal for idempotent delete.
+        pass
+
+    if paths.root.exists():
+        shutil.rmtree(paths.root, ignore_errors=False)
+        tenant_deleted = True
+
+    return {
+        "ok": True,
+        "tenant_id": paths.tenant_id,
+        "collection": paths.collection,
+        "collection_deleted": collection_deleted,
+        "tenant_deleted": tenant_deleted,
+    }

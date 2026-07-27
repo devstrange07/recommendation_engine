@@ -192,6 +192,16 @@ export async function listCatalogProducts(tenantId: string): Promise<ProductList
   return apiFetch("/catalog/products", {}, tenantId);
 }
 
+export async function deleteCatalog(tenantId: string): Promise<{
+  ok: boolean;
+  tenant_id: string;
+  collection: string;
+  collection_deleted: boolean;
+  tenant_deleted: boolean;
+}> {
+  return apiFetch("/catalog", { method: "DELETE" }, tenantId);
+}
+
 export async function createCatalogProduct(
   body: CreateProductRequest,
   tenantId: string
