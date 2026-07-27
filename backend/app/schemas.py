@@ -113,6 +113,34 @@ class NormalizationRecord(BaseModel):
     flags: list[Flag] = Field(default_factory=list)
 
 
+# OpenAI structured-output wire types (no free-form dicts — strict schema forbids them)
+class PlanFeatureEntry(BaseModel):
+    plan_id: str
+    features: list[str]
+
+
+class NormalizedLLM(BaseModel):
+    clean_description: str
+    short_pitch: str
+    category_path: str
+    use_case_tags: list[str]
+    target_audience: list[str]
+    aliases: list[str]
+    plan_features: list[PlanFeatureEntry]
+
+
+class NormalizationRecordLLM(BaseModel):
+    product_id: str
+    schema_version: int = 1
+    normalized: NormalizedLLM
+    confidence: float
+    flags: list[Flag] = Field(default_factory=list)
+
+
+class NormalizationBatchResponse(BaseModel):
+    records: list[NormalizationRecordLLM]
+
+
 # ---------------------------------------------------------------------------
 # Canonical (feeds embedding + Qdrant payload)
 # ---------------------------------------------------------------------------

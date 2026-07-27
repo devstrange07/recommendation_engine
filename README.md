@@ -20,7 +20,7 @@ cd backend
 uv sync
 uv run python -m app.pipeline.generate_synthetic
 uv run python -m app.pipeline.run_pipeline
-uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8001
+uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8009
 
 # 4. Frontend (new terminal)
 cd frontend
@@ -30,7 +30,7 @@ npm run dev
 
 Open http://localhost:5173
 
-Health check: http://localhost:8001/health
+Health check: http://localhost:8009/health
 
 ## Demo script
 
@@ -47,7 +47,7 @@ Health check: http://localhost:8001/health
 
 | Phase | Check |
 |---|---|
-| 1 | `curl localhost:6333/collections`, `curl localhost:8001/health`, UI two panes |
+| 1 | `curl localhost:6333/collections`, `curl localhost:8009/health`, UI two panes |
 | 2 | Synthetic JSONL validates; `defect_manifest.json` counts match |
 | 3 | Pipeline summary prints `flag_metrics`; Qdrant point count ≈ canonical |
 | 4–6 | 3-turn salon conversation; debug tabs populated |
@@ -57,6 +57,6 @@ Health check: http://localhost:8001/health
 
 - Set a real `OPENAI_API_KEY` in `.env` to use `gpt-5.4-mini` for normalize / chat. If the key is missing or still the placeholder, the app falls back to a heuristic normalizer + hash embeddings so the demo still runs locally.
 - **LangSmith:** set `LANGSMITH_API_KEY` (and optionally `LANGSMITH_PROJECT`, default `prism`). When present, OpenAI chat/embedding calls are wrapped and sent to LangSmith. Without the key, the app runs normally with tracing off. Check `/health` → `langsmith_key_present`.
-- Backend defaults to port **8001** (see `vite.config.ts` proxy). Port 8000 is often blocked on Windows.
+- Backend defaults to port **8009** (see `vite.config.ts` proxy). Port 8000 is often blocked on Windows.
 - Qdrant: `docker compose up -d` or any local Qdrant on `QDRANT_URL` (default `http://localhost:6333`).
 - First UI visit runs a guided onboarding (setup checklist → how to use). Replay via **Replay tour** in the top bar.

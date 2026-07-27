@@ -89,7 +89,7 @@ export default function Onboarding({ onComplete }: Props) {
             prev.map((c) => ({
               ...c,
               status: "warn" as const,
-              hint: "Could not reach backend — is it on port 8001?",
+              hint: "Could not reach backend — is it on port 8009?",
             }))
           );
         }

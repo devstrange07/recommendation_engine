@@ -11,7 +11,16 @@ from app.openai_client import chat_completion_kwargs, chat_model, get_openai
 from app.pipeline.io_utils import ensure_data_dirs, write_json
 from app.pipeline.paths import TenantPaths
 from app.pipeline.review_store import load_overrides, replace_queue
-from app.schemas import NormalizationRecord, Normalized, ReviewFlagItem, StagedProduct
+from app.schemas import (
+    NormalizationBatchResponse,
+    NormalizationRecord,
+    NormalizationRecordLLM,
+    Normalized,
+    ReviewFlagItem,
+    StagedProduct,
+)
+
+_NORMALIZED_FIELD_NAMES = set(Normalized.model_fields.keys())
 
 NORMALIZATION_SYSTEM = """You are a catalog data engineer. Normalize messy product catalog records into a strict schema.
 
@@ -20,10 +29,28 @@ Rules:
 - If category_raw is already one of the allowed category_paths, keep it exactly — do not remap real-estate inventory into unrelated categories.
 - clean_description: 2-3 factual sentences. No marketing fluff, no prices, no HTML.
 - short_pitch: one factual line about the property (not SaaS-style pitches).
-- plan_features: map each plan_id to a list of differentiator feature strings. If plans are indistinguishable, flag plans_indistinguishable.
+- plan_features: array of {plan_id, features[]} differentiators. If plans are indistinguishable, flag plans_indistinguishable.
 - Flag don't guess. Flag only filter-affecting ambiguity (cant_categorize, contradiction, missing_required, plans_indistinguishable, ambiguous_attribute, suspected_duplicate).
 - confidence: 0-1 reflecting certainty of the normalization.
 - Do not invent prices or IDs.
+- Each record MUST nest semantic fields under "normalized" (never flatten them to the top level).
+
+Example NormalizationRecord:
+{
+  "product_id": "example_001",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Two factual sentences about the product.",
+    "short_pitch": "One factual line.",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": ["daily_driver"],
+    "target_audience": ["consumer"],
+    "aliases": ["Example Phone"],
+    "plan_features": [{"plan_id": "default", "features": ["5G", "128GB storage"]}]
+  },
+  "confidence": 0.9,
+  "flags": []
+}
 """
 
 
@@ -63,6 +90,83 @@ def _has_openai_key() -> bool:
     return bool(key) and key != "sk-your-key-here"
 
 
+def _coerce_flat_record(raw: dict) -> dict:
+    """Wrap top-level Normalized fields into nested `normalized` when missing."""
+    if not isinstance(raw, dict):
+        return raw
+    if isinstance(raw.get("normalized"), dict):
+        return raw
+    nested = {k: raw[k] for k in _NORMALIZED_FIELD_NAMES if k in raw}
+    if not nested:
+        return raw
+    out = {k: v for k, v in raw.items() if k not in _NORMALIZED_FIELD_NAMES}
+    out["normalized"] = nested
+    return out
+
+
+def _plan_features_to_dict(plan_features: object) -> dict[str, list[str]]:
+    if isinstance(plan_features, dict):
+        return {str(k): list(v) for k, v in plan_features.items()}
+    if isinstance(plan_features, list):
+        out: dict[str, list[str]] = {}
+        for item in plan_features:
+            if isinstance(item, dict):
+                pid = str(item.get("plan_id", ""))
+                feats = item.get("features", [])
+            else:
+                pid = str(getattr(item, "plan_id", ""))
+                feats = getattr(item, "features", [])
+            if pid:
+                out[pid] = list(feats)
+        return out
+    return {}
+
+
+def _llm_record_to_normalization(rec: NormalizationRecordLLM) -> NormalizationRecord:
+    n = rec.normalized
+    return NormalizationRecord(
+        product_id=rec.product_id,
+        schema_version=rec.schema_version,
+        normalized=Normalized(
+            clean_description=n.clean_description,
+            short_pitch=n.short_pitch,
+            category_path=n.category_path,
+            use_case_tags=n.use_case_tags,
+            target_audience=n.target_audience,
+            aliases=n.aliases,
+            plan_features=_plan_features_to_dict(n.plan_features),
+        ),
+        confidence=rec.confidence,
+        flags=rec.flags,
+    )
+
+
+def _record_from_raw(raw: dict) -> NormalizationRecord:
+    coerced = _coerce_flat_record(raw)
+    nested = coerced.get("normalized")
+    if isinstance(nested, dict) and "plan_features" in nested:
+        nested = {**nested, "plan_features": _plan_features_to_dict(nested.get("plan_features"))}
+        coerced = {**coerced, "normalized": nested}
+    # Prefer LLM wire model (list plan_features), fall back to internal dict shape
+    try:
+        return _llm_record_to_normalization(NormalizationRecordLLM.model_validate(coerced))
+    except Exception:
+        return NormalizationRecord.model_validate(coerced)
+
+
+def _records_from_parsed(
+    parsed: NormalizationBatchResponse | None, content: str | None
+) -> list[NormalizationRecord]:
+    if parsed is not None:
+        return [_llm_record_to_normalization(r) for r in parsed.records]
+    data = json.loads(content or "{}")
+    if isinstance(data, list):
+        records_raw = data
+    else:
+        records_raw = data.get("records", [])
+    return [_record_from_raw(r) for r in records_raw]
+
+
 def _normalize_batch(
     batch: list[StagedProduct], vocab: dict, paths: TenantPaths
 ) -> list[NormalizationRecord]:
@@ -77,11 +181,14 @@ def _normalize_batch(
     user = {
         "vocabulary": vocab,
         "products": payloads,
-        "instruction": "Return a JSON object with key 'records' — an array of NormalizationRecord, one per product, same order.",
+        "instruction": (
+            "Return a JSON object with key 'records' — an array of NormalizationRecord, "
+            "one per product, same order. Each record must include nested 'normalized'."
+        ),
     }
 
     def _call():
-        resp = client.chat.completions.create(
+        resp = client.chat.completions.parse(
             model=chat_model(),
             messages=[
                 {"role": "system", "content": NORMALIZATION_SYSTEM},
@@ -91,13 +198,11 @@ def _normalize_batch(
                     + '\nRespond with JSON: {"records":[NormalizationRecord,...]}',
                 },
             ],
-            response_format={"type": "json_object"},
+            response_format=NormalizationBatchResponse,
             **chat_completion_kwargs(),
         )
-        content = resp.choices[0].message.content or "{}"
-        data = json.loads(content)
-        records = data.get("records", data if isinstance(data, list) else [])
-        return [NormalizationRecord.model_validate(r) for r in records]
+        message = resp.choices[0].message
+        return _records_from_parsed(message.parsed, message.content)
 
     try:
         return _call()
