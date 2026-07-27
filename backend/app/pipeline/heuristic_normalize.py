@@ -49,6 +49,38 @@ CATEGORY_KEYWORDS = [
         "Electronics/Foldables",
         ["foldable", "fold", "flip", "clamshell", "galaxy z"],
     ),
+    (
+        "Automobiles/Cars",
+        ["car", "automobile", "hatchback", "sedan", "suv", "muv", "petrol", "diesel"],
+    ),
+    (
+        "Automobiles/Electric",
+        ["ev", "electric", "charging", "range", "battery pack", "hybrid"],
+    ),
+    (
+        "Confectionery/Chocolates",
+        ["chocolate", "cocoa", "truffle", "praline", "bar", "gift box"],
+    ),
+    (
+        "Travel/Domestic",
+        ["india tour", "domestic tour", "pilgrimage", "honeymoon", "getaway", "holiday"],
+    ),
+    (
+        "Travel/Packages",
+        ["package", "itinerary", "group departure", "custom trip", "travel package"],
+    ),
+    (
+        "Jewellery/Gold",
+        ["gold jewellery", "22k", "18k", "hallmarked", "bangle", "mangalsutra"],
+    ),
+    (
+        "Jewellery/Diamond",
+        ["diamond", "solitaire", "studs", "diamond ring", "pendant"],
+    ),
+    (
+        "Jewellery/Fashion",
+        ["fashion jewellery", "imitation", "silver jewellery", "daily wear", "costume"],
+    ),
 ]
 
 USE_CASE_BY_CAT = {
@@ -60,6 +92,14 @@ USE_CASE_BY_CAT = {
     "Electronics/Smartphones": ["daily_driver", "flagship", "camera"],
     "Electronics/Foldables": ["flagship", "compact", "daily_driver"],
     "Electronics/Accessories": ["accessory", "audio", "charging"],
+    "Automobiles/Cars": ["family_car", "commute", "road_trip"],
+    "Automobiles/Electric": ["commute", "daily_driver", "road_trip"],
+    "Confectionery/Chocolates": ["gifting", "festival", "daily_wear"],
+    "Travel/Domestic": ["leisure_travel", "pilgrimage", "honeymoon"],
+    "Travel/Packages": ["leisure_travel", "honeymoon", "pilgrimage"],
+    "Jewellery/Gold": ["bridal", "festival", "daily_wear"],
+    "Jewellery/Diamond": ["bridal", "gifting", "festival"],
+    "Jewellery/Fashion": ["daily_wear", "gifting", "festival"],
 }
 
 AUDIENCE_BY_CAT = {
@@ -71,6 +111,14 @@ AUDIENCE_BY_CAT = {
     "Electronics/Smartphones": ["consumer", "power_user", "creator"],
     "Electronics/Foldables": ["consumer", "power_user", "creator"],
     "Electronics/Accessories": ["consumer", "power_user"],
+    "Automobiles/Cars": ["family", "consumer"],
+    "Automobiles/Electric": ["consumer", "family"],
+    "Confectionery/Chocolates": ["gift_buyer", "consumer"],
+    "Travel/Domestic": ["traveler", "family", "pilgrim"],
+    "Travel/Packages": ["traveler", "honeymooner", "family"],
+    "Jewellery/Gold": ["bridal_buyer", "family", "consumer"],
+    "Jewellery/Diamond": ["bridal_buyer", "gift_buyer", "consumer"],
+    "Jewellery/Fashion": ["fashion_buyer", "consumer", "gift_buyer"],
 }
 
 # Pitch suffix by top-level category (avoid SaaS-style "crm for teams")
@@ -78,6 +126,10 @@ PITCH_BY_TOP = {
     "Residential": "residential listing",
     "Commercial": "commercial listing",
     "Electronics": "device",
+    "Automobiles": "vehicle",
+    "Confectionery": "chocolate product",
+    "Travel": "travel package",
+    "Jewellery": "jewellery item",
 }
 
 

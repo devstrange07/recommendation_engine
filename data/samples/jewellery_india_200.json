@@ -1,0 +1,5004 @@
+{
+  "products": [
+    {
+      "id": "jew_001",
+      "name": "22K Hallmarked Gold Necklace 6g (Wedding, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; wedding; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 33000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_002",
+      "name": "22K Hallmarked Gold Necklace 6g (Festive, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; festive; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_003",
+      "name": "22K Hallmarked Gold Necklace 6g (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; daily wear; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_004",
+      "name": "22K Hallmarked Gold Necklace 6g (Heritage, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; heritage; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 38400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_005",
+      "name": "22K Hallmarked Gold Necklace 8g (Festive, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; festive; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_006",
+      "name": "22K Hallmarked Gold Necklace 8g (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; daily wear; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 48000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_007",
+      "name": "22K Hallmarked Gold Necklace 8g (Heritage, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; heritage; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_008",
+      "name": "22K Hallmarked Gold Necklace 8g (Modern, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; modern; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_009",
+      "name": "22K Hallmarked Gold Necklace 12g (Daily Wear, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; daily wear; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 70400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_010",
+      "name": "22K Hallmarked Gold Necklace 12g (Heritage, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; heritage; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 72200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_011",
+      "name": "22K Hallmarked Gold Necklace 12g (Modern, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; modern; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 74000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_012",
+      "name": "22K Hallmarked Gold Necklace 12g (Minimal, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; minimal; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 75800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_013",
+      "name": "22K Hallmarked Gold Necklace 16g (Heritage, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; heritage; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 94600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_014",
+      "name": "22K Hallmarked Gold Necklace 16g (Modern, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; modern; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 96400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_015",
+      "name": "22K Hallmarked Gold Necklace 16g (Minimal, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; minimal; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 98200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_016",
+      "name": "22K Hallmarked Gold Necklace 16g (Wedding, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; wedding; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 100000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_017",
+      "name": "22K Hallmarked Gold Necklace 20g (Modern, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; modern; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 118800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_018",
+      "name": "22K Hallmarked Gold Necklace 20g (Minimal, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; minimal; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 120600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_019",
+      "name": "22K Hallmarked Gold Necklace 20g (Wedding, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; wedding; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 122400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_020",
+      "name": "22K Hallmarked Gold Necklace 20g (Festive, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; festive; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 124200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_021",
+      "name": "22K Hallmarked Gold Necklace 28g (Minimal, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; minimal; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 165000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_022",
+      "name": "22K Hallmarked Gold Necklace 28g (Wedding, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; wedding; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 166800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_023",
+      "name": "22K Hallmarked Gold Necklace 28g (Festive, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; festive; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 168600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_024",
+      "name": "22K Hallmarked Gold Necklace 28g (Daily Wear, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; daily wear; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 170400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_025",
+      "name": "22K Hallmarked Gold Necklace 35g (Wedding, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; wedding; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 205700
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_026",
+      "name": "22K Hallmarked Gold Necklace 35g (Festive, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; festive; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 207500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_027",
+      "name": "22K Hallmarked Gold Necklace 35g (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; daily wear; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 209300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_028",
+      "name": "22K Hallmarked Gold Necklace 35g (Heritage, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; heritage; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 211100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_029",
+      "name": "18K Hallmarked Gold Necklace 6g (Festive, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; festive; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_030",
+      "name": "18K Hallmarked Gold Necklace 6g (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; daily wear; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 52800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_031",
+      "name": "18K Hallmarked Gold Necklace 6g (Heritage, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; heritage; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_032",
+      "name": "18K Hallmarked Gold Necklace 6g (Modern, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; modern; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 56400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_033",
+      "name": "18K Hallmarked Gold Necklace 8g (Daily Wear, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; daily wear; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 64200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_034",
+      "name": "18K Hallmarked Gold Necklace 8g (Heritage, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; heritage; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 66000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_035",
+      "name": "18K Hallmarked Gold Necklace 8g (Modern, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; modern; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 67800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_036",
+      "name": "18K Hallmarked Gold Necklace 8g (Minimal, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; minimal; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 69600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_037",
+      "name": "18K Hallmarked Gold Necklace 12g (Heritage, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; heritage; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 88400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_038",
+      "name": "18K Hallmarked Gold Necklace 12g (Modern, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; modern; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 90200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_039",
+      "name": "18K Hallmarked Gold Necklace 12g (Minimal, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; minimal; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 92000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_040",
+      "name": "18K Hallmarked Gold Necklace 12g (Wedding, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; wedding; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 93800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_041",
+      "name": "18K Hallmarked Gold Necklace 16g (Modern, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; modern; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 112600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_042",
+      "name": "18K Hallmarked Gold Necklace 16g (Minimal, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; minimal; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 114400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_043",
+      "name": "18K Hallmarked Gold Necklace 16g (Wedding, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; wedding; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 116200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_044",
+      "name": "18K Hallmarked Gold Necklace 16g (Festive, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; festive; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 118000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_045",
+      "name": "18K Hallmarked Gold Necklace 20g (Minimal, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 20g",
+          "feature_text": "18K; 20g; BIS hallmarked; minimal; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 136800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_046",
+      "name": "18K Hallmarked Gold Necklace 20g (Wedding, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 20g",
+          "feature_text": "18K; 20g; BIS hallmarked; wedding; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 138600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_047",
+      "name": "18K Hallmarked Gold Necklace 20g (Festive, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 20g",
+          "feature_text": "18K; 20g; BIS hallmarked; festive; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 140400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_048",
+      "name": "18K Hallmarked Gold Necklace 20g (Daily Wear, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 20g",
+          "feature_text": "18K; 20g; BIS hallmarked; daily wear; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 142200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_049",
+      "name": "18K Hallmarked Gold Necklace 28g (Wedding, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 28g",
+          "feature_text": "18K; 28g; BIS hallmarked; wedding; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 183000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_050",
+      "name": "18K Hallmarked Gold Necklace 28g (Festive, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 28g",
+          "feature_text": "18K; 28g; BIS hallmarked; festive; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 184800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_051",
+      "name": "18K Hallmarked Gold Necklace 28g (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 28g",
+          "feature_text": "18K; 28g; BIS hallmarked; daily wear; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 186600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_052",
+      "name": "18K Hallmarked Gold Necklace 28g (Heritage, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 28g",
+          "feature_text": "18K; 28g; BIS hallmarked; heritage; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 188400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_053",
+      "name": "18K Hallmarked Gold Necklace 35g (Festive, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 35g",
+          "feature_text": "18K; 35g; BIS hallmarked; festive; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 223700
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_054",
+      "name": "18K Hallmarked Gold Necklace 35g (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 35g",
+          "feature_text": "18K; 35g; BIS hallmarked; daily wear; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 225500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_055",
+      "name": "18K Hallmarked Gold Necklace 35g (Heritage, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 35g",
+          "feature_text": "18K; 35g; BIS hallmarked; heritage; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 227300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_056",
+      "name": "18K Hallmarked Gold Necklace 35g (Modern, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold necklace tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 35g",
+          "feature_text": "18K; 35g; BIS hallmarked; modern; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 229100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_057",
+      "name": "22K Hallmarked Gold Bangle 6g (Wedding, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; wedding; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 33000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_058",
+      "name": "22K Hallmarked Gold Bangle 6g (Festive, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; festive; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_059",
+      "name": "22K Hallmarked Gold Bangle 6g (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; daily wear; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_060",
+      "name": "22K Hallmarked Gold Bangle 6g (Heritage, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 6g",
+          "feature_text": "22K; 6g; BIS hallmarked; heritage; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 38400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_061",
+      "name": "22K Hallmarked Gold Bangle 8g (Festive, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; festive; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_062",
+      "name": "22K Hallmarked Gold Bangle 8g (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; daily wear; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 48000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_063",
+      "name": "22K Hallmarked Gold Bangle 8g (Heritage, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; heritage; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_064",
+      "name": "22K Hallmarked Gold Bangle 8g (Modern, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 8g",
+          "feature_text": "22K; 8g; BIS hallmarked; modern; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_065",
+      "name": "22K Hallmarked Gold Bangle 12g (Daily Wear, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; daily wear; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 70400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_066",
+      "name": "22K Hallmarked Gold Bangle 12g (Heritage, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; heritage; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 72200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_067",
+      "name": "22K Hallmarked Gold Bangle 12g (Modern, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; modern; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 74000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_068",
+      "name": "22K Hallmarked Gold Bangle 12g (Minimal, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 12g",
+          "feature_text": "22K; 12g; BIS hallmarked; minimal; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 75800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_069",
+      "name": "22K Hallmarked Gold Bangle 16g (Heritage, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; heritage; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 94600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_070",
+      "name": "22K Hallmarked Gold Bangle 16g (Modern, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; modern; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 96400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_071",
+      "name": "22K Hallmarked Gold Bangle 16g (Minimal, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; minimal; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 98200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_072",
+      "name": "22K Hallmarked Gold Bangle 16g (Wedding, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 16g",
+          "feature_text": "22K; 16g; BIS hallmarked; wedding; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 100000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_073",
+      "name": "22K Hallmarked Gold Bangle 20g (Modern, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; modern; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 118800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_074",
+      "name": "22K Hallmarked Gold Bangle 20g (Minimal, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; minimal; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 120600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_075",
+      "name": "22K Hallmarked Gold Bangle 20g (Wedding, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; wedding; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 122400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_076",
+      "name": "22K Hallmarked Gold Bangle 20g (Festive, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 20g",
+          "feature_text": "22K; 20g; BIS hallmarked; festive; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 124200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_077",
+      "name": "22K Hallmarked Gold Bangle 28g (Minimal, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; minimal; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 165000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_078",
+      "name": "22K Hallmarked Gold Bangle 28g (Wedding, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; wedding; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 166800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_079",
+      "name": "22K Hallmarked Gold Bangle 28g (Festive, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; festive; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 168600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_080",
+      "name": "22K Hallmarked Gold Bangle 28g (Daily Wear, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 28g",
+          "feature_text": "22K; 28g; BIS hallmarked; daily wear; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 170400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_081",
+      "name": "22K Hallmarked Gold Bangle 35g (Wedding, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; wedding; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 205700
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_082",
+      "name": "22K Hallmarked Gold Bangle 35g (Festive, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; festive; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 207500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_083",
+      "name": "22K Hallmarked Gold Bangle 35g (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; daily wear; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 209300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_084",
+      "name": "22K Hallmarked Gold Bangle 35g (Heritage, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 22K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 22K 35g",
+          "feature_text": "22K; 35g; BIS hallmarked; heritage; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 211100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_085",
+      "name": "18K Hallmarked Gold Bangle 6g (Festive, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; festive; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_086",
+      "name": "18K Hallmarked Gold Bangle 6g (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; daily wear; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 52800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_087",
+      "name": "18K Hallmarked Gold Bangle 6g (Heritage, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; heritage; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_088",
+      "name": "18K Hallmarked Gold Bangle 6g (Modern, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 6g",
+          "feature_text": "18K; 6g; BIS hallmarked; modern; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 56400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_089",
+      "name": "18K Hallmarked Gold Bangle 8g (Daily Wear, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian daily wear occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; daily wear; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 64200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_090",
+      "name": "18K Hallmarked Gold Bangle 8g (Heritage, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; heritage; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 66000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_091",
+      "name": "18K Hallmarked Gold Bangle 8g (Modern, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; modern; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 67800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_092",
+      "name": "18K Hallmarked Gold Bangle 8g (Minimal, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 8g",
+          "feature_text": "18K; 8g; BIS hallmarked; minimal; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 69600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_093",
+      "name": "18K Hallmarked Gold Bangle 12g (Heritage, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian heritage occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; heritage; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 88400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_094",
+      "name": "18K Hallmarked Gold Bangle 12g (Modern, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; modern; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 90200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_095",
+      "name": "18K Hallmarked Gold Bangle 12g (Minimal, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; minimal; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 92000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_096",
+      "name": "18K Hallmarked Gold Bangle 12g (Wedding, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 12g",
+          "feature_text": "18K; 12g; BIS hallmarked; wedding; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 93800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_097",
+      "name": "18K Hallmarked Gold Bangle 16g (Modern, Classic Polish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian modern occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; modern; classic polish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 112600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_098",
+      "name": "18K Hallmarked Gold Bangle 16g (Minimal, Matte Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian minimal occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; minimal; matte finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 114400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_099",
+      "name": "18K Hallmarked Gold Bangle 16g (Wedding, Antique Finish)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian wedding occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; wedding; antique finish; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 116200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_100",
+      "name": "18K Hallmarked Gold Bangle 16g (Festive, High Shine)",
+      "category": "Jewellery/Gold",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Hallmarked 18K gold bangle tailored for Indian festive occasions. Crafted for bridal and family gifting preferences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 18K 16g",
+          "feature_text": "18K; 16g; BIS hallmarked; festive; high shine; handcrafted finish",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 118000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_101",
+      "name": "0.20ct Diamond Solitaire Ring in 18K Rose Gold (Festive, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K Rose Gold; festive; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 89000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_102",
+      "name": "0.20ct Diamond Solitaire Ring in 18K Rose Gold (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K Rose Gold; daily wear; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 91500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_103",
+      "name": "0.20ct Diamond Solitaire Ring in 18K Rose Gold (Heritage, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K Rose Gold; heritage; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 94000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_104",
+      "name": "0.20ct Diamond Solitaire Ring in 18K Rose Gold (Modern, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K Rose Gold; modern; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 96500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_105",
+      "name": "0.20ct Diamond Solitaire Ring in 18K White Gold (Daily Wear, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K White Gold; daily wear; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 101000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_106",
+      "name": "0.20ct Diamond Solitaire Ring in 18K White Gold (Heritage, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K White Gold; heritage; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 103500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_107",
+      "name": "0.20ct Diamond Solitaire Ring in 18K White Gold (Modern, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K White Gold; modern; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 106000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_108",
+      "name": "0.20ct Diamond Solitaire Ring in 18K White Gold (Minimal, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; 18K White Gold; minimal; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 108500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_109",
+      "name": "0.20ct Diamond Solitaire Ring in Platinum Finish (Heritage, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; Platinum Finish; heritage; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 113000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_110",
+      "name": "0.20ct Diamond Solitaire Ring in Platinum Finish (Modern, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; Platinum Finish; modern; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 115500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_111",
+      "name": "0.20ct Diamond Solitaire Ring in Platinum Finish (Minimal, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; Platinum Finish; minimal; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 118000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_112",
+      "name": "0.20ct Diamond Solitaire Ring in Platinum Finish (Wedding, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.20ct",
+          "feature_text": "0.20ct; certified diamond; Platinum Finish; wedding; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 120500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_113",
+      "name": "0.35ct Diamond Solitaire Ring in 18K Rose Gold (Daily Wear, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K Rose Gold; daily wear; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 128000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_114",
+      "name": "0.35ct Diamond Solitaire Ring in 18K Rose Gold (Heritage, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K Rose Gold; heritage; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 130500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_115",
+      "name": "0.35ct Diamond Solitaire Ring in 18K Rose Gold (Modern, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K Rose Gold; modern; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 133000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_116",
+      "name": "0.35ct Diamond Solitaire Ring in 18K Rose Gold (Minimal, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K Rose Gold; minimal; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 135500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_117",
+      "name": "0.35ct Diamond Solitaire Ring in 18K White Gold (Heritage, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K White Gold; heritage; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 140000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_118",
+      "name": "0.35ct Diamond Solitaire Ring in 18K White Gold (Modern, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K White Gold; modern; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 142500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_119",
+      "name": "0.35ct Diamond Solitaire Ring in 18K White Gold (Minimal, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K White Gold; minimal; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 145000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_120",
+      "name": "0.35ct Diamond Solitaire Ring in 18K White Gold (Wedding, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; 18K White Gold; wedding; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 147500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_121",
+      "name": "0.35ct Diamond Solitaire Ring in Platinum Finish (Modern, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; Platinum Finish; modern; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 152000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_122",
+      "name": "0.35ct Diamond Solitaire Ring in Platinum Finish (Minimal, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; Platinum Finish; minimal; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 154500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_123",
+      "name": "0.35ct Diamond Solitaire Ring in Platinum Finish (Wedding, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; Platinum Finish; wedding; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 157000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_124",
+      "name": "0.35ct Diamond Solitaire Ring in Platinum Finish (Festive, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.35ct",
+          "feature_text": "0.35ct; certified diamond; Platinum Finish; festive; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 159500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_125",
+      "name": "0.50ct Diamond Solitaire Ring in 18K Rose Gold (Heritage, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K Rose Gold; heritage; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 167000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_126",
+      "name": "0.50ct Diamond Solitaire Ring in 18K Rose Gold (Modern, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K Rose Gold; modern; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 169500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_127",
+      "name": "0.50ct Diamond Solitaire Ring in 18K Rose Gold (Minimal, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K Rose Gold; minimal; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 172000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_128",
+      "name": "0.50ct Diamond Solitaire Ring in 18K Rose Gold (Wedding, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K Rose Gold; wedding; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 174500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_129",
+      "name": "0.50ct Diamond Solitaire Ring in 18K White Gold (Modern, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K White Gold; modern; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 179000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_130",
+      "name": "0.50ct Diamond Solitaire Ring in 18K White Gold (Minimal, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K White Gold; minimal; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 181500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_131",
+      "name": "0.50ct Diamond Solitaire Ring in 18K White Gold (Wedding, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K White Gold; wedding; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 184000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_132",
+      "name": "0.50ct Diamond Solitaire Ring in 18K White Gold (Festive, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; 18K White Gold; festive; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 186500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_133",
+      "name": "0.50ct Diamond Solitaire Ring in Platinum Finish (Minimal, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; Platinum Finish; minimal; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 191000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_134",
+      "name": "0.50ct Diamond Solitaire Ring in Platinum Finish (Wedding, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; Platinum Finish; wedding; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 193500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_135",
+      "name": "0.50ct Diamond Solitaire Ring in Platinum Finish (Festive, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; Platinum Finish; festive; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 196000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_136",
+      "name": "0.50ct Diamond Solitaire Ring in Platinum Finish (Daily Wear, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.50ct",
+          "feature_text": "0.50ct; certified diamond; Platinum Finish; daily wear; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 198500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_137",
+      "name": "0.75ct Diamond Solitaire Ring in 18K Rose Gold (Modern, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K Rose Gold; modern; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 228000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_138",
+      "name": "0.75ct Diamond Solitaire Ring in 18K Rose Gold (Minimal, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K Rose Gold; minimal; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 230500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_139",
+      "name": "0.75ct Diamond Solitaire Ring in 18K Rose Gold (Wedding, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K Rose Gold; wedding; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 233000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_140",
+      "name": "0.75ct Diamond Solitaire Ring in 18K Rose Gold (Festive, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K Rose Gold; festive; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 235500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_141",
+      "name": "0.75ct Diamond Solitaire Ring in 18K White Gold (Minimal, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K White Gold; minimal; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 240000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_142",
+      "name": "0.75ct Diamond Solitaire Ring in 18K White Gold (Wedding, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K White Gold; wedding; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 242500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_143",
+      "name": "0.75ct Diamond Solitaire Ring in 18K White Gold (Festive, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K White Gold; festive; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 245000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_144",
+      "name": "0.75ct Diamond Solitaire Ring in 18K White Gold (Daily Wear, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; 18K White Gold; daily wear; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 247500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_145",
+      "name": "0.75ct Diamond Solitaire Ring in Platinum Finish (Wedding, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; Platinum Finish; wedding; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 252000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_146",
+      "name": "0.75ct Diamond Solitaire Ring in Platinum Finish (Festive, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; Platinum Finish; festive; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 254500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_147",
+      "name": "0.75ct Diamond Solitaire Ring in Platinum Finish (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; Platinum Finish; daily wear; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 257000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_148",
+      "name": "0.75ct Diamond Solitaire Ring in Platinum Finish (Heritage, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 0.75ct",
+          "feature_text": "0.75ct; certified diamond; Platinum Finish; heritage; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 259500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_149",
+      "name": "1.00ct Diamond Solitaire Ring in 18K Rose Gold (Minimal, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K Rose Gold; minimal; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 289000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_150",
+      "name": "1.00ct Diamond Solitaire Ring in 18K Rose Gold (Wedding, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K Rose Gold; wedding; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 291500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_151",
+      "name": "1.00ct Diamond Solitaire Ring in 18K Rose Gold (Festive, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K Rose Gold; festive; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 294000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_152",
+      "name": "1.00ct Diamond Solitaire Ring in 18K Rose Gold (Daily Wear, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K Rose Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K Rose Gold; daily wear; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 296500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_153",
+      "name": "1.00ct Diamond Solitaire Ring in 18K White Gold (Wedding, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K White Gold; wedding; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 301000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_154",
+      "name": "1.00ct Diamond Solitaire Ring in 18K White Gold (Festive, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K White Gold; festive; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 303500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_155",
+      "name": "1.00ct Diamond Solitaire Ring in 18K White Gold (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K White Gold; daily wear; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 306000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_156",
+      "name": "1.00ct Diamond Solitaire Ring in 18K White Gold (Heritage, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in 18K White Gold with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; 18K White Gold; heritage; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 308500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_157",
+      "name": "1.00ct Diamond Solitaire Ring in Platinum Finish (Festive, Classic Polish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; Platinum Finish; festive; classic polish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 313000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_158",
+      "name": "1.00ct Diamond Solitaire Ring in Platinum Finish (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; Platinum Finish; daily wear; matte finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 315500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_159",
+      "name": "1.00ct Diamond Solitaire Ring in Platinum Finish (Heritage, Antique Finish)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; Platinum Finish; heritage; antique finish; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 318000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_160",
+      "name": "1.00ct Diamond Solitaire Ring in Platinum Finish (Modern, High Shine)",
+      "category": "Jewellery/Diamond",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Certified diamond solitaire ring in Platinum Finish with premium finish. Popular for engagement, wedding gifting, and festive occasions in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - 1.00ct",
+          "feature_text": "1.00ct; certified diamond; Platinum Finish; modern; high shine; gift-ready box",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 320500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_161",
+      "name": "Silver-tone Oxidised Earrings 12g (Daily Wear, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 12g; anti-tarnish coating; daily wear; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1339
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_162",
+      "name": "Silver-tone Oxidised Earrings 12g (Heritage, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 12g; anti-tarnish coating; heritage; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1409
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_163",
+      "name": "Silver-tone Oxidised Earrings 12g (Modern, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 12g; anti-tarnish coating; modern; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1479
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_164",
+      "name": "Silver-tone Oxidised Earrings 12g (Minimal, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 12g; anti-tarnish coating; minimal; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1549
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_165",
+      "name": "Oxidised Oxidised Earrings 12g (Heritage, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 12g; anti-tarnish coating; heritage; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1519
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_166",
+      "name": "Oxidised Oxidised Earrings 12g (Modern, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 12g; anti-tarnish coating; modern; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1589
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_167",
+      "name": "Oxidised Oxidised Earrings 12g (Minimal, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 12g; anti-tarnish coating; minimal; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1659
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_168",
+      "name": "Oxidised Oxidised Earrings 12g (Wedding, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 12g; anti-tarnish coating; wedding; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1729
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_169",
+      "name": "Kundan Oxidised Earrings 12g (Modern, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 12g; anti-tarnish coating; modern; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1699
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_170",
+      "name": "Kundan Oxidised Earrings 12g (Minimal, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 12g; anti-tarnish coating; minimal; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1769
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_171",
+      "name": "Kundan Oxidised Earrings 12g (Wedding, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 12g; anti-tarnish coating; wedding; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1839
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_172",
+      "name": "Kundan Oxidised Earrings 12g (Festive, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 12g; anti-tarnish coating; festive; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1909
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_173",
+      "name": "Pearl Oxidised Earrings 12g (Minimal, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 12g; anti-tarnish coating; minimal; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1879
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_174",
+      "name": "Pearl Oxidised Earrings 12g (Wedding, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 12g; anti-tarnish coating; wedding; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1949
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_175",
+      "name": "Pearl Oxidised Earrings 12g (Festive, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 12g; anti-tarnish coating; festive; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2019
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_176",
+      "name": "Pearl Oxidised Earrings 12g (Daily Wear, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 12g; anti-tarnish coating; daily wear; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2089
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_177",
+      "name": "Temple Style Oxidised Earrings 12g (Wedding, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 12g; anti-tarnish coating; wedding; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2059
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_178",
+      "name": "Temple Style Oxidised Earrings 12g (Festive, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 12g; anti-tarnish coating; festive; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2129
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_179",
+      "name": "Temple Style Oxidised Earrings 12g (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 12g; anti-tarnish coating; daily wear; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2199
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_180",
+      "name": "Temple Style Oxidised Earrings 12g (Heritage, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 12g; anti-tarnish coating; heritage; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2269
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_181",
+      "name": "Silver-tone Oxidised Earrings 20g (Heritage, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 20g; anti-tarnish coating; heritage; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1789
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_182",
+      "name": "Silver-tone Oxidised Earrings 20g (Modern, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 20g; anti-tarnish coating; modern; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1859
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_183",
+      "name": "Silver-tone Oxidised Earrings 20g (Minimal, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 20g; anti-tarnish coating; minimal; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1929
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_184",
+      "name": "Silver-tone Oxidised Earrings 20g (Wedding, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Silver-tone fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Silver-tone",
+          "feature_text": "Silver-tone; 20g; anti-tarnish coating; wedding; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_185",
+      "name": "Oxidised Oxidised Earrings 20g (Modern, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 20g; anti-tarnish coating; modern; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1969
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_186",
+      "name": "Oxidised Oxidised Earrings 20g (Minimal, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 20g; anti-tarnish coating; minimal; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2039
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_187",
+      "name": "Oxidised Oxidised Earrings 20g (Wedding, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 20g; anti-tarnish coating; wedding; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2109
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_188",
+      "name": "Oxidised Oxidised Earrings 20g (Festive, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Oxidised fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Oxidised",
+          "feature_text": "Oxidised; 20g; anti-tarnish coating; festive; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2179
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_189",
+      "name": "Kundan Oxidised Earrings 20g (Minimal, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 20g; anti-tarnish coating; minimal; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2149
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_190",
+      "name": "Kundan Oxidised Earrings 20g (Wedding, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 20g; anti-tarnish coating; wedding; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2219
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_191",
+      "name": "Kundan Oxidised Earrings 20g (Festive, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 20g; anti-tarnish coating; festive; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2289
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_192",
+      "name": "Kundan Oxidised Earrings 20g (Daily Wear, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Kundan fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Kundan",
+          "feature_text": "Kundan; 20g; anti-tarnish coating; daily wear; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2359
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_193",
+      "name": "Pearl Oxidised Earrings 20g (Wedding, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 20g; anti-tarnish coating; wedding; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2329
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_194",
+      "name": "Pearl Oxidised Earrings 20g (Festive, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 20g; anti-tarnish coating; festive; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2399
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_195",
+      "name": "Pearl Oxidised Earrings 20g (Daily Wear, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 20g; anti-tarnish coating; daily wear; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2469
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_196",
+      "name": "Pearl Oxidised Earrings 20g (Heritage, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Pearl fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pearl",
+          "feature_text": "Pearl; 20g; anti-tarnish coating; heritage; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2539
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_197",
+      "name": "Temple Style Oxidised Earrings 20g (Festive, Classic Polish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 20g; anti-tarnish coating; festive; classic polish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2509
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_198",
+      "name": "Temple Style Oxidised Earrings 20g (Daily Wear, Matte Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 20g; anti-tarnish coating; daily wear; matte finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2579
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_199",
+      "name": "Temple Style Oxidised Earrings 20g (Heritage, Antique Finish)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 20g; anti-tarnish coating; heritage; antique finish; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2649
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "jew_200",
+      "name": "Temple Style Oxidised Earrings 20g (Modern, High Shine)",
+      "category": "Jewellery/Fashion",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Temple Style fashion jewellery oxidised earrings for Indian festive and daily styling. Designed for affordability and statement looks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Temple Style",
+          "feature_text": "Temple Style; 20g; anti-tarnish coating; modern; high shine; lightweight comfort",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2719
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    }
+  ]
+}

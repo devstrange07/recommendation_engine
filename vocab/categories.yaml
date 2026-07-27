@@ -15,3 +15,19 @@ categories:
     labels: [foldable, fold, flip, clamshell, galaxy z]
   - path: Electronics/Accessories
     labels: [accessory, case, charger, earbuds, buds, power bank, screen protector, smartwatch, cable]
+  - path: Automobiles/Cars
+    labels: [car, automobile, hatchback, sedan, suv, muv, petrol, diesel]
+  - path: Automobiles/Electric
+    labels: [ev, electric car, electric suv, range, charging, hybrid]
+  - path: Confectionery/Chocolates
+    labels: [chocolate, cocoa, bar, truffle, praline, gift box]
+  - path: Travel/Domestic
+    labels: [india tour, domestic tour, pilgrimage, honeymoon, getaway, holiday]
+  - path: Travel/Packages
+    labels: [travel package, itinerary, group tour, custom trip, package]
+  - path: Jewellery/Gold
+    labels: [gold jewellery, 22k, 18k, hallmarked, necklace, bangle]
+  - path: Jewellery/Diamond
+    labels: [diamond jewellery, solitaire, studs, ring, pendant]
+  - path: Jewellery/Fashion
+    labels: [fashion jewellery, imitation jewellery, silver jewellery, daily wear]

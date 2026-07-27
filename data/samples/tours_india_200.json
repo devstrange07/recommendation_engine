@@ -1,0 +1,5004 @@
+{
+  "products": [
+    {
+      "id": "tour_001",
+      "name": "Goa 3N Adventure Tour from Delhi (Luxury, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Luxury",
+          "feature_text": "3 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28979
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_002",
+      "name": "Goa 3N Leisure Tour from Delhi (Standard, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Standard",
+          "feature_text": "3 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 13500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_003",
+      "name": "Goa 3N Family Tour from Delhi (Comfort, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Comfort",
+          "feature_text": "3 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_004",
+      "name": "Goa 3N Honeymoon Tour from Delhi (Premium, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Premium",
+          "feature_text": "3 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 26010
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_005",
+      "name": "Goa 3N Leisure Tour from Mumbai (Standard, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Standard",
+          "feature_text": "3 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 14100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_006",
+      "name": "Goa 3N Family Tour from Mumbai (Comfort, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Comfort",
+          "feature_text": "3 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18750
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_007",
+      "name": "Goa 3N Honeymoon Tour from Mumbai (Premium, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Premium",
+          "feature_text": "3 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27030
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_008",
+      "name": "Goa 3N Pilgrimage Tour from Mumbai (Luxury, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Luxury",
+          "feature_text": "3 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 38640
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_009",
+      "name": "Goa 3N Family Tour from Bengaluru (Comfort, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Comfort",
+          "feature_text": "3 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_010",
+      "name": "Goa 3N Honeymoon Tour from Bengaluru (Premium, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Premium",
+          "feature_text": "3 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28050
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_011",
+      "name": "Goa 3N Pilgrimage Tour from Bengaluru (Luxury, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Luxury",
+          "feature_text": "3 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 40020
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_012",
+      "name": "Goa 3N Adventure Tour from Bengaluru (Standard, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Standard",
+          "feature_text": "3 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_013",
+      "name": "Goa 3N Honeymoon Tour from Ahmedabad (Premium, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Premium",
+          "feature_text": "3 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29070
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_014",
+      "name": "Goa 3N Pilgrimage Tour from Ahmedabad (Luxury, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Luxury",
+          "feature_text": "3 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 41400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_015",
+      "name": "Goa 3N Adventure Tour from Ahmedabad (Standard, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Standard",
+          "feature_text": "3 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_016",
+      "name": "Goa 3N Leisure Tour from Ahmedabad (Comfort, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 3N Comfort",
+          "feature_text": "3 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24750
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_017",
+      "name": "Goa 4N Leisure Tour from Delhi (Standard, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Standard",
+          "feature_text": "4 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 14800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_018",
+      "name": "Goa 4N Family Tour from Delhi (Comfort, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Comfort",
+          "feature_text": "4 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19625
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_019",
+      "name": "Goa 4N Honeymoon Tour from Delhi (Premium, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Premium",
+          "feature_text": "4 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28220
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_020",
+      "name": "Goa 4N Pilgrimage Tour from Delhi (Luxury, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Luxury",
+          "feature_text": "4 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 40250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_021",
+      "name": "Goa 4N Family Tour from Mumbai (Comfort, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Comfort",
+          "feature_text": "4 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 20375
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_022",
+      "name": "Goa 4N Honeymoon Tour from Mumbai (Premium, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Premium",
+          "feature_text": "4 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29240
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_023",
+      "name": "Goa 4N Pilgrimage Tour from Mumbai (Luxury, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Luxury",
+          "feature_text": "4 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 41630
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_024",
+      "name": "Goa 4N Adventure Tour from Mumbai (Standard, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Standard",
+          "feature_text": "4 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_025",
+      "name": "Goa 4N Honeymoon Tour from Bengaluru (Premium, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Premium",
+          "feature_text": "4 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 30260
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_026",
+      "name": "Goa 4N Pilgrimage Tour from Bengaluru (Luxury, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Luxury",
+          "feature_text": "4 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 43010
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_027",
+      "name": "Goa 4N Adventure Tour from Bengaluru (Standard, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Standard",
+          "feature_text": "4 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_028",
+      "name": "Goa 4N Leisure Tour from Bengaluru (Comfort, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Comfort",
+          "feature_text": "4 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 25625
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_029",
+      "name": "Goa 4N Pilgrimage Tour from Ahmedabad (Luxury, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Luxury",
+          "feature_text": "4 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44390
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_030",
+      "name": "Goa 4N Adventure Tour from Ahmedabad (Standard, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Standard",
+          "feature_text": "4 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 20200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_031",
+      "name": "Goa 4N Leisure Tour from Ahmedabad (Comfort, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Comfort",
+          "feature_text": "4 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 26375
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_032",
+      "name": "Goa 4N Family Tour from Ahmedabad (Premium, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 4N Premium",
+          "feature_text": "4 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_033",
+      "name": "Goa 5N Family Tour from Delhi (Comfort, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Comfort",
+          "feature_text": "5 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_034",
+      "name": "Goa 5N Honeymoon Tour from Delhi (Premium, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Premium",
+          "feature_text": "5 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 30430
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_035",
+      "name": "Goa 5N Pilgrimage Tour from Delhi (Luxury, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Luxury",
+          "feature_text": "5 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 43240
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_036",
+      "name": "Goa 5N Adventure Tour from Delhi (Standard, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Standard",
+          "feature_text": "5 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19700
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_037",
+      "name": "Goa 5N Honeymoon Tour from Mumbai (Premium, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Premium",
+          "feature_text": "5 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 31450
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_038",
+      "name": "Goa 5N Pilgrimage Tour from Mumbai (Luxury, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Luxury",
+          "feature_text": "5 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44620
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_039",
+      "name": "Goa 5N Adventure Tour from Mumbai (Standard, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Standard",
+          "feature_text": "5 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 20300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_040",
+      "name": "Goa 5N Leisure Tour from Mumbai (Comfort, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Comfort",
+          "feature_text": "5 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 26500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_041",
+      "name": "Goa 5N Pilgrimage Tour from Bengaluru (Luxury, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Luxury",
+          "feature_text": "5 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_042",
+      "name": "Goa 5N Adventure Tour from Bengaluru (Standard, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Standard",
+          "feature_text": "5 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 20900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_043",
+      "name": "Goa 5N Leisure Tour from Bengaluru (Comfort, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Comfort",
+          "feature_text": "5 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_044",
+      "name": "Goa 5N Family Tour from Bengaluru (Premium, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Premium",
+          "feature_text": "5 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 38590
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_045",
+      "name": "Goa 5N Adventure Tour from Ahmedabad (Standard, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Standard",
+          "feature_text": "5 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_046",
+      "name": "Goa 5N Leisure Tour from Ahmedabad (Comfort, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Comfort",
+          "feature_text": "5 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_047",
+      "name": "Goa 5N Family Tour from Ahmedabad (Premium, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Premium",
+          "feature_text": "5 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39610
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_048",
+      "name": "Goa 5N Honeymoon Tour from Ahmedabad (Luxury, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 5N Luxury",
+          "feature_text": "5 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 55659
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_049",
+      "name": "Goa 6N Honeymoon Tour from Delhi (Premium, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Premium",
+          "feature_text": "6 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 32640
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_050",
+      "name": "Goa 6N Pilgrimage Tour from Delhi (Luxury, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Luxury",
+          "feature_text": "6 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46230
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_051",
+      "name": "Goa 6N Adventure Tour from Delhi (Standard, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Standard",
+          "feature_text": "6 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_052",
+      "name": "Goa 6N Leisure Tour from Delhi (Comfort, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Comfort",
+          "feature_text": "6 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27375
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_053",
+      "name": "Goa 6N Pilgrimage Tour from Mumbai (Luxury, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Luxury",
+          "feature_text": "6 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 47609
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_054",
+      "name": "Goa 6N Adventure Tour from Mumbai (Standard, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Standard",
+          "feature_text": "6 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_055",
+      "name": "Goa 6N Leisure Tour from Mumbai (Comfort, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Comfort",
+          "feature_text": "6 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28125
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_056",
+      "name": "Goa 6N Family Tour from Mumbai (Premium, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Premium",
+          "feature_text": "6 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39780
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_057",
+      "name": "Goa 6N Adventure Tour from Bengaluru (Standard, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Standard",
+          "feature_text": "6 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 22200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_058",
+      "name": "Goa 6N Leisure Tour from Bengaluru (Comfort, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Comfort",
+          "feature_text": "6 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28875
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_059",
+      "name": "Goa 6N Family Tour from Bengaluru (Premium, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Premium",
+          "feature_text": "6 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 40800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_060",
+      "name": "Goa 6N Honeymoon Tour from Bengaluru (Luxury, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Luxury",
+          "feature_text": "6 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 57269
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_061",
+      "name": "Goa 6N Leisure Tour from Ahmedabad (Comfort, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Comfort",
+          "feature_text": "6 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29625
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_062",
+      "name": "Goa 6N Family Tour from Ahmedabad (Premium, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Premium",
+          "feature_text": "6 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 41820
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_063",
+      "name": "Goa 6N Honeymoon Tour from Ahmedabad (Luxury, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Luxury",
+          "feature_text": "6 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 58649
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_064",
+      "name": "Goa 6N Pilgrimage Tour from Ahmedabad (Standard, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 6N Standard",
+          "feature_text": "6 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 26400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_065",
+      "name": "Goa 7N Pilgrimage Tour from Delhi (Luxury, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Luxury",
+          "feature_text": "7 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49219
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_066",
+      "name": "Goa 7N Adventure Tour from Delhi (Standard, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Standard",
+          "feature_text": "7 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 22300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_067",
+      "name": "Goa 7N Leisure Tour from Delhi (Comfort, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Comfort",
+          "feature_text": "7 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_068",
+      "name": "Goa 7N Family Tour from Delhi (Premium, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Premium",
+          "feature_text": "7 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 40970
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_069",
+      "name": "Goa 7N Adventure Tour from Mumbai (Standard, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Standard",
+          "feature_text": "7 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 22900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_070",
+      "name": "Goa 7N Leisure Tour from Mumbai (Comfort, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Comfort",
+          "feature_text": "7 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29750
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_071",
+      "name": "Goa 7N Family Tour from Mumbai (Premium, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Premium",
+          "feature_text": "7 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 41990
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_072",
+      "name": "Goa 7N Honeymoon Tour from Mumbai (Luxury, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Luxury",
+          "feature_text": "7 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 58879
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_073",
+      "name": "Goa 7N Leisure Tour from Bengaluru (Comfort, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Comfort",
+          "feature_text": "7 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 30500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_074",
+      "name": "Goa 7N Family Tour from Bengaluru (Premium, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Premium",
+          "feature_text": "7 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 43010
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_075",
+      "name": "Goa 7N Honeymoon Tour from Bengaluru (Luxury, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Luxury",
+          "feature_text": "7 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 60259
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_076",
+      "name": "Goa 7N Pilgrimage Tour from Bengaluru (Standard, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Standard",
+          "feature_text": "7 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_077",
+      "name": "Goa 7N Family Tour from Ahmedabad (Premium, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Premium",
+          "feature_text": "7 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44030
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_078",
+      "name": "Goa 7N Honeymoon Tour from Ahmedabad (Luxury, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Luxury",
+          "feature_text": "7 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 61639
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_079",
+      "name": "Goa 7N Pilgrimage Tour from Ahmedabad (Standard, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Standard",
+          "feature_text": "7 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27700
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_080",
+      "name": "Goa 7N Adventure Tour from Ahmedabad (Comfort, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 7N Comfort",
+          "feature_text": "7 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35750
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_081",
+      "name": "Goa 8N Adventure Tour from Delhi (Standard, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Standard",
+          "feature_text": "8 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_082",
+      "name": "Goa 8N Leisure Tour from Delhi (Comfort, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Comfort",
+          "feature_text": "8 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 30625
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_083",
+      "name": "Goa 8N Family Tour from Delhi (Premium, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Premium",
+          "feature_text": "8 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 43180
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_084",
+      "name": "Goa 8N Honeymoon Tour from Delhi (Luxury, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Luxury",
+          "feature_text": "8 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 60489
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_085",
+      "name": "Goa 8N Leisure Tour from Mumbai (Comfort, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Comfort",
+          "feature_text": "8 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 31375
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_086",
+      "name": "Goa 8N Family Tour from Mumbai (Premium, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Premium",
+          "feature_text": "8 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_087",
+      "name": "Goa 8N Honeymoon Tour from Mumbai (Luxury, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Luxury",
+          "feature_text": "8 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 61869
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_088",
+      "name": "Goa 8N Pilgrimage Tour from Mumbai (Standard, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Standard",
+          "feature_text": "8 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_089",
+      "name": "Goa 8N Family Tour from Bengaluru (Premium, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Premium",
+          "feature_text": "8 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 45220
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_090",
+      "name": "Goa 8N Honeymoon Tour from Bengaluru (Luxury, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Luxury",
+          "feature_text": "8 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 63249
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_091",
+      "name": "Goa 8N Pilgrimage Tour from Bengaluru (Standard, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Standard",
+          "feature_text": "8 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_092",
+      "name": "Goa 8N Adventure Tour from Bengaluru (Comfort, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Comfort",
+          "feature_text": "8 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36625
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_093",
+      "name": "Goa 8N Honeymoon Tour from Ahmedabad (Luxury, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Luxury",
+          "feature_text": "8 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 64629
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_094",
+      "name": "Goa 8N Pilgrimage Tour from Ahmedabad (Standard, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Standard",
+          "feature_text": "8 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_095",
+      "name": "Goa 8N Adventure Tour from Ahmedabad (Comfort, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Comfort",
+          "feature_text": "8 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37375
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_096",
+      "name": "Goa 8N Leisure Tour from Ahmedabad (Premium, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 8N Premium",
+          "feature_text": "8 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 52360
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_097",
+      "name": "Goa 10N Family Tour from Delhi (Premium, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Premium",
+          "feature_text": "10 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 47600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_098",
+      "name": "Goa 10N Honeymoon Tour from Delhi (Luxury, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Luxury",
+          "feature_text": "10 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 66470
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_099",
+      "name": "Goa 10N Pilgrimage Tour from Delhi (Standard, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Standard",
+          "feature_text": "10 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_100",
+      "name": "Goa 10N Adventure Tour from Delhi (Comfort, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Delhi with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Comfort",
+          "feature_text": "10 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 38375
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_101",
+      "name": "Goa 10N Honeymoon Tour from Mumbai (Luxury, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for honeymoon travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Luxury",
+          "feature_text": "10 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 67850
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_102",
+      "name": "Goa 10N Pilgrimage Tour from Mumbai (Standard, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Standard",
+          "feature_text": "10 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 30400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_103",
+      "name": "Goa 10N Adventure Tour from Mumbai (Comfort, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Comfort",
+          "feature_text": "10 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39125
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_104",
+      "name": "Goa 10N Leisure Tour from Mumbai (Premium, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Mumbai with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Premium",
+          "feature_text": "10 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54740
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_105",
+      "name": "Goa 10N Pilgrimage Tour from Bengaluru (Standard, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for pilgrimage travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Standard",
+          "feature_text": "10 nights; hotel standard; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 31000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_106",
+      "name": "Goa 10N Adventure Tour from Bengaluru (Comfort, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Comfort",
+          "feature_text": "10 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39875
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_107",
+      "name": "Goa 10N Leisure Tour from Bengaluru (Premium, Winter)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Premium",
+          "feature_text": "10 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 55760
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_108",
+      "name": "Goa 10N Family Tour from Bengaluru (Luxury, Festive)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for family travelers. Departure from Bengaluru with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Luxury",
+          "feature_text": "10 nights; hotel luxury; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 77510
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_109",
+      "name": "Goa 10N Adventure Tour from Ahmedabad (Comfort, Summer)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for adventure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Comfort",
+          "feature_text": "10 nights; hotel comfort; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 40625
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_110",
+      "name": "Goa 10N Leisure Tour from Ahmedabad (Premium, Monsoon)",
+      "category": "Travel/Domestic",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India domestic holiday package to Goa for leisure travelers. Departure from Ahmedabad with curated experiences.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Package - 10N Premium",
+          "feature_text": "10 nights; hotel premium; breakfast; transfers; guided sightseeing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 56780
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_111",
+      "name": "Golden Triangle 3N Standard Group Package from Delhi (Family, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Standard",
+          "feature_text": "3 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 17400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_112",
+      "name": "Golden Triangle 3N Comfort Group Package from Delhi (Honeymoon, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Comfort",
+          "feature_text": "3 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_113",
+      "name": "Golden Triangle 3N Premium Group Package from Delhi (Pilgrimage, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Premium",
+          "feature_text": "3 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 33660
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_114",
+      "name": "Golden Triangle 3N Luxury Group Package from Delhi (Adventure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Luxury",
+          "feature_text": "3 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 48299
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_115",
+      "name": "Golden Triangle 3N Comfort Group Package from Mumbai (Honeymoon, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Comfort",
+          "feature_text": "3 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_116",
+      "name": "Golden Triangle 3N Premium Group Package from Mumbai (Pilgrimage, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Premium",
+          "feature_text": "3 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35020
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_117",
+      "name": "Golden Triangle 3N Luxury Group Package from Mumbai (Adventure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Luxury",
+          "feature_text": "3 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 50139
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_118",
+      "name": "Golden Triangle 3N Standard Group Package from Mumbai (Leisure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Standard",
+          "feature_text": "3 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_119",
+      "name": "Golden Triangle 3N Premium Group Package from Bengaluru (Pilgrimage, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Premium",
+          "feature_text": "3 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36380
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_120",
+      "name": "Golden Triangle 3N Luxury Group Package from Bengaluru (Adventure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Luxury",
+          "feature_text": "3 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51979
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_121",
+      "name": "Golden Triangle 3N Standard Group Package from Bengaluru (Leisure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Standard",
+          "feature_text": "3 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_122",
+      "name": "Golden Triangle 3N Comfort Group Package from Bengaluru (Family, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Comfort",
+          "feature_text": "3 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 31250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_123",
+      "name": "Golden Triangle 3N Luxury Group Package from Ahmedabad (Adventure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Luxury",
+          "feature_text": "3 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 53819
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_124",
+      "name": "Golden Triangle 3N Standard Group Package from Ahmedabad (Leisure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Standard",
+          "feature_text": "3 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_125",
+      "name": "Golden Triangle 3N Comfort Group Package from Ahmedabad (Family, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Comfort",
+          "feature_text": "3 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 32250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_126",
+      "name": "Golden Triangle 3N Premium Group Package from Ahmedabad (Honeymoon, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 3N Premium",
+          "feature_text": "3 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 45900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_127",
+      "name": "Golden Triangle 4N Comfort Group Package from Delhi (Honeymoon, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Comfort",
+          "feature_text": "4 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 25250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_128",
+      "name": "Golden Triangle 4N Premium Group Package from Delhi (Pilgrimage, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Premium",
+          "feature_text": "4 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36380
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_129",
+      "name": "Golden Triangle 4N Luxury Group Package from Delhi (Adventure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Luxury",
+          "feature_text": "4 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51979
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_130",
+      "name": "Golden Triangle 4N Standard Group Package from Delhi (Leisure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Standard",
+          "feature_text": "4 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_131",
+      "name": "Golden Triangle 4N Premium Group Package from Mumbai (Pilgrimage, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Premium",
+          "feature_text": "4 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37740
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_132",
+      "name": "Golden Triangle 4N Luxury Group Package from Mumbai (Adventure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Luxury",
+          "feature_text": "4 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 53819
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_133",
+      "name": "Golden Triangle 4N Standard Group Package from Mumbai (Leisure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Standard",
+          "feature_text": "4 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_134",
+      "name": "Golden Triangle 4N Comfort Group Package from Mumbai (Family, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Comfort",
+          "feature_text": "4 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 32250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_135",
+      "name": "Golden Triangle 4N Luxury Group Package from Bengaluru (Adventure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Luxury",
+          "feature_text": "4 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 55659
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_136",
+      "name": "Golden Triangle 4N Standard Group Package from Bengaluru (Leisure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Standard",
+          "feature_text": "4 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 25400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_137",
+      "name": "Golden Triangle 4N Comfort Group Package from Bengaluru (Family, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Comfort",
+          "feature_text": "4 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 33250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_138",
+      "name": "Golden Triangle 4N Premium Group Package from Bengaluru (Honeymoon, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Premium",
+          "feature_text": "4 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 47260
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_139",
+      "name": "Golden Triangle 4N Standard Group Package from Ahmedabad (Leisure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Standard",
+          "feature_text": "4 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 26200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_140",
+      "name": "Golden Triangle 4N Comfort Group Package from Ahmedabad (Family, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Comfort",
+          "feature_text": "4 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_141",
+      "name": "Golden Triangle 4N Premium Group Package from Ahmedabad (Honeymoon, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Premium",
+          "feature_text": "4 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 48620
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_142",
+      "name": "Golden Triangle 4N Luxury Group Package from Ahmedabad (Pilgrimage, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 4N Luxury",
+          "feature_text": "4 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 68540
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_143",
+      "name": "Golden Triangle 5N Premium Group Package from Delhi (Pilgrimage, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Premium",
+          "feature_text": "5 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_144",
+      "name": "Golden Triangle 5N Luxury Group Package from Delhi (Adventure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Luxury",
+          "feature_text": "5 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 55659
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_145",
+      "name": "Golden Triangle 5N Standard Group Package from Delhi (Leisure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Standard",
+          "feature_text": "5 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 25400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_146",
+      "name": "Golden Triangle 5N Comfort Group Package from Delhi (Family, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Comfort",
+          "feature_text": "5 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 33250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_147",
+      "name": "Golden Triangle 5N Luxury Group Package from Mumbai (Adventure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Luxury",
+          "feature_text": "5 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 57499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_148",
+      "name": "Golden Triangle 5N Standard Group Package from Mumbai (Leisure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Standard",
+          "feature_text": "5 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 26200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_149",
+      "name": "Golden Triangle 5N Comfort Group Package from Mumbai (Family, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Comfort",
+          "feature_text": "5 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_150",
+      "name": "Golden Triangle 5N Premium Group Package from Mumbai (Honeymoon, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Premium",
+          "feature_text": "5 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 48620
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_151",
+      "name": "Golden Triangle 5N Standard Group Package from Bengaluru (Leisure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Standard",
+          "feature_text": "5 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_152",
+      "name": "Golden Triangle 5N Comfort Group Package from Bengaluru (Family, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Comfort",
+          "feature_text": "5 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_153",
+      "name": "Golden Triangle 5N Premium Group Package from Bengaluru (Honeymoon, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Premium",
+          "feature_text": "5 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49980
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_154",
+      "name": "Golden Triangle 5N Luxury Group Package from Bengaluru (Pilgrimage, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Luxury",
+          "feature_text": "5 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 70380
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_155",
+      "name": "Golden Triangle 5N Comfort Group Package from Ahmedabad (Family, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Comfort",
+          "feature_text": "5 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_156",
+      "name": "Golden Triangle 5N Premium Group Package from Ahmedabad (Honeymoon, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Premium",
+          "feature_text": "5 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51340
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_157",
+      "name": "Golden Triangle 5N Luxury Group Package from Ahmedabad (Pilgrimage, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Luxury",
+          "feature_text": "5 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 72220
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_158",
+      "name": "Golden Triangle 5N Standard Group Package from Ahmedabad (Adventure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 5N Standard",
+          "feature_text": "5 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 32600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_159",
+      "name": "Golden Triangle 6N Luxury Group Package from Delhi (Adventure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Luxury",
+          "feature_text": "6 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 59339
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_160",
+      "name": "Golden Triangle 6N Standard Group Package from Delhi (Leisure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Standard",
+          "feature_text": "6 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_161",
+      "name": "Golden Triangle 6N Comfort Group Package from Delhi (Family, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Comfort",
+          "feature_text": "6 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_162",
+      "name": "Golden Triangle 6N Premium Group Package from Delhi (Honeymoon, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Premium",
+          "feature_text": "6 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49980
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_163",
+      "name": "Golden Triangle 6N Standard Group Package from Mumbai (Leisure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Standard",
+          "feature_text": "6 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_164",
+      "name": "Golden Triangle 6N Comfort Group Package from Mumbai (Family, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Comfort",
+          "feature_text": "6 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_165",
+      "name": "Golden Triangle 6N Premium Group Package from Mumbai (Honeymoon, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Premium",
+          "feature_text": "6 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51340
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_166",
+      "name": "Golden Triangle 6N Luxury Group Package from Mumbai (Pilgrimage, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Luxury",
+          "feature_text": "6 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 72220
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_167",
+      "name": "Golden Triangle 6N Comfort Group Package from Bengaluru (Family, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Comfort",
+          "feature_text": "6 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_168",
+      "name": "Golden Triangle 6N Premium Group Package from Bengaluru (Honeymoon, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Premium",
+          "feature_text": "6 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 52700
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_169",
+      "name": "Golden Triangle 6N Luxury Group Package from Bengaluru (Pilgrimage, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Luxury",
+          "feature_text": "6 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 74060
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_170",
+      "name": "Golden Triangle 6N Standard Group Package from Bengaluru (Adventure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Standard",
+          "feature_text": "6 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 33400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_171",
+      "name": "Golden Triangle 6N Premium Group Package from Ahmedabad (Honeymoon, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Premium",
+          "feature_text": "6 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54060
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_172",
+      "name": "Golden Triangle 6N Luxury Group Package from Ahmedabad (Pilgrimage, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Luxury",
+          "feature_text": "6 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 75900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_173",
+      "name": "Golden Triangle 6N Standard Group Package from Ahmedabad (Adventure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Standard",
+          "feature_text": "6 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_174",
+      "name": "Golden Triangle 6N Comfort Group Package from Ahmedabad (Leisure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 6N Comfort",
+          "feature_text": "6 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_175",
+      "name": "Golden Triangle 7N Standard Group Package from Delhi (Leisure, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Standard",
+          "feature_text": "7 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_176",
+      "name": "Golden Triangle 7N Comfort Group Package from Delhi (Family, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Comfort",
+          "feature_text": "7 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_177",
+      "name": "Golden Triangle 7N Premium Group Package from Delhi (Honeymoon, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Premium",
+          "feature_text": "7 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 52700
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_178",
+      "name": "Golden Triangle 7N Luxury Group Package from Delhi (Pilgrimage, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Luxury",
+          "feature_text": "7 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 74060
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_179",
+      "name": "Golden Triangle 7N Comfort Group Package from Mumbai (Family, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Comfort",
+          "feature_text": "7 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 38250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_180",
+      "name": "Golden Triangle 7N Premium Group Package from Mumbai (Honeymoon, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Premium",
+          "feature_text": "7 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54060
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_181",
+      "name": "Golden Triangle 7N Luxury Group Package from Mumbai (Pilgrimage, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Luxury",
+          "feature_text": "7 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 75900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_182",
+      "name": "Golden Triangle 7N Standard Group Package from Mumbai (Adventure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Standard",
+          "feature_text": "7 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_183",
+      "name": "Golden Triangle 7N Premium Group Package from Bengaluru (Honeymoon, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Premium",
+          "feature_text": "7 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 55420
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_184",
+      "name": "Golden Triangle 7N Luxury Group Package from Bengaluru (Pilgrimage, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Luxury",
+          "feature_text": "7 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 77740
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_185",
+      "name": "Golden Triangle 7N Standard Group Package from Bengaluru (Adventure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Standard",
+          "feature_text": "7 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_186",
+      "name": "Golden Triangle 7N Comfort Group Package from Bengaluru (Leisure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Comfort",
+          "feature_text": "7 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 45250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_187",
+      "name": "Golden Triangle 7N Luxury Group Package from Ahmedabad (Pilgrimage, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Luxury",
+          "feature_text": "7 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 79580
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_188",
+      "name": "Golden Triangle 7N Standard Group Package from Ahmedabad (Adventure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Standard",
+          "feature_text": "7 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_189",
+      "name": "Golden Triangle 7N Comfort Group Package from Ahmedabad (Leisure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Comfort",
+          "feature_text": "7 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_190",
+      "name": "Golden Triangle 7N Premium Group Package from Ahmedabad (Family, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Ahmedabad.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 7N Premium",
+          "feature_text": "7 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 64940
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_191",
+      "name": "Golden Triangle 8N Comfort Group Package from Delhi (Family, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for family travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Comfort",
+          "feature_text": "8 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_192",
+      "name": "Golden Triangle 8N Premium Group Package from Delhi (Honeymoon, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Premium",
+          "feature_text": "8 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 55420
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_193",
+      "name": "Golden Triangle 8N Luxury Group Package from Delhi (Pilgrimage, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Luxury",
+          "feature_text": "8 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 77740
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_194",
+      "name": "Golden Triangle 8N Standard Group Package from Delhi (Adventure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Delhi.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Standard",
+          "feature_text": "8 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_195",
+      "name": "Golden Triangle 8N Premium Group Package from Mumbai (Honeymoon, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for honeymoon travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Premium",
+          "feature_text": "8 nights; premium stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 56780
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_196",
+      "name": "Golden Triangle 8N Luxury Group Package from Mumbai (Pilgrimage, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Luxury",
+          "feature_text": "8 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 79580
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_197",
+      "name": "Golden Triangle 8N Standard Group Package from Mumbai (Adventure, Winter)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Standard",
+          "feature_text": "8 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_198",
+      "name": "Golden Triangle 8N Comfort Group Package from Mumbai (Leisure, Festive)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for leisure travelers with fixed departures from Mumbai.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Comfort",
+          "feature_text": "8 nights; comfort stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_199",
+      "name": "Golden Triangle 8N Luxury Group Package from Bengaluru (Pilgrimage, Summer)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for pilgrimage travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Luxury",
+          "feature_text": "8 nights; luxury stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 81420
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "tour_200",
+      "name": "Golden Triangle 8N Standard Group Package from Bengaluru (Adventure, Monsoon)",
+      "category": "Travel/Packages",
+      "unit": "package",
+      "kb_article": null,
+      "description": "India-centric multi-stop travel package covering Golden Triangle. Designed for adventure travelers with fixed departures from Bengaluru.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Group Departure - 8N Standard",
+          "feature_text": "8 nights; standard stays; airport/rail transfers; some meals included; itinerary support",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 36600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    }
+  ]
+}

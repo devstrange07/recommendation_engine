@@ -15,6 +15,16 @@ use_case_tags:
   - audio
   - charging
   - wearable
+  - family_car
+  - commute
+  - road_trip
+  - gifting
+  - festival
+  - honeymoon
+  - pilgrimage
+  - leisure_travel
+  - bridal
+  - daily_wear
 
 target_audience:
   - end_user_buyer
@@ -26,6 +36,13 @@ target_audience:
   - consumer
   - power_user
   - creator
+  - family
+  - traveler
+  - honeymooner
+  - pilgrim
+  - gift_buyer
+  - bridal_buyer
+  - fashion_buyer
 
 billing_periods:
   - one_time

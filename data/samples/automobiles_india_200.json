@@ -1,0 +1,5004 @@
+{
+  "products": [
+    {
+      "id": "auto_001",
+      "name": "Maruti Suzuki Swift Base Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 650000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_002",
+      "name": "Maruti Suzuki Swift Base Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 733000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_003",
+      "name": "Maruti Suzuki Swift Base CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift Base for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 706000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_004",
+      "name": "Maruti Suzuki Swift Base Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 659000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_005",
+      "name": "Maruti Suzuki Swift Base Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 742000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_006",
+      "name": "Maruti Suzuki Swift S Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 820000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_007",
+      "name": "Maruti Suzuki Swift S CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 793000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_008",
+      "name": "Maruti Suzuki Swift S Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift S for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 746000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_009",
+      "name": "Maruti Suzuki Swift S Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 829000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_010",
+      "name": "Maruti Suzuki Swift S CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 802000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_011",
+      "name": "Maruti Suzuki Swift V CNG - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 880000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_012",
+      "name": "Maruti Suzuki Swift V Petrol - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 833000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_013",
+      "name": "Maruti Suzuki Swift V Diesel - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift V for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 916000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_014",
+      "name": "Maruti Suzuki Swift V CNG - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 889000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_015",
+      "name": "Maruti Suzuki Swift V Petrol - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 842000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_016",
+      "name": "Maruti Suzuki Swift VX Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 920000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_017",
+      "name": "Maruti Suzuki Swift VX Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1003000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_018",
+      "name": "Maruti Suzuki Swift VX CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift VX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 976000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_019",
+      "name": "Maruti Suzuki Swift VX Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 929000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_020",
+      "name": "Maruti Suzuki Swift VX Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1012000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_021",
+      "name": "Maruti Suzuki Swift ZX Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1090000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_022",
+      "name": "Maruti Suzuki Swift ZX CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1063000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_023",
+      "name": "Maruti Suzuki Swift ZX Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift ZX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1016000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_024",
+      "name": "Maruti Suzuki Swift ZX Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1099000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_025",
+      "name": "Maruti Suzuki Swift ZX CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Swift ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1072000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_026",
+      "name": "Maruti Suzuki Baleno Base Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 650000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_027",
+      "name": "Maruti Suzuki Baleno Base Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 733000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_028",
+      "name": "Maruti Suzuki Baleno Base CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno Base for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 706000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_029",
+      "name": "Maruti Suzuki Baleno Base Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 659000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_030",
+      "name": "Maruti Suzuki Baleno Base Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 742000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_031",
+      "name": "Maruti Suzuki Baleno S Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 820000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_032",
+      "name": "Maruti Suzuki Baleno S CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 793000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_033",
+      "name": "Maruti Suzuki Baleno S Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno S for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 746000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_034",
+      "name": "Maruti Suzuki Baleno S Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 829000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_035",
+      "name": "Maruti Suzuki Baleno S CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 802000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_036",
+      "name": "Maruti Suzuki Baleno V CNG - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 880000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_037",
+      "name": "Maruti Suzuki Baleno V Petrol - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 833000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_038",
+      "name": "Maruti Suzuki Baleno V Diesel - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno V for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 916000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_039",
+      "name": "Maruti Suzuki Baleno V CNG - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 889000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_040",
+      "name": "Maruti Suzuki Baleno V Petrol - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 842000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_041",
+      "name": "Maruti Suzuki Baleno VX Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 920000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_042",
+      "name": "Maruti Suzuki Baleno VX Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1003000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_043",
+      "name": "Maruti Suzuki Baleno VX CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno VX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 976000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_044",
+      "name": "Maruti Suzuki Baleno VX Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 929000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_045",
+      "name": "Maruti Suzuki Baleno VX Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1012000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_046",
+      "name": "Maruti Suzuki Baleno ZX Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1090000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_047",
+      "name": "Maruti Suzuki Baleno ZX CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1063000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_048",
+      "name": "Maruti Suzuki Baleno ZX Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno ZX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1016000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_049",
+      "name": "Maruti Suzuki Baleno ZX Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1099000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_050",
+      "name": "Maruti Suzuki Baleno ZX CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Baleno ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1072000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_051",
+      "name": "Maruti Suzuki Dzire Base Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 650000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_052",
+      "name": "Maruti Suzuki Dzire Base Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 733000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_053",
+      "name": "Maruti Suzuki Dzire Base CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire Base for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 706000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_054",
+      "name": "Maruti Suzuki Dzire Base Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 659000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_055",
+      "name": "Maruti Suzuki Dzire Base Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 742000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_056",
+      "name": "Maruti Suzuki Dzire S Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 820000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_057",
+      "name": "Maruti Suzuki Dzire S CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 793000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_058",
+      "name": "Maruti Suzuki Dzire S Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire S for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 746000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_059",
+      "name": "Maruti Suzuki Dzire S Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 829000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_060",
+      "name": "Maruti Suzuki Dzire S CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 802000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_061",
+      "name": "Maruti Suzuki Dzire V CNG - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 880000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_062",
+      "name": "Maruti Suzuki Dzire V Petrol - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 833000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_063",
+      "name": "Maruti Suzuki Dzire V Diesel - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire V for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 916000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_064",
+      "name": "Maruti Suzuki Dzire V CNG - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 889000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_065",
+      "name": "Maruti Suzuki Dzire V Petrol - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 842000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_066",
+      "name": "Maruti Suzuki Dzire VX Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 920000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_067",
+      "name": "Maruti Suzuki Dzire VX Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1003000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_068",
+      "name": "Maruti Suzuki Dzire VX CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire VX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 976000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_069",
+      "name": "Maruti Suzuki Dzire VX Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 929000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_070",
+      "name": "Maruti Suzuki Dzire VX Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1012000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_071",
+      "name": "Maruti Suzuki Dzire ZX Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1090000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_072",
+      "name": "Maruti Suzuki Dzire ZX CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1063000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_073",
+      "name": "Maruti Suzuki Dzire ZX Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire ZX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1016000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_074",
+      "name": "Maruti Suzuki Dzire ZX Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1099000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_075",
+      "name": "Maruti Suzuki Dzire ZX CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Dzire ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1072000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_076",
+      "name": "Maruti Suzuki Brezza Base Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 650000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_077",
+      "name": "Maruti Suzuki Brezza Base Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 733000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_078",
+      "name": "Maruti Suzuki Brezza Base CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza Base for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 706000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_079",
+      "name": "Maruti Suzuki Brezza Base Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 659000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_080",
+      "name": "Maruti Suzuki Brezza Base Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 742000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_081",
+      "name": "Maruti Suzuki Brezza S Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 820000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_082",
+      "name": "Maruti Suzuki Brezza S CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 793000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_083",
+      "name": "Maruti Suzuki Brezza S Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza S for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 746000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_084",
+      "name": "Maruti Suzuki Brezza S Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 829000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_085",
+      "name": "Maruti Suzuki Brezza S CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 802000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_086",
+      "name": "Maruti Suzuki Brezza V CNG - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 880000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_087",
+      "name": "Maruti Suzuki Brezza V Petrol - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 833000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_088",
+      "name": "Maruti Suzuki Brezza V Diesel - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza V for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 916000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_089",
+      "name": "Maruti Suzuki Brezza V CNG - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 889000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_090",
+      "name": "Maruti Suzuki Brezza V Petrol - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 842000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_091",
+      "name": "Maruti Suzuki Brezza VX Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 920000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_092",
+      "name": "Maruti Suzuki Brezza VX Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1003000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_093",
+      "name": "Maruti Suzuki Brezza VX CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza VX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 976000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_094",
+      "name": "Maruti Suzuki Brezza VX Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 929000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_095",
+      "name": "Maruti Suzuki Brezza VX Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1012000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_096",
+      "name": "Maruti Suzuki Brezza ZX Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1090000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_097",
+      "name": "Maruti Suzuki Brezza ZX CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1063000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_098",
+      "name": "Maruti Suzuki Brezza ZX Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza ZX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1016000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_099",
+      "name": "Maruti Suzuki Brezza ZX Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1099000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_100",
+      "name": "Maruti Suzuki Brezza ZX CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Brezza ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1072000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_101",
+      "name": "Maruti Suzuki Grand Vitara Base Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 650000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_102",
+      "name": "Maruti Suzuki Grand Vitara Base Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 733000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_103",
+      "name": "Maruti Suzuki Grand Vitara Base CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara Base for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 706000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_104",
+      "name": "Maruti Suzuki Grand Vitara Base Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 659000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_105",
+      "name": "Maruti Suzuki Grand Vitara Base Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 742000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_106",
+      "name": "Maruti Suzuki Grand Vitara S Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 820000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_107",
+      "name": "Maruti Suzuki Grand Vitara S CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 793000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_108",
+      "name": "Maruti Suzuki Grand Vitara S Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara S for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 746000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_109",
+      "name": "Maruti Suzuki Grand Vitara S Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 829000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_110",
+      "name": "Maruti Suzuki Grand Vitara S CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 802000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_111",
+      "name": "Maruti Suzuki Grand Vitara V CNG - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 880000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_112",
+      "name": "Maruti Suzuki Grand Vitara V Petrol - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 833000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_113",
+      "name": "Maruti Suzuki Grand Vitara V Diesel - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara V for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 916000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_114",
+      "name": "Maruti Suzuki Grand Vitara V CNG - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 889000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_115",
+      "name": "Maruti Suzuki Grand Vitara V Petrol - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 842000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_116",
+      "name": "Maruti Suzuki Grand Vitara VX Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 920000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_117",
+      "name": "Maruti Suzuki Grand Vitara VX Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1003000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_118",
+      "name": "Maruti Suzuki Grand Vitara VX CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara VX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 976000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_119",
+      "name": "Maruti Suzuki Grand Vitara VX Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 929000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_120",
+      "name": "Maruti Suzuki Grand Vitara VX Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1012000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_121",
+      "name": "Maruti Suzuki Grand Vitara ZX Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1090000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_122",
+      "name": "Maruti Suzuki Grand Vitara ZX CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1063000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_123",
+      "name": "Maruti Suzuki Grand Vitara ZX Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara ZX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1016000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_124",
+      "name": "Maruti Suzuki Grand Vitara ZX Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1099000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_125",
+      "name": "Maruti Suzuki Grand Vitara ZX CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Maruti Suzuki Grand Vitara ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1072000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_126",
+      "name": "Hyundai i20 Base Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 800000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_127",
+      "name": "Hyundai i20 Base Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 883000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_128",
+      "name": "Hyundai i20 Base CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 Base for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 856000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_129",
+      "name": "Hyundai i20 Base Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 809000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_130",
+      "name": "Hyundai i20 Base Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 892000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_131",
+      "name": "Hyundai i20 S Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 970000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_132",
+      "name": "Hyundai i20 S CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 943000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_133",
+      "name": "Hyundai i20 S Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 S for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 896000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_134",
+      "name": "Hyundai i20 S Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 979000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_135",
+      "name": "Hyundai i20 S CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 952000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_136",
+      "name": "Hyundai i20 V CNG - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1030000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_137",
+      "name": "Hyundai i20 V Petrol - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 983000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_138",
+      "name": "Hyundai i20 V Diesel - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 V for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1066000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_139",
+      "name": "Hyundai i20 V CNG - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 V for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1039000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_140",
+      "name": "Hyundai i20 V Petrol - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 V for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - V Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 18 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 992000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_141",
+      "name": "Hyundai i20 VX Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1070000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_142",
+      "name": "Hyundai i20 VX Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1153000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_143",
+      "name": "Hyundai i20 VX CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 VX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1126000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_144",
+      "name": "Hyundai i20 VX Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 VX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1079000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_145",
+      "name": "Hyundai i20 VX Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 VX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - VX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 19 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1162000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_146",
+      "name": "Hyundai i20 ZX Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1240000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_147",
+      "name": "Hyundai i20 ZX CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1213000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_148",
+      "name": "Hyundai i20 ZX Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 ZX for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Petrol",
+          "feature_text": "Petrol; AT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1166000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_149",
+      "name": "Hyundai i20 ZX Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 ZX for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX Diesel",
+          "feature_text": "Diesel; DCT; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1249000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_150",
+      "name": "Hyundai i20 ZX CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai i20 ZX for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - ZX CNG",
+          "feature_text": "CNG; Manual; 5-seater; dual airbags; rear camera; mileage 20 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1222000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_151",
+      "name": "Hyundai Verna Base Petrol - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 800000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_152",
+      "name": "Hyundai Verna Base Diesel - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 883000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_153",
+      "name": "Hyundai Verna Base CNG - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna Base for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 856000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_154",
+      "name": "Hyundai Verna Base Petrol - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna Base for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 809000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_155",
+      "name": "Hyundai Verna Base Diesel - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna Base for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - Base Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 16 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 892000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_156",
+      "name": "Hyundai Verna S Diesel - Arctic White",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 970000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_157",
+      "name": "Hyundai Verna S CNG - Stealth Black",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 943000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_158",
+      "name": "Hyundai Verna S Petrol - Titan Grey",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna S for Indian buyers. Balanced city commute and highway usability with Petrol powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Petrol",
+          "feature_text": "Petrol; DCT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 896000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_159",
+      "name": "Hyundai Verna S Diesel - Deep Blue",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna S for Indian buyers. Balanced city commute and highway usability with Diesel powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S Diesel",
+          "feature_text": "Diesel; Manual; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 979000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_160",
+      "name": "Hyundai Verna S CNG - Ruby Red",
+      "category": "Automobiles/Cars",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Hyundai Verna S for Indian buyers. Balanced city commute and highway usability with CNG powertrain.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - S CNG",
+          "feature_text": "CNG; AMT; 5-seater; dual airbags; rear camera; mileage 17 kmpl",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 952000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_161",
+      "name": "Tata Tiago EV 30kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 250 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 850000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_162",
+      "name": "Tata Tiago EV 30kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 254 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 855000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_163",
+      "name": "Tata Tiago EV 30kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 258 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 860000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_164",
+      "name": "Tata Tiago EV 30kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 262 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 865000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_165",
+      "name": "Tata Tiago EV 30kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 266 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 870000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_166",
+      "name": "Tata Tiago EV 40kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 310 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1030000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_167",
+      "name": "Tata Tiago EV 40kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 314 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1035000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_168",
+      "name": "Tata Tiago EV 40kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 318 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1040000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_169",
+      "name": "Tata Tiago EV 40kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 322 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1045000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_170",
+      "name": "Tata Tiago EV 40kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 326 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1050000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_171",
+      "name": "Tata Tiago EV 50kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 370 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1210000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_172",
+      "name": "Tata Tiago EV 50kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 374 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1215000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_173",
+      "name": "Tata Tiago EV 50kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 378 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1220000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_174",
+      "name": "Tata Tiago EV 50kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 382 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1225000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_175",
+      "name": "Tata Tiago EV 50kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 386 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1230000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_176",
+      "name": "Tata Tiago EV 60kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 60kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 60kWh",
+          "feature_text": "Electric; 430 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1390000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_177",
+      "name": "Tata Tiago EV 60kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 60kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 60kWh",
+          "feature_text": "Electric; 434 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1395000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_178",
+      "name": "Tata Tiago EV 60kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 60kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 60kWh",
+          "feature_text": "Electric; 438 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1400000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_179",
+      "name": "Tata Tiago EV 60kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 60kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 60kWh",
+          "feature_text": "Electric; 442 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1405000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_180",
+      "name": "Tata Tiago EV 60kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 60kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 60kWh",
+          "feature_text": "Electric; 446 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1410000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_181",
+      "name": "Tata Tiago EV 77kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 77kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 77kWh",
+          "feature_text": "Electric; 490 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1570000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_182",
+      "name": "Tata Tiago EV 77kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 77kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 77kWh",
+          "feature_text": "Electric; 494 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1575000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_183",
+      "name": "Tata Tiago EV 77kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 77kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 77kWh",
+          "feature_text": "Electric; 498 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1580000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_184",
+      "name": "Tata Tiago EV 77kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 77kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 77kWh",
+          "feature_text": "Electric; 502 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1585000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_185",
+      "name": "Tata Tiago EV 77kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Tiago EV electric vehicle for India with 77kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 77kWh",
+          "feature_text": "Electric; 506 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1590000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_186",
+      "name": "Tata Punch EV 30kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 250 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 850000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_187",
+      "name": "Tata Punch EV 30kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 254 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 855000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_188",
+      "name": "Tata Punch EV 30kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 258 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 860000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_189",
+      "name": "Tata Punch EV 30kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 262 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 865000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_190",
+      "name": "Tata Punch EV 30kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 30kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 30kWh",
+          "feature_text": "Electric; 266 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 870000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_191",
+      "name": "Tata Punch EV 40kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 310 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1030000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_192",
+      "name": "Tata Punch EV 40kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 314 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1035000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_193",
+      "name": "Tata Punch EV 40kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 318 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1040000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_194",
+      "name": "Tata Punch EV 40kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 322 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1045000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_195",
+      "name": "Tata Punch EV 40kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 40kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 40kWh",
+          "feature_text": "Electric; 326 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1050000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_196",
+      "name": "Tata Punch EV 50kWh - Arctic White",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 370 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1210000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_197",
+      "name": "Tata Punch EV 50kWh - Stealth Black",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 374 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1215000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_198",
+      "name": "Tata Punch EV 50kWh - Titan Grey",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 378 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1220000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_199",
+      "name": "Tata Punch EV 50kWh - Deep Blue",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 382 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1225000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "auto_200",
+      "name": "Tata Punch EV 50kWh - Ruby Red",
+      "category": "Automobiles/Electric",
+      "unit": "vehicle",
+      "kb_article": null,
+      "description": "Tata Punch EV electric vehicle for India with 50kWh battery. Suitable for urban commute and long weekend drives.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Ex-showroom - 50kWh",
+          "feature_text": "Electric; 386 km claimed range; fast charging; 6 airbags; connected car tech",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1230000
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    }
+  ]
+}

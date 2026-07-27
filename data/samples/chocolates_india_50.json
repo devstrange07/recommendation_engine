@@ -1,0 +1,1254 @@
+{
+  "products": [
+    {
+      "id": "choc_001",
+      "name": "Cadbury Dairy Milk Classic 25g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 25g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 25g",
+          "feature_text": "Classic; 25g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 142
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_002",
+      "name": "Cadbury Dairy Milk Classic 50g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 50g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 50g",
+          "feature_text": "Classic; 50g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 312
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_003",
+      "name": "Cadbury Dairy Milk Classic 100g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 100g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 100g",
+          "feature_text": "Classic; 100g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 564
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_004",
+      "name": "Cadbury Dairy Milk Classic 150g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 150g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 150g",
+          "feature_text": "Classic; 150g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 860
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_005",
+      "name": "Cadbury Dairy Milk Classic 250g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 250g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 250g",
+          "feature_text": "Classic; 250g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1320
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_006",
+      "name": "Cadbury Dairy Milk Classic 400g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 400g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 400g",
+          "feature_text": "Classic; 400g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1042
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_007",
+      "name": "Cadbury Dairy Milk Classic 750g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 750g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 750g",
+          "feature_text": "Classic; 750g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1992
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_008",
+      "name": "Cadbury Dairy Milk Classic 1000g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Classic chocolate crafted for Indian gifting and daily indulgence. Pack size 1000g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 1000g",
+          "feature_text": "Classic; 1000g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2724
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_009",
+      "name": "Cadbury Dairy Milk Almond 25g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 25g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 25g",
+          "feature_text": "Almond; 25g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 260
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_010",
+      "name": "Cadbury Dairy Milk Almond 50g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 50g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 50g",
+          "feature_text": "Almond; 50g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 452
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_011",
+      "name": "Cadbury Dairy Milk Almond 100g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 100g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 100g",
+          "feature_text": "Almond; 100g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 748
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_012",
+      "name": "Cadbury Dairy Milk Almond 150g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 150g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 150g",
+          "feature_text": "Almond; 150g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1088
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_013",
+      "name": "Cadbury Dairy Milk Almond 250g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 250g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 250g",
+          "feature_text": "Almond; 250g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 690
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_014",
+      "name": "Cadbury Dairy Milk Almond 400g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 400g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 400g",
+          "feature_text": "Almond; 400g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1160
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_015",
+      "name": "Cadbury Dairy Milk Almond 750g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 750g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 750g",
+          "feature_text": "Almond; 750g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2132
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_016",
+      "name": "Cadbury Dairy Milk Almond 1000g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Almond chocolate crafted for Indian gifting and daily indulgence. Pack size 1000g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 1000g",
+          "feature_text": "Almond; 1000g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2908
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_017",
+      "name": "Cadbury Dairy Milk Hazelnut 25g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 25g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 25g",
+          "feature_text": "Hazelnut; 25g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 400
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_018",
+      "name": "Cadbury Dairy Milk Hazelnut 50g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 50g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 50g",
+          "feature_text": "Hazelnut; 50g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 636
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_019",
+      "name": "Cadbury Dairy Milk Hazelnut 100g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 100g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 100g",
+          "feature_text": "Hazelnut; 100g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 976
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_020",
+      "name": "Cadbury Dairy Milk Hazelnut 150g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 150g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 150g",
+          "feature_text": "Hazelnut; 150g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 458
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_021",
+      "name": "Cadbury Dairy Milk Hazelnut 250g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 250g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 250g",
+          "feature_text": "Hazelnut; 250g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 808
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_022",
+      "name": "Cadbury Dairy Milk Hazelnut 400g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 400g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 400g",
+          "feature_text": "Hazelnut; 400g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_023",
+      "name": "Cadbury Dairy Milk Hazelnut 750g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 750g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 750g",
+          "feature_text": "Hazelnut; 750g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2316
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_024",
+      "name": "Cadbury Dairy Milk Hazelnut 1000g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Hazelnut chocolate crafted for Indian gifting and daily indulgence. Pack size 1000g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 1000g",
+          "feature_text": "Hazelnut; 1000g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 3136
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_025",
+      "name": "Cadbury Dairy Milk Fruit & Nut 25g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 25g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 25g",
+          "feature_text": "Fruit & Nut; 25g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 584
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_026",
+      "name": "Cadbury Dairy Milk Fruit & Nut 50g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 50g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 50g",
+          "feature_text": "Fruit & Nut; 50g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 864
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_027",
+      "name": "Cadbury Dairy Milk Fruit & Nut 100g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 100g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 100g",
+          "feature_text": "Fruit & Nut; 100g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 346
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_028",
+      "name": "Cadbury Dairy Milk Fruit & Nut 150g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 150g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 150g",
+          "feature_text": "Fruit & Nut; 150g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 576
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_029",
+      "name": "Cadbury Dairy Milk Fruit & Nut 250g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 250g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 250g",
+          "feature_text": "Fruit & Nut; 250g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 948
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_030",
+      "name": "Cadbury Dairy Milk Fruit & Nut 400g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 400g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 400g",
+          "feature_text": "Fruit & Nut; 400g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1484
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_031",
+      "name": "Cadbury Dairy Milk Fruit & Nut 750g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 750g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 750g",
+          "feature_text": "Fruit & Nut; 750g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2544
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_032",
+      "name": "Cadbury Dairy Milk Fruit & Nut 1000g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Fruit & Nut chocolate crafted for Indian gifting and daily indulgence. Pack size 1000g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 1000g",
+          "feature_text": "Fruit & Nut; 1000g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2506
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_033",
+      "name": "Cadbury Dairy Milk Coffee 25g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 25g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 25g",
+          "feature_text": "Coffee; 25g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 812
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_034",
+      "name": "Cadbury Dairy Milk Coffee 50g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 50g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 50g",
+          "feature_text": "Coffee; 50g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 234
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_035",
+      "name": "Cadbury Dairy Milk Coffee 100g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 100g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 100g",
+          "feature_text": "Coffee; 100g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 464
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_036",
+      "name": "Cadbury Dairy Milk Coffee 150g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 150g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 150g",
+          "feature_text": "Coffee; 150g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 716
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_037",
+      "name": "Cadbury Dairy Milk Coffee 250g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 250g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 250g",
+          "feature_text": "Coffee; 250g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1132
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_038",
+      "name": "Cadbury Dairy Milk Coffee 400g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 400g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 400g",
+          "feature_text": "Coffee; 400g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1712
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_039",
+      "name": "Cadbury Dairy Milk Coffee 750g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 750g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 750g",
+          "feature_text": "Coffee; 750g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1914
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_040",
+      "name": "Cadbury Dairy Milk Coffee 1000g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Coffee chocolate crafted for Indian gifting and daily indulgence. Pack size 1000g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 1000g",
+          "feature_text": "Coffee; 1000g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2624
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_041",
+      "name": "Cadbury Dairy Milk Orange Zest 25g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 25g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 25g",
+          "feature_text": "Orange Zest; 25g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 182
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_042",
+      "name": "Cadbury Dairy Milk Orange Zest 50g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 50g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 50g",
+          "feature_text": "Orange Zest; 50g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 352
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_043",
+      "name": "Cadbury Dairy Milk Orange Zest 100g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 100g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 100g",
+          "feature_text": "Orange Zest; 100g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 604
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_044",
+      "name": "Cadbury Dairy Milk Orange Zest 150g Celebration Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 150g in celebration pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Celebration Pack 150g",
+          "feature_text": "Orange Zest; 150g; Celebration Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_045",
+      "name": "Cadbury Dairy Milk Orange Zest 250g Family Pack",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 250g in family pack format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Pack 250g",
+          "feature_text": "Orange Zest; 250g; Family Pack; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1360
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_046",
+      "name": "Cadbury Dairy Milk Orange Zest 400g Bar",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 400g in bar format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bar 400g",
+          "feature_text": "Orange Zest; 400g; Bar; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1082
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_047",
+      "name": "Cadbury Dairy Milk Orange Zest 750g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 750g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 750g",
+          "feature_text": "Orange Zest; 750g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2032
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_048",
+      "name": "Cadbury Dairy Milk Orange Zest 1000g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Orange Zest chocolate crafted for Indian gifting and daily indulgence. Pack size 1000g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 1000g",
+          "feature_text": "Orange Zest; 1000g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2764
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_049",
+      "name": "Cadbury Dairy Milk Sea Salt 25g Box",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Sea Salt chocolate crafted for Indian gifting and daily indulgence. Pack size 25g in box format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Box 25g",
+          "feature_text": "Sea Salt; 25g; Box; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 300
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "choc_050",
+      "name": "Cadbury Dairy Milk Sea Salt 50g Gift Tin",
+      "category": "Confectionery/Chocolates",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cadbury Dairy Milk Sea Salt chocolate crafted for Indian gifting and daily indulgence. Pack size 50g in gift tin format.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Gift Tin 50g",
+          "feature_text": "Sea Salt; 50g; Gift Tin; vegetarian; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 492
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    }
+  ]
+}
