@@ -237,8 +237,9 @@ export async function ingestCatalogFile(
   file: File,
   tenantId: string
 ): Promise<IngestJobResponse> {
-  const text = await file.text();
-  return ingestCatalogText(text, file.name, tenantId);
+  const form = new FormData();
+  form.append("file", file);
+  return apiFetch("/catalog/ingest/file", { method: "POST", body: form }, tenantId);
 }
 
 // ---------------------------------------------------------------------------
@@ -362,8 +363,15 @@ export async function streamIngestFile(
   tenantId: string,
   onEvent: (event: ProgressEvent) => void
 ): Promise<IngestJobResponse> {
-  const text = await file.text();
-  return streamIngestText(text, file.name, tenantId, onEvent);
+  const form = new FormData();
+  form.append("file", file);
+  const done = await streamSse(
+    "/catalog/ingest/file/stream",
+    { method: "POST", body: form },
+    tenantId,
+    onEvent
+  );
+  return done.detail as unknown as IngestJobResponse;
 }
 
 export async function streamPipelineRun(

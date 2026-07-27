@@ -49,7 +49,8 @@ const EXAMPLE_JSON = `{
   ]
 }`;
 
-const ACCEPT = ".json,.jsonl,.txt,.md,.csv";
+const ACCEPT =
+  ".json,.jsonl,.txt,.md,.csv,.tsv,.pdf,.docx,.pptx,.xlsx,.xls,.html,.htm,.png,.jpg,.jpeg,.webp,.gif";
 
 export default function Catalog({
   tenantId,
@@ -299,7 +300,7 @@ export default function Catalog({
                 >
                   <strong>Drop a catalog file here</strong>
                   <p className="catalog-hint">
-                    or click to browse · .json, .jsonl, .txt, .md, .csv (max 2MB)
+                    or click to browse · PDF, DOCX, XLSX, PPTX, images, JSON, CSV, TXT (max 20MB)
                   </p>
                   {uploadFile && !busy && (
                     <p className="catalog-dropzone__file">{uploadFile.name}</p>
@@ -460,6 +461,21 @@ export default function Catalog({
             {lastResult && (
               <div className="debug-coachmark">
                 <strong>Last ingest</strong>
+                {(() => {
+                  const lastDetail = streamEvents.filter(
+                    (e) => e.phase === "ingest" && e.detail
+                  ).pop()?.detail as Record<string, unknown> | undefined;
+                  const stats = lastDetail
+                    ? Object.entries(lastDetail)
+                        .filter(([k, v]) => typeof v === "number" && v > 0 && k !== "count")
+                        .map(([k, v]) => `${k.replace(/_/g, " ")}: ${v}`)
+                    : [];
+                  return stats.length > 0 ? (
+                    <p style={{ fontSize: "0.85em", opacity: 0.7, margin: "0.25rem 0" }}>
+                      {stats.join(" · ")}
+                    </p>
+                  ) : null;
+                })()}
                 <ul>
                   {lastResult.products.map((p) => (
                     <li key={p.product_id}>

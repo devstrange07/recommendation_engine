@@ -4,13 +4,14 @@ from __future__ import annotations
 
 from collections.abc import Iterator
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File as FastAPIFile
 from fastapi.responses import StreamingResponse
 
 from app.catalog_service import (
     create_from_form,
     ingest_text,
     iter_create_from_form,
+    iter_ingest_file,
     iter_ingest_text,
     list_products,
     validate_text,
@@ -141,6 +142,46 @@ def ingest_text_stream(body: IngestTextRequest, tenant_id: str = Depends(get_ten
         media_type="text/event-stream",
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
+
+
+@router.post("/ingest/file/stream")
+def ingest_file_stream(
+    file: UploadFile = FastAPIFile(...),
+    tenant_id: str = Depends(get_tenant_id),
+):
+    if _running.get(tenant_id):
+        raise HTTPException(409, "pipeline already running")
+    filename = file.filename or "upload"
+    content = file.file.read()
+
+    def gen():
+        _running[tenant_id] = True
+        try:
+            yield from _sse_from_events(iter_ingest_file(tenant_id, filename, content))
+        finally:
+            _running[tenant_id] = False
+
+    return StreamingResponse(
+        gen(),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+    )
+
+
+@router.post("/ingest/file", response_model=IngestJobResponse)
+def ingest_file_body(
+    file: UploadFile = FastAPIFile(...),
+    tenant_id: str = Depends(get_tenant_id),
+):
+    filename = file.filename or "upload"
+    content = file.file.read()
+    response: IngestJobResponse | None = None
+    for event in iter_ingest_file(tenant_id, filename, content):
+        if event.type == "done" and event.detail:
+            response = IngestJobResponse.model_validate(event.detail)
+    if response is None:
+        raise HTTPException(500, "Ingest produced no result")
+    return response
 
 
 @router.post("/ingest/validate", response_model=IngestValidateResponse)

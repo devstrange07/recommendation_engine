@@ -27,7 +27,7 @@ from app.schemas import (
     RawProduct,
 )
 
-MAX_UPLOAD_BYTES = 2 * 1024 * 1024
+MAX_UPLOAD_BYTES = 20 * 1024 * 1024
 
 
 def _now_iso() -> str:
@@ -393,3 +393,98 @@ def save_upload_audit(paths: TenantPaths, filename: str, content: bytes) -> Path
     dest = paths.raw_ingest / f"{stamp}_{safe}"
     dest.write_bytes(content)
     return dest
+
+
+def iter_ingest_file(
+    tenant_id: str,
+    filename: str,
+    content: bytes,
+) -> Iterator[ProgressEvent]:
+    """ETL pipeline for binary file uploads — extract, then feed existing catalog pipeline."""
+    from app.pipeline.file_etl.detect import is_text_format, detect_format
+    from app.pipeline.file_etl.extract import extract_file
+
+    paths = ensure_data_dirs(tenant_id)
+    save_upload_audit(paths, filename, content)
+
+    yield ProgressEvent(type="phase_start", phase="ingest", message="Starting file ingest")
+
+    fmt = detect_format(filename)
+    if fmt is None:
+        raise ValueError(f"Unsupported file type: {filename}")
+
+    progress_messages: list[str] = []
+
+    def _on_progress(msg: str) -> None:
+        progress_messages.append(msg)
+
+    if is_text_format(fmt):
+        yield ProgressEvent(type="subtask", phase="ingest", message=f"Detected text format ({fmt})")
+        text = content.decode("utf-8", errors="replace")
+        is_csv = filename.lower().endswith((".csv", ".tsv"))
+        products, fmt_label = _parse_ingest_text(text, source_name=filename, is_csv=is_csv)
+        yield ProgressEvent(
+            type="subtask",
+            phase="ingest",
+            message=f"Parsed as {fmt_label} — {len(products)} product(s)",
+            detail={"format": fmt_label, "count": len(products)},
+        )
+    else:
+        doc = extract_file(content, filename, on_progress=_on_progress)
+        for msg in progress_messages:
+            yield ProgressEvent(type="subtask", phase="ingest", message=msg)
+
+        prompt_text = doc.to_prompt_text()
+        if not prompt_text.strip():
+            raise ValueError("No extractable content found in file")
+
+        yield ProgressEvent(
+            type="subtask",
+            phase="ingest",
+            message="Extracting products via LLM…",
+            detail=doc.stats.to_dict(),
+        )
+        products = extract_products(prompt_text, source_name=filename)
+        yield ProgressEvent(
+            type="subtask",
+            phase="ingest",
+            message=f"LLM extracted {len(products)} product(s)",
+            detail={"count": len(products)},
+        )
+
+    if not products:
+        raise ValueError("No products extracted from file")
+
+    id_to_name = {p.id: p.name for p in products}
+    yield ProgressEvent(
+        type="subtask",
+        phase="ingest",
+        message=f"Appending {len(products)} product(s) to raw catalog",
+    )
+    append_products(paths, products)
+    yield ProgressEvent(
+        type="phase_done",
+        phase="ingest",
+        message=f"Wrote {len(products)} product(s) to raw catalog",
+        detail={"count": len(products)},
+    )
+
+    summary = None
+    for event in run_pipeline.iter_pipeline_progress(tenant_id):
+        if event.type == "done":
+            summary = (event.detail or {}).get("summary")
+            continue
+        yield event
+
+    results = [_product_status(paths, pid, id_to_name[pid]) for pid in id_to_name]
+    response = IngestJobResponse(
+        tenant_id=paths.tenant_id,
+        products=results,
+        pipeline_summary=summary,
+    )
+    yield ProgressEvent(
+        type="done",
+        phase="done",
+        message="Ingest complete",
+        detail=response.model_dump(),
+    )
