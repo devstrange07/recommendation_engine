@@ -122,6 +122,27 @@ function RawBlock({ data, label = "Raw" }: { data: unknown; label?: string }) {
   );
 }
 
+function ReasoningBlock({
+  text,
+  reasoningTokens,
+}: {
+  text?: string | null;
+  reasoningTokens?: number;
+}) {
+  const label =
+    reasoningTokens != null
+      ? `Reasoning summary · ${reasoningTokens} tokens`
+      : text
+        ? "Reasoning summary"
+        : "Reasoning summary · (none)";
+  return (
+    <details className="wf-raw wf-reasoning">
+      <summary>{label}</summary>
+      {text ? <pre className="wf-prompt">{text}</pre> : <p className="wf-muted">(none)</p>}
+    </details>
+  );
+}
+
 function formatPrice(value: unknown): string {
   if (value == null || value === "") return "—";
   if (typeof value === "number") return value.toLocaleString();
@@ -463,6 +484,9 @@ export default function DebugPanel({
                   {debug.tokens.query_understanding != null && (
                     <> · {debug.tokens.query_understanding} tokens</>
                   )}
+                  {debug.tokens.reasoning_understand != null && (
+                    <> · {debug.tokens.reasoning_understand} reasoning</>
+                  )}
                   {debug.latency_ms.extract != null && (
                     <> · {Math.round(debug.latency_ms.extract)} ms</>
                   )}
@@ -474,6 +498,10 @@ export default function DebugPanel({
                 <RawBlock
                   data={{ current: debug.extracted_filters, previous: debug.previous_filters }}
                   label="Raw filters"
+                />
+                <ReasoningBlock
+                  text={debug.reasoning_summary_understand}
+                  reasoningTokens={debug.tokens.reasoning_understand}
                 />
               </div>
             )}
@@ -533,12 +561,17 @@ export default function DebugPanel({
                 <KvList
                   data={{
                     final_tokens: debug.tokens.final ?? null,
+                    reasoning_final: debug.tokens.reasoning_final ?? null,
                     final_llm_ms: debug.latency_ms.final_llm ?? null,
                     all_tokens: debug.tokens,
                     all_latency_ms: debug.latency_ms,
                   }}
                 />
                 <RawBlock data={{ tokens: debug.tokens, latency_ms: debug.latency_ms }} />
+                <ReasoningBlock
+                  text={debug.reasoning_summary_final}
+                  reasoningTokens={debug.tokens.reasoning_final}
+                />
               </div>
             )}
           </div>

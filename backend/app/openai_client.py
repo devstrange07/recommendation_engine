@@ -68,4 +68,4 @@ def responses_kwargs() -> dict:
     effort = get_settings().chat_reasoning_effort.strip()
     if not effort or effort.lower() == "none":
         return {}
-    return {"reasoning": {"effort": effort}}
+    return {"reasoning": {"effort": effort, "summary": "auto"}}

@@ -1,0 +1,1254 @@
+{
+  "products": [
+    {
+      "id": "pharma_001",
+      "name": "Cipla Crocin Advance Standard 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Standard for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_002",
+      "name": "Cipla Crocin Advance Forte 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Forte for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 50
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_003",
+      "name": "Cipla Crocin Advance Plus 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Plus for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 65
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_004",
+      "name": "Cipla Crocin Advance DS 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance DS for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 80
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_005",
+      "name": "Cipla Crocin Advance Kid 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Kid for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 95
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_006",
+      "name": "Cipla Crocin Advance Senior 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Senior for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 110
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_007",
+      "name": "Cipla Crocin Advance Standard 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Standard for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 60
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_008",
+      "name": "Cipla Crocin Advance Forte 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Forte for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 75
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_009",
+      "name": "Cipla Crocin Advance Plus 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Plus for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 90
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_010",
+      "name": "Cipla Crocin Advance DS 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance DS for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 105
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_011",
+      "name": "Cipla Crocin Advance Kid 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Kid for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 120
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_012",
+      "name": "Cipla Crocin Advance Senior 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Senior for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 135
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_013",
+      "name": "Cipla Crocin Advance Standard 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Standard for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 85
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_014",
+      "name": "Cipla Crocin Advance Forte 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Forte for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_015",
+      "name": "Cipla Crocin Advance Plus 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Plus for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 115
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_016",
+      "name": "Cipla Crocin Advance DS 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance DS for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 130
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_017",
+      "name": "Cipla Crocin Advance Kid 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Kid for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 145
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_018",
+      "name": "Cipla Crocin Advance Senior 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Senior for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 160
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_019",
+      "name": "Cipla Crocin Advance Standard 5mg Tablet (60s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Standard for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 60s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 60s bottle",
+          "feature_text": "Tablet; 5mg; 60s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 110
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_020",
+      "name": "Cipla Crocin Advance Forte 5mg Tablet (60s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Forte for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 60s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 60s bottle",
+          "feature_text": "Tablet; 5mg; 60s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 125
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_021",
+      "name": "Cipla Crocin Advance Plus 5mg Tablet (60s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Plus for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 60s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 60s bottle",
+          "feature_text": "Tablet; 5mg; 60s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 140
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_022",
+      "name": "Cipla Crocin Advance DS 5mg Tablet (60s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance DS for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 60s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 60s bottle",
+          "feature_text": "Tablet; 5mg; 60s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 155
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_023",
+      "name": "Cipla Crocin Advance Kid 5mg Tablet (60s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Kid for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 60s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 60s bottle",
+          "feature_text": "Tablet; 5mg; 60s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 170
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_024",
+      "name": "Cipla Crocin Advance Senior 5mg Tablet (60s bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Senior for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 60s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 60s bottle",
+          "feature_text": "Tablet; 5mg; 60s bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 185
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_025",
+      "name": "Cipla Crocin Advance Standard 5mg Tablet (100ml bottle)",
+      "category": "Pharmaceuticals/OTC",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Crocin Advance Standard for Indian pharmacy retail. Indicated for pain relief; available as tablet in 5mg 100ml bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 100ml bottle",
+          "feature_text": "Tablet; 5mg; 100ml bottle; pain relief; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 135
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_026",
+      "name": "Cipla Asthalin Standard 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Standard for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 45
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_027",
+      "name": "Cipla Asthalin Forte 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Forte for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 60
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_028",
+      "name": "Cipla Asthalin Plus 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Plus for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 75
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_029",
+      "name": "Cipla Asthalin DS 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin DS for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 90
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_030",
+      "name": "Cipla Asthalin Kid 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Kid for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 105
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_031",
+      "name": "Cipla Asthalin Senior 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Senior for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 120
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_032",
+      "name": "Cipla Asthalin Standard 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Standard for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 70
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_033",
+      "name": "Cipla Asthalin Forte 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Forte for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 85
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_034",
+      "name": "Cipla Asthalin Plus 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Plus for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_035",
+      "name": "Cipla Asthalin DS 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin DS for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 115
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_036",
+      "name": "Cipla Asthalin Kid 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Kid for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 130
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_037",
+      "name": "Cipla Asthalin Senior 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Senior for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 145
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_038",
+      "name": "Cipla Asthalin Standard 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Standard for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 95
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_039",
+      "name": "Cipla Asthalin Forte 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Forte for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 110
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_040",
+      "name": "Cipla Asthalin Plus 5mg Tablet (30s bottle)",
+      "category": "Pharmaceuticals/Prescription",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Cipla Asthalin Plus for Indian pharmacy retail. Indicated for respiratory care; available as tablet in 5mg 30s bottle.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 30s bottle",
+          "feature_text": "Tablet; 5mg; 30s bottle; respiratory care; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 125
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_041",
+      "name": "Himalaya Ashwagandha Standard 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Standard for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 220
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_042",
+      "name": "Himalaya Ashwagandha Forte 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Forte for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 235
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_043",
+      "name": "Himalaya Ashwagandha Plus 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Plus for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 250
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_044",
+      "name": "Himalaya Ashwagandha DS 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha DS for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 265
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_045",
+      "name": "Himalaya Ashwagandha Kid 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Kid for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 280
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_046",
+      "name": "Himalaya Ashwagandha Senior 5mg Tablet (10s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Senior for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 10s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 10s strip",
+          "feature_text": "Tablet; 5mg; 10s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 295
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_047",
+      "name": "Himalaya Ashwagandha Standard 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Standard for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 245
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_048",
+      "name": "Himalaya Ashwagandha Forte 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Forte for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 260
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_049",
+      "name": "Himalaya Ashwagandha Plus 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha Plus for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 275
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "pharma_050",
+      "name": "Himalaya Ashwagandha DS 5mg Tablet (15s strip)",
+      "category": "Pharmaceuticals/Wellness",
+      "unit": "pack",
+      "kb_article": null,
+      "description": "Himalaya Ashwagandha DS for Indian pharmacy retail. Indicated for stress and immunity; available as tablet in 5mg 15s strip.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tablet 15s strip",
+          "feature_text": "Tablet; 5mg; 15s strip; stress and immunity; store below 30C; India retail pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 290
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    }
+  ]
+}

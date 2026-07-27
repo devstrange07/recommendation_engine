@@ -45,13 +45,26 @@ function buildPhases(
     : PHASE_ORDER.filter((p) => p !== "ingest");
 
   const linesByPhase: Partial<Record<ProgressPhase, string[]>> = {};
+  /** Index of the replaceable batch progress line within each phase bucket. */
+  const lastBatchLineIndex: Partial<Record<ProgressPhase, number>> = {};
   const started = new Set<ProgressPhase>();
   const finished = new Set<ProgressPhase>();
   let errored: ProgressPhase | null = null;
 
   for (const ev of events) {
     const bucket = linesByPhase[ev.phase] || [];
-    bucket.push(ev.message);
+    const batchIndex = ev.detail?.batch_index;
+    if (typeof batchIndex === "number") {
+      const existing = lastBatchLineIndex[ev.phase];
+      if (existing !== undefined) {
+        bucket[existing] = ev.message;
+      } else {
+        lastBatchLineIndex[ev.phase] = bucket.length;
+        bucket.push(ev.message);
+      }
+    } else {
+      bucket.push(ev.message);
+    }
     linesByPhase[ev.phase] = bucket;
 
     if (ev.type === "error") {

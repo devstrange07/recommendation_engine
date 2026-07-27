@@ -235,6 +235,8 @@ class DebugTrace(BaseModel):
     injected_prompt_block: str | None = None
     tokens: dict[str, int] = Field(default_factory=dict)
     latency_ms: dict[str, float] = Field(default_factory=dict)
+    reasoning_summary_understand: str | None = None
+    reasoning_summary_final: str | None = None
 
 
 class ChatResponse(BaseModel):

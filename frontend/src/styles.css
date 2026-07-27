@@ -1254,6 +1254,26 @@ select:focus {
   font-weight: 500;
 }
 
+.wf-reasoning {
+  margin-top: 1rem;
+  padding-top: 0.65rem;
+  border-top: var(--border);
+}
+
+.wf-reasoning summary {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.wf-reasoning .wf-prompt {
+  margin-top: 0.5rem;
+  max-height: 16rem;
+  overflow: auto;
+  padding: 0.5rem 0.6rem;
+  border-radius: 4px;
+  background: var(--surface-muted);
+}
+
 .wf-raw pre,
 .wf-prompt,
 .wf-hit-payload {

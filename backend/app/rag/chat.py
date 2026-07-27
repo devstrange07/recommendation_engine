@@ -131,6 +131,32 @@ def _usage_total(resp: Any) -> int:
     return int(getattr(usage, "total_tokens", None) or 0)
 
 
+def _reasoning_tokens(resp: Any) -> int:
+    usage = getattr(resp, "usage", None)
+    if not usage:
+        return 0
+    details = getattr(usage, "output_tokens_details", None)
+    if details is None:
+        return 0
+    return int(getattr(details, "reasoning_tokens", None) or 0)
+
+
+def _reasoning_summary(resp: Any) -> str | None:
+    texts: list[str] = []
+    for item in getattr(resp, "output", None) or []:
+        if getattr(item, "type", None) != "reasoning":
+            continue
+        for part in getattr(item, "summary", None) or []:
+            text = getattr(part, "text", None)
+            if text is None and isinstance(part, dict):
+                text = part.get("text")
+            if text:
+                texts.append(str(text))
+    if not texts:
+        return None
+    return "\n\n".join(texts)
+
+
 def _first_function_call(resp: Any, name: str = "search_products") -> Any | None:
     for item in getattr(resp, "output", None) or []:
         if getattr(item, "type", None) == "function_call" and getattr(item, "name", None) == name:
@@ -285,6 +311,10 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
     )
     latency["extract"] = (time.perf_counter() - t0) * 1000
     tokens["query_understanding"] = _usage_total(first)
+    reasoning_understand = _reasoning_tokens(first)
+    if reasoning_understand:
+        tokens["reasoning_understand"] = reasoning_understand
+    debug.reasoning_summary_understand = _reasoning_summary(first)
 
     tool_call = _first_function_call(first)
     if not tool_call:
@@ -317,6 +347,16 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
             **rkw,
         )
         tokens["query_understanding"] = tokens.get("query_understanding", 0) + _usage_total(retry)
+        retry_reasoning = _reasoning_tokens(retry)
+        if retry_reasoning:
+            tokens["reasoning_understand"] = tokens.get("reasoning_understand", 0) + retry_reasoning
+        retry_summary = _reasoning_summary(retry)
+        if retry_summary:
+            debug.reasoning_summary_understand = (
+                f"{debug.reasoning_summary_understand}\n\n{retry_summary}"
+                if debug.reasoning_summary_understand
+                else retry_summary
+            )
         tool_call = _first_function_call(retry)
         if not tool_call:
             debug.tokens = tokens
@@ -385,6 +425,10 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
     )
     latency["final_llm"] = (time.perf_counter() - t1) * 1000
     tokens["final"] = _usage_total(final)
+    reasoning_final = _reasoning_tokens(final)
+    if reasoning_final:
+        tokens["reasoning_final"] = reasoning_final
+    debug.reasoning_summary_final = _reasoning_summary(final)
 
     reply = getattr(final, "output_text", None) or ""
     debug.turn_flow.append("llm_pitched")

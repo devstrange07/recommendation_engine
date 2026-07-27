@@ -31,3 +31,9 @@ categories:
     labels: [diamond jewellery, solitaire, studs, ring, pendant]
   - path: Jewellery/Fashion
     labels: [fashion jewellery, imitation jewellery, silver jewellery, daily wear]
+  - path: Pharmaceuticals/OTC
+    labels: [over-the-counter, otc, pain relief, cold, cough, antacid, vitamin]
+  - path: Pharmaceuticals/Prescription
+    labels: [prescription, antibiotic, chronic, hypertension, diabetes, rx]
+  - path: Pharmaceuticals/Wellness
+    labels: [supplement, multivitamin, protein, immunity, ayurveda wellness]

@@ -46,6 +46,8 @@ export type DebugTrace = {
   injected_prompt_block: string | null;
   tokens: Record<string, number>;
   latency_ms: Record<string, number>;
+  reasoning_summary_understand?: string | null;
+  reasoning_summary_final?: string | null;
 };
 
 export type ChatResponse = {

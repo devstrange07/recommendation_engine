@@ -25,6 +25,10 @@ use_case_tags:
   - leisure_travel
   - bridal
   - daily_wear
+  - pain_relief
+  - chronic_care
+  - immunity
+  - self_care
 
 target_audience:
   - end_user_buyer
@@ -43,6 +47,9 @@ target_audience:
   - gift_buyer
   - bridal_buyer
   - fashion_buyer
+  - patient
+  - caregiver
+  - pharmacy_buyer
 
 billing_periods:
   - one_time

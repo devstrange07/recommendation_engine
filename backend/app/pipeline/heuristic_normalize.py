@@ -81,6 +81,18 @@ CATEGORY_KEYWORDS = [
         "Jewellery/Fashion",
         ["fashion jewellery", "imitation", "silver jewellery", "daily wear", "costume"],
     ),
+    (
+        "Pharmaceuticals/OTC",
+        ["otc", "over-the-counter", "pain relief", "cold", "cough", "antacid", "paracetamol"],
+    ),
+    (
+        "Pharmaceuticals/Prescription",
+        ["prescription", "antibiotic", "hypertension", "diabetes", "chronic", "rx"],
+    ),
+    (
+        "Pharmaceuticals/Wellness",
+        ["supplement", "multivitamin", "protein", "immunity", "ayurveda", "wellness"],
+    ),
 ]
 
 USE_CASE_BY_CAT = {
@@ -100,6 +112,9 @@ USE_CASE_BY_CAT = {
     "Jewellery/Gold": ["bridal", "festival", "daily_wear"],
     "Jewellery/Diamond": ["bridal", "gifting", "festival"],
     "Jewellery/Fashion": ["daily_wear", "gifting", "festival"],
+    "Pharmaceuticals/OTC": ["pain_relief", "self_care", "immunity"],
+    "Pharmaceuticals/Prescription": ["chronic_care", "self_care", "pain_relief"],
+    "Pharmaceuticals/Wellness": ["immunity", "self_care", "chronic_care"],
 }
 
 AUDIENCE_BY_CAT = {
@@ -119,6 +134,9 @@ AUDIENCE_BY_CAT = {
     "Jewellery/Gold": ["bridal_buyer", "family", "consumer"],
     "Jewellery/Diamond": ["bridal_buyer", "gift_buyer", "consumer"],
     "Jewellery/Fashion": ["fashion_buyer", "consumer", "gift_buyer"],
+    "Pharmaceuticals/OTC": ["patient", "pharmacy_buyer", "caregiver"],
+    "Pharmaceuticals/Prescription": ["patient", "caregiver", "pharmacy_buyer"],
+    "Pharmaceuticals/Wellness": ["consumer", "patient", "pharmacy_buyer"],
 }
 
 # Pitch suffix by top-level category (avoid SaaS-style "crm for teams")
@@ -130,6 +148,7 @@ PITCH_BY_TOP = {
     "Confectionery": "chocolate product",
     "Travel": "travel package",
     "Jewellery": "jewellery item",
+    "Pharmaceuticals": "pharmaceutical product",
 }
 
 
