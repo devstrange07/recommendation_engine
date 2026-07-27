@@ -1,0 +1,60 @@
+{
+  "id": "tel_291",
+  "kind": "service",
+  "title": "Xiaomi 15 Ultra — Coral Pink 16GB + 1TB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Xiaomi 15 Ultra with Leica Summilux optics and variable aperture. India retail SKU in Coral Pink finish.",
+  "short_pitch": "Xiaomi 15 Ultra — Coral Pink 16GB + 1TB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Xiaomi"
+  ],
+  "price_min": {
+    "INR": 124999.0
+  },
+  "price_max": {
+    "INR": 124999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Coral Pink 16GB + 1TB",
+      "features": [
+        "Leica Summilux",
+        "flagship SoC",
+        "HyperOS",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 124999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "1015d7a7b98786c84cef9bd2857def532a1dd982999925e09e9f17cd7e493be7",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Xiaomi 15 Ultra — Coral Pink 16GB + 1TB. Category: Electronics/Smartphones. Xiaomi 15 Ultra with Leica Summilux optics and variable aperture. India retail SKU in Coral Pink finish. Pitch: Xiaomi 15 Ultra — Coral Pink 16GB + 1TB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Xiaomi. Plans: Street — Coral Pink 16GB + 1TB (one_time): Leica Summilux; flagship SoC; HyperOS; 5G",
+  "display_card": {
+    "INR": "₹124,999"
+  }
+}

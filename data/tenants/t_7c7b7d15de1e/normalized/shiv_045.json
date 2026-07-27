@@ -1,0 +1,33 @@
+{
+  "product_id": "shiv_045",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Retail shop at Shivalik Wave, Vaishnodevi Circle. Retail RERA area from ~966 sq ft (band up to ~3743). High-footfall commercial by Shivalik Group on a major Ahmedabad retail–office corridor.",
+    "short_pitch": "Shivalik Wave — Retail Shop 966 sq ft, Vaishnodevi — commercial listing",
+    "category_path": "Commercial/Retail",
+    "use_case_tags": [
+      "retail_frontage",
+      "sale",
+      "investment"
+    ],
+    "target_audience": [
+      "retailer",
+      "investor",
+      "sme_office"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RA ~966 sq ft",
+        "highway visibility",
+        "parking",
+        "CCTV",
+        "power backup"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "prod_60",
+  "name": "MoneyNote",
+  "category_raw": "Billing",
+  "description_text": "BEST IN CLASS!! invoice and estimate tool Amazing ROI World-class support Limited time offer — act NOW!!!",
+  "unit": "workspace",
+  "kb_article": "https://kb.example.com/prod_60",
+  "plans": [
+    {
+      "id": "prod_60_plan_0",
+      "name": "Pro",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_60_plan_1",
+      "name": "Basic",
+      "feature_text": "API access, priority support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.98,
+          "discounted_amount": 26.98
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": 2398.8
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 24.99,
+    "GBP": 26.98,
+    "INR": 2398.8
+  },
+  "price_max": {
+    "USD": 24.99,
+    "GBP": 26.98,
+    "INR": 2398.8
+  },
+  "content_hash": "708650164204522d8cd33a795022352f32eff3b2c89060189ca9c1b5aaeca6ed",
+  "needs_normalization": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "tel_479",
+  "kind": "service",
+  "title": "Mi 33W SonicCharge Power Bank 20000mAh",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Xiaomi 33W 20000mAh power bank for Redmi/POCO users.",
+  "short_pitch": "Mi 33W SonicCharge Power Bank 20000mAh — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Mi"
+  ],
+  "price_min": {
+    "INR": 2199.0
+  },
+  "price_max": {
+    "INR": 2199.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Mi 33W 20k",
+      "features": [
+        "20000mAh",
+        "33W",
+        "dual port"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2199.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "a87cfd8b5b648b6bb1cf7722c81469aff2bbf9954a7f93b2305b99404c2c8055",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Mi 33W SonicCharge Power Bank 20000mAh. Category: Electronics/Accessories. Xiaomi 33W 20000mAh power bank for Redmi/POCO users. Pitch: Mi 33W SonicCharge Power Bank 20000mAh — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Mi. Plans: Street — Mi 33W 20k (one_time): 20000mAh; 33W; dual port",
+  "display_card": {
+    "INR": "₹2,199"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shiv_010",
+  "name": "Shivalik Residences — 3 BHK, Shahibaug",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK apartment at Shivalik Residences, Shahibaug, Ahmedabad. Established Shivalik Group residential address in east-central Ahmedabad with good connectivity to CBD and airport road corridors.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "feature_text": "Ready to move; covered parking, lifts, security, power backup",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 12000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 12000000.0
+  },
+  "price_max": {
+    "INR": 12000000.0
+  },
+  "content_hash": "46ceb295526750492363871c2eb614e69239801cc0d6b00c03066d01dc626a3b",
+  "needs_normalization": true
+}

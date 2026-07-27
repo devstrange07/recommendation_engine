@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_152",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy Z Flip7 — clamshell foldable with larger cover screen and compact pocket form.",
+    "short_pitch": "Samsung Galaxy Z Flip7 8GB + 256GB — device",
+    "category_path": "Electronics/Foldables",
+    "use_case_tags": [
+      "flagship",
+      "compact",
+      "daily_driver"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Clamshell foldable",
+        "cover screen",
+        "Galaxy AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,34 @@
+{
+  "product_id": "tel_129",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Asus ROG Phone 9 Pro — max gaming config with extra RAM, storage, and accessory ecosystem support.",
+    "short_pitch": "Asus ROG Phone 9 Pro 24GB + 1TB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Asus"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "24GB RAM",
+        "1TB",
+        "AirTriggers",
+        "GameCool",
+        "flagship SoC",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

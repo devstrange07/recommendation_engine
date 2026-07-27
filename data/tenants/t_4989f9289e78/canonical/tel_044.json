@@ -1,0 +1,60 @@
+{
+  "id": "tel_044",
+  "kind": "service",
+  "title": "OnePlus Nord 5 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OnePlus Nord 5 — prior Nord generation still selling well in the affordable premium band.",
+  "short_pitch": "OnePlus Nord 5 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 32999.0
+  },
+  "price_max": {
+    "INR": 32999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Nord 5",
+      "features": [
+        "OxygenOS",
+        "AMOLED",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 32999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "2ee63951a229345fdcf0e9b3b53e25fb4cce734b8c3311d96fd7e953e601f3e7",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Nord 5 8GB + 256GB. Category: Electronics/Smartphones. OnePlus Nord 5 — prior Nord generation still selling well in the affordable premium band. Pitch: OnePlus Nord 5 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — Nord 5 (one_time): OxygenOS; AMOLED; fast charge; 5G",
+  "display_card": {
+    "INR": "₹32,999"
+  }
+}

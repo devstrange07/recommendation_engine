@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_21",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "issue tracking for support —.",
+    "short_pitch": "IssueLane — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "IssueLane"
+    ],
+    "plan_features": {
+      "prod_21_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_21_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_21_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

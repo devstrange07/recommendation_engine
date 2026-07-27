@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_127",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Honor 400 — non-Pro sibling for buyers who want MagicOS below Pro pricing.",
+    "short_pitch": "Honor 400 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Honor"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "AMOLED",
+        "MagicOS",
+        "AI camera",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

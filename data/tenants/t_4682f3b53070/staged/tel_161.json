@@ -1,0 +1,32 @@
+{
+  "id": "tel_161",
+  "name": "Apple iPhone 14 128GB 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 14 128GB — older iPhone at deep clearance after iPhone 17 cycle.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 128GB",
+      "feature_text": "Lightning/USB-C era; dual camera; Face ID; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 49900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 49900.0
+  },
+  "price_max": {
+    "INR": 49900.0
+  },
+  "content_hash": "eaf6a9ed612b4df8d416e996cf8375069c38c1418c118fe7cd4ec53f07a1341c",
+  "needs_normalization": true
+}

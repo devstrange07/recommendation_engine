@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_035",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Google Pixel 9 Pro XL — previous-gen large Pixel Pro still on sale at reduced street prices.",
+    "short_pitch": "Google Pixel 9 Pro XL 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Google"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pro camera",
+        "Tensor",
+        "large OLED",
+        "Pixel AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

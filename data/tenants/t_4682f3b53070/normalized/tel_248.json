@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_248",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple iPhone 17 base model for most iOS buyers in India 2026. India retail SKU in Forest Green finish.",
+    "short_pitch": "Apple iPhone 17 — Forest Green 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "iOS",
+        "Apple Intelligence",
+        "Face ID",
+        "5G",
+        "MagSafe"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

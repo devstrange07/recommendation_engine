@@ -1,0 +1,32 @@
+{
+  "id": "phone_031",
+  "name": "Motorola Edge 70",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Motorola Edge 70 — best all-rounder under ₹30,000 in 2026 India picks. Clean near-stock Android, solid display and performance for the price, frequent software updates vs typical budget OEMs.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Edge 70",
+      "feature_text": "Near-stock Android; pOLED; mid-range SoC; 5G; stereo speakers",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 27999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 27999.0
+  },
+  "price_max": {
+    "INR": 27999.0
+  },
+  "content_hash": "62fa0150def92fb6d69a523ebb3e35b42e0c2f318ee13e55440daaf18ebc4d34",
+  "needs_normalization": true
+}

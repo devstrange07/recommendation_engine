@@ -1,0 +1,34 @@
+{
+  "product_id": "tel_037",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "OnePlus 15 higher RAM/storage for gaming and multitasking without jumping to Ultra-class rivals.",
+    "short_pitch": "OnePlus 15 16GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "OnePlus"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "16GB RAM",
+        "512GB",
+        "Hasselblad",
+        "OxygenOS",
+        "fast charge",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

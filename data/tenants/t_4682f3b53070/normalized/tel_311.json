@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_311",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Motorola Edge 70 mid-premium with near-stock Android. India retail SKU in Coral Pink finish.",
+    "short_pitch": "Motorola Edge 70 — Coral Pink 12GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Motorola"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Near-stock Android",
+        "AMOLED",
+        "large battery",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

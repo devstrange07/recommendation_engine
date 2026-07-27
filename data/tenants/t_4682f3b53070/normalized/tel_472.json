@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_472",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "boAt Airdocs 181 Pro popular India TWS with ENx calling.",
+    "short_pitch": "boAt Airdopes 181 Pro — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "boAt"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "ANC",
+        "ENx",
+        "ASAP charge",
+        "Bluetooth 5.3"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

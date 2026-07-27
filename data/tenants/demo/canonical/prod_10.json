@@ -1,0 +1,112 @@
+{
+  "id": "prod_10",
+  "kind": "service",
+  "title": "TaxReady Books",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "invoicing with tax lines.",
+  "short_pitch": "TaxReady Books — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "TaxReady"
+  ],
+  "price_min": {
+    "GBP": 14.99,
+    "USD": 37.48
+  },
+  "price_max": {
+    "GBP": 22.48,
+    "USD": 37.48
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_10_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 14.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_10_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_10_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "9460ebf6e366c06d2eca110b07d267271e4366960d3e9801b3d42bf767d99d98",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "TaxReady Books. Category: Invoicing/Billing. invoicing with tax lines. Pitch: TaxReady Books — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: TaxReady. Plans: Basic (one_time): Up to 2 users; email support | Pro (one_time): API access; priority support | Business (annual): Multi-location; role-based access",
+  "display_card": {
+    "USD": "$37",
+    "GBP": "£15"
+  }
+}

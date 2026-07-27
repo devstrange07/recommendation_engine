@@ -1,0 +1,118 @@
+{
+  "id": "prod_21",
+  "kind": "service",
+  "title": "IssueLane",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "issue tracking for support —.",
+  "short_pitch": "IssueLane — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "IssueLane"
+  ],
+  "price_min": {
+    "INR": 799.0,
+    "USD": 7.99
+  },
+  "price_max": {
+    "INR": 1598.0,
+    "USD": 17.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_21_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": 7.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_21_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_21_plan_2",
+      "name": "Basic",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 19.98,
+          "discounted_amount": 17.98
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "eff95049de04452515f15390c1cb9957a9a1704ea4e1e42348a1f71c516a917c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "IssueLane. Category: Support/Helpdesk. issue tracking for support —. Pitch: IssueLane — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: IssueLane. Plans: Business (monthly): Up to 2 users; email support | Pro (monthly): API access; priority support | Basic (one_time): Multi-location; role-based access",
+  "display_card": {
+    "USD": "$8/mo",
+    "INR": "₹799/mo"
+  }
+}

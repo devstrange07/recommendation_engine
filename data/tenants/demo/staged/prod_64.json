@@ -1,0 +1,74 @@
+{
+  "id": "prod_64",
+  "name": "AssistHub Pro Suite",
+  "category_raw": "support desk",
+  "description_text": "Entry-level starter tool for beginners only. Basic free tier features. support knowledge and tickets",
+  "unit": null,
+  "kb_article": "https://kb.example.com/prod_64",
+  "plans": [
+    {
+      "id": "prod_64_plan_0",
+      "name": "Pro",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 399.2
+        }
+      ]
+    },
+    {
+      "id": "prod_64_plan_1",
+      "name": "Basic",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": 598.8
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 4.49,
+    "INR": 399.2,
+    "USD": 9.36
+  },
+  "price_max": {
+    "GBP": 7.49,
+    "INR": 598.8,
+    "USD": 9.36
+  },
+  "content_hash": "a2ed470cdd322221543fd662a2acd81bc5c1d718c879eeae21fae1b9ab346b28",
+  "needs_normalization": false
+}

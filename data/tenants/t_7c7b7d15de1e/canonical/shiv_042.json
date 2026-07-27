@@ -1,0 +1,60 @@
+{
+  "id": "shiv_042",
+  "kind": "service",
+  "title": "Shivalik Satyamev — Office Suite, Bopal",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Offices",
+  "clean_description": "Office suite at Shivalik Satyamev, Bopal, Ahmedabad. Shivalik Group commercial project; portal sale range often ~₹61 L–2. 2 Cr.",
+  "short_pitch": "Shivalik Satyamev — Office Suite, Bopal — commercial listing",
+  "use_case_tags": [
+    "office_use",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "sme_office",
+    "investor"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 11000000.0
+  },
+  "price_max": {
+    "INR": 11000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office Suite",
+      "features": [
+        "Bopal commercial",
+        "parking",
+        "lifts",
+        "backup power",
+        "CCTV"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 11000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "faa27c2ec12bd9751ac262051b9eea4c23e7f890fa58f840428a61f4b02958d8",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Satyamev — Office Suite, Bopal. Category: Commercial/Offices. Office suite at Shivalik Satyamev, Bopal, Ahmedabad. Shivalik Group commercial project; portal sale range often ~₹61 L–2. 2 Cr. Pitch: Shivalik Satyamev — Office Suite, Bopal — commercial listing. Use cases: office_use, sale, investment. Audience: sme_office, investor. Aliases: Shivalik. Plans: Sale — Office Suite (one_time): Bopal commercial; parking; lifts; backup power; CCTV",
+  "display_card": {
+    "INR": "₹11,000,000"
+  }
+}

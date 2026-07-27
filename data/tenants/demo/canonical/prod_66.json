@@ -1,0 +1,114 @@
+{
+  "id": "prod_66",
+  "kind": "service",
+  "title": "TinyCRM",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "minimal CRM for freelancers.",
+  "short_pitch": "TinyCRM — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "TinyCRM"
+  ],
+  "price_min": {
+    "USD": 12.49,
+    "GBP": 8.49,
+    "INR": 999.0
+  },
+  "price_max": {
+    "USD": 18.73,
+    "GBP": 13.48,
+    "INR": 1273.72
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_66_plan_0",
+      "name": "Pro",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 9.99,
+          "discounted_amount": 8.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_66_plan_1",
+      "name": "Business",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": 1273.72
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.98,
+          "discounted_amount": 13.48
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": 1273.72
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "f26dd94260d72ecbbfb7b0e8834471beb7c3c8e0fc36b7117461c1d3ebbc8de5",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "TinyCRM. Category: CRM/Sales. minimal CRM for freelancers. Pitch: TinyCRM — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: TinyCRM. Plans: Pro (monthly): Same features as listed on website | Business (monthly): Same features as listed on website",
+  "display_card": {
+    "INR": "₹999/mo",
+    "GBP": "£8/mo",
+    "USD": "$12/mo"
+  }
+}

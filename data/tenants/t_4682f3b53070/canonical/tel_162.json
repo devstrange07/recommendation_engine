@@ -1,0 +1,60 @@
+{
+  "id": "tel_162",
+  "kind": "service",
+  "title": "Apple iPhone 14 Plus 128GB 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 14 Plus clearance large-screen iPhone.",
+  "short_pitch": "Apple iPhone 14 Plus 128GB 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 54900.0
+  },
+  "price_max": {
+    "INR": 54900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 128GB",
+      "features": [
+        "Large display",
+        "dual camera",
+        "Face ID",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 54900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "70ffb0d3c821e3e807e4edcef0026d30d494d1aad1bc2b55bd457bdabdbb83af",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 14 Plus 128GB 128GB. Category: Electronics/Smartphones. Apple iPhone 14 Plus clearance large-screen iPhone. Pitch: Apple iPhone 14 Plus 128GB 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: Street — 128GB (one_time): Large display; dual camera; Face ID; 5G",
+  "display_card": {
+    "INR": "₹54,900"
+  }
+}

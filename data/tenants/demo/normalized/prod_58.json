@@ -1,0 +1,35 @@
+{
+  "product_id": "prod_58",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "billing and receipts for services.",
+    "short_pitch": "PaySlip Pro — invoicing for teams",
+    "category_path": "Invoicing/Billing",
+    "use_case_tags": [
+      "invoice_generation",
+      "recurring_billing"
+    ],
+    "target_audience": [
+      "solo_freelancer",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "PaySlip"
+    ],
+    "plan_features": {
+      "prod_58_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_58_plan_1": [
+        "Basic tier"
+      ],
+      "prod_58_plan_2": [
+        "Annual Plus tier"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_098",
+  "name": "POCO X8 Pro Max 12GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "POCO X8 Pro Max — performance mid-ranger with high refresh display for gaming on a budget.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — X8 Pro Max",
+      "feature_text": "High refresh AMOLED; strong mid SoC; HyperOS; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 46999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 46999.0
+  },
+  "price_max": {
+    "INR": 46999.0
+  },
+  "content_hash": "0471e5cf3a8f38cd9c81f64a93f2f66725194738fdf5f002c29f74f1b903d9d5",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_380",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Sony Xperia 10 VII — compact Xperia with clean Android and good audio.",
+    "short_pitch": "Sony Xperia 10 VII 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Sony"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Compact",
+        "stereo speakers",
+        "AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

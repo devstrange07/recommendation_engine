@@ -1,0 +1,60 @@
+{
+  "id": "shiv_024",
+  "kind": "service",
+  "title": "Shivalik Park Lane — 2 BHK, Keshavbaug Ambawadi",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "2 BHK at Shivalik Park Lane / Parklane, Keshavbaug–Ambawadi. Mixed-use redevelopment by Shivalik Group; residential RERA area from ~375 sq ft upward alongside retail. Compact urban living near Ambawadi.",
+  "short_pitch": "Shivalik Park Lane — 2 BHK, Keshavbaug Ambawadi — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 6500000.0
+  },
+  "price_max": {
+    "INR": 6500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 2 BHK",
+      "features": [
+        "Compact 2 BHK",
+        "lifts",
+        "security",
+        "mixed-use retail below"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 6500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "88439c56accd070a2a2e4432a69e487277166caffee2258931181eeab5a490f7",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Park Lane — 2 BHK, Keshavbaug Ambawadi. Category: Residential/Apartments. 2 BHK at Shivalik Park Lane / Parklane, Keshavbaug–Ambawadi. Mixed-use redevelopment by Shivalik Group; residential RERA area from ~375 sq ft upward alongside retail. Compact urban living near Ambawadi. Pitch: Shivalik Park Lane — 2 BHK, Keshavbaug Ambawadi — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 2 BHK (one_time): Compact 2 BHK; lifts; security; mixed-use retail below",
+  "display_card": {
+    "INR": "₹6,500,000"
+  }
+}

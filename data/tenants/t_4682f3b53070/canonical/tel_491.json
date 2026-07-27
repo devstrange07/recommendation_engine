@@ -1,0 +1,59 @@
+{
+  "id": "tel_491",
+  "kind": "service",
+  "title": "boAt Wave Sigma 3 Smartwatch",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "boAt Wave Sigma 3 AMOLED Bluetooth calling smartwatch.",
+  "short_pitch": "boAt Wave Sigma 3 Smartwatch — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "boAt"
+  ],
+  "price_min": {
+    "INR": 3999.0
+  },
+  "price_max": {
+    "INR": 3999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Wave Sigma 3",
+      "features": [
+        "AMOLED",
+        "BT calling",
+        "SpO2",
+        "IP68"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "2a3569f4cd66d40aec452add8951d71fbe54580658fc64ef858a5cd15623fa0c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "boAt Wave Sigma 3 Smartwatch. Category: Electronics/Accessories. boAt Wave Sigma 3 AMOLED Bluetooth calling smartwatch. Pitch: boAt Wave Sigma 3 Smartwatch — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: boAt. Plans: Street — Wave Sigma 3 (one_time): AMOLED; BT calling; SpO2; IP68",
+  "display_card": {
+    "INR": "₹3,999"
+  }
+}

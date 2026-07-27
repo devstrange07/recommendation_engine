@@ -1,0 +1,139 @@
+{
+  "id": "prod_26",
+  "kind": "service",
+  "title": "SalesOrbit",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "CRM with email sequences.",
+  "short_pitch": "SalesOrbit — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "SalesOrbit"
+  ],
+  "price_min": {
+    "INR": 1799.0,
+    "USD": 22.49,
+    "GBP": 35.98
+  },
+  "price_max": {
+    "INR": 3598.0,
+    "USD": 44.98,
+    "GBP": 35.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_26_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_26_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": 30.359999999999996
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2698.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_26_plan_2",
+      "name": "Pro",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 35.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "03bfcf38a933f5a5e5c2c424c0c3e5b5d1d89f867f6c045f257cec03b0e5da26",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "SalesOrbit. Category: CRM/Sales. CRM with email sequences. Pitch: SalesOrbit — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: SalesOrbit. Plans: Business (monthly): Up to 2 users; email support | Basic (one_time): API access; priority support | Pro (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹1,799/mo",
+    "GBP": "£36/mo",
+    "USD": "$22/mo"
+  }
+}

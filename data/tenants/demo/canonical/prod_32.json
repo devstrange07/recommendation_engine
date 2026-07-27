@@ -1,0 +1,140 @@
+{
+  "id": "prod_32",
+  "kind": "service",
+  "title": "SlotMaster",
+  "brand_or_provider": null,
+  "category_path": "Scheduling/Appointments",
+  "clean_description": "multi-location appointment scheduling —.",
+  "short_pitch": "SlotMaster — scheduling for teams",
+  "use_case_tags": [
+    "appointment_booking",
+    "online_scheduling",
+    "client_reminders"
+  ],
+  "target_audience": [
+    "salon_spa",
+    "small_business",
+    "clinic_healthcare"
+  ],
+  "aliases": [
+    "SlotMaster"
+  ],
+  "price_min": {
+    "USD": 24.99,
+    "INR": 1799.1,
+    "GBP": 39.98
+  },
+  "price_max": {
+    "USD": 49.98,
+    "INR": 3998.0,
+    "GBP": 39.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_32_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": 1799.1
+        }
+      ]
+    },
+    {
+      "id": "prod_32_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_32_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 39.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 39.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 49.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "6cad7dece905b14bfa0e8db066f531bad480ac438535540817dafa65462d2962",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "SlotMaster. Category: Scheduling/Appointments. multi-location appointment scheduling —. Pitch: SlotMaster — scheduling for teams. Use cases: appointment_booking, online_scheduling, client_reminders. Audience: salon_spa, small_business, clinic_healthcare. Aliases: SlotMaster. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): API access; priority support | Business (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹1,799",
+    "GBP": "£40",
+    "USD": "$25"
+  }
+}

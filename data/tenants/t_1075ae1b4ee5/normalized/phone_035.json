@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_035",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Moto G96 5G — budget Motorola G-series for entry 5G. Near-stock Android, large battery, and durable plastic build for everyday calls, WhatsApp, and streaming.",
+    "short_pitch": "Moto G96 5G — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Moto"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "clean Android",
+        "large battery",
+        "dual camera",
+        "microSD"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

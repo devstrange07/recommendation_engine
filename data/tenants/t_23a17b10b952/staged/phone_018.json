@@ -1,0 +1,32 @@
+{
+  "id": "phone_018",
+  "name": "Google Pixel 9a",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Google Pixel 9a — previous a-series Pixel still competitive on price. Strong camera and 7-year update promise at mid-range INR street pricing.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pixel 9a",
+      "feature_text": "Pixel Camera; clean Android; long updates; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 39999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 39999.0
+  },
+  "price_max": {
+    "INR": 39999.0
+  },
+  "content_hash": "3116a2eab4047d2b6ad8429846e84a0ec4a1147c979a957deb9b35143292282c",
+  "needs_normalization": true
+}

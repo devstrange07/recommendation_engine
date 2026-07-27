@@ -1,0 +1,106 @@
+{
+  "id": "prod_26",
+  "name": "SalesOrbit",
+  "category_raw": "Sales",
+  "description_text": "CRM with email sequences",
+  "unit": "workspace",
+  "kb_article": "https://kb.example.com/prod_26",
+  "plans": [
+    {
+      "id": "prod_26_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_26_plan_1",
+      "name": "Basic",
+      "feature_text": "API access, priority support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": 30.359999999999996
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2698.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_26_plan_2",
+      "name": "Pro",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 35.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1799.0,
+    "USD": 22.49,
+    "GBP": 35.98
+  },
+  "price_max": {
+    "INR": 3598.0,
+    "USD": 44.98,
+    "GBP": 35.98
+  },
+  "content_hash": "03bfcf38a933f5a5e5c2c424c0c3e5b5d1d89f867f6c045f257cec03b0e5da26",
+  "needs_normalization": false
+}

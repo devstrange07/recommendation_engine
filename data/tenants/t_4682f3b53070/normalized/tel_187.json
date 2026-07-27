@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_187",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Motorola Razr 60 Ultra clamshell in Midnight Blue. India retail SKU in Midnight Blue finish.",
+    "short_pitch": "Motorola Razr 60 Ultra — Midnight Blue 12GB + 512GB — device",
+    "category_path": "Electronics/Foldables",
+    "use_case_tags": [
+      "flagship",
+      "compact",
+      "daily_driver"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Motorola"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Clamshell foldable",
+        "large outer display",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,117 @@
+{
+  "id": "prod_83",
+  "kind": "service",
+  "title": "RevenueMap (Legacy)",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "revenue pipeline CRM Legacy edition.",
+  "short_pitch": "RevenueMap (Legacy) — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "RevenueMap"
+  ],
+  "price_min": {
+    "GBP": 11.040000000000001,
+    "INR": 1169.1
+  },
+  "price_max": {
+    "GBP": 25.98,
+    "INR": 2598.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_3_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Annual Plus tier"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 12.99,
+          "discounted_amount": 11.040000000000001
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": 1169.1
+        }
+      ]
+    },
+    {
+      "id": "prod_3_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": 1753.65
+        }
+      ]
+    },
+    {
+      "id": "prod_3_plan_2",
+      "name": "Pro",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 25.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "0b0c082a8a7522fd35095f51a481d72091ed41b721b4dfc515cce0a4433494b5",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "RevenueMap (Legacy). Category: CRM/Sales. revenue pipeline CRM Legacy edition. Pitch: RevenueMap (Legacy) — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: RevenueMap. Plans: Annual Plus (annual): Annual Plus tier | Business (monthly): API access; priority support | Pro (annual): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹1,169/yr",
+    "GBP": "£11/yr"
+  }
+}

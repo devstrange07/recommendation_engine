@@ -1,0 +1,60 @@
+{
+  "id": "phone_018",
+  "kind": "service",
+  "title": "Google Pixel 9a",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Google Pixel 9a — previous a-series Pixel still competitive on price. Strong camera and 7-year update promise at mid-range INR street pricing.",
+  "short_pitch": "Google Pixel 9a — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 39999.0
+  },
+  "price_max": {
+    "INR": 39999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pixel 9a",
+      "features": [
+        "Pixel Camera",
+        "clean Android",
+        "long updates",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 39999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "3116a2eab4047d2b6ad8429846e84a0ec4a1147c979a957deb9b35143292282c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 9a. Category: Electronics/Smartphones. Google Pixel 9a — previous a-series Pixel still competitive on price. Strong camera and 7-year update promise at mid-range INR street pricing. Pitch: Google Pixel 9a — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Pixel 9a (one_time): Pixel Camera; clean Android; long updates; 5G",
+  "display_card": {
+    "INR": "₹39,999"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "tel_454",
+  "kind": "service",
+  "title": "OPPO Reno14 Pro Flip Cover for OPPO Reno14 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "OPPO Reno14 Pro Flip Cover protective case for OPPO Reno14 Pro — India retail accessory SKU.",
+  "short_pitch": "OPPO Reno14 Pro Flip Cover for OPPO Reno14 Pro — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "OPPO"
+  ],
+  "price_min": {
+    "INR": 1499.0
+  },
+  "price_max": {
+    "INR": 1499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — OPPO Case",
+      "features": [
+        "Drop protection",
+        "precise cutouts",
+        "OPPO Reno14 Pro fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "7ce221f0a5d3c6c8deba8a05fc76987adcbeeb941c3edbf2c7bd71afabfab008",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OPPO Reno14 Pro Flip Cover for OPPO Reno14 Pro. Category: Electronics/Accessories. OPPO Reno14 Pro Flip Cover protective case for OPPO Reno14 Pro — India retail accessory SKU. Pitch: OPPO Reno14 Pro Flip Cover for OPPO Reno14 Pro — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: OPPO. Plans: Street — OPPO Case (one_time): Drop protection; precise cutouts; OPPO Reno14 Pro fit",
+  "display_card": {
+    "INR": "₹1,499"
+  }
+}

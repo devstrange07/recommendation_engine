@@ -1,0 +1,58 @@
+{
+  "id": "tel_463",
+  "kind": "service",
+  "title": "Whitestone Dome Glass EZ for Samsung Galaxy S26 Ultra",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Whitestone Dome Glass EZ tempered glass / film kit for Samsung Galaxy S26 Ultra.",
+  "short_pitch": "Whitestone Dome Glass EZ for Samsung Galaxy S26 Ultra — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Whitestone"
+  ],
+  "price_min": {
+    "INR": 4499.0
+  },
+  "price_max": {
+    "INR": 4499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Glass for Samsung",
+      "features": [
+        "9H tempered",
+        "oleophobic",
+        "Samsung Galaxy S26 Ultra fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "17c0ecf22026e0abec958ea407c6b29d5597e46919228f6934ad08898324d2b0",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Whitestone Dome Glass EZ for Samsung Galaxy S26 Ultra. Category: Electronics/Accessories. Whitestone Dome Glass EZ tempered glass / film kit for Samsung Galaxy S26 Ultra. Pitch: Whitestone Dome Glass EZ for Samsung Galaxy S26 Ultra — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Whitestone. Plans: Street — Glass for Samsung (one_time): 9H tempered; oleophobic; Samsung Galaxy S26 Ultra fit",
+  "display_card": {
+    "INR": "₹4,499"
+  }
+}

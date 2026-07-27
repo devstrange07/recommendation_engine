@@ -1,0 +1,60 @@
+{
+  "id": "tel_317",
+  "kind": "service",
+  "title": "Samsung Galaxy A56 5G — Aurora Purple 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Samsung Galaxy A56 5G premium A-series with Galaxy AI. India retail SKU in Aurora Purple finish.",
+  "short_pitch": "Samsung Galaxy A56 5G — Aurora Purple 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 38999.0
+  },
+  "price_max": {
+    "INR": 38999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Aurora Purple 8GB + 256GB",
+      "features": [
+        "AMOLED",
+        "Galaxy AI",
+        "multi-year updates",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 38999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "a35e225cb591625a2d31b0ea5e752fa4a386eb2f85083eb053bb0eeb351dcee3",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy A56 5G — Aurora Purple 8GB + 256GB. Category: Electronics/Smartphones. Samsung Galaxy A56 5G premium A-series with Galaxy AI. India retail SKU in Aurora Purple finish. Pitch: Samsung Galaxy A56 5G — Aurora Purple 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Aurora Purple 8GB + 256GB (one_time): AMOLED; Galaxy AI; multi-year updates; 5G",
+  "display_card": {
+    "INR": "₹38,999"
+  }
+}

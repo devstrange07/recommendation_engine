@@ -1,0 +1,32 @@
+{
+  "id": "tel_202",
+  "name": "Samsung Galaxy S26 Plus — Titanium Black 12GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Samsung Galaxy S26 Plus value flagship with large AMOLED and Galaxy AI. India retail SKU in Titanium Black finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Titanium Black 12GB + 256GB",
+      "feature_text": "Large AMOLED; flagship chipset; Galaxy AI; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 94999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 94999.0
+  },
+  "price_max": {
+    "INR": 94999.0
+  },
+  "content_hash": "4141f5e2eea37da980bd78c838cbb729bd3ad601efeab450254ebe0cc4b9c69a",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_233",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple iPhone 17 Pro Max with largest display and battery in the 17 line. India retail SKU in Titanium Black finish.",
+    "short_pitch": "Apple iPhone 17 Pro Max — Titanium Black 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pro Max display",
+        "Pro camera",
+        "Apple Intelligence",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

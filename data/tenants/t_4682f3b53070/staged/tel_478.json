@@ -1,0 +1,32 @@
+{
+  "id": "tel_478",
+  "name": "Belkin BoostCharge Pro 3-in-1 MagSafe",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Belkin 3-in-1 MagSafe stand for iPhone, Watch, AirPods.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — BoostCharge Pro 3-in-1",
+      "feature_text": "MagSafe; 15W; Apple Watch; AirPods",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 14999.0
+  },
+  "price_max": {
+    "INR": 14999.0
+  },
+  "content_hash": "030acf84de710eb4595a8da7877b4be1a2033cc9112716a5460652bcfc20dadc",
+  "needs_normalization": true
+}

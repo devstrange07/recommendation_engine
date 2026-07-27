@@ -1,0 +1,32 @@
+{
+  "id": "shiv_038",
+  "name": "Shivalik Wave — Office 1873 sq ft, Vaishnodevi",
+  "category_raw": "Commercial/Offices",
+  "description_text": "Larger office at Shivalik Wave, Vaishnodevi (~1873 sq ft RA). Shivalik Group commercial for mid-size teams needing SG Highway frontage and Vaishnodevi Circle connectivity.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office 1873 sq ft",
+      "feature_text": "RA ~1873 sq ft; multi parking, lifts, fire systems, CCTV",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 17500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 17500000.0
+  },
+  "price_max": {
+    "INR": 17500000.0
+  },
+  "content_hash": "f776ae21ac9577c748ef8e99e7639b540e3ae0abdcb2315049096560d8a3e0e1",
+  "needs_normalization": true
+}

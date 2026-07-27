@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_017",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "4 BHK apartment at Shivalik Skyview, GIFT City. Larger RERA area up to ~2606 sq ft. Premium Shivalik Group residential for families relocating to GIFT City / Gandhinagar–Ahmedabad corridor.",
+    "short_pitch": "Shivalik Skyview — 4 BHK, GIFT City — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RA up to ~2606 sq ft",
+        "full club amenities",
+        "multi parking",
+        "power backup"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

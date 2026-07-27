@@ -1,0 +1,32 @@
+{
+  "id": "tel_189",
+  "name": "Nillkin CamShield Case for OnePlus 15",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Nillkin CamShield case for OnePlus 15 with sliding camera cover for privacy.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — CamShield OnePlus 15",
+      "feature_text": "Sliding cam cover; PC+TPU; slim; OnePlus 15 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1299.0
+  },
+  "price_max": {
+    "INR": 1299.0
+  },
+  "content_hash": "40e1b10d609397686f6f724e6a8ce06a4a6f096f9bbed2357bd28ba2e0ed72f4",
+  "needs_normalization": true
+}

@@ -1,0 +1,121 @@
+{
+  "id": "prod_63",
+  "kind": "service",
+  "title": "ServiceQueue",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "support queue management.",
+  "short_pitch": "ServiceQueue — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "ServiceQueue"
+  ],
+  "price_min": {
+    "INR": 1299.0,
+    "USD": 16.24,
+    "GBP": 19.48
+  },
+  "price_max": {
+    "INR": 2598.0,
+    "USD": 32.48,
+    "GBP": 20.78
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_63_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 16.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_63_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 19.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_63_plan_2",
+      "name": "Annual Plus",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 32.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 25.98,
+          "discounted_amount": 20.78
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "46f9dfb4774caad6de93f2fa6353bb67302524ce4d6f0be24eaa96f6cd9399ac",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "ServiceQueue. Category: Support/Helpdesk. support queue management. Pitch: ServiceQueue — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: ServiceQueue. Plans: Business (monthly): Up to 2 users; email support | Basic (one_time): API access; priority support | Annual Plus (annual): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹1,299/mo",
+    "GBP": "£19/mo",
+    "USD": "$16/mo"
+  }
+}

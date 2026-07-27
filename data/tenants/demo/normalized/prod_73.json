@@ -1,0 +1,45 @@
+{
+  "product_id": "prod_73",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Entry-level starter tool for beginners only. Basic free tier features. customer care helpdesk.",
+    "short_pitch": "CareDesk Pro Suite — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "CareDesk"
+    ],
+    "plan_features": {
+      "prod_73_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_73_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "contradiction",
+      "field": "name_vs_description",
+      "issue": "Name suggests premium suite but description describes entry-level",
+      "options": [
+        "keep_name",
+        "rename_to_basic",
+        "rewrite_description"
+      ],
+      "recommended": "rewrite_description"
+    }
+  ]
+}

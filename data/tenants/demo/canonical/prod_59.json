@@ -1,0 +1,98 @@
+{
+  "id": "prod_59",
+  "kind": "service",
+  "title": "PayoutDesk Pro Suite",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "Entry-level starter tool for beginners only. Basic free tier features. invoice and payout tracking.",
+  "short_pitch": "PayoutDesk Pro Suite — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "PayoutDesk"
+  ],
+  "price_min": {
+    "INR": 2499.0,
+    "GBP": 24.99,
+    "USD": 46.86
+  },
+  "price_max": {
+    "INR": 2499.0,
+    "GBP": 37.48,
+    "USD": 46.86
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_59_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_59_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "cd74fb84dbd513254d544a811b4070ea4282c629a14b5d6e2a9c1f2d78377042",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "PayoutDesk Pro Suite. Category: Invoicing/Billing. Entry-level starter tool for beginners only. Basic free tier features. invoice and payout tracking. Pitch: PayoutDesk Pro Suite — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: PayoutDesk. Plans: Business (monthly): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹2,499/mo",
+    "GBP": "£25/mo",
+    "USD": "$47/mo"
+  }
+}

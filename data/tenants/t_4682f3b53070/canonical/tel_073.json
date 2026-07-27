@@ -1,0 +1,61 @@
+{
+  "id": "tel_073",
+  "kind": "service",
+  "title": "Nothing Phone (4a) 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Nothing Phone (4a) higher RAM/storage for power users in the Nothing ecosystem.",
+  "short_pitch": "Nothing Phone (4a) 12GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Nothing"
+  ],
+  "price_min": {
+    "INR": 42999.0
+  },
+  "price_max": {
+    "INR": 42999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Phone (4a) 512GB",
+      "features": [
+        "12GB RAM",
+        "512GB",
+        "Nothing OS",
+        "Glyph",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 42999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "5d218f9835ce92e63078b10a3befe768ae2671deecdd778c3e889f2406373e9c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Nothing Phone (4a) 12GB + 512GB. Category: Electronics/Smartphones. Nothing Phone (4a) higher RAM/storage for power users in the Nothing ecosystem. Pitch: Nothing Phone (4a) 12GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Nothing. Plans: Street — Phone (4a) 512GB (one_time): 12GB RAM; 512GB; Nothing OS; Glyph; 5G",
+  "display_card": {
+    "INR": "₹42,999"
+  }
+}

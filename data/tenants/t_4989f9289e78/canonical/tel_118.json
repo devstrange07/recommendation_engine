@@ -1,0 +1,60 @@
+{
+  "id": "tel_118",
+  "kind": "service",
+  "title": "Samsung Galaxy A17 5G 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Samsung Galaxy A17 5G 256GB for buyers who want more storage in the entry A band.",
+  "short_pitch": "Samsung Galaxy A17 5G 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 20999.0
+  },
+  "price_max": {
+    "INR": 20999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — A17 256GB",
+      "features": [
+        "256GB",
+        "5G",
+        "large battery",
+        "One UI"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 20999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b114612e3520e1ae498a5d1d50c00dfab7fef59029569dd61d13b140bcfca230",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy A17 5G 8GB + 256GB. Category: Electronics/Smartphones. Samsung Galaxy A17 5G 256GB for buyers who want more storage in the entry A band. Pitch: Samsung Galaxy A17 5G 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — A17 256GB (one_time): 256GB; 5G; large battery; One UI",
+  "display_card": {
+    "INR": "₹20,999"
+  }
+}

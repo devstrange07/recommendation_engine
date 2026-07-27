@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_095",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Redmi Note 15 5G 256GB — popular storage pick in the Note 15 lineup.",
+    "short_pitch": "Redmi Note 15 5G 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Redmi"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "256GB",
+        "5G",
+        "large battery",
+        "HyperOS"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

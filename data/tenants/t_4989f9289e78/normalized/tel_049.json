@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_049",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Vivo V70 — premium mid-ranger driving Vivo's India leadership; stylish design, strong selfie camera, solid battery.",
+    "short_pitch": "Vivo V70 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Vivo"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Selfie camera",
+        "AMOLED",
+        "fast charge",
+        "5G",
+        "slim design"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

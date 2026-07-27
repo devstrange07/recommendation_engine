@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_008",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Previous-gen Samsung Galaxy S25 Ultra still on sale at reduced street prices. Strong camera and S Pen for buyers who skip the S26 premium.",
+    "short_pitch": "Samsung Galaxy S25 Ultra 12GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "200MP camera",
+        "S Pen",
+        "AMOLED",
+        "prior-gen flagship",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

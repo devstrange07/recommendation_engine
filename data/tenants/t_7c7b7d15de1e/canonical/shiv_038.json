@@ -1,0 +1,60 @@
+{
+  "id": "shiv_038",
+  "kind": "service",
+  "title": "Shivalik Wave — Office 1873 sq ft, Vaishnodevi",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Offices",
+  "clean_description": "Larger office at Shivalik Wave, Vaishnodevi (~1873 sq ft RA). Shivalik Group commercial for mid-size teams needing SG Highway frontage and Vaishnodevi Circle connectivity.",
+  "short_pitch": "Shivalik Wave — Office 1873 sq ft, Vaishnodevi — commercial listing",
+  "use_case_tags": [
+    "office_use",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "sme_office",
+    "investor"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 17500000.0
+  },
+  "price_max": {
+    "INR": 17500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office 1873 sq ft",
+      "features": [
+        "RA ~1873 sq ft",
+        "multi parking",
+        "lifts",
+        "fire systems",
+        "CCTV"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 17500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "f776ae21ac9577c748ef8e99e7639b540e3ae0abdcb2315049096560d8a3e0e1",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Wave — Office 1873 sq ft, Vaishnodevi. Category: Commercial/Offices. Larger office at Shivalik Wave, Vaishnodevi (~1873 sq ft RA). Shivalik Group commercial for mid-size teams needing SG Highway frontage and Vaishnodevi Circle connectivity. Pitch: Shivalik Wave — Office 1873 sq ft, Vaishnodevi — commercial listing. Use cases: office_use, sale, investment. Audience: sme_office, investor. Aliases: Shivalik. Plans: Sale — Office 1873 sq ft (one_time): RA ~1873 sq ft; multi parking; lifts; fire systems; CCTV",
+  "display_card": {
+    "INR": "₹17,500,000"
+  }
+}

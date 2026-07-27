@@ -1,0 +1,94 @@
+{
+  "id": "prod_62",
+  "name": "ConsultSlot",
+  "category_raw": "Booking Tools",
+  "description_text": "consultant booking pages",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_62_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_62_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": 50.61
+        }
+      ]
+    },
+    {
+      "id": "prod_62_plan_2",
+      "name": "Basic",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": 5098.3
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 29.99,
+    "INR": 2999.0,
+    "USD": 37.49
+  },
+  "price_max": {
+    "GBP": 44.98,
+    "INR": 5098.3,
+    "USD": 74.97
+  },
+  "content_hash": "9eb0f35e96dfaefdd98cd8f49e300a1a59440450150c7d080d1326d2540bc871",
+  "needs_normalization": false
+}

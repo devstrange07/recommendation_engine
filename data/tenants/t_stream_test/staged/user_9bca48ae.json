@@ -1,0 +1,32 @@
+{
+  "id": "user_9bca48ae",
+  "name": "Stream Test Product",
+  "category_raw": "Testing",
+  "description_text": "Tiny product for SSE progress check.",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Starter",
+      "feature_text": "Basic",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 99.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 99.0
+  },
+  "price_max": {
+    "INR": 99.0
+  },
+  "content_hash": "b93dbd2cbd643a9413e308752b9bc91142864dde73668b08c4dc0eb93cfa2e07",
+  "needs_normalization": false
+}

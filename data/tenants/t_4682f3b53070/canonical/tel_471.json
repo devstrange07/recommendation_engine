@@ -1,0 +1,59 @@
+{
+  "id": "tel_471",
+  "kind": "service",
+  "title": "Realme Buds Air 7 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Realme Buds Air 7 Pro ANC earbuds for Realme/Oppo ecosystem.",
+  "short_pitch": "Realme Buds Air 7 Pro — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Realme"
+  ],
+  "price_min": {
+    "INR": 3999.0
+  },
+  "price_max": {
+    "INR": 3999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds Air 7 Pro",
+      "features": [
+        "ANC",
+        "LDAC",
+        "fast charge case",
+        "USB-C"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "20d1695ba026d45813885a7c3430b673b63ce49169b3b3ec63fbc5b36f6075f1",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Realme Buds Air 7 Pro. Category: Electronics/Accessories. Realme Buds Air 7 Pro ANC earbuds for Realme/Oppo ecosystem. Pitch: Realme Buds Air 7 Pro — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Realme. Plans: Street — Buds Air 7 Pro (one_time): ANC; LDAC; fast charge case; USB-C",
+  "display_card": {
+    "INR": "₹3,999"
+  }
+}

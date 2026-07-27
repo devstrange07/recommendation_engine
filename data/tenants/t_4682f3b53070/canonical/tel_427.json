@@ -1,0 +1,59 @@
+{
+  "id": "tel_427",
+  "kind": "service",
+  "title": "Samsung Clear Case for Galaxy S26",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Official Samsung clear case for Galaxy S26 showing the phone design with basic drop protection.",
+  "short_pitch": "Samsung Clear Case for Galaxy S26 — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Clear Case S26",
+      "features": [
+        "Official Samsung",
+        "clear",
+        "slim",
+        "S26 fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "1a500b9a0e7fd3114784f5b326adf49acde4825e08dd27b9d27b18738c3628eb",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Clear Case for Galaxy S26. Category: Electronics/Accessories. Official Samsung clear case for Galaxy S26 showing the phone design with basic drop protection. Pitch: Samsung Clear Case for Galaxy S26 — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Samsung. Plans: Street — Clear Case S26 (one_time): Official Samsung; clear; slim; S26 fit",
+  "display_card": {
+    "INR": "₹2,499"
+  }
+}

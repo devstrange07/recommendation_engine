@@ -1,0 +1,32 @@
+{
+  "id": "tel_500",
+  "name": "Zebronics Zeb-Sound Bomb N1 TWS",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Zebronics Zeb-Sound Bomb N1 budget TWS earbuds.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Sound Bomb N1",
+      "feature_text": "TWS; gaming mode; long battery; USB-C",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1299.0
+  },
+  "price_max": {
+    "INR": 1299.0
+  },
+  "content_hash": "267a69dbf3353e84065aa6ae4c3cbd67f6a59532d0c66dbf1eb6406107e850b8",
+  "needs_normalization": true
+}

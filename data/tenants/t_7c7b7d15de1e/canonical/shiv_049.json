@@ -1,0 +1,76 @@
+{
+  "id": "shiv_049",
+  "kind": "service",
+  "title": "Shivalik Square — Pre-leased Retail, Nava Vadaj",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Retail",
+  "clean_description": "Retail unit at Shivalik Square, Nava Vadaj, Ahmedabad. Shivalik Group retail project; official pocket materials highlight pre-leased retail examples. Suitable for investors seeking rental yield on north Ahmedabad retail.",
+  "short_pitch": "Shivalik Square — Pre-leased Retail, Nava Vadaj — commercial listing",
+  "use_case_tags": [
+    "retail_frontage",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "retailer",
+    "investor",
+    "sme_office"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 125000.0
+  },
+  "price_max": {
+    "INR": 12500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Pre-leased Retail",
+      "features": [
+        "Pre-leased potential",
+        "parking",
+        "CCTV",
+        "high street frontage"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 12500000.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "plan_2",
+      "name": "Lease — Retail Monthly",
+      "features": [
+        "Indicative monthly lease for similar Nava Vadaj retail"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 125000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "365b8cf7c53fd52c11432c9fbde33363c1eb228dc10d4f2c2c038984e54ee774",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Square — Pre-leased Retail, Nava Vadaj. Category: Commercial/Retail. Retail unit at Shivalik Square, Nava Vadaj, Ahmedabad. Shivalik Group retail project; official pocket materials highlight pre-leased retail examples. Suitable for investors seeking rental yield on north Ahmedabad retail. Pitch: Shivalik Square — Pre-leased Retail, Nava Vadaj — commercial listing. Use cases: retail_frontage, sale, investment. Audience: retailer, investor, sme_office. Aliases: Shivalik. Plans: Sale — Pre-leased Retail (one_time): Pre-leased potential; parking; CCTV; high street frontage | Lease — Retail Monthly (monthly): Indicative monthly lease for similar Nava Vadaj retail",
+  "display_card": {
+    "INR": "₹125,000"
+  }
+}

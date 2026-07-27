@@ -1,0 +1,72 @@
+{
+  "id": "prod_43",
+  "name": "InboxCare",
+  "category_raw": "Support",
+  "description_text": "shared customer inbox",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_43_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_43_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": 29.979999999999997
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0,
+    "GBP": 24.99
+  },
+  "price_max": {
+    "INR": 3748.5,
+    "GBP": 29.979999999999997
+  },
+  "content_hash": "de4abd7469a94f7ef998414a9352f8372953611f491d5a866b778b7054ad5105",
+  "needs_normalization": false
+}

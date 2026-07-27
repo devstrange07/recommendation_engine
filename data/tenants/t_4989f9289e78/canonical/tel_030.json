@@ -1,0 +1,61 @@
+{
+  "id": "tel_030",
+  "kind": "service",
+  "title": "Google Pixel 10 Pro XL 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Google Pixel 10 Pro XL — large Pro Pixel with flagship camera and battery for India premium Android buyers.",
+  "short_pitch": "Google Pixel 10 Pro XL 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 124999.0
+  },
+  "price_max": {
+    "INR": 124999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pro XL 256GB",
+      "features": [
+        "Large OLED",
+        "Pro camera",
+        "Tensor",
+        "Pixel AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 124999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "fca239ea54ef7f00c55dae808f9b8019dfd9b7ae2a9605d2e847be6288c28fe9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10 Pro XL 256GB. Category: Electronics/Smartphones. Google Pixel 10 Pro XL — large Pro Pixel with flagship camera and battery for India premium Android buyers. Pitch: Google Pixel 10 Pro XL 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Pro XL 256GB (one_time): Large OLED; Pro camera; Tensor; Pixel AI; 5G",
+  "display_card": {
+    "INR": "₹124,999"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_322",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Vivo V70 premium mid-ranger with strong selfie camera. India retail SKU in Pearl White finish.",
+    "short_pitch": "Vivo V70 — Pearl White 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Vivo"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Selfie camera",
+        "AMOLED",
+        "fast charge",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

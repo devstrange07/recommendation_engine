@@ -1,0 +1,60 @@
+{
+  "id": "tel_380",
+  "kind": "service",
+  "title": "Sony Xperia 10 VII 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Sony Xperia 10 VII — compact Xperia with clean Android and good audio.",
+  "short_pitch": "Sony Xperia 10 VII 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Sony"
+  ],
+  "price_min": {
+    "INR": 49999.0
+  },
+  "price_max": {
+    "INR": 49999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "features": [
+        "Compact",
+        "stereo speakers",
+        "AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 49999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "94aca6b776e2c52ed034fd897dee965bb984eeb8733f1eeb9fa1c96289d5c24c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Sony Xperia 10 VII 8GB + 256GB. Category: Electronics/Smartphones. Sony Xperia 10 VII — compact Xperia with clean Android and good audio. Pitch: Sony Xperia 10 VII 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Sony. Plans: Street — 8GB + 256GB (one_time): Compact; stereo speakers; AMOLED; 5G",
+  "display_card": {
+    "INR": "₹49,999"
+  }
+}

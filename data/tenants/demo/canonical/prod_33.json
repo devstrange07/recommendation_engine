@@ -1,0 +1,127 @@
+{
+  "id": "prod_33",
+  "kind": "service",
+  "title": "HelpOrbit",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "customer support inbox.",
+  "short_pitch": "HelpOrbit — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "HelpOrbit"
+  ],
+  "price_min": {
+    "INR": 2999.0,
+    "USD": 33.74,
+    "GBP": 35.98
+  },
+  "price_max": {
+    "INR": 5998.0,
+    "USD": 74.97,
+    "GBP": 50.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_33_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 33.74
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_33_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": 3598.8
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": 35.98
+        }
+      ]
+    },
+    {
+      "id": "prod_33_plan_2",
+      "name": "Annual Plus",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 59.98,
+          "discounted_amount": 50.98
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "1120e19727690a5eb0f0681bb0da4f0280031e84ffa30111ea822ee5d5f08aac",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "HelpOrbit. Category: Support/Helpdesk. customer support inbox. Pitch: HelpOrbit — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: HelpOrbit. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): API access; priority support | Annual Plus (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,999",
+    "GBP": "£36",
+    "USD": "$34"
+  }
+}

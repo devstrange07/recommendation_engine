@@ -1,0 +1,66 @@
+{
+  "id": "prod_37",
+  "name": "OppTrack",
+  "category_raw": "CRM",
+  "description_text": "opportunity tracking CRM",
+  "unit": "user",
+  "kb_article": "https://kb.example.com/prod_37",
+  "plans": [
+    {
+      "id": "prod_37_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": 26.99
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_37_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": 35.98
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2999.0,
+    "GBP": 26.99
+  },
+  "price_max": {
+    "INR": 2999.0,
+    "GBP": 44.98
+  },
+  "content_hash": "bd249f0d23fd6fc05794bdf918d4023f94ab7080567b3789e6304543e22770e1",
+  "needs_normalization": false
+}

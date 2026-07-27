@@ -1,0 +1,61 @@
+{
+  "id": "shiv_016",
+  "kind": "service",
+  "title": "Shivalik Skyview — 3 BHK, GIFT City",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "3 BHK at Shivalik Skyview, GIFT City. Mid-size family configuration in Shivalik Group's GIFT City residential tower; RERA area in the mid band of ~828–2606 sq ft range. Strong investment + end-use demand near IFSC.",
+  "short_pitch": "Shivalik Skyview — 3 BHK, GIFT City — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 18500000.0
+  },
+  "price_max": {
+    "INR": 18500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "features": [
+        "Family 3 BHK",
+        "clubhouse",
+        "gym",
+        "children's play",
+        "covered parking"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 18500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "95f0e59a9e722e4b9026ee3d860a0e14bc99922f35641431bc552f7d9b283716",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Skyview — 3 BHK, GIFT City. Category: Residential/Apartments. 3 BHK at Shivalik Skyview, GIFT City. Mid-size family configuration in Shivalik Group's GIFT City residential tower; RERA area in the mid band of ~828–2606 sq ft range. Strong investment + end-use demand near IFSC. Pitch: Shivalik Skyview — 3 BHK, GIFT City — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 3 BHK (one_time): Family 3 BHK; clubhouse; gym; children's play; covered parking",
+  "display_card": {
+    "INR": "₹18,500,000"
+  }
+}

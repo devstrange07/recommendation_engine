@@ -1,0 +1,34 @@
+{
+  "product_id": "tel_028",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Google Pixel 10 Pro — telephoto camera, brighter display, and advanced Pixel AI for creators.",
+    "short_pitch": "Google Pixel 10 Pro 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Google"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pro camera",
+        "Tensor",
+        "OLED",
+        "Pixel AI",
+        "7-yr updates",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

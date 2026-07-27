@@ -1,0 +1,61 @@
+{
+  "id": "tel_193",
+  "kind": "service",
+  "title": "Samsung Galaxy S26 Ultra — Titanium Black 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Samsung Galaxy S26 Ultra flagship with Snapdragon 8 Elite Gen 5 and 200MP camera. India retail SKU in Titanium Black finish.",
+  "short_pitch": "Samsung Galaxy S26 Ultra — Titanium Black 12GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 144999.0
+  },
+  "price_max": {
+    "INR": 144999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Titanium Black 12GB + 512GB",
+      "features": [
+        "200MP camera",
+        "Snapdragon 8 Elite Gen 5",
+        "AMOLED",
+        "S Pen",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 144999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "1257c6a47bc2cf490969fb3475f29a5eb3e2984eea3bbc307d22c76b6b43c833",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy S26 Ultra — Titanium Black 12GB + 512GB. Category: Electronics/Smartphones. Samsung Galaxy S26 Ultra flagship with Snapdragon 8 Elite Gen 5 and 200MP camera. India retail SKU in Titanium Black finish. Pitch: Samsung Galaxy S26 Ultra — Titanium Black 12GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Titanium Black 12GB + 512GB (one_time): 200MP camera; Snapdragon 8 Elite Gen 5; AMOLED; S Pen; 5G",
+  "display_card": {
+    "INR": "₹144,999"
+  }
+}

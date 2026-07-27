@@ -1,0 +1,60 @@
+{
+  "id": "tel_140",
+  "kind": "service",
+  "title": "OPPO Reno13 Pro 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OPPO Reno13 Pro — prior Reno Pro at discounted street pricing after Reno14 launch.",
+  "short_pitch": "OPPO Reno13 Pro 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OPPO"
+  ],
+  "price_min": {
+    "INR": 37999.0
+  },
+  "price_max": {
+    "INR": 37999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Reno13 Pro",
+      "features": [
+        "Portrait camera",
+        "AMOLED",
+        "ColorOS",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 37999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c9be111cff835f5154c7c703d2a958931700ca51dcbc5b3e799c402118e49c6b",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OPPO Reno13 Pro 12GB + 256GB. Category: Electronics/Smartphones. OPPO Reno13 Pro — prior Reno Pro at discounted street pricing after Reno14 launch. Pitch: OPPO Reno13 Pro 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OPPO. Plans: Street — Reno13 Pro (one_time): Portrait camera; AMOLED; ColorOS; 5G",
+  "display_card": {
+    "INR": "₹37,999"
+  }
+}

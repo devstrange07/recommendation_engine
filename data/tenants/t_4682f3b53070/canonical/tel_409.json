@@ -1,0 +1,59 @@
+{
+  "id": "tel_409",
+  "kind": "service",
+  "title": "OnePlus Buds 4",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "OnePlus Buds 4 — ANC earbuds tuned for OxygenOS with fast charging case.",
+  "short_pitch": "OnePlus Buds 4 — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 9999.0
+  },
+  "price_max": {
+    "INR": 9999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds 4",
+      "features": [
+        "ANC",
+        "fast charge case",
+        "OnePlus Fast Pair",
+        "USB-C"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "54c132773f0d1fb44ed7b97a10c254a07bf219242b6072c97a2c8c95c499f634",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Buds 4. Category: Electronics/Accessories. OnePlus Buds 4 — ANC earbuds tuned for OxygenOS with fast charging case. Pitch: OnePlus Buds 4 — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: OnePlus. Plans: Street — Buds 4 (one_time): ANC; fast charge case; OnePlus Fast Pair; USB-C",
+  "display_card": {
+    "INR": "₹9,999"
+  }
+}

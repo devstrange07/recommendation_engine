@@ -1,0 +1,68 @@
+{
+  "id": "prod_59",
+  "name": "PayoutDesk Pro Suite",
+  "category_raw": "Invoicing",
+  "description_text": "Entry-level starter tool for beginners only. Basic free tier features. invoice and payout tracking",
+  "unit": "seat",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_59_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_59_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0,
+    "GBP": 24.99,
+    "USD": 46.86
+  },
+  "price_max": {
+    "INR": 2499.0,
+    "GBP": 37.48,
+    "USD": 46.86
+  },
+  "content_hash": "cd74fb84dbd513254d544a811b4070ea4282c629a14b5d6e2a9c1f2d78377042",
+  "needs_normalization": false
+}

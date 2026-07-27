@@ -1,0 +1,32 @@
+{
+  "id": "phone_021",
+  "name": "OnePlus 15",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "OnePlus 15 flagship — OxygenOS, flagship Snapdragon-class performance, fast charging with charger in box, and Hasselblad-tuned camera. Strong all-rounder vs Samsung/Pixel at aggressive India pricing.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — OnePlus 15",
+      "feature_text": "Flagship chipset; OxygenOS; Hasselblad camera; fast charging in box; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 69999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 69999.0
+  },
+  "price_max": {
+    "INR": 69999.0
+  },
+  "content_hash": "9872b17a08443c4f33e66dd61455457b194d921555f691d2019e91447ae607e6",
+  "needs_normalization": false
+}

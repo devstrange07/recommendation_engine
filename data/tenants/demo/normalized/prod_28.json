@@ -1,0 +1,46 @@
+{
+  "product_id": "prod_28",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Entry-level starter tool for beginners only. Basic free tier features. clean invoicing for agencies.",
+    "short_pitch": "ClearBooks Pro Suite — scheduling for teams",
+    "category_path": "Scheduling/Appointments",
+    "use_case_tags": [
+      "appointment_booking",
+      "online_scheduling",
+      "client_reminders"
+    ],
+    "target_audience": [
+      "salon_spa",
+      "small_business",
+      "clinic_healthcare"
+    ],
+    "aliases": [
+      "ClearBooks"
+    ],
+    "plan_features": {
+      "prod_28_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_28_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "contradiction",
+      "field": "name_vs_description",
+      "issue": "Name suggests premium suite but description describes entry-level",
+      "options": [
+        "keep_name",
+        "rename_to_basic",
+        "rewrite_description"
+      ],
+      "recommended": "rewrite_description"
+    }
+  ]
+}

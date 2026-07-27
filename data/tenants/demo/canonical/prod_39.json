@@ -1,0 +1,116 @@
+{
+  "id": "prod_39",
+  "kind": "service",
+  "title": "Prospectly",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "prospecting and CRM lite.",
+  "short_pitch": "Prospectly — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "Prospectly"
+  ],
+  "price_min": {
+    "GBP": 7.99,
+    "INR": 799.0,
+    "USD": 9.99
+  },
+  "price_max": {
+    "GBP": 11.98,
+    "INR": 1198.5,
+    "USD": 14.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_39_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_39_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": 12.73
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "03052e8389fd3a1379fedf57f50dc8662e027b0f9b12c96b3c688daafa2c3898",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Prospectly. Category: CRM/Sales. prospecting and CRM lite. Pitch: Prospectly — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: Prospectly. Plans: Business (monthly): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹799/mo",
+    "GBP": "£8/mo",
+    "USD": "$10/mo"
+  }
+}

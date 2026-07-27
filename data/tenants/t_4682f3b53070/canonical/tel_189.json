@@ -1,0 +1,60 @@
+{
+  "id": "tel_189",
+  "kind": "service",
+  "title": "OnePlus Open 2 — Emerald Dusk 16GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "OnePlus Open 2 book foldable Emerald Dusk colorway. India retail SKU in Emerald Dusk finish.",
+  "short_pitch": "OnePlus Open 2 — Emerald Dusk 16GB + 512GB — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 139999.0
+  },
+  "price_max": {
+    "INR": 139999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Emerald Dusk 16GB + 512GB",
+      "features": [
+        "Book foldable",
+        "OxygenOS",
+        "Hasselblad",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 139999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "e70556029ec27f0fbc5e988899ef4d1cd98705a6329476c98802a7a37190f9f8",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Open 2 — Emerald Dusk 16GB + 512GB. Category: Electronics/Foldables. OnePlus Open 2 book foldable Emerald Dusk colorway. India retail SKU in Emerald Dusk finish. Pitch: OnePlus Open 2 — Emerald Dusk 16GB + 512GB — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — Emerald Dusk 16GB + 512GB (one_time): Book foldable; OxygenOS; Hasselblad; 5G",
+  "display_card": {
+    "INR": "₹139,999"
+  }
+}

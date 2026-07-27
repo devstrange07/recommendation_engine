@@ -1,0 +1,61 @@
+{
+  "id": "tel_018",
+  "kind": "service",
+  "title": "Apple iPhone 17 Pro Max 1TB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 17 Pro Max 1TB — maximum local storage on Apple's largest 2026 iPhone.",
+  "short_pitch": "Apple iPhone 17 Pro Max 1TB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 189900.0
+  },
+  "price_max": {
+    "INR": 189900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "MRP / Street — Pro Max 1TB",
+      "features": [
+        "1TB",
+        "Pro Max",
+        "Pro camera",
+        "Apple Intelligence",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 189900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "e5ca0b52327793a6ed547d032ed38e6de23d7df2a67fac9cb3029a59685efff8",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 17 Pro Max 1TB. Category: Electronics/Smartphones. Apple iPhone 17 Pro Max 1TB — maximum local storage on Apple's largest 2026 iPhone. Pitch: Apple iPhone 17 Pro Max 1TB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: MRP / Street — Pro Max 1TB (one_time): 1TB; Pro Max; Pro camera; Apple Intelligence; 5G",
+  "display_card": {
+    "INR": "₹189,900"
+  }
+}

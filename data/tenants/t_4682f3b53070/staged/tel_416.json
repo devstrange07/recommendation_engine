@@ -1,0 +1,32 @@
+{
+  "id": "tel_416",
+  "name": "Samsung 45W USB-C Super Fast Charging 2.0 Adapter",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Samsung 45W Super Fast Charging 2.0 adapter for Galaxy S and A series phones.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 45W Adapter",
+      "feature_text": "45W PPS; USB-C; Super Fast Charging 2.0",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 3499.0
+  },
+  "price_max": {
+    "INR": 3499.0
+  },
+  "content_hash": "2c30b99331fbb1144c6f87811d92eb2c5a11a93eb6acc736303642a28afdea59",
+  "needs_normalization": true
+}

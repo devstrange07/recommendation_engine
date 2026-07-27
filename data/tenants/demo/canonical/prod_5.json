@@ -1,0 +1,123 @@
+{
+  "id": "prod_5",
+  "kind": "service",
+  "title": "GrowthCRM",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "growth-focused sales CRM —.",
+  "short_pitch": "GrowthCRM — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "GrowthCRM"
+  ],
+  "price_min": {
+    "USD": 12.49,
+    "INR": 1273.72
+  },
+  "price_max": {
+    "USD": 19.98,
+    "INR": 1798.2
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_5_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_5_plan_1",
+      "name": "Pro",
+      "features": [
+        "Pro tier"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": 1273.72
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": 15.92
+        }
+      ]
+    },
+    {
+      "id": "prod_5_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1998.0,
+          "discounted_amount": 1798.2
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.98,
+          "discounted_amount": 19.98
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "2f9d71dd2ad604c5f31bda29042363473d9affebdaf9985908f1efa17b51d8de",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "GrowthCRM. Category: CRM/Sales. growth-focused sales CRM —. Pitch: GrowthCRM — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: GrowthCRM. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): Pro tier | Business (monthly): Multi-location; role-based access",
+  "display_card": {
+    "USD": "$12",
+    "INR": "₹1,274"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_014",
+  "name": "Apple iPhone 17 Pro 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 17 Pro 512GB for heavy ProRes and cinematic video workflows.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "MRP / Street — Pro 512GB",
+      "feature_text": "512GB; Pro camera; ProMotion; Apple Intelligence; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 154900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 154900.0
+  },
+  "price_max": {
+    "INR": 154900.0
+  },
+  "content_hash": "f20e4474a09ed68570a607be6aa1f55791be5061b34617842a7c2707bb78d140",
+  "needs_normalization": true
+}

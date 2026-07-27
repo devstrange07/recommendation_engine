@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_172",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "boAt Airdopes 800 — popular India-brand TWS with ANC and long battery for budget buyers.",
+    "short_pitch": "boAt Airdopes 800 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "boAt"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "ANC",
+        "long battery",
+        "ASAP charge",
+        "Bluetooth 5.3"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

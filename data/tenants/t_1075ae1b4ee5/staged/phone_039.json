@@ -1,0 +1,32 @@
+{
+  "id": "phone_039",
+  "name": "Xiaomi 15 Ultra",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Xiaomi 15 Ultra — Leica Summilux camera flagship with large sensors and telephoto zoom. Competes with Vivo/OPPO Ultra tier for photography enthusiasts.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 15 Ultra",
+      "feature_text": "Leica Summilux; large main sensor; telephoto; HyperOS; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "content_hash": "3072d43c4373e3c2c2852be72a658b14c4b989bff59059fc0d09b4c9765cd73a",
+  "needs_normalization": false
+}

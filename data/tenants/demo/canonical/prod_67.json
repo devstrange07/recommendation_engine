@@ -1,0 +1,116 @@
+{
+  "id": "prod_67",
+  "kind": "service",
+  "title": "FunnelCRM",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "funnel-centric CRM.",
+  "short_pitch": "FunnelCRM — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "FunnelCRM"
+  ],
+  "price_min": {
+    "GBP": 4.99,
+    "INR": 399.2,
+    "USD": 6.24
+  },
+  "price_max": {
+    "GBP": 7.49,
+    "INR": 748.5,
+    "USD": 6.24
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_67_plan_0",
+      "name": "Pro",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 399.2
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 424.15
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_67_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ab42fe2c1912d0d2249dea63ed8dce590384d8ca1f044cdb8bb1e70a232fa922",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "FunnelCRM. Category: CRM/Sales. funnel-centric CRM. Pitch: FunnelCRM — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: FunnelCRM. Plans: Pro (monthly): Up to 2 users; email support | Business (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹399/mo",
+    "GBP": "£5/mo",
+    "USD": "$6/mo"
+  }
+}

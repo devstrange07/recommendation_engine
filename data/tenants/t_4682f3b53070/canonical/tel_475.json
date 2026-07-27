@@ -1,0 +1,58 @@
+{
+  "id": "tel_475",
+  "kind": "service",
+  "title": "Samsung 25W USB-C Fast Charger",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Samsung 25W USB-C fast charger for Galaxy A/M/S series.",
+  "short_pitch": "Samsung 25W USB-C Fast Charger — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 1499.0
+  },
+  "price_max": {
+    "INR": 1499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 25W USB-C",
+      "features": [
+        "25W PD",
+        "USB-C",
+        "Samsung certified"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d55731c940f6d94f4993a59904d3d049551e21c6d964769072039d64e0dfb154",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung 25W USB-C Fast Charger. Category: Electronics/Accessories. Samsung 25W USB-C fast charger for Galaxy A/M/S series. Pitch: Samsung 25W USB-C Fast Charger — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Samsung. Plans: Street — 25W USB-C (one_time): 25W PD; USB-C; Samsung certified",
+  "display_card": {
+    "INR": "₹1,499"
+  }
+}

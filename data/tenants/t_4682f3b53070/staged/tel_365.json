@@ -1,0 +1,32 @@
+{
+  "id": "tel_365",
+  "name": "iQOO 13 — Aurora Purple 16GB + 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "iQOO 13 gaming flagship with advanced cooling. India retail SKU in Aurora Purple finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Aurora Purple 16GB + 512GB",
+      "feature_text": "Flagship Snapdragon; gaming cooling; high refresh AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 59999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 59999.0
+  },
+  "price_max": {
+    "INR": 59999.0
+  },
+  "content_hash": "139510da6171825fa915e8c9252b3f67eacf56f53bd60fd5dd42c26cace3b249",
+  "needs_normalization": true
+}

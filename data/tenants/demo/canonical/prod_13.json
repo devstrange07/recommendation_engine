@@ -1,0 +1,139 @@
+{
+  "id": "prod_13",
+  "kind": "service",
+  "title": "RetainMail",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "retention email sequences.",
+  "short_pitch": "RetainMail — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "RetainMail"
+  ],
+  "price_min": {
+    "GBP": 19.99,
+    "USD": 24.99,
+    "INR": 2998.5
+  },
+  "price_max": {
+    "GBP": 19.99,
+    "USD": 49.98,
+    "INR": 3998.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_13_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 19.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_13_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_13_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 49.98,
+          "discounted_amount": 42.48
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 49.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 49.98,
+          "discounted_amount": 42.48
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "2f1ae38b44b1433bbef91e545af1419041cf770bbd8a4277f2c20a0c199a7b56",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "RetainMail. Category: Marketing/Email. retention email sequences. Pitch: RetainMail — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: RetainMail. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): API access; priority support | Business (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,998",
+    "GBP": "£20",
+    "USD": "$25"
+  }
+}

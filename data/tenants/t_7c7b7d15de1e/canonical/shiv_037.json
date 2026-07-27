@@ -1,0 +1,60 @@
+{
+  "id": "shiv_037",
+  "kind": "service",
+  "title": "Shivalik Wave — Office 799 sq ft, Vaishnodevi",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Offices",
+  "clean_description": "Office suite at Shivalik Wave, Vaishnodevi Circle, Ahmedabad. Commercial project by Shivalik Group; office RERA area ~799–1873 sq ft. High visibility on the SG Highway / Vaishnodevi commercial corridor.",
+  "short_pitch": "Shivalik Wave — Office 799 sq ft, Vaishnodevi — commercial listing",
+  "use_case_tags": [
+    "office_use",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "sme_office",
+    "investor"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 7800000.0
+  },
+  "price_max": {
+    "INR": 7800000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office 799 sq ft",
+      "features": [
+        "RA ~799 sq ft",
+        "parking",
+        "lifts",
+        "backup power",
+        "CCTV"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 7800000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "3ab87092f1f0f43972508d4a3620003ede344185a613bbe38d6dd43ee4cc6992",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Wave — Office 799 sq ft, Vaishnodevi. Category: Commercial/Offices. Office suite at Shivalik Wave, Vaishnodevi Circle, Ahmedabad. Commercial project by Shivalik Group; office RERA area ~799–1873 sq ft. High visibility on the SG Highway / Vaishnodevi commercial corridor. Pitch: Shivalik Wave — Office 799 sq ft, Vaishnodevi — commercial listing. Use cases: office_use, sale, investment. Audience: sme_office, investor. Aliases: Shivalik. Plans: Sale — Office 799 sq ft (one_time): RA ~799 sq ft; parking; lifts; backup power; CCTV",
+  "display_card": {
+    "INR": "₹7,800,000"
+  }
+}

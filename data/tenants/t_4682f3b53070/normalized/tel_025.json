@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_025",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple iPhone 15 Plus — large-screen older iPhone at aggressive street discounts.",
+    "short_pitch": "Apple iPhone 15 Plus 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Large display",
+        "USB-C",
+        "dual camera",
+        "Face ID",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,33 @@
+{
+  "product_id": "shiv_004",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "5 BHK luxury apartment at Shivalik Legacy, Bodakdev. Flagship residential offering by Shivalik Group for large families seeking Bodakdev address with club amenities and covered parking.",
+    "short_pitch": "Shivalik Legacy — 5 BHK, Bodakdev — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Large format luxury unit",
+        "clubhouse",
+        "gym",
+        "landscaped garden",
+        "multi-level parking"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

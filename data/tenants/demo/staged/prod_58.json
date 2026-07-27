@@ -1,0 +1,100 @@
+{
+  "id": "prod_58",
+  "name": "PaySlip Pro",
+  "category_raw": "Billing",
+  "description_text": "billing and receipts for services",
+  "unit": "location",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_58_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": 7.99
+        }
+      ]
+    },
+    {
+      "id": "prod_58_plan_1",
+      "name": "Basic",
+      "feature_text": null,
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_58_plan_2",
+      "name": "Annual Plus",
+      "feature_text": null,
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 19.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 7.99,
+    "GBP": 11.98,
+    "INR": 1198.5
+  },
+  "price_max": {
+    "USD": 19.98,
+    "GBP": 11.98,
+    "INR": 1598.0
+  },
+  "content_hash": "9a66cc1431393965ce72bb0b6531b15bbd12b51095408fdfd68b2ffc6bc159d8",
+  "needs_normalization": false
+}

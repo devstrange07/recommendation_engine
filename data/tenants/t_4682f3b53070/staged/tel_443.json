@@ -1,0 +1,32 @@
+{
+  "id": "tel_443",
+  "name": "Samsung Silicone Case for Samsung Galaxy S26",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Samsung Silicone Case protective case for Samsung Galaxy S26 — India retail accessory SKU.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Samsung Case",
+      "feature_text": "Drop protection; precise cutouts; Samsung Galaxy S26 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "7a2142ff1554a7788689400ea4acefcdeceeecb4f0d04a0c9e226c0d578be74a",
+  "needs_normalization": true
+}

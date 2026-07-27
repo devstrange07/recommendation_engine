@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_15",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "professional fee invoicing.",
+    "short_pitch": "FeeForge — invoicing for teams",
+    "category_path": "Invoicing/Billing",
+    "use_case_tags": [
+      "invoice_generation",
+      "recurring_billing"
+    ],
+    "target_audience": [
+      "solo_freelancer",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "FeeForge"
+    ],
+    "plan_features": {
+      "prod_15_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_15_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_15_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

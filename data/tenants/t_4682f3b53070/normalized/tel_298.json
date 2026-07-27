@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_298",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Nothing Phone (4a) with Glyph design and Nothing OS. India retail SKU in Forest Green finish.",
+    "short_pitch": "Nothing Phone (4a) — Forest Green 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Nothing"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Nothing OS",
+        "Glyph design",
+        "AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

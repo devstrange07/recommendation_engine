@@ -1,0 +1,139 @@
+{
+  "id": "prod_42",
+  "kind": "service",
+  "title": "PromoPost",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "promotional email tool —.",
+  "short_pitch": "PromoPost — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "PromoPost"
+  ],
+  "price_min": {
+    "USD": 31.24,
+    "GBP": 24.99,
+    "INR": 2499.0
+  },
+  "price_max": {
+    "USD": 62.48,
+    "GBP": 42.48,
+    "INR": 4498.2
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_42_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_42_plan_1",
+      "name": "Annual Plus",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_42_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": 4498.2
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 49.98,
+          "discounted_amount": 42.48
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "4ad57b6dd1cf7f705180686dcf79922c1895173274ab9ce138866cb9205cb868",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "PromoPost. Category: Marketing/Email. promotional email tool —. Pitch: PromoPost — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: PromoPost. Plans: Basic (one_time): Up to 2 users; email support | Annual Plus (annual): API access; priority support | Business (one_time): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,499",
+    "GBP": "£25",
+    "USD": "$31"
+  }
+}

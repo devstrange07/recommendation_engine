@@ -1,0 +1,86 @@
+{
+  "id": "prod_61",
+  "name": "SumInvoice",
+  "category_raw": "Billing",
+  "description_text": "multi-currency invoicing",
+  "unit": "location",
+  "kb_article": "https://kb.example.com/prod_61",
+  "plans": [
+    {
+      "id": "prod_61_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": 719.1
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": 8.49
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_61_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": 9.58
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 719.1,
+    "USD": 8.49,
+    "GBP": 7.99
+  },
+  "price_max": {
+    "INR": 1198.5,
+    "USD": 14.98,
+    "GBP": 9.58
+  },
+  "content_hash": "c74761c404e8a46c6a8afce130ef689c48a204e3c839b664829f045697a52970",
+  "needs_normalization": false
+}

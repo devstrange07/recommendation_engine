@@ -1,0 +1,59 @@
+{
+  "id": "tel_396",
+  "kind": "service",
+  "title": "Micromax Canvas Fire 6 4GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Micromax Canvas Fire 6 — dual-front-camera niche Micromax for selfie buyers.",
+  "short_pitch": "Micromax Canvas Fire 6 4GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Micromax"
+  ],
+  "price_min": {
+    "INR": 9999.0
+  },
+  "price_max": {
+    "INR": 9999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 4GB + 128GB",
+      "features": [
+        "Dual selfie",
+        "4G",
+        "large battery"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b3a66e81098d928ee4772b30241970cf9729d9d3befdd35a6c152582e2e03233",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Micromax Canvas Fire 6 4GB + 128GB. Category: Electronics/Smartphones. Micromax Canvas Fire 6 — dual-front-camera niche Micromax for selfie buyers. Pitch: Micromax Canvas Fire 6 4GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Micromax. Plans: Street — 4GB + 128GB (one_time): Dual selfie; 4G; large battery",
+  "display_card": {
+    "INR": "₹9,999"
+  }
+}

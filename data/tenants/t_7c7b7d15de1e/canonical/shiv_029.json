@@ -1,0 +1,60 @@
+{
+  "id": "shiv_029",
+  "kind": "service",
+  "title": "Shivalik Swagat Bungalows — Ambli-Bopal",
+  "brand_or_provider": null,
+  "category_path": "Residential/Bungalows",
+  "clean_description": "Bungalow unit in Shivalik Swagat Bungalows, Ambli–Bopal. Shivalik Group low-density residential offering; typical portal pricing band ~₹3–4. 4 Cr depending on plot and built-up.",
+  "short_pitch": "Shivalik Swagat Bungalows — Ambli-Bopal — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "family_buyer",
+    "end_user_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 35000000.0
+  },
+  "price_max": {
+    "INR": 35000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Bungalow",
+      "features": [
+        "Independent bungalow",
+        "parking",
+        "garden",
+        "gated community"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 35000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "93b366b1fdfe455b472e8de2e9bd7feddcfb4b2f26bc295b8778311035eaa0c9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Swagat Bungalows — Ambli-Bopal. Category: Residential/Bungalows. Bungalow unit in Shivalik Swagat Bungalows, Ambli–Bopal. Shivalik Group low-density residential offering; typical portal pricing band ~₹3–4. 4 Cr depending on plot and built-up. Pitch: Shivalik Swagat Bungalows — Ambli-Bopal — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: family_buyer, end_user_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — Bungalow (one_time): Independent bungalow; parking; garden; gated community",
+  "display_card": {
+    "INR": "₹35,000,000"
+  }
+}

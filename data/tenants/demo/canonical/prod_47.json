@@ -1,0 +1,142 @@
+{
+  "id": "prod_47",
+  "kind": "service",
+  "title": "DeskFlow",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "shared support mailbox.",
+  "short_pitch": "DeskFlow — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "DeskFlow"
+  ],
+  "price_min": {
+    "GBP": 29.99,
+    "INR": 2999.0,
+    "USD": 33.74
+  },
+  "price_max": {
+    "GBP": 44.98,
+    "INR": 5998.0,
+    "USD": 74.97
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_47_plan_0",
+      "name": "Basic",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 33.74
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_47_plan_1",
+      "name": "Pro",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_47_plan_2",
+      "name": "Business",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": 5398.2
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": 63.72
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "3dab4119dbcfdcd4a91ae0e9f85fecfd94d1a1fdc4c2e542b95aedc7698da14d",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "DeskFlow. Category: Support/Helpdesk. shared support mailbox. Pitch: DeskFlow — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: DeskFlow. Plans: Basic (one_time): Same features as listed on website | Pro (monthly): Same features as listed on website | Business (monthly): Same features as listed on website",
+  "display_card": {
+    "INR": "₹2,999",
+    "GBP": "£30",
+    "USD": "$34"
+  }
+}

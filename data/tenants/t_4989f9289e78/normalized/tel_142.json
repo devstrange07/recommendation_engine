@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_142",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Realme GT 6T — prior GT value flagship still popular for gaming under ₹40k.",
+    "short_pitch": "Realme GT 6T 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Realme"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Near-flagship SoC",
+        "AMOLED",
+        "fast charge",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

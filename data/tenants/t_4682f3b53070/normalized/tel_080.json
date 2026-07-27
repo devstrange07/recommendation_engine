@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_080",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Motorola Edge 60 Pro — prior Edge Pro with curved display and IP68, still popular at street discounts.",
+    "short_pitch": "Motorola Edge 60 Pro 12GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Motorola"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Curved AMOLED",
+        "IP68",
+        "near-stock Android",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

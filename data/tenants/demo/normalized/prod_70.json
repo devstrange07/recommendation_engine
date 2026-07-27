@@ -1,0 +1,38 @@
+{
+  "product_id": "prod_70",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "online booking pages and reminders.",
+    "short_pitch": "Appointly Pro — scheduling for teams",
+    "category_path": "Scheduling/Appointments",
+    "use_case_tags": [
+      "appointment_booking",
+      "online_scheduling",
+      "client_reminders"
+    ],
+    "target_audience": [
+      "salon_spa",
+      "small_business",
+      "clinic_healthcare"
+    ],
+    "aliases": [
+      "Appointly"
+    ],
+    "plan_features": {
+      "prod_70_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_70_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_70_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

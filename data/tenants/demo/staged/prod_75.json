@@ -1,0 +1,68 @@
+{
+  "id": "prod_75",
+  "name": "PipelineAce",
+  "category_raw": "CRM",
+  "description_text": "BEST IN CLASS!! sales pipeline management Amazing ROI World-class support Limited time offer — act NOW!!!",
+  "unit": "workspace",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_75_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": 6.79
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_75_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 6.79,
+    "INR": 799.0,
+    "USD": 14.98
+  },
+  "price_max": {
+    "GBP": 11.98,
+    "INR": 799.0,
+    "USD": 14.98
+  },
+  "content_hash": "b8d23106a5bb059ec9088fe4aa9b1a0f0d7aec0f29d2c4fbe61005525479f814",
+  "needs_normalization": false
+}

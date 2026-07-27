@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_387",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "JioPhone Next 2 — affordable Android for Jio ecosystem users upgrading from feature phones.",
+    "short_pitch": "JioPhone Next 2 4GB + 64GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "JioPhone"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Android Go",
+        "4G",
+        "Jio apps",
+        "value pricing"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

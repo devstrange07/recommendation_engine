@@ -1,0 +1,32 @@
+{
+  "id": "tel_077",
+  "name": "CMF Phone 3 by Nothing 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "CMF Phone 3 higher storage for budget buyers who want Nothing design DNA.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — CMF Phone 3 256GB",
+      "feature_text": "256GB; Nothing OS lite; modular accessories; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 17999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 17999.0
+  },
+  "price_max": {
+    "INR": 17999.0
+  },
+  "content_hash": "cb609cdc9f902a0a3b7590449efc68d2810a1fee39f7b1d12b0441a70eede6f8",
+  "needs_normalization": true
+}

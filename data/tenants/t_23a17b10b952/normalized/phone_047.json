@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_047",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Honor 400 Pro — mid-premium return of Honor in India with bright curved display, solid cameras, and MagicOS. Alternative to OnePlus Nord / Motorola Signature band.",
+    "short_pitch": "Honor 400 Pro — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Honor"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Curved AMOLED",
+        "MagicOS",
+        "AI camera",
+        "fast charge",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tel_124",
+  "kind": "service",
+  "title": "Samsung Galaxy F56 5G 8GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Samsung Galaxy F56 5G — Flipkart-exclusive F series mid-ranger with aggressive festive pricing patterns.",
+  "short_pitch": "Samsung Galaxy F56 5G 8GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 23999.0
+  },
+  "price_max": {
+    "INR": 23999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — F56",
+      "features": [
+        "5G",
+        "AMOLED",
+        "One UI",
+        "large battery"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 23999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "a9f27b12a25009827eda5a287595c9e5c8aeb99dd42c4d4d6bcd78cf003a01f3",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy F56 5G 8GB + 128GB. Category: Electronics/Smartphones. Samsung Galaxy F56 5G — Flipkart-exclusive F series mid-ranger with aggressive festive pricing patterns. Pitch: Samsung Galaxy F56 5G 8GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — F56 (one_time): 5G; AMOLED; One UI; large battery",
+  "display_card": {
+    "INR": "₹23,999"
+  }
+}

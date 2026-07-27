@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_044",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy Z Flip7 — clamshell foldable for compact pockets and Flex Mode selfies. Cover screen widgets and Galaxy AI at a lower price than Fold.",
+    "short_pitch": "Samsung Galaxy Z Flip7 — device",
+    "category_path": "Electronics/Foldables",
+    "use_case_tags": [
+      "flagship",
+      "compact",
+      "daily_driver"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Clamshell fold",
+        "cover display",
+        "Flex Mode",
+        "Galaxy AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

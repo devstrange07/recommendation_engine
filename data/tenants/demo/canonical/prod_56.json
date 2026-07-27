@@ -1,0 +1,110 @@
+{
+  "id": "prod_56",
+  "kind": "service",
+  "title": "CustomerLine",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "customer support line tool.",
+  "short_pitch": "CustomerLine — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "CustomerLine"
+  ],
+  "price_min": {
+    "INR": 1999.0,
+    "USD": 19.99,
+    "GBP": 19.99
+  },
+  "price_max": {
+    "INR": 2548.73,
+    "USD": 37.48,
+    "GBP": 26.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_56_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": 19.99
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 19.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_56_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.98,
+          "discounted_amount": 26.98
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": 2548.73
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": 31.859999999999996
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "4a5403041ee36ed90b10a32b871f7c6c137983ba9a19ba5ee4f415efe8156a64",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "CustomerLine. Category: Support/Helpdesk. customer support line tool. Pitch: CustomerLine — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: CustomerLine. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹1,999",
+    "GBP": "£20",
+    "USD": "$20"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "prod_51",
+  "name": "BookEase Pro Suite",
+  "category_raw": "appointments",
+  "description_text": "Entry-level starter tool for beginners only. Basic free tier features. appointment booking and calendar sync for small teams",
+  "unit": null,
+  "kb_article": "https://kb.example.com/prod_51",
+  "plans": [
+    {
+      "id": "prod_51_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_51_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_51_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": 5098.3
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2999.0,
+    "USD": 37.49
+  },
+  "price_max": {
+    "INR": 5098.3,
+    "USD": 74.97
+  },
+  "content_hash": "5519972f9c9b33493e726af1b084c541d42d11504612c82ed12cd0f6f060c6e5",
+  "needs_normalization": false
+}

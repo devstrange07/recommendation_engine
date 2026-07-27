@@ -1,0 +1,98 @@
+{
+  "id": "prod_22",
+  "kind": "service",
+  "title": "SendCraft",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "drag-drop email campaigns.",
+  "short_pitch": "SendCraft — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "SendCraft"
+  ],
+  "price_min": {
+    "USD": 7.99,
+    "GBP": 7.99,
+    "INR": 1198.5
+  },
+  "price_max": {
+    "USD": 9.99,
+    "GBP": 7.99,
+    "INR": 1198.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_22_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": 7.99
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_22_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "5553566f1aee6498966ecaa4c0c02a727e8ab8013f4aa10da277b180141caa3f",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "SendCraft. Category: Marketing/Email. drag-drop email campaigns. Pitch: SendCraft — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: SendCraft. Plans: Annual Plus (annual): Up to 2 users; email support | Business (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹1,198/yr",
+    "GBP": "£8/yr",
+    "USD": "$8/yr"
+  }
+}

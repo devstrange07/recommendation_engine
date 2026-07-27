@@ -1,0 +1,139 @@
+{
+  "id": "prod_27",
+  "kind": "service",
+  "title": "ChargeSheet",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "time-based billing invoices.",
+  "short_pitch": "ChargeSheet — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "ChargeSheet"
+  ],
+  "price_min": {
+    "USD": 12.49,
+    "INR": 899.1,
+    "GBP": 14.98
+  },
+  "price_max": {
+    "USD": 24.98,
+    "INR": 1998.0,
+    "GBP": 19.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_27_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": 899.1
+        }
+      ]
+    },
+    {
+      "id": "prod_27_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": 1198.8
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_27_plan_2",
+      "name": "Pro",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 19.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c6bed6b416bf673130370dcf9aa9fde876c3c647f312e64d9459c019edd998e5",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "ChargeSheet. Category: Invoicing/Billing. time-based billing invoices. Pitch: ChargeSheet — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: ChargeSheet. Plans: Business (monthly): Up to 2 users; email support | Basic (one_time): API access; priority support | Pro (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹899/mo",
+    "GBP": "£15/mo",
+    "USD": "$12/mo"
+  }
+}

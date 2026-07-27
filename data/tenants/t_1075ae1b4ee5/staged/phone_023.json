@@ -1,0 +1,32 @@
+{
+  "id": "phone_023",
+  "name": "OnePlus 15R 16GB + 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "OnePlus 15R higher RAM/storage variant for gaming and multitasking users who want more headroom without jumping to full OnePlus 15 pricing.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 16GB + 512GB",
+      "feature_text": "16GB RAM; 512GB storage; fast charging; OxygenOS; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 59999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 59999.0
+  },
+  "price_max": {
+    "INR": 59999.0
+  },
+  "content_hash": "b927684d555e7d10b54b241ca99baba4b173c955a8d9af05bbcdfaca62ba48b9",
+  "needs_normalization": false
+}

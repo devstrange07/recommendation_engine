@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_166",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy Buds FE 2 — Fan Edition ANC earbuds for value Galaxy buyers.",
+    "short_pitch": "Samsung Galaxy Buds FE 2 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "ANC",
+        "Galaxy Wearable app",
+        "USB-C",
+        "value pricing"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

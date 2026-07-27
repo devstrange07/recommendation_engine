@@ -1,0 +1,94 @@
+{
+  "id": "prod_16",
+  "name": "LetterLane",
+  "category_raw": "marketing",
+  "description_text": "simple newsletter tool",
+  "unit": "workspace",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_16_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 31.87
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_16_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": 47.8
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": 3598.8
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_16_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 59.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": 63.72
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 31.87,
+    "GBP": 29.99,
+    "INR": 2999.0
+  },
+  "price_max": {
+    "USD": 63.72,
+    "GBP": 59.98,
+    "INR": 3598.8
+  },
+  "content_hash": "81694b056de2904e0de5ac50806e2a9ad834abedbf6df07b2a7b5f0fd80913f3",
+  "needs_normalization": false
+}

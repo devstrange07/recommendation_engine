@@ -1,0 +1,32 @@
+{
+  "id": "tel_453",
+  "name": "Mi Note 15 Pro Rugged Case for Redmi Note 15 Pro 5G",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Mi Note 15 Pro Rugged Case protective case for Redmi Note 15 Pro 5G — India retail accessory SKU.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Mi Case",
+      "feature_text": "Drop protection; precise cutouts; Redmi Note 15 Pro 5G fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 899.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 899.0
+  },
+  "price_max": {
+    "INR": 899.0
+  },
+  "content_hash": "f8bbb4eb232f2a52a1b6744e4026d9780ef69fece472933cacc5e6088b841ad4",
+  "needs_normalization": true
+}

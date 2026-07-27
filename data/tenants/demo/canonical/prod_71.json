@@ -1,0 +1,139 @@
+{
+  "id": "prod_71",
+  "kind": "service",
+  "title": "NewsWire Pro",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "newsletter publishing.",
+  "short_pitch": "NewsWire Pro — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "NewsWire"
+  ],
+  "price_min": {
+    "USD": 26.549999999999997,
+    "GBP": 24.99,
+    "INR": 2998.8
+  },
+  "price_max": {
+    "USD": 62.48,
+    "GBP": 37.48,
+    "INR": 4998.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_71_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": 26.549999999999997
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_71_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": 39.83
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": 2998.8
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_71_plan_2",
+      "name": "Basic",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": 49.98
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "8adac639cbd143204e9db72e2cfd7ed4bbec36463e435a7ed3616728f162c719",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "NewsWire Pro. Category: Marketing/Email. newsletter publishing. Pitch: NewsWire Pro — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: NewsWire. Plans: Annual Plus (annual): Up to 2 users; email support | Business (monthly): API access; priority support | Basic (one_time): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,999/yr",
+    "GBP": "£25/yr",
+    "USD": "$27/yr"
+  }
+}

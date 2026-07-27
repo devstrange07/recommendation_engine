@@ -1,0 +1,32 @@
+{
+  "id": "tel_168",
+  "name": "Nothing Ear (a)",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Nothing Ear (a) — affordable Nothing earbuds with strong bass and clean design.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ear (a)",
+      "feature_text": "ANC lite; Nothing design; USB-C; value pricing",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 4999.0
+  },
+  "price_max": {
+    "INR": 4999.0
+  },
+  "content_hash": "0758e72b6c349aef7ce74a0bb3c40dd0123372fb668a6a3e3845cefb5f2089a7",
+  "needs_normalization": true
+}

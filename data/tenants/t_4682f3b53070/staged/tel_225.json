@@ -1,0 +1,32 @@
+{
+  "id": "tel_225",
+  "name": "Apple iPhone 17 Pro — Silver Shadow 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 17 Pro with pro camera system and Apple Intelligence. India retail SKU in Silver Shadow finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Silver Shadow 512GB",
+      "feature_text": "Pro camera; Apple Intelligence; ProMotion; Face ID; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 154900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 154900.0
+  },
+  "price_max": {
+    "INR": 154900.0
+  },
+  "content_hash": "fc7951a9486cf6d9d05c29f471a908cf59bc79efdfbe5f82dd7ef28c86138933",
+  "needs_normalization": true
+}

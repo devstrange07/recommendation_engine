@@ -1,0 +1,61 @@
+{
+  "id": "tel_065",
+  "kind": "service",
+  "title": "OPPO Reno14 Pro 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OPPO Reno14 Pro — stylish mid-premium with strong portrait cameras and ColorOS.",
+  "short_pitch": "OPPO Reno14 Pro 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OPPO"
+  ],
+  "price_min": {
+    "INR": 44999.0
+  },
+  "price_max": {
+    "INR": 44999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Reno14 Pro",
+      "features": [
+        "Portrait camera",
+        "AMOLED",
+        "ColorOS",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 44999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "16c9c7e0492551e08b43918f61eafa4d44c00ccd0249773c51edb3cc44f69621",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OPPO Reno14 Pro 12GB + 256GB. Category: Electronics/Smartphones. OPPO Reno14 Pro — stylish mid-premium with strong portrait cameras and ColorOS. Pitch: OPPO Reno14 Pro 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OPPO. Plans: Street — Reno14 Pro (one_time): Portrait camera; AMOLED; ColorOS; fast charge; 5G",
+  "display_card": {
+    "INR": "₹44,999"
+  }
+}

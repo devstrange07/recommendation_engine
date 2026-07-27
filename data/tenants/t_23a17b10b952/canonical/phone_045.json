@@ -1,0 +1,61 @@
+{
+  "id": "phone_045",
+  "kind": "service",
+  "title": "Realme GT 7 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Realme GT 7 Pro — performance flagship killer with high-refresh display, flagship chipset, and aggressive pricing vs Samsung/OnePlus. Aimed at gamers and power users.",
+  "short_pitch": "Realme GT 7 Pro — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Realme"
+  ],
+  "price_min": {
+    "INR": 57999.0
+  },
+  "price_max": {
+    "INR": 57999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — GT 7 Pro",
+      "features": [
+        "Flagship SoC",
+        "144Hz AMOLED",
+        "fast charge",
+        "vapor cooling",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 57999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "afd88c8e030e219cafa5b6a06d053b59d34172bf3ca28444d54dda48f0d01202",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Realme GT 7 Pro. Category: Electronics/Smartphones. Realme GT 7 Pro — performance flagship killer with high-refresh display, flagship chipset, and aggressive pricing vs Samsung/OnePlus. Aimed at gamers and power users. Pitch: Realme GT 7 Pro — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Realme. Plans: Street — GT 7 Pro (one_time): Flagship SoC; 144Hz AMOLED; fast charge; vapor cooling; 5G",
+  "display_card": {
+    "INR": "₹57,999"
+  }
+}

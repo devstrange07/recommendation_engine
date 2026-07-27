@@ -1,0 +1,100 @@
+{
+  "id": "prod_14",
+  "name": "RecurPay",
+  "category_raw": "Payments",
+  "description_text": "recurring billing invoices",
+  "unit": "user",
+  "kb_article": "https://kb.example.com/prod_14",
+  "plans": [
+    {
+      "id": "prod_14_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 19.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_14_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_14_plan_2",
+      "name": "Annual Plus",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 49.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 39.98,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1999.0,
+    "GBP": 19.99,
+    "USD": 37.48
+  },
+  "price_max": {
+    "INR": 3998.0,
+    "GBP": 39.98,
+    "USD": 49.98
+  },
+  "content_hash": "b5bbc24fb3c7fd02f0db68bab5326319bebc17d87206ae106e6560c61e1a09ef",
+  "needs_normalization": false
+}

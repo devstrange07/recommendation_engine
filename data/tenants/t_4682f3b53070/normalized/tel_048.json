@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_048",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Vivo X300 Pro 16GB + 512GB — higher config for creators who need RAM and storage headroom.",
+    "short_pitch": "Vivo X300 Pro 16GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Vivo"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "16GB RAM",
+        "512GB",
+        "Zeiss camera",
+        "flagship SoC",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

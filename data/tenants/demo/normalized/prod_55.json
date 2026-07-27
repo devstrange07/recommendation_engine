@@ -1,0 +1,47 @@
+{
+  "product_id": "prod_55",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "stacked ticket queues.",
+    "short_pitch": "HelpStack — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "HelpStack"
+    ],
+    "plan_features": {
+      "prod_55_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_55_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "cant_categorize",
+      "field": "category_path",
+      "issue": "Missing raw category; heuristic assigned best guess",
+      "options": [
+        "Scheduling/Appointments",
+        "CRM/Sales",
+        "Invoicing/Billing",
+        "Marketing/Email",
+        "Support/Helpdesk"
+      ],
+      "recommended": "Support/Helpdesk"
+    }
+  ]
+}

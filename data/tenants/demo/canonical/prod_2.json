@@ -1,0 +1,133 @@
+{
+  "id": "prod_2",
+  "kind": "service",
+  "title": "MarketPulse Mail",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "marketing email analytics.",
+  "short_pitch": "MarketPulse Mail — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "MarketPulse"
+  ],
+  "price_min": {
+    "USD": 6.24,
+    "GBP": 4.49,
+    "INR": 636.23
+  },
+  "price_max": {
+    "USD": 12.47,
+    "GBP": 4.99,
+    "INR": 998.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_2_plan_0",
+      "name": "Pro",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.49
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_2_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": 636.23
+        }
+      ]
+    },
+    {
+      "id": "prod_2_plan_2",
+      "name": "Basic",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.47,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "338ae46dfabca0ab1c90eb225ffc456acaffb0ee34ec5eda795f06b0ff873ac9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "MarketPulse Mail. Category: Marketing/Email. marketing email analytics. Pitch: MarketPulse Mail — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: MarketPulse. Plans: Pro (monthly): Up to 2 users; email support | Business (monthly): API access; priority support | Basic (one_time): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹636/mo",
+    "GBP": "£4/mo",
+    "USD": "$6/mo"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "tel_024",
+  "kind": "service",
+  "title": "Apple iPhone 15 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 15 128GB — older base iPhone still popular for first-time iOS upgrades on a budget.",
+  "short_pitch": "Apple iPhone 15 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 54900.0
+  },
+  "price_max": {
+    "INR": 54900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 128GB",
+      "features": [
+        "Dynamic Island",
+        "USB-C",
+        "dual camera",
+        "Face ID",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 54900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c7ab1a598e2e32dd9994d582f84c5de7e7d9c3aec9a60be132d07092da294500",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 15 128GB. Category: Electronics/Smartphones. Apple iPhone 15 128GB — older base iPhone still popular for first-time iOS upgrades on a budget. Pitch: Apple iPhone 15 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: Street — 128GB (one_time): Dynamic Island; USB-C; dual camera; Face ID; 5G",
+  "display_card": {
+    "INR": "₹54,900"
+  }
+}

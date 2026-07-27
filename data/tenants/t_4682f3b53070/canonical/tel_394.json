@@ -1,0 +1,60 @@
+{
+  "id": "tel_394",
+  "kind": "service",
+  "title": "Lava Yuva 5G Pro 6GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Lava Yuva 5G Pro — youth-focused Lava 5G with trendy design.",
+  "short_pitch": "Lava Yuva 5G Pro 6GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Lava"
+  ],
+  "price_min": {
+    "INR": 13499.0
+  },
+  "price_max": {
+    "INR": 13499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 6GB + 128GB",
+      "features": [
+        "5G",
+        "trendy design",
+        "large battery",
+        "Made in India"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 13499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "f825d17b19cf063ba0048e6ace9a89d7711dc2469eb1d6a14477be39972f297d",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Lava Yuva 5G Pro 6GB + 128GB. Category: Electronics/Smartphones. Lava Yuva 5G Pro — youth-focused Lava 5G with trendy design. Pitch: Lava Yuva 5G Pro 6GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Lava. Plans: Street — 6GB + 128GB (one_time): 5G; trendy design; large battery; Made in India",
+  "display_card": {
+    "INR": "₹13,499"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shiv_040",
+  "name": "Shivalik Arcade — Commercial Office, Prahlad Nagar",
+  "category_raw": "Commercial/Offices",
+  "description_text": "Commercial office unit at Shivalik Arcade, Prahlad Nagar. Shivalik Group commercial building with portal pricing often ~₹1.3–1.7 Cr. Strong location for retail-facing offices and professional services.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office",
+      "feature_text": "High-visibility Prahlad Nagar; parking, lifts, security",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 15000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 15000000.0
+  },
+  "price_max": {
+    "INR": 15000000.0
+  },
+  "content_hash": "92abe7a6c1cd4b7cfb5a6113c43dd817f3d5e7a5b338ee2a4fafdfac344aad15",
+  "needs_normalization": true
+}

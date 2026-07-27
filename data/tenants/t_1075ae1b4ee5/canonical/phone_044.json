@@ -1,0 +1,61 @@
+{
+  "id": "phone_044",
+  "kind": "service",
+  "title": "Samsung Galaxy Z Flip7",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "Samsung Galaxy Z Flip7 — clamshell foldable for compact pockets and Flex Mode selfies. Cover screen widgets and Galaxy AI at a lower price than Fold.",
+  "short_pitch": "Samsung Galaxy Z Flip7 — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Z Flip7",
+      "features": [
+        "Clamshell fold",
+        "cover display",
+        "Flex Mode",
+        "Galaxy AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "614f121bfd18339acf331d97794f9e26edfa513521b94e362856e065a7ba870d",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy Z Flip7. Category: Electronics/Foldables. Samsung Galaxy Z Flip7 — clamshell foldable for compact pockets and Flex Mode selfies. Cover screen widgets and Galaxy AI at a lower price than Fold. Pitch: Samsung Galaxy Z Flip7 — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Z Flip7 (one_time): Clamshell fold; cover display; Flex Mode; Galaxy AI; 5G",
+  "display_card": {
+    "INR": "₹109,999"
+  }
+}

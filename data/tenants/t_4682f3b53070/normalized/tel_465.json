@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_465",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Google Pixel 10 Screen Protector tempered glass / film kit for Google Pixel 10.",
+    "short_pitch": "Google Pixel 10 Screen Protector for Google Pixel 10 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Google"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "9H tempered",
+        "oleophobic",
+        "Google Pixel 10 fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tel_112",
+  "kind": "service",
+  "title": "Realme P3 5G 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Realme P3 5G — slim mid-ranger focused on design and battery life.",
+  "short_pitch": "Realme P3 5G 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Realme"
+  ],
+  "price_min": {
+    "INR": 23999.0
+  },
+  "price_max": {
+    "INR": 23999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — P3",
+      "features": [
+        "Slim design",
+        "5G",
+        "large battery",
+        "AMOLED"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 23999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "f3cd25a017f3a6d703dd9694cf4459d58ae030ec4a5663805a2d7a829354abbe",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Realme P3 5G 8GB + 256GB. Category: Electronics/Smartphones. Realme P3 5G — slim mid-ranger focused on design and battery life. Pitch: Realme P3 5G 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Realme. Plans: Street — P3 (one_time): Slim design; 5G; large battery; AMOLED",
+  "display_card": {
+    "INR": "₹23,999"
+  }
+}

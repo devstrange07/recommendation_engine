@@ -1,0 +1,32 @@
+{
+  "id": "tel_153",
+  "name": "Samsung Galaxy Z Flip7 12GB + 512GB",
+  "category_raw": "Electronics/Foldables",
+  "description_text": "Samsung Galaxy Z Flip7 higher storage for Flip buyers who shoot a lot of video.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Z Flip7 512GB",
+      "feature_text": "512GB; clamshell foldable; cover screen; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 119999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 119999.0
+  },
+  "price_max": {
+    "INR": 119999.0
+  },
+  "content_hash": "27e96a5fd141152637a0115d45666e9a82f3850cd22f1274df0978d971211151",
+  "needs_normalization": true
+}

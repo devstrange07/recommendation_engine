@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_133",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Tecno Spark 40 Pro 5G — budget Spark for first 5G phones under ₹15k.",
+    "short_pitch": "Tecno Spark 40 Pro 5G 8GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Tecno"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "large battery",
+        "dual camera",
+        "value pricing"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

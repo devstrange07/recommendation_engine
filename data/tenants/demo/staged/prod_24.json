@@ -1,0 +1,80 @@
+{
+  "id": "prod_24",
+  "name": "ReplyRack",
+  "category_raw": "Helpdesk",
+  "description_text": "ticket and reply management",
+  "unit": null,
+  "kb_article": "https://kb.example.com/prod_24",
+  "plans": [
+    {
+      "id": "prod_24_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_24_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.98,
+          "discounted_amount": 11.98
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 9.99,
+    "USD": 12.49,
+    "INR": 999.0
+  },
+  "price_max": {
+    "GBP": 14.98,
+    "USD": 18.73,
+    "INR": 1498.5
+  },
+  "content_hash": "31012e4c1c56538dfae27aa420d2d45bda0fdedd65d213c57b6994568d3a6ead",
+  "needs_normalization": false
+}

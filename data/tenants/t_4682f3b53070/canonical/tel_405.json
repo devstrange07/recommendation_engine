@@ -1,0 +1,59 @@
+{
+  "id": "tel_405",
+  "kind": "service",
+  "title": "Samsung Galaxy Buds3",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Samsung Galaxy Buds3 — stem-design Galaxy earbuds below Pro pricing.",
+  "short_pitch": "Samsung Galaxy Buds3 — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 12999.0
+  },
+  "price_max": {
+    "INR": 12999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds3",
+      "features": [
+        "ANC",
+        "Galaxy ecosystem",
+        "IP57",
+        "USB-C case"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 12999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ce088503a280595efa41b12bd1abe9b7f67a722bae2ea31b42d14b642f2b5c2d",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy Buds3. Category: Electronics/Accessories. Samsung Galaxy Buds3 — stem-design Galaxy earbuds below Pro pricing. Pitch: Samsung Galaxy Buds3 — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Samsung. Plans: Street — Buds3 (one_time): ANC; Galaxy ecosystem; IP57; USB-C case",
+  "display_card": {
+    "INR": "₹12,999"
+  }
+}

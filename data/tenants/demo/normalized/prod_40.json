@@ -1,0 +1,34 @@
+{
+  "product_id": "prod_40",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "shared team calendar and booking links.",
+    "short_pitch": "CalendarHQ — scheduling for teams",
+    "category_path": "Scheduling/Appointments",
+    "use_case_tags": [
+      "appointment_booking",
+      "online_scheduling",
+      "client_reminders"
+    ],
+    "target_audience": [
+      "salon_spa",
+      "small_business",
+      "clinic_healthcare"
+    ],
+    "aliases": [
+      "CalendarHQ"
+    ],
+    "plan_features": {
+      "prod_40_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_40_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_009",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy S25 Ultra 512GB street deal — flagship camera and S Pen without 2026 Ultra pricing.",
+    "short_pitch": "Samsung Galaxy S25 Ultra 12GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "512GB",
+        "200MP",
+        "S Pen",
+        "AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

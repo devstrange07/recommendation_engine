@@ -1,0 +1,61 @@
+{
+  "id": "shiv_045",
+  "kind": "service",
+  "title": "Shivalik Wave — Retail Shop 966 sq ft, Vaishnodevi",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Retail",
+  "clean_description": "Retail shop at Shivalik Wave, Vaishnodevi Circle. Retail RERA area from ~966 sq ft (band up to ~3743). High-footfall commercial by Shivalik Group on a major Ahmedabad retail–office corridor.",
+  "short_pitch": "Shivalik Wave — Retail Shop 966 sq ft, Vaishnodevi — commercial listing",
+  "use_case_tags": [
+    "retail_frontage",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "retailer",
+    "investor",
+    "sme_office"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 14500000.0
+  },
+  "price_max": {
+    "INR": 14500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Retail 966 sq ft",
+      "features": [
+        "RA ~966 sq ft",
+        "highway visibility",
+        "parking",
+        "CCTV",
+        "power backup"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "4b95e777d59be0cd6862adb5d2f3f54105a4ff31dca099048c6367011ea65658",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Wave — Retail Shop 966 sq ft, Vaishnodevi. Category: Commercial/Retail. Retail shop at Shivalik Wave, Vaishnodevi Circle. Retail RERA area from ~966 sq ft (band up to ~3743). High-footfall commercial by Shivalik Group on a major Ahmedabad retail–office corridor. Pitch: Shivalik Wave — Retail Shop 966 sq ft, Vaishnodevi — commercial listing. Use cases: retail_frontage, sale, investment. Audience: retailer, investor, sme_office. Aliases: Shivalik. Plans: Sale — Retail 966 sq ft (one_time): RA ~966 sq ft; highway visibility; parking; CCTV; power backup",
+  "display_card": {
+    "INR": "₹14,500,000"
+  }
+}

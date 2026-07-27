@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_386",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Micromax IN 2b — entry Micromax for ultra-budget buyers.",
+    "short_pitch": "Micromax IN 2b 4GB + 64GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Micromax"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Large battery",
+        "dual camera",
+        "value pricing"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,139 @@
+{
+  "id": "prod_23",
+  "kind": "service",
+  "title": "ContactHive",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "contact and account CRM.",
+  "short_pitch": "ContactHive — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "ContactHive"
+  ],
+  "price_min": {
+    "USD": 18.74,
+    "GBP": 14.99,
+    "INR": 2998.0
+  },
+  "price_max": {
+    "USD": 37.48,
+    "GBP": 22.48,
+    "INR": 2998.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_23_plan_0",
+      "name": "Pro",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_23_plan_1",
+      "name": "Annual Plus",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 28.11,
+          "discounted_amount": 22.49
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_23_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "65d80831882cedcc2b8487f93591826724f7dc3baa4fa5dc96c4367cb3db6135",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "ContactHive. Category: CRM/Sales. contact and account CRM. Pitch: ContactHive — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: ContactHive. Plans: Pro (monthly): Up to 2 users; email support | Annual Plus (annual): API access; priority support | Business (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,998/mo",
+    "GBP": "£15/mo",
+    "USD": "$19/mo"
+  }
+}

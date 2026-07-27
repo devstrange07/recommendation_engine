@@ -1,0 +1,58 @@
+{
+  "id": "tel_460",
+  "kind": "service",
+  "title": "Realme 15 Pro Clear Case for Realme 15 Pro 5G",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Realme 15 Pro Clear Case protective case for Realme 15 Pro 5G — India retail accessory SKU.",
+  "short_pitch": "Realme 15 Pro Clear Case for Realme 15 Pro 5G — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Realme"
+  ],
+  "price_min": {
+    "INR": 699.0
+  },
+  "price_max": {
+    "INR": 699.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Realme Case",
+      "features": [
+        "Drop protection",
+        "precise cutouts",
+        "Realme 15 Pro 5G fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 699.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "9a72a860c1549d966ecd14f8f22909b9f7b7e8db89f882feff06d538287ad06d",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Realme 15 Pro Clear Case for Realme 15 Pro 5G. Category: Electronics/Accessories. Realme 15 Pro Clear Case protective case for Realme 15 Pro 5G — India retail accessory SKU. Pitch: Realme 15 Pro Clear Case for Realme 15 Pro 5G — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Realme. Plans: Street — Realme Case (one_time): Drop protection; precise cutouts; Realme 15 Pro 5G fit",
+  "display_card": {
+    "INR": "₹699"
+  }
+}

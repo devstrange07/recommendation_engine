@@ -1,0 +1,62 @@
+{
+  "id": "tel_003",
+  "kind": "service",
+  "title": "Samsung Galaxy S26 Ultra 16GB + 1TB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Top Samsung Galaxy S26 Ultra configuration with 16GB RAM and 1TB storage for creators and heavy multitaskers.",
+  "short_pitch": "Samsung Galaxy S26 Ultra 16GB + 1TB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 174999.0
+  },
+  "price_max": {
+    "INR": 174999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 16GB + 1TB",
+      "features": [
+        "16GB RAM",
+        "1TB storage",
+        "200MP camera",
+        "S Pen",
+        "flagship AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 174999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "596f32e6f4f0e116fc63320b4475f1223a0ed254c314ad7cfe72ee9b45021d0c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy S26 Ultra 16GB + 1TB. Category: Electronics/Smartphones. Top Samsung Galaxy S26 Ultra configuration with 16GB RAM and 1TB storage for creators and heavy multitaskers. Pitch: Samsung Galaxy S26 Ultra 16GB + 1TB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — 16GB + 1TB (one_time): 16GB RAM; 1TB storage; 200MP camera; S Pen; flagship AMOLED; 5G",
+  "display_card": {
+    "INR": "₹174,999"
+  }
+}

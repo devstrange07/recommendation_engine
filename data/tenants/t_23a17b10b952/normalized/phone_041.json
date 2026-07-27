@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_041",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy M17e 5G — budget Galaxy M-series for India. One UI Core, expandable storage, and Samsung ecosystem familiarity at entry 5G pricing.",
+    "short_pitch": "Samsung Galaxy M17e 5G — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "One UI",
+        "microSD",
+        "large battery",
+        "dual camera"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

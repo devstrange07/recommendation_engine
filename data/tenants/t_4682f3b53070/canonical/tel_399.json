@@ -1,0 +1,59 @@
+{
+  "id": "tel_399",
+  "kind": "service",
+  "title": "OPPO A79 5G 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OPPO A79 5G mid A-series.",
+  "short_pitch": "OPPO A79 5G 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OPPO"
+  ],
+  "price_min": {
+    "INR": 19999.0
+  },
+  "price_max": {
+    "INR": 19999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "features": [
+        "5G",
+        "AMOLED",
+        "ColorOS"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 19999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c24e440615bad445d3aecd7aa43337ba3c2e49bc132a815535b017695708840c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OPPO A79 5G 8GB + 256GB. Category: Electronics/Smartphones. OPPO A79 5G mid A-series. Pitch: OPPO A79 5G 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OPPO. Plans: Street — 8GB + 256GB (one_time): 5G; AMOLED; ColorOS",
+  "display_card": {
+    "INR": "₹19,999"
+  }
+}

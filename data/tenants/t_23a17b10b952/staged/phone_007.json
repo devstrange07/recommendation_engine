@@ -1,0 +1,32 @@
+{
+  "id": "phone_007",
+  "name": "Apple iPhone 17 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 17 with 256GB storage. Same core experience as the 128GB model with more room for 4K video and apps — popular upgrade step for creators and heavy photo users.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "MRP / Street — 256GB",
+      "feature_text": "256GB storage; iOS; Apple Intelligence; 5G; MagSafe",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 92900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 92900.0
+  },
+  "price_max": {
+    "INR": 92900.0
+  },
+  "content_hash": "56e7ac05f02023cfa48186efd9f0fe7f7336ac02c3a9f3ef2aa6dc7e2c8fba0b",
+  "needs_normalization": true
+}

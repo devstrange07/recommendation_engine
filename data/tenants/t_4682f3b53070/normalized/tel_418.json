@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_418",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Xiaomi 67W HyperCharge adapter + cable combo for Redmi/Xiaomi/POCO fast charging.",
+    "short_pitch": "Xiaomi 67W HyperCharge Combo — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Xiaomi"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "67W HyperCharge",
+        "USB-C cable included",
+        "Mi certified"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

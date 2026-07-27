@@ -1,0 +1,32 @@
+{
+  "id": "shiv_050",
+  "name": "Shivalik Plotting Sachana — NA Plot ~390 sq yd",
+  "category_raw": "Residential/Plots",
+  "description_text": "NA residential plot at Shivalik Plotting Sachana by Shivalik Group. Approx 390 sq yd plot size. Peripheral Ahmedabad / Ahmedabad district plotting inventory for buyers wanting land bank or custom bungalow construction.",
+  "unit": "plot",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — NA Plot 390 sq yd",
+      "feature_text": "~390 sq yd NA plot; plotted development, road access, clear title focus",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4800000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 4800000.0
+  },
+  "price_max": {
+    "INR": 4800000.0
+  },
+  "content_hash": "ae318f6d77ad922d9ea5adb7842fa50853b5330d62ec79622b193f487004795a",
+  "needs_normalization": true
+}

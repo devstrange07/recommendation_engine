@@ -1,0 +1,32 @@
+{
+  "id": "tel_072",
+  "name": "Nothing Phone (4a) 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Nothing Phone (4a) — Glyph-light design, clean Nothing OS, strong value in upper mid India pricing. Fast-growing brand in 2026.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Phone (4a) 256GB",
+      "feature_text": "Nothing OS; Glyph design; AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 37999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 37999.0
+  },
+  "price_max": {
+    "INR": 37999.0
+  },
+  "content_hash": "e6baba2b14c33755b791a9107487ea80383a3c5705bf7b94c32635e39c49205f",
+  "needs_normalization": true
+}

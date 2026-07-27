@@ -1,0 +1,61 @@
+{
+  "id": "phone_046",
+  "kind": "service",
+  "title": "iQOO 13",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "iQOO 13 — gaming-oriented flagship from vivo sub-brand. High refresh rate, advanced cooling, and Snapdragon flagship silicon; popular among competitive mobile gamers in India.",
+  "short_pitch": "iQOO 13 — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "iQOO"
+  ],
+  "price_min": {
+    "INR": 54999.0
+  },
+  "price_max": {
+    "INR": 54999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — iQOO 13",
+      "features": [
+        "Flagship Snapdragon",
+        "gaming cooling",
+        "high refresh AMOLED",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 54999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "6343ad74e2a29f241a46e8d56bf46d1ab017574b70f67f323235b1e3bc1dc675",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "iQOO 13. Category: Electronics/Smartphones. iQOO 13 — gaming-oriented flagship from vivo sub-brand. High refresh rate, advanced cooling, and Snapdragon flagship silicon; popular among competitive mobile gamers in India. Pitch: iQOO 13 — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: iQOO. Plans: Street — iQOO 13 (one_time): Flagship Snapdragon; gaming cooling; high refresh AMOLED; fast charge; 5G",
+  "display_card": {
+    "INR": "₹54,999"
+  }
+}

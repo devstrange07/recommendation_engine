@@ -1,0 +1,60 @@
+{
+  "id": "tel_191",
+  "kind": "service",
+  "title": "OPPO Find N5 Flip — Rose Gold 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "OPPO Find N5 Flip clamshell foldable Rose Gold India launch SKU. India retail SKU in Rose Gold finish.",
+  "short_pitch": "OPPO Find N5 Flip — Rose Gold 12GB + 512GB — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OPPO"
+  ],
+  "price_min": {
+    "INR": 99999.0
+  },
+  "price_max": {
+    "INR": 99999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Rose Gold 12GB + 512GB",
+      "features": [
+        "Clamshell foldable",
+        "Hasselblad",
+        "ColorOS",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 99999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "669bed3925a01f2902fb49020b7121bd3eea74c2444b059fcc904ec4b186bacf",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OPPO Find N5 Flip — Rose Gold 12GB + 512GB. Category: Electronics/Foldables. OPPO Find N5 Flip clamshell foldable Rose Gold India launch SKU. India retail SKU in Rose Gold finish. Pitch: OPPO Find N5 Flip — Rose Gold 12GB + 512GB — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: OPPO. Plans: Street — Rose Gold 12GB + 512GB (one_time): Clamshell foldable; Hasselblad; ColorOS; 5G",
+  "display_card": {
+    "INR": "₹99,999"
+  }
+}

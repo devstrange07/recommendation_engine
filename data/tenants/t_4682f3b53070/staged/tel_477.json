@@ -1,0 +1,32 @@
+{
+  "id": "tel_477",
+  "name": "Anker 511 Nano Pro 30W",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Anker Nano Pro 30W GaN charger for travel.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Nano Pro 30W",
+      "feature_text": "30W GaN; foldable; PD/PPS",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "41d1d5e8599605bbea55d1c44d98e7b025fa8842b34bc633678cd0e157774be4",
+  "needs_normalization": true
+}

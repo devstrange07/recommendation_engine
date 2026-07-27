@@ -1,0 +1,104 @@
+{
+  "id": "prod_9",
+  "kind": "service",
+  "title": "SegmentSpark",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "audience segmentation email —.",
+  "short_pitch": "SegmentSpark — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "SegmentSpark"
+  ],
+  "price_min": {
+    "USD": 37.49,
+    "INR": 2399.2,
+    "GBP": 44.98
+  },
+  "price_max": {
+    "USD": 56.23,
+    "INR": 4498.5,
+    "GBP": 44.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_9_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": 2399.2
+        }
+      ]
+    },
+    {
+      "id": "prod_9_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "84b7fcdb09fd5b61753ab5a9e5ef14c78b3ce6b618d44bca011ef95d719ef43c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "SegmentSpark. Category: Marketing/Email. audience segmentation email —. Pitch: SegmentSpark — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: SegmentSpark. Plans: Annual Plus (one_time): Up to 2 users; email support | Business (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹2,399",
+    "GBP": "£45",
+    "USD": "$37"
+  }
+}

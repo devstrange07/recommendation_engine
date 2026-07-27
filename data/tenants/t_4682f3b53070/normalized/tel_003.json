@@ -1,0 +1,34 @@
+{
+  "product_id": "tel_003",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Top Samsung Galaxy S26 Ultra configuration with 16GB RAM and 1TB storage for creators and heavy multitaskers.",
+    "short_pitch": "Samsung Galaxy S26 Ultra 16GB + 1TB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "16GB RAM",
+        "1TB storage",
+        "200MP camera",
+        "S Pen",
+        "flagship AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_247",
+  "name": "Apple iPhone 17 — Ocean Blue 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 17 base model for most iOS buyers in India 2026. India retail SKU in Ocean Blue finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ocean Blue 256GB",
+      "feature_text": "iOS; Apple Intelligence; Face ID; 5G; MagSafe",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 92900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 92900.0
+  },
+  "price_max": {
+    "INR": 92900.0
+  },
+  "content_hash": "82e64af184334dfdb0b42d761a101e78f03258be676220a4044e8e77220b7b0c",
+  "needs_normalization": true
+}

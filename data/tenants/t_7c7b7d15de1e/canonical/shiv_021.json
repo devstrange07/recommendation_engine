@@ -1,0 +1,61 @@
+{
+  "id": "shiv_021",
+  "kind": "service",
+  "title": "Shivalik Enclave — 4 BHK, Shahibaug",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "4 BHK apartment at Shivalik Enclave, Shahibaug. Larger residential format (RERA area toward ~2274 sq ft). Shivalik Group mixed-use tower with residential privacy above active retail podium.",
+  "short_pitch": "Shivalik Enclave — 4 BHK, Shahibaug — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 19500000.0
+  },
+  "price_max": {
+    "INR": 19500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 4 BHK",
+      "features": [
+        "RA ~2274 sq ft",
+        "dual parking",
+        "security",
+        "power backup",
+        "campus retail"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 19500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "2770726299ca165d27a29e6ab055e4a455a24250ae620ba2eaadfa7113c83b01",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Enclave — 4 BHK, Shahibaug. Category: Residential/Apartments. 4 BHK apartment at Shivalik Enclave, Shahibaug. Larger residential format (RERA area toward ~2274 sq ft). Shivalik Group mixed-use tower with residential privacy above active retail podium. Pitch: Shivalik Enclave — 4 BHK, Shahibaug — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 4 BHK (one_time): RA ~2274 sq ft; dual parking; security; power backup; campus retail",
+  "display_card": {
+    "INR": "₹19,500,000"
+  }
+}

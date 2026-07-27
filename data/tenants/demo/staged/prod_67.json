@@ -1,0 +1,86 @@
+{
+  "id": "prod_67",
+  "name": "FunnelCRM",
+  "category_raw": "CRM",
+  "description_text": "funnel-centric CRM",
+  "unit": "workspace",
+  "kb_article": "https://kb.example.com/prod_67",
+  "plans": [
+    {
+      "id": "prod_67_plan_0",
+      "name": "Pro",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 399.2
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 424.15
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_67_plan_1",
+      "name": "Business",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 4.99,
+    "INR": 399.2,
+    "USD": 6.24
+  },
+  "price_max": {
+    "GBP": 7.49,
+    "INR": 748.5,
+    "USD": 6.24
+  },
+  "content_hash": "ab42fe2c1912d0d2249dea63ed8dce590384d8ca1f044cdb8bb1e70a232fa922",
+  "needs_normalization": false
+}

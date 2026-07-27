@@ -1,0 +1,114 @@
+{
+  "id": "prod_29",
+  "kind": "service",
+  "title": "BillCraft",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "professional invoice generator —.",
+  "short_pitch": "BillCraft — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "BillCraft"
+  ],
+  "price_min": {
+    "USD": 26.549999999999997,
+    "GBP": 24.99,
+    "INR": 2499.0
+  },
+  "price_max": {
+    "USD": 31.24,
+    "GBP": 37.48,
+    "INR": 3748.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_29_plan_0",
+      "name": "Business",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": 26.549999999999997
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_29_plan_1",
+      "name": "Basic",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": 2998.8
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "76355997c6a91d4531aaa170a7fe9f7416e313b59544bd42ef120ebed67e1886",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "BillCraft. Category: Invoicing/Billing. professional invoice generator —. Pitch: BillCraft — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: BillCraft. Plans: Business (monthly): Same features as listed on website | Basic (one_time): Same features as listed on website",
+  "display_card": {
+    "INR": "₹2,499/mo",
+    "GBP": "£25/mo",
+    "USD": "$27/mo"
+  }
+}

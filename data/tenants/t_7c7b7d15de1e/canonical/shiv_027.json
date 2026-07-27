@@ -1,0 +1,61 @@
+{
+  "id": "shiv_027",
+  "kind": "service",
+  "title": "Shivalik Florette — Bungalow, Ambli-Bopal",
+  "brand_or_provider": null,
+  "category_path": "Residential/Bungalows",
+  "clean_description": "Independent bungalow at Shivalik Florette, Ambli–Bopal belt, Ahmedabad. Luxury low-rise living by Shivalik Group with private garden / plot feel, gated community security, and proximity to Ambli Road amenities.",
+  "short_pitch": "Shivalik Florette — Bungalow, Ambli-Bopal — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "family_buyer",
+    "end_user_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 38000000.0
+  },
+  "price_max": {
+    "INR": 38000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Bungalow",
+      "features": [
+        "Private bungalow",
+        "garden",
+        "covered parking",
+        "gated security",
+        "power backup"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 38000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "54bfcd92a51e4851827452281d0de29c1a969097d6a4e86f7635a4fad280cef2",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Florette — Bungalow, Ambli-Bopal. Category: Residential/Bungalows. Independent bungalow at Shivalik Florette, Ambli–Bopal belt, Ahmedabad. Luxury low-rise living by Shivalik Group with private garden / plot feel, gated community security, and proximity to Ambli Road amenities. Pitch: Shivalik Florette — Bungalow, Ambli-Bopal — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: family_buyer, end_user_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — Bungalow (one_time): Private bungalow; garden; covered parking; gated security; power backup",
+  "display_card": {
+    "INR": "₹38,000,000"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "tel_477",
+  "kind": "service",
+  "title": "Anker 511 Nano Pro 30W",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Anker Nano Pro 30W GaN charger for travel.",
+  "short_pitch": "Anker 511 Nano Pro 30W — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Anker"
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Nano Pro 30W",
+      "features": [
+        "30W GaN",
+        "foldable",
+        "PD/PPS"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "41d1d5e8599605bbea55d1c44d98e7b025fa8842b34bc633678cd0e157774be4",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Anker 511 Nano Pro 30W. Category: Electronics/Accessories. Anker Nano Pro 30W GaN charger for travel. Pitch: Anker 511 Nano Pro 30W — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Anker. Plans: Street — Nano Pro 30W (one_time): 30W GaN; foldable; PD/PPS",
+  "display_card": {
+    "INR": "₹2,499"
+  }
+}

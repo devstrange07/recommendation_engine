@@ -1,0 +1,59 @@
+{
+  "id": "tel_184",
+  "kind": "service",
+  "title": "Spigen Ultra Hybrid Case for iPhone 17 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Spigen Ultra Hybrid clear case for iPhone 17 Pro — MagSafe compatible shock protection.",
+  "short_pitch": "Spigen Ultra Hybrid Case for iPhone 17 Pro — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Spigen"
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ultra Hybrid 17 Pro",
+      "features": [
+        "MagSafe",
+        "clear hybrid",
+        "drop protection",
+        "yellowing-resistant"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ccaf1ffe8e51e1013e2cec8fa7ed4795b02ed5eab05990d74e0533d531a290b6",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Spigen Ultra Hybrid Case for iPhone 17 Pro. Category: Electronics/Accessories. Spigen Ultra Hybrid clear case for iPhone 17 Pro — MagSafe compatible shock protection. Pitch: Spigen Ultra Hybrid Case for iPhone 17 Pro — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Spigen. Plans: Street — Ultra Hybrid 17 Pro (one_time): MagSafe; clear hybrid; drop protection; yellowing-resistant",
+  "display_card": {
+    "INR": "₹2,499"
+  }
+}

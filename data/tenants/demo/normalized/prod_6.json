@@ -1,0 +1,36 @@
+{
+  "product_id": "prod_6",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "engagement-focused email tool.",
+    "short_pitch": "EngageMail — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "EngageMail"
+    ],
+    "plan_features": {
+      "prod_6_plan_0": [
+        "Pro tier"
+      ],
+      "prod_6_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_6_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

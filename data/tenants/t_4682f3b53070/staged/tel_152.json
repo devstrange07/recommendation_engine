@@ -1,0 +1,32 @@
+{
+  "id": "tel_152",
+  "name": "Samsung Galaxy Z Flip7 8GB + 256GB",
+  "category_raw": "Electronics/Foldables",
+  "description_text": "Samsung Galaxy Z Flip7 — clamshell foldable with larger cover screen and compact pocket form.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Z Flip7 256GB",
+      "feature_text": "Clamshell foldable; cover screen; Galaxy AI; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "content_hash": "44f595e954804e9867f2147cb3bbec3e341f39bdc1e74c5fec68a2bf55d65cb1",
+  "needs_normalization": true
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tel_136",
+  "kind": "service",
+  "title": "Samsung Galaxy S24 FE 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Samsung Galaxy S24 FE — Fan Edition prior-gen flagship features at mid-premium street prices.",
+  "short_pitch": "Samsung Galaxy S24 FE 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 44999.0
+  },
+  "price_max": {
+    "INR": 44999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — S24 FE",
+      "features": [
+        "Exynos/Snapdragon FE",
+        "AMOLED",
+        "Galaxy AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 44999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "71377461dab98670aabfc8446419cb60751399ed08ef387d52467b4d98c4defc",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy S24 FE 8GB + 256GB. Category: Electronics/Smartphones. Samsung Galaxy S24 FE — Fan Edition prior-gen flagship features at mid-premium street prices. Pitch: Samsung Galaxy S24 FE 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — S24 FE (one_time): Exynos/Snapdragon FE; AMOLED; Galaxy AI; 5G",
+  "display_card": {
+    "INR": "₹44,999"
+  }
+}

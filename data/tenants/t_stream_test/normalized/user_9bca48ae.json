@@ -1,0 +1,43 @@
+{
+  "product_id": "user_9bca48ae",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Tiny product for SSE progress check.",
+    "short_pitch": "Stream Test Product — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Stream"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Basic"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "cant_categorize",
+      "field": "category_path",
+      "issue": "Missing or unknown raw category; heuristic assigned best guess",
+      "options": [
+        "Residential/Apartments",
+        "Residential/Bungalows",
+        "Residential/Plots",
+        "Commercial/Offices",
+        "Commercial/Retail"
+      ],
+      "recommended": "Residential/Apartments"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tel_053",
+  "kind": "service",
+  "title": "Vivo Y400 5G 8GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Vivo Y400 5G — budget 5G volume driver in Vivo's Y series for first-time 5G upgrades.",
+  "short_pitch": "Vivo Y400 5G 8GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Vivo"
+  ],
+  "price_min": {
+    "INR": 16999.0
+  },
+  "price_max": {
+    "INR": 16999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Y400 128GB",
+      "features": [
+        "5G",
+        "large battery",
+        "dual camera",
+        "entry AMOLED or LCD"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 16999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "85860a88bbd4038c133ef48127b98c681c513c6c230bba8d27d3e9f75bb77294",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Vivo Y400 5G 8GB + 128GB. Category: Electronics/Smartphones. Vivo Y400 5G — budget 5G volume driver in Vivo's Y series for first-time 5G upgrades. Pitch: Vivo Y400 5G 8GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Vivo. Plans: Street — Y400 128GB (one_time): 5G; large battery; dual camera; entry AMOLED or LCD",
+  "display_card": {
+    "INR": "₹16,999"
+  }
+}

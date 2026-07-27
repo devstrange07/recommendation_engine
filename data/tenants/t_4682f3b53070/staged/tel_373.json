@@ -1,0 +1,32 @@
+{
+  "id": "tel_373",
+  "name": "Realme 15 5G 6GB + 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Realme 15 5G base.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 6GB + 128GB",
+      "feature_text": "5G; large battery; Realme UI",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 16999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 16999.0
+  },
+  "price_max": {
+    "INR": 16999.0
+  },
+  "content_hash": "572e03d841d23beb776c4ac3041cdee455138932725517a0b41805d8315bf60a",
+  "needs_normalization": true
+}

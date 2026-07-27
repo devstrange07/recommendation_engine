@@ -1,0 +1,110 @@
+{
+  "id": "prod_65",
+  "kind": "service",
+  "title": "TicketBay",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "helpdesk ticketing system.",
+  "short_pitch": "TicketBay — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "TicketBay"
+  ],
+  "price_min": {
+    "INR": 399.2,
+    "GBP": 3.99,
+    "USD": 6.24
+  },
+  "price_max": {
+    "INR": 598.8,
+    "GBP": 5.99,
+    "USD": 9.36
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_65_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 399.2
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 3.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_65_plan_1",
+      "name": "Annual Plus",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": 5.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": 7.489999999999999
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": 598.8
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "735cb863db18565a68bedea08c4efd98a84b06938c4153013f33d335a21283c0",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "TicketBay. Category: Support/Helpdesk. helpdesk ticketing system. Pitch: TicketBay — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: TicketBay. Plans: Basic (one_time): Up to 2 users; email support | Annual Plus (annual): API access; priority support",
+  "display_card": {
+    "INR": "₹399",
+    "GBP": "£4",
+    "USD": "$6"
+  }
+}

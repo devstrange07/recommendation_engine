@@ -1,0 +1,61 @@
+{
+  "id": "shiv_009",
+  "kind": "service",
+  "title": "Shivalik Greens — 3 BHK, Bhat",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "3 BHK residential unit at Shivalik Greens, Bhat. Shivalik Group project aimed at mid–premium buyers seeking newer inventory north of Ahmedabad with basic club facilities.",
+  "short_pitch": "Shivalik Greens — 3 BHK, Bhat — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 8900000.0
+  },
+  "price_max": {
+    "INR": 8900000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "features": [
+        "Landscaped garden",
+        "play area",
+        "parking",
+        "CCTV",
+        "power backup"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 8900000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b443a9c2809050972e2e73778fcaa954219548146c6762a864a5a83a1f6515bb",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Greens — 3 BHK, Bhat. Category: Residential/Apartments. 3 BHK residential unit at Shivalik Greens, Bhat. Shivalik Group project aimed at mid–premium buyers seeking newer inventory north of Ahmedabad with basic club facilities. Pitch: Shivalik Greens — 3 BHK, Bhat — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 3 BHK (one_time): Landscaped garden; play area; parking; CCTV; power backup",
+  "display_card": {
+    "INR": "₹8,900,000"
+  }
+}

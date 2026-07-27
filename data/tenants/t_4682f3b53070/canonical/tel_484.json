@@ -1,0 +1,58 @@
+{
+  "id": "tel_484",
+  "kind": "service",
+  "title": "Noise ColorFit Pro 5 Max Strap Pack",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Replacement strap 3-pack for Noise ColorFit Pro 5 Max.",
+  "short_pitch": "Noise ColorFit Pro 5 Max Strap Pack — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Noise"
+  ],
+  "price_min": {
+    "INR": 999.0
+  },
+  "price_max": {
+    "INR": 999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — ColorFit Strap Pack",
+      "features": [
+        "3 straps",
+        "quick release",
+        "ColorFit fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d00f3f915d5eda382d7b216f66045bed64177340afe15fb38829dde9177b1da9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Noise ColorFit Pro 5 Max Strap Pack. Category: Electronics/Accessories. Replacement strap 3-pack for Noise ColorFit Pro 5 Max. Pitch: Noise ColorFit Pro 5 Max Strap Pack — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Noise. Plans: Street — ColorFit Strap Pack (one_time): 3 straps; quick release; ColorFit fit",
+  "display_card": {
+    "INR": "₹999"
+  }
+}

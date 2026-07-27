@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_370",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Redmi 15 5G 256GB.",
+    "short_pitch": "Redmi 15 5G 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Redmi"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "256GB",
+        "5G",
+        "HyperOS"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

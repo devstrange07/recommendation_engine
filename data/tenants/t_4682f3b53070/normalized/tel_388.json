@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_388",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "JioPhone Prima 4G — smart feature phone style device for basic apps and UPI.",
+    "short_pitch": "JioPhone Prima 4G 2GB + 32GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "JioPhone"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "4G",
+        "KaiOS/Android hybrid",
+        "Jio services"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

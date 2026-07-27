@@ -1,0 +1,60 @@
+{
+  "id": "tel_098",
+  "kind": "service",
+  "title": "POCO X8 Pro Max 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "POCO X8 Pro Max — performance mid-ranger with high refresh display for gaming on a budget.",
+  "short_pitch": "POCO X8 Pro Max 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "POCO"
+  ],
+  "price_min": {
+    "INR": 46999.0
+  },
+  "price_max": {
+    "INR": 46999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — X8 Pro Max",
+      "features": [
+        "High refresh AMOLED",
+        "strong mid SoC",
+        "HyperOS",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 46999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "0471e5cf3a8f38cd9c81f64a93f2f66725194738fdf5f002c29f74f1b903d9d5",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "POCO X8 Pro Max 12GB + 256GB. Category: Electronics/Smartphones. POCO X8 Pro Max — performance mid-ranger with high refresh display for gaming on a budget. Pitch: POCO X8 Pro Max 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: POCO. Plans: Street — X8 Pro Max (one_time): High refresh AMOLED; strong mid SoC; HyperOS; 5G",
+  "display_card": {
+    "INR": "₹46,999"
+  }
+}

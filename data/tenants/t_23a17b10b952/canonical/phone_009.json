@@ -1,0 +1,61 @@
+{
+  "id": "phone_009",
+  "kind": "service",
+  "title": "Apple iPhone 17 Pro 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 17 Pro 512GB storage variant for heavy video shooters who need local ProRes / Cinema-style capture without constant offload.",
+  "short_pitch": "Apple iPhone 17 Pro 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 154900.0
+  },
+  "price_max": {
+    "INR": 154900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "MRP / Street — Pro 512GB",
+      "features": [
+        "512GB",
+        "Pro camera",
+        "telephoto",
+        "Apple Intelligence",
+        "MagSafe"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 154900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "8a12dfcba95a4ad3fbb0b4940a440160a9159786ee370a60c649ce0585cd47d6",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 17 Pro 512GB. Category: Electronics/Smartphones. Apple iPhone 17 Pro 512GB storage variant for heavy video shooters who need local ProRes / Cinema-style capture without constant offload. Pitch: Apple iPhone 17 Pro 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: MRP / Street — Pro 512GB (one_time): 512GB; Pro camera; telephoto; Apple Intelligence; MagSafe",
+  "display_card": {
+    "INR": "₹154,900"
+  }
+}

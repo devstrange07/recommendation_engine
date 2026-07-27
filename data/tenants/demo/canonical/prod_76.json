@@ -1,0 +1,98 @@
+{
+  "id": "prod_76",
+  "kind": "service",
+  "title": "BizRelation",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "B2B relationship CRM.",
+  "short_pitch": "BizRelation — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "BizRelation"
+  ],
+  "price_min": {
+    "USD": 8.49,
+    "GBP": 7.99,
+    "INR": 1198.5
+  },
+  "price_max": {
+    "USD": 12.73,
+    "GBP": 7.99,
+    "INR": 1198.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_76_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": 8.49
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_76_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": 12.73
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "f2d328d503b8d5bb16d9f2e5c359f47dcc13e7318971fcfde067734bc26761ec",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "BizRelation. Category: CRM/Sales. B2B relationship CRM. Pitch: BizRelation — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: BizRelation. Plans: Business (monthly): Up to 2 users; email support | Basic (one_time): API access; priority support",
+  "display_card": {
+    "INR": "₹1,198/mo",
+    "GBP": "£8/mo",
+    "USD": "$8/mo"
+  }
+}

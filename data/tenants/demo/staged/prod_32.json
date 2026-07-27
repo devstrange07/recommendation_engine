@@ -1,0 +1,106 @@
+{
+  "id": "prod_32",
+  "name": "SlotMaster",
+  "category_raw": null,
+  "description_text": "BEST IN CLASS!! multi-location appointment scheduling Amazing ROI World-class support Limited time offer — act NOW!!!",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_32_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": 1799.1
+        }
+      ]
+    },
+    {
+      "id": "prod_32_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_32_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 39.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 39.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 49.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 24.99,
+    "INR": 1799.1,
+    "GBP": 39.98
+  },
+  "price_max": {
+    "USD": 49.98,
+    "INR": 3998.0,
+    "GBP": 39.98
+  },
+  "content_hash": "6cad7dece905b14bfa0e8db066f531bad480ac438535540817dafa65462d2962",
+  "needs_normalization": false
+}

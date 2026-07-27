@@ -1,0 +1,32 @@
+{
+  "id": "phone_003",
+  "name": "Samsung Galaxy S26 Ultra 16GB + 1TB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Top Samsung Galaxy S26 Ultra configuration with 16GB RAM and 1TB storage. Aimed at creators and heavy multitaskers who want maximum local storage without cloud dependence.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 16GB + 1TB",
+      "feature_text": "16GB RAM; 1TB storage; 200MP camera; S Pen; flagship AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 174999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 174999.0
+  },
+  "price_max": {
+    "INR": 174999.0
+  },
+  "content_hash": "76d4c6b187c029aed2f6f5cb23c5d0d45e3f510e32302d8e1bb13ada5fcc2ebe",
+  "needs_normalization": true
+}

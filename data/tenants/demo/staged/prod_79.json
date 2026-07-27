@@ -1,0 +1,80 @@
+{
+  "id": "prod_79",
+  "name": "MeetGrid",
+  "category_raw": "automations",
+  "description_text": "meeting scheduler with buffer times",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_79_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": 1999.2
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_79_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 31.24,
+    "INR": 1999.2,
+    "GBP": 37.48
+  },
+  "price_max": {
+    "USD": 46.86,
+    "INR": 3748.5,
+    "GBP": 37.48
+  },
+  "content_hash": "a5b2c91181d730f5ce1c77632c7b5bd0f9e36cae6490820fb9c33e4b3ace40bd",
+  "needs_normalization": false
+}

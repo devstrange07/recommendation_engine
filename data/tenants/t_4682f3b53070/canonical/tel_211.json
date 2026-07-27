@@ -1,0 +1,60 @@
+{
+  "id": "tel_211",
+  "kind": "service",
+  "title": "Samsung Galaxy S26 Plus — Coral Pink 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Samsung Galaxy S26 Plus value flagship with large AMOLED and Galaxy AI. India retail SKU in Coral Pink finish.",
+  "short_pitch": "Samsung Galaxy S26 Plus — Coral Pink 12GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 104999.0
+  },
+  "price_max": {
+    "INR": 104999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Coral Pink 12GB + 512GB",
+      "features": [
+        "Large AMOLED",
+        "flagship chipset",
+        "Galaxy AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 104999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "775733b7a543577a4d8e26b206b09357ebbe94a2cd417c54b079853bb194d46a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy S26 Plus — Coral Pink 12GB + 512GB. Category: Electronics/Smartphones. Samsung Galaxy S26 Plus value flagship with large AMOLED and Galaxy AI. India retail SKU in Coral Pink finish. Pitch: Samsung Galaxy S26 Plus — Coral Pink 12GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Coral Pink 12GB + 512GB (one_time): Large AMOLED; flagship chipset; Galaxy AI; 5G",
+  "display_card": {
+    "INR": "₹104,999"
+  }
+}

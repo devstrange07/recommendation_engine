@@ -1,0 +1,61 @@
+{
+  "id": "shiv_022",
+  "kind": "service",
+  "title": "Shivalik Harmony — 3 BHK, Panjarapol Ambawadi",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "3 BHK at Shivalik Harmony, Panjarapol / Ambawadi, Ahmedabad. RERA area ~1096–1360 sq ft. Redevelopment-style residential by Shivalik Group with ground retail; central west Ahmedabad location.",
+  "short_pitch": "Shivalik Harmony — 3 BHK, Panjarapol Ambawadi — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 11000000.0
+  },
+  "price_max": {
+    "INR": 11000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "features": [
+        "RA ~1100–1360 sq ft",
+        "lifts",
+        "parking",
+        "security",
+        "retail podium"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 11000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b1c69f526ab4726f2e19ec6a9dfc15a2f4c3468ec5fee781e2ae3be7c0b39731",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Harmony — 3 BHK, Panjarapol Ambawadi. Category: Residential/Apartments. 3 BHK at Shivalik Harmony, Panjarapol / Ambawadi, Ahmedabad. RERA area ~1096–1360 sq ft. Redevelopment-style residential by Shivalik Group with ground retail; central west Ahmedabad location. Pitch: Shivalik Harmony — 3 BHK, Panjarapol Ambawadi — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 3 BHK (one_time): RA ~1100–1360 sq ft; lifts; parking; security; retail podium",
+  "display_card": {
+    "INR": "₹11,000,000"
+  }
+}

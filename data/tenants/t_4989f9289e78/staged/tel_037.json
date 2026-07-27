@@ -1,0 +1,32 @@
+{
+  "id": "tel_037",
+  "name": "OnePlus 15 16GB + 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "OnePlus 15 higher RAM/storage for gaming and multitasking without jumping to Ultra-class rivals.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 16GB + 512GB",
+      "feature_text": "16GB RAM; 512GB; Hasselblad; OxygenOS; fast charge; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 76999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 76999.0
+  },
+  "price_max": {
+    "INR": 76999.0
+  },
+  "content_hash": "852a30fd2ae5341b41650f71e5e99b17bbd5ae674da4c892243571076a56e849",
+  "needs_normalization": true
+}

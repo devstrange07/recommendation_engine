@@ -1,0 +1,100 @@
+{
+  "id": "prod_45",
+  "kind": "service",
+  "title": "ListLift",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "list growth and email blasts.",
+  "short_pitch": "ListLift — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "ListLift"
+  ],
+  "price_min": {
+    "USD": 20.24,
+    "GBP": 14.389999999999999
+  },
+  "price_max": {
+    "USD": 33.73,
+    "GBP": 26.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_45_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": 20.24
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 17.99,
+          "discounted_amount": 14.389999999999999
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_45_plan_1",
+      "name": "Business",
+      "features": [
+        "Business tier"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 26.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "cddd3796ba2b75cbb661514ecfe26bcd598cb6221d0c9816bafbad885c516c40",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "ListLift. Category: Marketing/Email. list growth and email blasts. Pitch: ListLift — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: ListLift. Plans: Annual Plus (one_time): Up to 2 users; email support | Business (monthly): Business tier",
+  "display_card": {
+    "USD": "$20",
+    "GBP": "£14"
+  }
+}

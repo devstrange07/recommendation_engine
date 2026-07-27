@@ -1,0 +1,47 @@
+{
+  "product_id": "prod_12",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "fast ticket resolution tool.",
+    "short_pitch": "ResolveNow — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "ResolveNow"
+    ],
+    "plan_features": {
+      "prod_12_plan_0": [
+        "Same features as listed on website"
+      ],
+      "prod_12_plan_1": [
+        "Same features as listed on website"
+      ],
+      "prod_12_plan_2": [
+        "Same features as listed on website"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "plans_indistinguishable",
+      "field": "plans",
+      "issue": "Plan feature_text values are identical",
+      "options": [
+        "Annual Plus",
+        "Business",
+        "Pro",
+        "differentiate_manually"
+      ],
+      "recommended": "differentiate_manually"
+    }
+  ]
+}

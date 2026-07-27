@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_189",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "OnePlus Open 2 book foldable Emerald Dusk colorway. India retail SKU in Emerald Dusk finish.",
+    "short_pitch": "OnePlus Open 2 — Emerald Dusk 16GB + 512GB — device",
+    "category_path": "Electronics/Foldables",
+    "use_case_tags": [
+      "flagship",
+      "compact",
+      "daily_driver"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "OnePlus"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Book foldable",
+        "OxygenOS",
+        "Hasselblad",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

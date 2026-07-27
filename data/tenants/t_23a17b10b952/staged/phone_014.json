@@ -1,0 +1,32 @@
+{
+  "id": "phone_014",
+  "name": "Google Pixel 10 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Google Pixel 10 — AI-first clean Android flagship. Tensor G5, Magic Editor / Pixel Camera stack, 7 years of OS updates. Strong mid-premium pick for photography and software purity.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 256GB",
+      "feature_text": "Tensor G5; Pixel Camera; Magic Editor; 7-yr updates; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 59990.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 59990.0
+  },
+  "price_max": {
+    "INR": 59990.0
+  },
+  "content_hash": "8906feedff073097808b230f4a55725429732832694999063a77b6729ec84a3b",
+  "needs_normalization": true
+}

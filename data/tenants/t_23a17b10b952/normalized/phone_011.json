@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_011",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple iPhone 17 Pro Max 512GB — Pro Max hardware with doubled storage for travel vloggers and professionals shooting long 4K sessions.",
+    "short_pitch": "Apple iPhone 17 Pro Max 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "512GB",
+        "Pro Max camera",
+        "Apple Intelligence",
+        "MagSafe",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

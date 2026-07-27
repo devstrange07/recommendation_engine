@@ -1,0 +1,140 @@
+{
+  "id": "prod_7",
+  "kind": "service",
+  "title": "HairBook",
+  "brand_or_provider": null,
+  "category_path": "Scheduling/Appointments",
+  "clean_description": "hair salon booking and client history.",
+  "short_pitch": "HairBook — scheduling for teams",
+  "use_case_tags": [
+    "appointment_booking",
+    "online_scheduling",
+    "client_reminders"
+  ],
+  "target_audience": [
+    "salon_spa",
+    "small_business",
+    "clinic_healthcare"
+  ],
+  "aliases": [
+    "HairBook"
+  ],
+  "price_min": {
+    "GBP": 25.49,
+    "INR": 2399.2,
+    "USD": 56.23
+  },
+  "price_max": {
+    "GBP": 26.99,
+    "INR": 5998.0,
+    "USD": 56.23
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_7_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": 26.99
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": 25.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": 2399.2
+        }
+      ]
+    },
+    {
+      "id": "prod_7_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_7_plan_2",
+      "name": "Annual Plus",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "47193a7c3d454991b829636b3600f5dff0e09ab1dcb7490cf4b0de9d24bf74d8",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "HairBook. Category: Scheduling/Appointments. hair salon booking and client history. Pitch: HairBook — scheduling for teams. Use cases: appointment_booking, online_scheduling, client_reminders. Audience: salon_spa, small_business, clinic_healthcare. Aliases: HairBook. Plans: Business (monthly): Up to 2 users; email support | Basic (one_time): API access; priority support | Annual Plus (annual): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,399/mo",
+    "GBP": "£25/mo",
+    "USD": "$56/mo"
+  }
+}

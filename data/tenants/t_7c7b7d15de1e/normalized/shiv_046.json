@@ -1,0 +1,33 @@
+{
+  "product_id": "shiv_046",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Retail unit at Shivalik Enclave, Shahibaug. Retail RERA area ~1036–2846 sq ft. Shivalik Group mixed-use podium retail; examples of pre-leased brands in project marketing.",
+    "short_pitch": "Shivalik Enclave — Retail Shop, Shahibaug — commercial listing",
+    "category_path": "Commercial/Retail",
+    "use_case_tags": [
+      "retail_frontage",
+      "sale",
+      "investment"
+    ],
+    "target_audience": [
+      "retailer",
+      "investor",
+      "sme_office"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Podium retail",
+        "parking",
+        "high visibility",
+        "CCTV",
+        "fire systems"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

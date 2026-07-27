@@ -1,0 +1,60 @@
+{
+  "id": "tel_056",
+  "kind": "service",
+  "title": "Vivo Y31 Pro 5G 8GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Vivo Y31 Pro 5G — slightly upspecced Y31 sibling for buyers stepping up from entry.",
+  "short_pitch": "Vivo Y31 Pro 5G 8GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Vivo"
+  ],
+  "price_min": {
+    "INR": 16999.0
+  },
+  "price_max": {
+    "INR": 16999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Y31 Pro",
+      "features": [
+        "5G",
+        "better display",
+        "large battery",
+        "dual camera"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 16999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b4203b9ef12463d0a722da5daf717e533b7e2406f7ecd7b39c68bdce045afbf3",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Vivo Y31 Pro 5G 8GB + 128GB. Category: Electronics/Smartphones. Vivo Y31 Pro 5G — slightly upspecced Y31 sibling for buyers stepping up from entry. Pitch: Vivo Y31 Pro 5G 8GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Vivo. Plans: Street — Y31 Pro (one_time): 5G; better display; large battery; dual camera",
+  "display_card": {
+    "INR": "₹16,999"
+  }
+}

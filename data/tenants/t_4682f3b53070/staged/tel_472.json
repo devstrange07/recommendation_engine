@@ -1,0 +1,32 @@
+{
+  "id": "tel_472",
+  "name": "boAt Airdopes 181 Pro",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "boAt Airdocs 181 Pro popular India TWS with ENx calling.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Airdopes 181 Pro",
+      "feature_text": "ANC; ENx; ASAP charge; Bluetooth 5.3",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1999.0
+  },
+  "price_max": {
+    "INR": 1999.0
+  },
+  "content_hash": "d45352cbf79c8f62298936bec018ff3eb709e5187071de8cb53045cfe74cc6c7",
+  "needs_normalization": true
+}

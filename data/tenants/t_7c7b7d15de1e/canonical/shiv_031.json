@@ -1,0 +1,60 @@
+{
+  "id": "shiv_031",
+  "kind": "service",
+  "title": "Shivalik Shaswat Bungalows — Prahlad Nagar belt",
+  "brand_or_provider": null,
+  "category_path": "Residential/Bungalows",
+  "clean_description": "Bungalow at Shivalik Shaswat Bungalows near Prahlad Nagar / Satellite belt. Established Shivalik Group bungalow community for buyers wanting independent home near SG Highway commercial hubs.",
+  "short_pitch": "Shivalik Shaswat Bungalows — Prahlad Nagar belt — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "family_buyer",
+    "end_user_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 31000000.0
+  },
+  "price_max": {
+    "INR": 31000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Bungalow",
+      "features": [
+        "Independent home",
+        "covered parking",
+        "garden",
+        "gated access"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 31000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "19ce37a273d9374d6e2132a8ef804caeac400710b6b0e116995ec5294a3c9d46",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Shaswat Bungalows — Prahlad Nagar belt. Category: Residential/Bungalows. Bungalow at Shivalik Shaswat Bungalows near Prahlad Nagar / Satellite belt. Established Shivalik Group bungalow community for buyers wanting independent home near SG Highway commercial hubs. Pitch: Shivalik Shaswat Bungalows — Prahlad Nagar belt — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: family_buyer, end_user_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — Bungalow (one_time): Independent home; covered parking; garden; gated access",
+  "display_card": {
+    "INR": "₹31,000,000"
+  }
+}

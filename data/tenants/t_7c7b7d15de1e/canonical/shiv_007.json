@@ -1,0 +1,60 @@
+{
+  "id": "shiv_007",
+  "kind": "service",
+  "title": "Shivalik Limited Edition — 6 BHK Penthouse, GIFT City",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "6 BHK penthouse at Shivalik Limited Edition, GIFT City. RERA area roughly 12280–13730 sq ft. Rare ultra-luxury inventory by Shivalik Group for HNIs seeking signature GIFT City residence.",
+  "short_pitch": "Shivalik Limited Edition — 6 BHK Penthouse, GIFT City — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 180000000.0
+  },
+  "price_max": {
+    "INR": 180000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 6 BHK Penthouse",
+      "features": [
+        "Penthouser-scale RA ~12500+ sq ft",
+        "private foyer",
+        "premium amenities",
+        "multi parking"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 180000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "98cba6d408bbaf5114663f202082b9b9c4a6db1c154434a41b0569bfc7f99988",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Limited Edition — 6 BHK Penthouse, GIFT City. Category: Residential/Apartments. 6 BHK penthouse at Shivalik Limited Edition, GIFT City. RERA area roughly 12280–13730 sq ft. Rare ultra-luxury inventory by Shivalik Group for HNIs seeking signature GIFT City residence. Pitch: Shivalik Limited Edition — 6 BHK Penthouse, GIFT City — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 6 BHK Penthouse (one_time): Penthouser-scale RA ~12500+ sq ft; private foyer; premium amenities; multi parking",
+  "display_card": {
+    "INR": "₹180,000,000"
+  }
+}

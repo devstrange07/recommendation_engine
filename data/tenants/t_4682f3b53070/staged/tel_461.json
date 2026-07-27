@@ -1,0 +1,32 @@
+{
+  "id": "tel_461",
+  "name": "Belkin ScreenForce UltraGlass 2 for iPhone 17 Pro Max",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Belkin ScreenForce UltraGlass 2 tempered glass / film kit for iPhone 17 Pro Max.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Glass for iPhone",
+      "feature_text": "9H tempered; oleophobic; iPhone 17 Pro Max fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2999.0
+  },
+  "price_max": {
+    "INR": 2999.0
+  },
+  "content_hash": "349ee0bc330b407600a9ec451981f27c86f4c5cc0a582cb6aeb37aa5414b6fcd",
+  "needs_normalization": true
+}

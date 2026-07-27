@@ -1,0 +1,32 @@
+{
+  "id": "tel_021",
+  "name": "Apple iPhone 16 Plus 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 16 Plus — larger display prior-gen iPhone still widely available in India retail.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Plus 128GB",
+      "feature_text": "Large display; iOS; dual camera; Face ID; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 74900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 74900.0
+  },
+  "price_max": {
+    "INR": 74900.0
+  },
+  "content_hash": "9f3c205dee4f87916d00dfb2bcd63e3e1b35e05cf7311df28542e6c0c3d6d8df",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_196",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy Watch Ultra 2026 LTE — rugged premium Galaxy watch with titanium and dual-frequency GPS.",
+    "short_pitch": "Samsung Galaxy Watch Ultra 2026 LTE — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Titanium",
+        "LTE",
+        "dual-freq GPS",
+        "Wear OS",
+        "100m water"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

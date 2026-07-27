@@ -1,0 +1,59 @@
+{
+  "id": "tel_406",
+  "kind": "service",
+  "title": "Samsung Galaxy Buds FE 2",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Samsung Galaxy Buds FE 2 — Fan Edition ANC earbuds for value Galaxy buyers.",
+  "short_pitch": "Samsung Galaxy Buds FE 2 — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 7999.0
+  },
+  "price_max": {
+    "INR": 7999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds FE 2",
+      "features": [
+        "ANC",
+        "Galaxy Wearable app",
+        "USB-C",
+        "value pricing"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 7999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "039e28f93467f090a8c377762754f006b0c244a441b41abdde9f937915d01a7a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy Buds FE 2. Category: Electronics/Accessories. Samsung Galaxy Buds FE 2 — Fan Edition ANC earbuds for value Galaxy buyers. Pitch: Samsung Galaxy Buds FE 2 — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Samsung. Plans: Street — Buds FE 2 (one_time): ANC; Galaxy Wearable app; USB-C; value pricing",
+  "display_card": {
+    "INR": "₹7,999"
+  }
+}

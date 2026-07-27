@@ -1,0 +1,86 @@
+{
+  "id": "prod_83",
+  "name": "RevenueMap (Legacy)",
+  "category_raw": "Sales CRM",
+  "description_text": "revenue pipeline CRM Legacy edition.",
+  "unit": "workspace",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_3_plan_0",
+      "name": "Annual Plus",
+      "feature_text": null,
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 12.99,
+          "discounted_amount": 11.040000000000001
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": 1169.1
+        }
+      ]
+    },
+    {
+      "id": "prod_3_plan_1",
+      "name": "Business",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": 1753.65
+        }
+      ]
+    },
+    {
+      "id": "prod_3_plan_2",
+      "name": "Pro",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 25.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 11.040000000000001,
+    "INR": 1169.1
+  },
+  "price_max": {
+    "GBP": 25.98,
+    "INR": 2598.0
+  },
+  "content_hash": "0b0c082a8a7522fd35095f51a481d72091ed41b721b4dfc515cce0a4433494b5",
+  "needs_normalization": false
+}

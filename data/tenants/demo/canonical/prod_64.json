@@ -1,0 +1,102 @@
+{
+  "id": "prod_64",
+  "kind": "service",
+  "title": "AssistHub Pro Suite",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "Entry-level starter tool for beginners only. Basic free tier features. support knowledge and tickets.",
+  "short_pitch": "AssistHub Pro Suite — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "AssistHub"
+  ],
+  "price_min": {
+    "GBP": 4.49,
+    "INR": 399.2,
+    "USD": 9.36
+  },
+  "price_max": {
+    "GBP": 7.49,
+    "INR": 598.8,
+    "USD": 9.36
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_64_plan_0",
+      "name": "Pro",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 399.2
+        }
+      ]
+    },
+    {
+      "id": "prod_64_plan_1",
+      "name": "Basic",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": 598.8
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "a2ed470cdd322221543fd662a2acd81bc5c1d718c879eeae21fae1b9ab346b28",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "AssistHub Pro Suite. Category: Support/Helpdesk. Entry-level starter tool for beginners only. Basic free tier features. support knowledge and tickets. Pitch: AssistHub Pro Suite — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: AssistHub. Plans: Pro (monthly): Same features as listed on website | Basic (one_time): Same features as listed on website",
+  "display_card": {
+    "INR": "₹399/mo",
+    "GBP": "£4/mo",
+    "USD": "$9/mo"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "prod_77",
+  "name": "NexusSales",
+  "category_raw": "Sales CRM",
+  "description_text": "team sales CRM",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_77_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": 26.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 31.87
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_77_plan_1",
+      "name": "Business",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": 44.98
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_77_plan_2",
+      "name": "Pro",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 59.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 26.99,
+    "USD": 31.87,
+    "INR": 2999.0
+  },
+  "price_max": {
+    "GBP": 59.98,
+    "USD": 44.98,
+    "INR": 5998.0
+  },
+  "content_hash": "eedd44c1ed37d6cbe3d03deae085433f4e03536f316d093f24fcfafd3d2218b7",
+  "needs_normalization": false
+}

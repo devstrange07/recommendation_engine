@@ -1,0 +1,32 @@
+{
+  "id": "tel_442",
+  "name": "Spigen Tough Armor for Samsung Galaxy S26 Ultra",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Spigen Tough Armor protective case for Samsung Galaxy S26 Ultra — India retail accessory SKU.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Spigen Case",
+      "feature_text": "Drop protection; precise cutouts; Samsung Galaxy S26 Ultra fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3299.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 3299.0
+  },
+  "price_max": {
+    "INR": 3299.0
+  },
+  "content_hash": "52d95d234f9d68b3f57b423c868806ecab140737000aeffe5f843cc447b2b962",
+  "needs_normalization": true
+}

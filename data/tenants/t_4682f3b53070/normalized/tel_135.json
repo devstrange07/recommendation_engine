@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_135",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Nothing Phone (2a) Plus — older Nothing still listed at deep discounts after 4a launch.",
+    "short_pitch": "Nothing Phone (2a) Plus 12GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Nothing"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Nothing OS",
+        "Glyph",
+        "AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

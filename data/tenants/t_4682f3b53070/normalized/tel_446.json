@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_446",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple Clear Case with MagSafe protective case for Apple iPhone 17 — India retail accessory SKU.",
+    "short_pitch": "Apple Clear Case with MagSafe for Apple iPhone 17 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Drop protection",
+        "precise cutouts",
+        "Apple iPhone 17 fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

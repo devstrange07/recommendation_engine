@@ -1,0 +1,9 @@
+{
+  "product_id": "prod_29",
+  "fields": {
+    "plans": {
+      "value": "Business",
+      "flag_type": "plans_indistinguishable"
+    }
+  }
+}

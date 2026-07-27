@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_63",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "support queue management.",
+    "short_pitch": "ServiceQueue — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "ServiceQueue"
+    ],
+    "plan_features": {
+      "prod_63_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_63_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_63_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

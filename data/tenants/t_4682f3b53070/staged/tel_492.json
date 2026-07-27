@@ -1,0 +1,32 @@
+{
+  "id": "tel_492",
+  "name": "Fire-Boltt Phoenix Ultra Smartwatch",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Fire-Boltt Phoenix Ultra premium AMOLED smartwatch.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Phoenix Ultra",
+      "feature_text": "AMOLED; BT calling; sports modes",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 4499.0
+  },
+  "price_max": {
+    "INR": 4499.0
+  },
+  "content_hash": "d4f641fff5c5fabaa4eee3985777e08a899ba7ab9bdca7dbf6023d4e06dd3263",
+  "needs_normalization": true
+}

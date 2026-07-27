@@ -1,0 +1,61 @@
+{
+  "id": "tel_249",
+  "kind": "service",
+  "title": "Apple iPhone 17 — Forest Green 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 17 base model for most iOS buyers in India 2026. India retail SKU in Forest Green finish.",
+  "short_pitch": "Apple iPhone 17 — Forest Green 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 92900.0
+  },
+  "price_max": {
+    "INR": 92900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Forest Green 256GB",
+      "features": [
+        "iOS",
+        "Apple Intelligence",
+        "Face ID",
+        "5G",
+        "MagSafe"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 92900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d2bf8cf7f57a56469da705fb59504543ff8ffe5410534503d99b9f22b31e2a1d",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 17 — Forest Green 256GB. Category: Electronics/Smartphones. Apple iPhone 17 base model for most iOS buyers in India 2026. India retail SKU in Forest Green finish. Pitch: Apple iPhone 17 — Forest Green 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: Street — Forest Green 256GB (one_time): iOS; Apple Intelligence; Face ID; 5G; MagSafe",
+  "display_card": {
+    "INR": "₹92,900"
+  }
+}

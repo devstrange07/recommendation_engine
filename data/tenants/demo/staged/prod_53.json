@@ -1,0 +1,100 @@
+{
+  "id": "prod_53",
+  "name": "SupportGrid",
+  "category_raw": "support desk",
+  "description_text": "multi-channel support",
+  "unit": "user",
+  "kb_article": "https://kb.example.com/prod_53",
+  "plans": [
+    {
+      "id": "prod_53_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": 7.99
+        }
+      ]
+    },
+    {
+      "id": "prod_53_plan_1",
+      "name": "Annual Plus",
+      "feature_text": "API access, priority support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": 1018.72
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": 9.58
+        }
+      ]
+    },
+    {
+      "id": "prod_53_plan_2",
+      "name": "Basic",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 19.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 7.99,
+    "INR": 799.0,
+    "USD": 7.99
+  },
+  "price_max": {
+    "GBP": 9.58,
+    "INR": 1598.0,
+    "USD": 19.98
+  },
+  "content_hash": "c3bda264ebdb66173ed2bf98fdc604c121d45d2fbf8213ef3418da21b3d1cc41",
+  "needs_normalization": false
+}

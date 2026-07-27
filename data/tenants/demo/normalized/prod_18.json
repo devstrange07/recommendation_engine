@@ -1,0 +1,56 @@
+{
+  "product_id": "prod_18",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "drip campaign automation.",
+    "short_pitch": "DripPath — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "DripPath"
+    ],
+    "plan_features": {
+      "prod_18_plan_0": [
+        "Same features as listed on website"
+      ],
+      "prod_18_plan_1": [
+        "Same features as listed on website"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "cant_categorize",
+      "field": "category_path",
+      "issue": "Missing raw category; heuristic assigned best guess",
+      "options": [
+        "Scheduling/Appointments",
+        "CRM/Sales",
+        "Invoicing/Billing",
+        "Marketing/Email",
+        "Support/Helpdesk"
+      ],
+      "recommended": "Marketing/Email"
+    },
+    {
+      "type": "plans_indistinguishable",
+      "field": "plans",
+      "issue": "Plan feature_text values are identical",
+      "options": [
+        "Business",
+        "Pro",
+        "differentiate_manually"
+      ],
+      "recommended": "differentiate_manually"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tel_107",
+  "kind": "service",
+  "title": "Realme 15 Pro 5G 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Realme 15 Pro 5G — mid-range Realme with stylish design and solid charging speeds.",
+  "short_pitch": "Realme 15 Pro 5G 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Realme"
+  ],
+  "price_min": {
+    "INR": 27999.0
+  },
+  "price_max": {
+    "INR": 27999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 15 Pro",
+      "features": [
+        "AMOLED",
+        "fast charge",
+        "mid SoC",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 27999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "5e4f7f0b149e917d3d1a175878c0a2bba043e683439de9fa384a1f1c65d49e97",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Realme 15 Pro 5G 8GB + 256GB. Category: Electronics/Smartphones. Realme 15 Pro 5G — mid-range Realme with stylish design and solid charging speeds. Pitch: Realme 15 Pro 5G 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Realme. Plans: Street — 15 Pro (one_time): AMOLED; fast charge; mid SoC; 5G",
+  "display_card": {
+    "INR": "₹27,999"
+  }
+}

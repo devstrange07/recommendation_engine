@@ -1,0 +1,61 @@
+{
+  "id": "shiv_014",
+  "kind": "service",
+  "title": "Shivalik Green View — 4 BHK Penthouse, Shantigram",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "4 BHK penthouse at Shivalik Green View, Shantigram. RERA area approx 2105 sq ft. Larger format for buyers wanting Shantigram address with Shivalik Group brand and township amenities.",
+  "short_pitch": "Shivalik Green View — 4 BHK Penthouse, Shantigram — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 28000000.0
+  },
+  "price_max": {
+    "INR": 28000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 4 BHK Penthouse",
+      "features": [
+        "RA ~2105 sq ft",
+        "club amenities",
+        "parking",
+        "power backup",
+        "landscaped campus"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 28000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c1750e95bde65327d9f8a88fe3722b233253431a0c9aca5c0b04c2d8f907dac5",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Green View — 4 BHK Penthouse, Shantigram. Category: Residential/Apartments. 4 BHK penthouse at Shivalik Green View, Shantigram. RERA area approx 2105 sq ft. Larger format for buyers wanting Shantigram address with Shivalik Group brand and township amenities. Pitch: Shivalik Green View — 4 BHK Penthouse, Shantigram — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 4 BHK Penthouse (one_time): RA ~2105 sq ft; club amenities; parking; power backup; landscaped campus",
+  "display_card": {
+    "INR": "₹28,000,000"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_392",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Tecno Pova 7 Pro 5G — battery-focused Tecno for gaming and media.",
+    "short_pitch": "Tecno Pova 7 Pro 5G 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Tecno"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Huge battery",
+        "gaming",
+        "AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

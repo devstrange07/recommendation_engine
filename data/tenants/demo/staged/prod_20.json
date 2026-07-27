@@ -1,0 +1,112 @@
+{
+  "id": "prod_20",
+  "name": "SalonFlow",
+  "category_raw": "Booking Tools",
+  "description_text": "salon appointment and staff scheduling",
+  "unit": null,
+  "kb_article": "https://kb.example.com/prod_20",
+  "plans": [
+    {
+      "id": "prod_20_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_20_plan_1",
+      "name": "Annual Plus",
+      "feature_text": "API access, priority support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": 11.98
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_20_plan_2",
+      "name": "Pro",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 15.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 19.98,
+          "discounted_amount": 17.98
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 7.99,
+    "USD": 9.99,
+    "INR": 799.0
+  },
+  "price_max": {
+    "GBP": 15.98,
+    "USD": 17.98,
+    "INR": 1598.0
+  },
+  "content_hash": "8826d7393cd429e5eaa0ade9148f1106d9ed508e2b100bcb586e3bb749c3b4ad",
+  "needs_normalization": false
+}

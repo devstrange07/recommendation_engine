@@ -1,0 +1,32 @@
+{
+  "id": "tel_399",
+  "name": "OPPO A79 5G 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "OPPO A79 5G mid A-series.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "feature_text": "5G; AMOLED; ColorOS",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 19999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 19999.0
+  },
+  "price_max": {
+    "INR": 19999.0
+  },
+  "content_hash": "c24e440615bad445d3aecd7aa43337ba3c2e49bc132a815535b017695708840c",
+  "needs_normalization": true
+}

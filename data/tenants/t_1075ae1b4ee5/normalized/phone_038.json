@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_038",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Xiaomi 15 compact flagship — Leica co-engineered cameras, Snapdragon flagship silicon, HyperOS. Smaller premium Android alternative to Galaxy S26 / Pixel 10 Pro.",
+    "short_pitch": "Xiaomi 15 — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Xiaomi"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Leica cameras",
+        "flagship Snapdragon",
+        "HyperOS",
+        "wireless charge",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

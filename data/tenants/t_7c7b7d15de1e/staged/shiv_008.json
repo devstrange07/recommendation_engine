@@ -1,0 +1,32 @@
+{
+  "id": "shiv_008",
+  "name": "Shivalik The Crown — 4 BHK, Bhat",
+  "category_raw": "Residential/Apartments",
+  "description_text": "4 BHK apartment at Shivalik The Crown, Bhat, Ahmedabad. Ongoing residential project by Shivalik Group on the northern growth corridor with modern amenities and family-oriented layout.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 4 BHK",
+      "feature_text": "Under construction; gym, garden, children's play area, covered parking, security",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 14500000.0
+  },
+  "price_max": {
+    "INR": 14500000.0
+  },
+  "content_hash": "102ce56086030208e26d09fab45f69d0984aa71a113b88a2d26b1e904522d2d8",
+  "needs_normalization": true
+}

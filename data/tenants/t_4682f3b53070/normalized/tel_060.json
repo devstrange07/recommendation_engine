@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_060",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "iQOO Neo 10 — near-flagship gaming performance at mid-premium India pricing.",
+    "short_pitch": "iQOO Neo 10 12GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "iQOO"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "High refresh AMOLED",
+        "strong SoC",
+        "cooling",
+        "fast charge",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

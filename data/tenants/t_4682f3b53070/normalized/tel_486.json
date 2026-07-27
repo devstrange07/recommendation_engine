@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_486",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "boAt Bassheads 900 Pro wired over-ear for gaming and calls.",
+    "short_pitch": "boAt Bassheads 900 Pro — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "boAt"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Wired",
+        "40mm drivers",
+        "foldable"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

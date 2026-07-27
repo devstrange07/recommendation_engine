@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_023",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple iPhone 16 Pro Max clearance pricing for large-screen iOS buyers skipping the 17 refresh.",
+    "short_pitch": "Apple iPhone 16 Pro Max 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pro Max display",
+        "Pro camera",
+        "Face ID",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

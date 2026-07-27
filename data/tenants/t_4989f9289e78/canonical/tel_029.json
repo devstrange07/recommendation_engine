@@ -1,0 +1,61 @@
+{
+  "id": "tel_029",
+  "kind": "service",
+  "title": "Google Pixel 10 Pro 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Google Pixel 10 Pro 512GB for power users who keep large media libraries on device.",
+  "short_pitch": "Google Pixel 10 Pro 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 114899.0
+  },
+  "price_max": {
+    "INR": 114899.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pro 512GB",
+      "features": [
+        "512GB",
+        "Pro camera",
+        "Tensor",
+        "Pixel AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 114899.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b1eaa36199184c50304cc5b915e247225b5eff85714a204e8cddce09489acc44",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10 Pro 512GB. Category: Electronics/Smartphones. Google Pixel 10 Pro 512GB for power users who keep large media libraries on device. Pitch: Google Pixel 10 Pro 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Pro 512GB (one_time): 512GB; Pro camera; Tensor; Pixel AI; 5G",
+  "display_card": {
+    "INR": "₹114,899"
+  }
+}

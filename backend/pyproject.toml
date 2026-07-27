@@ -1,0 +1,32 @@
+[project]
+name = "prism"
+version = "0.1.0"
+description = "Prism — Talk to your HybridShelf. Product chatbot with normalization pipeline."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.32.0",
+  "pydantic>=2.9.0",
+  "pydantic-settings>=2.6.0",
+  "openai>=1.55.0",
+  "qdrant-client>=1.12.0,<1.16.0",
+  "httpx>=0.27.0",
+  "python-dotenv>=1.0.0",
+  "pyyaml>=6.0.0",
+  "beautifulsoup4>=4.12.0",
+  "lxml>=5.0.0",
+  "langsmith>=0.3.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.7.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.uv]
+package = true

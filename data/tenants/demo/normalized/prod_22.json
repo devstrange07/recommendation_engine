@@ -1,0 +1,33 @@
+{
+  "product_id": "prod_22",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "drag-drop email campaigns.",
+    "short_pitch": "SendCraft — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "SendCraft"
+    ],
+    "plan_features": {
+      "prod_22_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_22_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_035",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Larger office floor plate at Shivalik Curv, GIFT City (~1575 sq ft RA). Suitable for mid-size corporate or professional services firms. Shivalik Group commercial inventory in India's IFSC hub.",
+    "short_pitch": "Shivalik Curv — Office Floor Plate 1575 sq ft, GIFT City — commercial listing",
+    "category_path": "Commercial/Offices",
+    "use_case_tags": [
+      "office_use",
+      "sale",
+      "investment"
+    ],
+    "target_audience": [
+      "sme_office",
+      "investor"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RA ~1575 sq ft",
+        "Grade-A amenities",
+        "parking",
+        "CCTV",
+        "fire systems"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

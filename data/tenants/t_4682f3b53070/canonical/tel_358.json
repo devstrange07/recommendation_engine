@@ -1,0 +1,60 @@
+{
+  "id": "tel_358",
+  "kind": "service",
+  "title": "POCO F7 Pro — Sunset Gold 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "POCO F7 Pro with near-flagship Snapdragon performance. India retail SKU in Sunset Gold finish.",
+  "short_pitch": "POCO F7 Pro — Sunset Gold 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "POCO"
+  ],
+  "price_min": {
+    "INR": 42999.0
+  },
+  "price_max": {
+    "INR": 42999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Sunset Gold 12GB + 256GB",
+      "features": [
+        "Near-flagship SoC",
+        "AMOLED",
+        "HyperOS",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 42999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "0fec9d5637107177d345dd79aca39f0fd7b12ce8d406c373bc72578e87a7cded",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "POCO F7 Pro — Sunset Gold 12GB + 256GB. Category: Electronics/Smartphones. POCO F7 Pro with near-flagship Snapdragon performance. India retail SKU in Sunset Gold finish. Pitch: POCO F7 Pro — Sunset Gold 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: POCO. Plans: Street — Sunset Gold 12GB + 256GB (one_time): Near-flagship SoC; AMOLED; HyperOS; 5G",
+  "display_card": {
+    "INR": "₹42,999"
+  }
+}

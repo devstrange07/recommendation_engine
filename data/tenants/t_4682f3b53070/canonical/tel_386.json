@@ -1,0 +1,59 @@
+{
+  "id": "tel_386",
+  "kind": "service",
+  "title": "Micromax IN 2b 4GB + 64GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Micromax IN 2b — entry Micromax for ultra-budget buyers.",
+  "short_pitch": "Micromax IN 2b 4GB + 64GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Micromax"
+  ],
+  "price_min": {
+    "INR": 7499.0
+  },
+  "price_max": {
+    "INR": 7499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 4GB + 64GB",
+      "features": [
+        "Large battery",
+        "dual camera",
+        "value pricing"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 7499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "87f86b33cbca4b0faf94cbebccb6dc66dcc3020ef11fb4960a1ad36336293e39",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Micromax IN 2b 4GB + 64GB. Category: Electronics/Smartphones. Micromax IN 2b — entry Micromax for ultra-budget buyers. Pitch: Micromax IN 2b 4GB + 64GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Micromax. Plans: Street — 4GB + 64GB (one_time): Large battery; dual camera; value pricing",
+  "display_card": {
+    "INR": "₹7,499"
+  }
+}

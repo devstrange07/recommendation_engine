@@ -1,0 +1,32 @@
+{
+  "id": "tel_026",
+  "name": "Google Pixel 10 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Google Pixel 10 base — clean Android, Tensor G5-class AI features, and strong computational photography for India.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 128GB",
+      "feature_text": "Pixel camera; Tensor; Pixel AI; 7-yr updates; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 54990.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 54990.0
+  },
+  "price_max": {
+    "INR": 54990.0
+  },
+  "content_hash": "c7cd1174ef8ac1d26aa234ad32a8e54bb824b884b9c96d18cfba269f0fce96fa",
+  "needs_normalization": true
+}

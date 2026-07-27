@@ -1,0 +1,61 @@
+{
+  "id": "phone_024",
+  "kind": "service",
+  "title": "OnePlus Nord 6",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OnePlus Nord 6 — standout battery life phone with a massive ~9000mAh-class cell. Mid-range performance and OxygenOS for users who prioritize all-day (or multi-day) endurance.",
+  "short_pitch": "OnePlus Nord 6 — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 44999.0
+  },
+  "price_max": {
+    "INR": 44999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Nord 6",
+      "features": [
+        "~9000mAh battery",
+        "OxygenOS",
+        "fast charging",
+        "AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 44999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ea7052c57f4452c2300eb5282f7a4d63b09c4492e5ece611e8a9002b7dc303b5",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Nord 6. Category: Electronics/Smartphones. OnePlus Nord 6 — standout battery life phone with a massive ~9000mAh-class cell. Mid-range performance and OxygenOS for users who prioritize all-day (or multi-day) endurance. Pitch: OnePlus Nord 6 — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — Nord 6 (one_time): ~9000mAh battery; OxygenOS; fast charging; AMOLED; 5G",
+  "display_card": {
+    "INR": "₹44,999"
+  }
+}

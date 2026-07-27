@@ -1,0 +1,33 @@
+{
+  "product_id": "shiv_005",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "4 BHK apartment at Shivalik Avenue, Bodakdev, Ahmedabad. Established Shivalik Group residential address close to SG Highway, schools, and retail. Suitable for end-users seeking premium west Ahmedabad living.",
+    "short_pitch": "Shivalik Avenue — 4 BHK, Bodakdev — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Premium 4 BHK",
+        "covered parking",
+        "security",
+        "lifts",
+        "power backup"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

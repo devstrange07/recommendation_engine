@@ -1,0 +1,13 @@
+{
+  "product_id": "prod_18",
+  "fields": {
+    "category_path": {
+      "value": "Marketing/Email",
+      "flag_type": "cant_categorize"
+    },
+    "plans": {
+      "value": "Business",
+      "flag_type": "plans_indistinguishable"
+    }
+  }
+}

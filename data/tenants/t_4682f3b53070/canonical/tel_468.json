@@ -1,0 +1,58 @@
+{
+  "id": "tel_468",
+  "kind": "service",
+  "title": "Redmi Note 15 Pro Glass 2-pack for Redmi Note 15 Pro 5G",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Redmi Note 15 Pro Glass 2-pack tempered glass / film kit for Redmi Note 15 Pro 5G.",
+  "short_pitch": "Redmi Note 15 Pro Glass 2-pack for Redmi Note 15 Pro 5G — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Redmi"
+  ],
+  "price_min": {
+    "INR": 399.0
+  },
+  "price_max": {
+    "INR": 399.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Glass for Redmi",
+      "features": [
+        "9H tempered",
+        "oleophobic",
+        "Redmi Note 15 Pro 5G fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 399.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "aa9fb6c3f0ead302c147771e6de868574b2ed541328a9837fc2415fb22f59453",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Redmi Note 15 Pro Glass 2-pack for Redmi Note 15 Pro 5G. Category: Electronics/Accessories. Redmi Note 15 Pro Glass 2-pack tempered glass / film kit for Redmi Note 15 Pro 5G. Pitch: Redmi Note 15 Pro Glass 2-pack for Redmi Note 15 Pro 5G — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Redmi. Plans: Street — Glass for Redmi (one_time): 9H tempered; oleophobic; Redmi Note 15 Pro 5G fit",
+  "display_card": {
+    "INR": "₹399"
+  }
+}

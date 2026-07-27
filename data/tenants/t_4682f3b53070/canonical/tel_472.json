@@ -1,0 +1,59 @@
+{
+  "id": "tel_472",
+  "kind": "service",
+  "title": "boAt Airdopes 181 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "boAt Airdocs 181 Pro popular India TWS with ENx calling.",
+  "short_pitch": "boAt Airdopes 181 Pro — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "boAt"
+  ],
+  "price_min": {
+    "INR": 1999.0
+  },
+  "price_max": {
+    "INR": 1999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Airdopes 181 Pro",
+      "features": [
+        "ANC",
+        "ENx",
+        "ASAP charge",
+        "Bluetooth 5.3"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d45352cbf79c8f62298936bec018ff3eb709e5187071de8cb53045cfe74cc6c7",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "boAt Airdopes 181 Pro. Category: Electronics/Accessories. boAt Airdocs 181 Pro popular India TWS with ENx calling. Pitch: boAt Airdopes 181 Pro — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: boAt. Plans: Street — Airdopes 181 Pro (one_time): ANC; ENx; ASAP charge; Bluetooth 5.3",
+  "display_card": {
+    "INR": "₹1,999"
+  }
+}

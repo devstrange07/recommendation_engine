@@ -1,0 +1,32 @@
+{
+  "id": "shiv_009",
+  "name": "Shivalik Greens — 3 BHK, Bhat",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK residential unit at Shivalik Greens, Bhat. Shivalik Group project aimed at mid–premium buyers seeking newer inventory north of Ahmedabad with basic club facilities.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "feature_text": "Landscaped garden, play area, parking, CCTV, power backup",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 8900000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 8900000.0
+  },
+  "price_max": {
+    "INR": 8900000.0
+  },
+  "content_hash": "b443a9c2809050972e2e73778fcaa954219548146c6762a864a5a83a1f6515bb",
+  "needs_normalization": true
+}

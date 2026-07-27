@@ -1,0 +1,93 @@
+{
+  "id": "prod_18",
+  "kind": "service",
+  "title": "DripPath",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "drip campaign automation.",
+  "short_pitch": "DripPath — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "DripPath"
+  ],
+  "price_min": {
+    "GBP": 7.99,
+    "INR": 679.15
+  },
+  "price_max": {
+    "GBP": 7.99,
+    "INR": 1078.65
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_18_plan_0",
+      "name": "Business",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": 679.15
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_18_plan_1",
+      "name": "Pro",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": 958.8
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": 1078.65
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "cc683699fe92ce0611c582e1e135ec8dcc00a579df0b862cd7715d0260045644",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "DripPath. Category: Marketing/Email. drip campaign automation. Pitch: DripPath — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: DripPath. Plans: Business (monthly): Same features as listed on website | Pro (monthly): Same features as listed on website",
+  "display_card": {
+    "INR": "₹679/mo",
+    "GBP": "£8/mo"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "tel_261",
+  "kind": "service",
+  "title": "OnePlus 15 — Coral Pink 16GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OnePlus 15 flagship with OxygenOS and Hasselblad-tuned camera. India retail SKU in Coral Pink finish.",
+  "short_pitch": "OnePlus 15 — Coral Pink 16GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 76999.0
+  },
+  "price_max": {
+    "INR": 76999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Coral Pink 16GB + 512GB",
+      "features": [
+        "Flagship chipset",
+        "OxygenOS",
+        "Hasselblad camera",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 76999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d0ca69c66f2c0590a6ca0f0827ef587f58f29a1fe87251a4f2278e0655a8a73a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus 15 — Coral Pink 16GB + 512GB. Category: Electronics/Smartphones. OnePlus 15 flagship with OxygenOS and Hasselblad-tuned camera. India retail SKU in Coral Pink finish. Pitch: OnePlus 15 — Coral Pink 16GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — Coral Pink 16GB + 512GB (one_time): Flagship chipset; OxygenOS; Hasselblad camera; fast charge; 5G",
+  "display_card": {
+    "INR": "₹76,999"
+  }
+}

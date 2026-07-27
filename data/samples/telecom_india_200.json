@@ -1,0 +1,5004 @@
+{
+  "products": [
+    {
+      "id": "tel_001",
+      "name": "Samsung Galaxy S26 Ultra 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung flagship Android phone for India (2026). Snapdragon 8 Elite Gen 5, 200MP main camera with 8K video, premium AMOLED display, S Pen support, and 7 years of software updates.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 12GB + 256GB",
+          "feature_text": "200MP camera; Snapdragon 8 Elite Gen 5; AMOLED; S Pen; 7-yr OS updates; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 124999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_002",
+      "name": "Samsung Galaxy S26 Ultra 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy S26 Ultra mid storage variant. Same flagship camera and performance as the base Ultra with 512GB storage for power users who shoot 8K video.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 12GB + 512GB",
+          "feature_text": "200MP camera; 512GB storage; Snapdragon 8 Elite Gen 5; S Pen; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 144999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_003",
+      "name": "Samsung Galaxy S26 Ultra 16GB + 1TB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Top Samsung Galaxy S26 Ultra configuration with 16GB RAM and 1TB storage for creators and heavy multitaskers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 16GB + 1TB",
+          "feature_text": "16GB RAM; 1TB storage; 200MP camera; S Pen; flagship AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 174999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_004",
+      "name": "Samsung Galaxy S26 Plus 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy S26 Plus — value flagship in the 2026 S26 lineup. Large bright display, flagship-class performance, strong battery life, and Galaxy AI.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — S26 Plus 256GB",
+          "feature_text": "Large AMOLED; flagship chipset; Galaxy AI; strong battery; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 94999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_005",
+      "name": "Samsung Galaxy S26 Plus 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy S26 Plus higher storage SKU for users who want Ultra-adjacent features without Ultra pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — S26 Plus 512GB",
+          "feature_text": "512GB storage; large AMOLED; Galaxy AI; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 104999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_006",
+      "name": "Samsung Galaxy S26 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Compact Samsung Galaxy S26 base flagship. Same generation chipset and camera stack as the Plus in a more pocketable body.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — S26 256GB",
+          "feature_text": "Compact flagship; AMOLED; Galaxy AI; 5G; multi-year updates",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 79999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_007",
+      "name": "Samsung Galaxy S26 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy S26 with more RAM and storage for multitasking and media libraries.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — S26 512GB",
+          "feature_text": "12GB RAM; 512GB; compact flagship; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 89999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_008",
+      "name": "Samsung Galaxy S25 Ultra 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Previous-gen Samsung Galaxy S25 Ultra still on sale at reduced street prices. Strong camera and S Pen for buyers who skip the S26 premium.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — S25 Ultra 256GB",
+          "feature_text": "200MP camera; S Pen; AMOLED; prior-gen flagship; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 99999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_009",
+      "name": "Samsung Galaxy S25 Ultra 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy S25 Ultra 512GB street deal — flagship camera and S Pen without 2026 Ultra pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — S25 Ultra 512GB",
+          "feature_text": "512GB; 200MP; S Pen; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 109999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_010",
+      "name": "Apple iPhone 17 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 base model — best value iPhone in India for most iOS buyers in 2026. Strong video, Apple Intelligence, and long software support.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — 128GB",
+          "feature_text": "iOS; Apple Intelligence; dual/triple camera video; Face ID; 5G; MagSafe",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 82900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_011",
+      "name": "Apple iPhone 17 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 256GB — recommended storage for photo/video users who stay on iOS long term.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — 256GB",
+          "feature_text": "256GB; iOS; Apple Intelligence; Face ID; 5G; MagSafe",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 92900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_012",
+      "name": "Apple iPhone 17 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 max storage for creators who shoot 4K and keep large libraries on-device.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — 512GB",
+          "feature_text": "512GB; iOS; Apple Intelligence; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 112900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_013",
+      "name": "Apple iPhone 17 Pro 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 Pro — pro camera system, brighter display, and Apple Intelligence for creators and power users.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — Pro 256GB",
+          "feature_text": "Pro camera; Apple Intelligence; ProMotion; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 134900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_014",
+      "name": "Apple iPhone 17 Pro 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 Pro 512GB for heavy ProRes and cinematic video workflows.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — Pro 512GB",
+          "feature_text": "512GB; Pro camera; ProMotion; Apple Intelligence; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 154900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_015",
+      "name": "Apple iPhone 17 Pro 1TB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Top iPhone 17 Pro storage for professional photo/video without cloud dependence.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — Pro 1TB",
+          "feature_text": "1TB; Pro camera; Apple Intelligence; ProMotion; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 174900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_016",
+      "name": "Apple iPhone 17 Pro Max 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 Pro Max — largest display and battery in the 17 Pro line for India premium buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — Pro Max 256GB",
+          "feature_text": "Pro Max display; Pro camera; Apple Intelligence; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 149900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_017",
+      "name": "Apple iPhone 17 Pro Max 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 Pro Max 512GB mid-storage Pro Max for creators.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — Pro Max 512GB",
+          "feature_text": "512GB; Pro Max; Pro camera; Apple Intelligence; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 169900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_018",
+      "name": "Apple iPhone 17 Pro Max 1TB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 17 Pro Max 1TB — maximum local storage on Apple's largest 2026 iPhone.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "MRP / Street — Pro Max 1TB",
+          "feature_text": "1TB; Pro Max; Pro camera; Apple Intelligence; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 189900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_019",
+      "name": "Apple iPhone 16 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 16 128GB — prior-gen base iPhone at discounted street prices after iPhone 17 launch.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 128GB",
+          "feature_text": "iOS; A18-class chip; dual camera; Face ID; 5G; MagSafe",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 69900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_020",
+      "name": "Apple iPhone 16 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 16 256GB street deal for buyers who want more storage without jumping to iPhone 17.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 256GB",
+          "feature_text": "256GB; iOS; dual camera; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 79900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_021",
+      "name": "Apple iPhone 16 Plus 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 16 Plus — larger display prior-gen iPhone still widely available in India retail.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Plus 128GB",
+          "feature_text": "Large display; iOS; dual camera; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 74900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_022",
+      "name": "Apple iPhone 16 Pro 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 16 Pro at reduced street pricing — Pro camera and Action Button without 17 Pro premium.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro 256GB",
+          "feature_text": "Pro camera; ProMotion; Action Button; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 109900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_023",
+      "name": "Apple iPhone 16 Pro Max 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 16 Pro Max clearance pricing for large-screen iOS buyers skipping the 17 refresh.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro Max 256GB",
+          "feature_text": "Pro Max display; Pro camera; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 119900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_024",
+      "name": "Apple iPhone 15 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 15 128GB — older base iPhone still popular for first-time iOS upgrades on a budget.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 128GB",
+          "feature_text": "Dynamic Island; USB-C; dual camera; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_025",
+      "name": "Apple iPhone 15 Plus 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Apple iPhone 15 Plus — large-screen older iPhone at aggressive street discounts.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Plus 128GB",
+          "feature_text": "Large display; USB-C; dual camera; Face ID; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 59900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_026",
+      "name": "Google Pixel 10 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 base — clean Android, Tensor G5-class AI features, and strong computational photography for India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 128GB",
+          "feature_text": "Pixel camera; Tensor; Pixel AI; 7-yr updates; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54990
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_027",
+      "name": "Google Pixel 10 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 256GB — best storage pick for Pixel buyers who shoot a lot of photos and Magic Editor edits.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 256GB",
+          "feature_text": "256GB; Pixel camera; Tensor; Pixel AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 59990
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_028",
+      "name": "Google Pixel 10 Pro 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 Pro — telephoto camera, brighter display, and advanced Pixel AI for creators.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro 256GB",
+          "feature_text": "Pro camera; Tensor; OLED; Pixel AI; 7-yr updates; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 102899
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_029",
+      "name": "Google Pixel 10 Pro 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 Pro 512GB for power users who keep large media libraries on device.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro 512GB",
+          "feature_text": "512GB; Pro camera; Tensor; Pixel AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 114899
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_030",
+      "name": "Google Pixel 10 Pro XL 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 Pro XL — large Pro Pixel with flagship camera and battery for India premium Android buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro XL 256GB",
+          "feature_text": "Large OLED; Pro camera; Tensor; Pixel AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 124999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_031",
+      "name": "Google Pixel 10 Pro XL 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 Pro XL 512GB — maximum storage on Google's largest 2026 Pixel.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro XL 512GB",
+          "feature_text": "512GB; Pro XL; Pro camera; Pixel AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 136999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_032",
+      "name": "Google Pixel 10a 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10a — affordable Pixel with clean software and solid camera for mid-range buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 10a 128GB",
+          "feature_text": "Pixel camera; Tensor; clean Android; multi-year updates; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46930
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_033",
+      "name": "Google Pixel 10a 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10a 256GB storage variant for buyers who want more headroom without Pro pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 10a 256GB",
+          "feature_text": "256GB; Pixel camera; Tensor; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 51930
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_034",
+      "name": "Google Pixel 9a 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 9a — prior-gen value Pixel still competitive at street discounts in mid-2026.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 9a 128GB",
+          "feature_text": "Pixel camera; Tensor; clean Android; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_035",
+      "name": "Google Pixel 9 Pro XL 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 9 Pro XL — previous-gen large Pixel Pro still on sale at reduced street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 9 Pro XL",
+          "feature_text": "Pro camera; Tensor; large OLED; Pixel AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 89999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_036",
+      "name": "OnePlus 15 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus 15 flagship — OxygenOS, flagship Snapdragon-class performance, fast charging with charger in box, Hasselblad-tuned camera.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 12GB + 256GB",
+          "feature_text": "Flagship chipset; OxygenOS; Hasselblad camera; fast charging in box; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 69999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_037",
+      "name": "OnePlus 15 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus 15 higher RAM/storage for gaming and multitasking without jumping to Ultra-class rivals.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 16GB + 512GB",
+          "feature_text": "16GB RAM; 512GB; Hasselblad; OxygenOS; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 76999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_038",
+      "name": "OnePlus 15R 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus 15R — upper mid / near-flagship performance phone. Fast charging, clean OxygenOS, solid camera for the price.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 12GB + 256GB",
+          "feature_text": "Near-flagship SoC; OxygenOS; fast charge in box; 5G; AMOLED",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_039",
+      "name": "OnePlus 15R 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus 15R higher RAM/storage variant for gaming and multitasking users.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 16GB + 512GB",
+          "feature_text": "16GB RAM; 512GB storage; fast charging; OxygenOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 59999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_040",
+      "name": "OnePlus Nord 6 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus Nord 6 — standout battery life phone with a massive ~9000mAh-class cell and OxygenOS.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Nord 6 256GB",
+          "feature_text": "~9000mAh battery; OxygenOS; fast charging; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_041",
+      "name": "OnePlus Nord 6 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus Nord 6 higher storage for users who prioritize endurance and local media.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Nord 6 512GB",
+          "feature_text": "12GB RAM; 512GB; huge battery; OxygenOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_042",
+      "name": "OnePlus Nord CE 6 Lite 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus Nord CE 6 Lite 5G — budget Nord for first 5G upgrades with clean OxygenOS lite experience.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — CE 6 Lite 128GB",
+          "feature_text": "5G; OxygenOS; large battery; mid-range display; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_043",
+      "name": "OnePlus Nord CE 6 Lite 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus Nord CE 6 Lite 256GB — more storage for budget Nord buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — CE 6 Lite 256GB",
+          "feature_text": "256GB; 5G; OxygenOS; large battery; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 20999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_044",
+      "name": "OnePlus Nord 5 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus Nord 5 — prior Nord generation still selling well in the affordable premium band.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Nord 5",
+          "feature_text": "OxygenOS; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 32999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_045",
+      "name": "OnePlus 13R 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus 13R — previous-gen near-flagship at discounted street prices after 15R launch.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 13R 256GB",
+          "feature_text": "Near-flagship SoC; OxygenOS; fast charge; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 42999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_046",
+      "name": "Vivo X300 Ultra 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo X300 Ultra — camera-first flagship with Zeiss optics and premium build for India photography enthusiasts.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — X300 Ultra",
+          "feature_text": "Zeiss camera; flagship SoC; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 159999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_047",
+      "name": "Vivo X300 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo X300 Pro — flagship camera phone below Ultra pricing with Zeiss tuning and fast charging.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — X300 Pro 256GB",
+          "feature_text": "Zeiss camera; flagship SoC; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 99999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_048",
+      "name": "Vivo X300 Pro 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo X300 Pro 16GB + 512GB — higher config for creators who need RAM and storage headroom.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — X300 Pro 512GB",
+          "feature_text": "16GB RAM; 512GB; Zeiss camera; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 109999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_049",
+      "name": "Vivo V70 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo V70 — premium mid-ranger driving Vivo's India leadership; stylish design, strong selfie camera, solid battery.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — V70 256GB",
+          "feature_text": "Selfie camera; AMOLED; fast charge; 5G; slim design",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 39999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_050",
+      "name": "Vivo V70 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo V70 higher storage SKU for buyers who want more headroom in the V series.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — V70 512GB",
+          "feature_text": "12GB RAM; 512GB; selfie camera; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_051",
+      "name": "Vivo V60e 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo V60e — volume mid-ranger that helped Vivo lead India shipments in early 2026.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — V60e 128GB",
+          "feature_text": "AMOLED; selfie camera; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_052",
+      "name": "Vivo V60e 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo V60e 256GB — popular storage pick in Vivo's mid portfolio.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — V60e 256GB",
+          "feature_text": "256GB; AMOLED; selfie camera; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_053",
+      "name": "Vivo Y400 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo Y400 5G — budget 5G volume driver in Vivo's Y series for first-time 5G upgrades.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Y400 128GB",
+          "feature_text": "5G; large battery; dual camera; entry AMOLED or LCD",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 16999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_054",
+      "name": "Vivo Y400 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo Y400 5G 256GB for budget buyers who want more local storage.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Y400 256GB",
+          "feature_text": "256GB; 5G; large battery; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_055",
+      "name": "Vivo Y31 5G 6GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo Y31 5G — entry 5G handset that contributed heavily to Vivo's 2026 India volume share.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Y31 128GB",
+          "feature_text": "5G; large battery; dual camera; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 14999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_056",
+      "name": "Vivo Y31 Pro 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo Y31 Pro 5G — slightly upspecced Y31 sibling for buyers stepping up from entry.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Y31 Pro",
+          "feature_text": "5G; better display; large battery; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 16999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_057",
+      "name": "Vivo T4 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo T4 5G — performance-oriented T series mid-ranger for gaming and multitasking on a budget.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — T4 256GB",
+          "feature_text": "5G; high refresh display; large battery; mid SoC",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_058",
+      "name": "iQOO 13 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "iQOO 13 — gaming-oriented flagship from Vivo sub-brand. High refresh rate, advanced cooling, Snapdragon flagship silicon.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — iQOO 13 256GB",
+          "feature_text": "Flagship Snapdragon; gaming cooling; high refresh AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 54999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_059",
+      "name": "iQOO 13 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "iQOO 13 max config for competitive mobile gamers who want more RAM and storage.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — iQOO 13 512GB",
+          "feature_text": "16GB RAM; 512GB; gaming cooling; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 59999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_060",
+      "name": "iQOO Neo 10 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "iQOO Neo 10 — near-flagship gaming performance at mid-premium India pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Neo 10",
+          "feature_text": "High refresh AMOLED; strong SoC; cooling; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_061",
+      "name": "iQOO Z10 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "iQOO Z10 — value gaming phone with high refresh display for budget esports users.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Z10",
+          "feature_text": "High refresh; mid SoC; large battery; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_062",
+      "name": "OPPO Find X9 Ultra 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO Find X9 Ultra — camera flagship with Hasselblad partnership and premium build for India ultra-premium buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Find X9 Ultra",
+          "feature_text": "Hasselblad camera; flagship SoC; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 169999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_063",
+      "name": "OPPO Find X9 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO Find X9 Pro — flagship camera and design below Ultra pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Find X9 Pro 256GB",
+          "feature_text": "Hasselblad camera; flagship SoC; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 99999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_064",
+      "name": "OPPO Find X9 Pro 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO Find X9 Pro higher config for creators and power users.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Find X9 Pro 512GB",
+          "feature_text": "16GB RAM; 512GB; Hasselblad; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 109999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_065",
+      "name": "OPPO Reno14 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO Reno14 Pro — stylish mid-premium with strong portrait cameras and ColorOS.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Reno14 Pro",
+          "feature_text": "Portrait camera; AMOLED; ColorOS; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_066",
+      "name": "OPPO Reno14 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO Reno14 — mid-range Reno for design-conscious buyers below Pro pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Reno14",
+          "feature_text": "Portrait camera; AMOLED; ColorOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_067",
+      "name": "OPPO A6x 5G 6GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO A6x 5G — volume budget 5G that supported Oppo's 2026 India share gains.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A6x 128GB",
+          "feature_text": "5G; large battery; dual camera; ColorOS",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 16999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_068",
+      "name": "OPPO A6x 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO A6x 5G 256GB — popular storage upgrade in Oppo's A series.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A6x 256GB",
+          "feature_text": "256GB; 5G; large battery; ColorOS",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_069",
+      "name": "OPPO A6 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO A6 Pro 5G — step-up A-series with better display and charging for mid-budget buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A6 Pro",
+          "feature_text": "5G; AMOLED; fast charge; ColorOS",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 22999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_070",
+      "name": "OPPO K14 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO K14 5G — performance K-series mid-ranger popular in the ₹20–30k band.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — K14",
+          "feature_text": "5G; high refresh; mid SoC; large battery; ColorOS",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_071",
+      "name": "OPPO F29 Pro 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO F29 Pro — selfie-focused F series for social media users in mid-range.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — F29 Pro",
+          "feature_text": "Selfie camera; AMOLED; ColorOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_072",
+      "name": "Nothing Phone (4a) 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Nothing Phone (4a) — Glyph-light design, clean Nothing OS, strong value in upper mid India pricing. Fast-growing brand in 2026.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Phone (4a) 256GB",
+          "feature_text": "Nothing OS; Glyph design; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_073",
+      "name": "Nothing Phone (4a) 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Nothing Phone (4a) higher RAM/storage for power users in the Nothing ecosystem.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Phone (4a) 512GB",
+          "feature_text": "12GB RAM; 512GB; Nothing OS; Glyph; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 42999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_074",
+      "name": "Nothing Phone (3a) Pro 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Nothing Phone (3a) Pro — prior-gen Nothing still competitive at reduced street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 3a Pro",
+          "feature_text": "Nothing OS; Glyph; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_075",
+      "name": "Nothing Phone (3a) 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Nothing Phone (3a) base — entry Glyph phone for buyers who want Nothing design under ₹25k.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 3a 128GB",
+          "feature_text": "Nothing OS; Glyph; 5G; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 22999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_076",
+      "name": "CMF Phone 3 by Nothing 6GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "CMF Phone 3 by Nothing — ultra-value modular-accessory phone under Nothing's CMF brand.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — CMF Phone 3 128GB",
+          "feature_text": "Nothing OS lite; modular accessories; 5G; large battery; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 15999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_077",
+      "name": "CMF Phone 3 by Nothing 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "CMF Phone 3 higher storage for budget buyers who want Nothing design DNA.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — CMF Phone 3 256GB",
+          "feature_text": "256GB; Nothing OS lite; modular accessories; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 17999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_078",
+      "name": "Motorola Edge 70 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Motorola Edge 70 — standout mid-premium with clean near-stock Android and strong battery life.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Edge 70",
+          "feature_text": "Near-stock Android; AMOLED; large battery; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_079",
+      "name": "Motorola Edge 70 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Motorola Edge 70 higher config for multitasking and local media storage.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Edge 70 512GB",
+          "feature_text": "12GB RAM; 512GB; near-stock Android; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 31999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_080",
+      "name": "Motorola Edge 60 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Motorola Edge 60 Pro — prior Edge Pro with curved display and IP68, still popular at street discounts.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Edge 60 Pro",
+          "feature_text": "Curved AMOLED; IP68; near-stock Android; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 28999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_081",
+      "name": "Motorola Edge 60 Fusion 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Motorola Edge 60 Fusion — value Edge with stylish design and solid mid-range performance.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Edge 60 Fusion",
+          "feature_text": "AMOLED; near-stock Android; large battery; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_082",
+      "name": "Motorola Signature 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Motorola Signature — premium Motorola with refined design and clean software above Edge pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Signature",
+          "feature_text": "Premium build; near-stock Android; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 52499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_083",
+      "name": "Moto G96 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Moto G96 5G — volume G-series 5G for budget first-time upgrades.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — G96 128GB",
+          "feature_text": "5G; large battery; near-stock Android; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_084",
+      "name": "Moto G96 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Moto G96 5G 256GB — preferred storage variant for G-series buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — G96 256GB",
+          "feature_text": "256GB; 5G; large battery; near-stock Android",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 20999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_085",
+      "name": "Moto G86 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Moto G86 5G — entry G-series 5G still widely stocked in India offline retail.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — G86",
+          "feature_text": "5G; large battery; near-stock Android",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 14999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_086",
+      "name": "Moto G66 5G 4GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Moto G66 5G — ultra-budget 5G Motorola for price-sensitive buyers amid 2026 memory price hikes.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — G66",
+          "feature_text": "5G; large battery; dual camera; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 11999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_087",
+      "name": "Xiaomi 15 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Xiaomi 15 — compact flagship with Leica optics and HyperOS for Android enthusiasts.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Xiaomi 15 256GB",
+          "feature_text": "Leica camera; flagship SoC; HyperOS; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 64999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_088",
+      "name": "Xiaomi 15 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Xiaomi 15 higher config for creators and gamers who want more RAM and storage.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Xiaomi 15 512GB",
+          "feature_text": "16GB RAM; 512GB; Leica; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 71999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_089",
+      "name": "Xiaomi 15 Ultra 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Xiaomi 15 Ultra — camera flagship with Leica Summilux optics and variable aperture.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 15 Ultra",
+          "feature_text": "Leica Summilux; flagship SoC; HyperOS; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 109999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_090",
+      "name": "Xiaomi 15 Ultra 16GB + 1TB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Xiaomi 15 Ultra 1TB for photography power users who keep RAW libraries on device.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 15 Ultra 1TB",
+          "feature_text": "1TB; Leica Summilux; flagship SoC; HyperOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 124999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_091",
+      "name": "Xiaomi 14T Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Xiaomi 14T Pro — prior T-series flagship at discounted street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 14T Pro",
+          "feature_text": "Leica camera; Dimensity flagship; HyperOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_092",
+      "name": "Redmi Note 15 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Redmi Note 15 Pro 5G — volume mid-ranger with high refresh AMOLED and large battery.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Note 15 Pro 256GB",
+          "feature_text": "AMOLED; large battery; mid SoC; HyperOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_093",
+      "name": "Redmi Note 15 Pro 5G 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Redmi Note 15 Pro higher storage for media-heavy mid-range buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Note 15 Pro 512GB",
+          "feature_text": "12GB RAM; 512GB; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_094",
+      "name": "Redmi Note 15 5G 6GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Redmi Note 15 5G — base Note for budget 5G upgrades in the Xiaomi ecosystem.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Note 15 128GB",
+          "feature_text": "5G; large battery; HyperOS; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 17999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_095",
+      "name": "Redmi Note 15 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Redmi Note 15 5G 256GB — popular storage pick in the Note 15 lineup.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Note 15 256GB",
+          "feature_text": "256GB; 5G; large battery; HyperOS",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_096",
+      "name": "Redmi 15A 4GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Redmi 15A — entry Redmi that helped Xiaomi sustain volumes in the sub-₹15k band amid 2026 price pressure.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 15A",
+          "feature_text": "Large battery; dual camera; HyperOS; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 9999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_097",
+      "name": "Redmi 15 5G 6GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Redmi 15 5G — entry 5G Redmi above 15A for buyers who need 5G connectivity.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 15 5G",
+          "feature_text": "5G; large battery; HyperOS; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 12999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_098",
+      "name": "POCO X8 Pro Max 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "POCO X8 Pro Max — performance mid-ranger with high refresh display for gaming on a budget.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — X8 Pro Max",
+          "feature_text": "High refresh AMOLED; strong mid SoC; HyperOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_099",
+      "name": "POCO X8 Pro 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "POCO X8 Pro — slightly leaner sibling of Pro Max for value gaming buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — X8 Pro",
+          "feature_text": "High refresh; mid SoC; HyperOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_100",
+      "name": "POCO F7 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "POCO F7 Pro — near-flagship Snapdragon performance under Xiaomi's POCO brand.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — F7 Pro 256GB",
+          "feature_text": "Near-flagship SoC; AMOLED; HyperOS; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 42999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_101",
+      "name": "POCO F7 Pro 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "POCO F7 Pro max config for competitive gamers who want flagship silicon without flagship branding.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — F7 Pro 512GB",
+          "feature_text": "16GB RAM; 512GB; near-flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 47999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_102",
+      "name": "POCO M7 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "POCO M7 Pro 5G — budget POCO with high refresh display for casual gaming.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — M7 Pro",
+          "feature_text": "5G; high refresh; large battery; HyperOS",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 16999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_103",
+      "name": "POCO C75 5G 4GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "POCO C75 5G — ultra-budget 5G POCO for first smartphones and secondary devices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — C75 5G",
+          "feature_text": "5G; large battery; HyperOS; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 9999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_104",
+      "name": "Realme GT 7 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme GT 7 Pro — performance flagship with aggressive pricing vs OnePlus and iQOO.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — GT 7 Pro 256GB",
+          "feature_text": "Flagship SoC; high refresh AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 57999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_105",
+      "name": "Realme GT 7 Pro 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme GT 7 Pro higher config for gaming and content creators.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — GT 7 Pro 512GB",
+          "feature_text": "16GB RAM; 512GB; flagship SoC; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 62999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_106",
+      "name": "Realme GT 7 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme GT 7 — non-Pro GT for buyers who want near-flagship speed below Pro pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — GT 7",
+          "feature_text": "Near-flagship SoC; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_107",
+      "name": "Realme 15 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme 15 Pro 5G — mid-range Realme with stylish design and solid charging speeds.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 15 Pro",
+          "feature_text": "AMOLED; fast charge; mid SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_108",
+      "name": "Realme 15 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme 15 5G — base Realme 15 for budget 5G upgrades.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 15 128GB",
+          "feature_text": "5G; large battery; dual camera; Realme UI",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 17999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_109",
+      "name": "Realme 15 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme 15 5G 256GB — preferred storage variant in the Realme 15 lineup.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 15 256GB",
+          "feature_text": "256GB; 5G; large battery; Realme UI",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_110",
+      "name": "Realme Narzo 80 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme Narzo 80 Pro 5G — value gaming-leaning mid-ranger under the Narzo sub-brand.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Narzo 80 Pro",
+          "feature_text": "5G; high refresh; large battery; mid SoC",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_111",
+      "name": "Realme C75 5G 4GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme C75 5G — entry 5G Realme for price-sensitive buyers facing 2026 memory-driven price hikes.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — C75 5G",
+          "feature_text": "5G; large battery; dual camera; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 10999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_112",
+      "name": "Realme P3 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme P3 5G — slim mid-ranger focused on design and battery life.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — P3",
+          "feature_text": "Slim design; 5G; large battery; AMOLED",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_113",
+      "name": "Samsung Galaxy A56 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A56 5G — premium A-series with long software support and Galaxy AI features.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A56 128GB",
+          "feature_text": "AMOLED; Galaxy AI; multi-year updates; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_114",
+      "name": "Samsung Galaxy A56 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A56 5G 256GB — recommended storage for A56 buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A56 256GB",
+          "feature_text": "256GB; AMOLED; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 38999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_115",
+      "name": "Samsung Galaxy A36 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A36 5G — mid A-series that helped Samsung grow share in ₹15–25k during 2026.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A36 128GB",
+          "feature_text": "AMOLED; Galaxy AI lite; multi-year updates; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 26999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_116",
+      "name": "Samsung Galaxy A36 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A36 5G 256GB storage upgrade.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A36 256GB",
+          "feature_text": "256GB; AMOLED; Galaxy AI lite; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_117",
+      "name": "Samsung Galaxy A17 5G 6GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A17 5G — volume A-series 5G supporting Samsung's value segment growth.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A17 128GB",
+          "feature_text": "5G; large battery; One UI; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_118",
+      "name": "Samsung Galaxy A17 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A17 5G 256GB for buyers who want more storage in the entry A band.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A17 256GB",
+          "feature_text": "256GB; 5G; large battery; One UI",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 20999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_119",
+      "name": "Samsung Galaxy A07 4GB + 64GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A07 — ultra-budget Samsung that drove value-segment volume in early 2026.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A07 64GB",
+          "feature_text": "Large battery; dual camera; One UI Core; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 8999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_120",
+      "name": "Samsung Galaxy A07 4GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A07 128GB — preferred entry Samsung storage option.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A07 128GB",
+          "feature_text": "128GB; large battery; One UI Core",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 9999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_121",
+      "name": "Samsung Galaxy M17e 5G 6GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy M17e 5G — M-series 5G focused on battery life and online-first pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — M17e 128GB",
+          "feature_text": "5G; large battery; One UI; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 14999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_122",
+      "name": "Samsung Galaxy M17e 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy M17e 5G 256GB storage variant.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — M17e 256GB",
+          "feature_text": "256GB; 5G; large battery; One UI",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 16999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_123",
+      "name": "Samsung Galaxy M36 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy M36 5G — mid M-series with better display than entry M models.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — M36",
+          "feature_text": "5G; AMOLED; large battery; One UI",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_124",
+      "name": "Samsung Galaxy F56 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy F56 5G — Flipkart-exclusive F series mid-ranger with aggressive festive pricing patterns.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — F56",
+          "feature_text": "5G; AMOLED; One UI; large battery",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 23999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_125",
+      "name": "Honor 400 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Honor 400 Pro — mid-premium return of Honor in India with bright curved display, solid cameras, and MagicOS.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 400 Pro 256GB",
+          "feature_text": "Curved AMOLED; MagicOS; AI camera; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_126",
+      "name": "Honor 400 Pro 12GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Honor 400 Pro higher storage for media-heavy users.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 400 Pro 512GB",
+          "feature_text": "512GB; curved AMOLED; MagicOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_127",
+      "name": "Honor 400 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Honor 400 — non-Pro sibling for buyers who want MagicOS below Pro pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 400",
+          "feature_text": "AMOLED; MagicOS; AI camera; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_128",
+      "name": "Asus ROG Phone 9 16GB + 512GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Asus ROG Phone 9 — dedicated gaming phone with AirTriggers, high refresh AMOLED, and extreme cooling.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — ROG Phone 9",
+          "feature_text": "AirTriggers; 185Hz-class display; GameCool; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 79999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_129",
+      "name": "Asus ROG Phone 9 Pro 24GB + 1TB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Asus ROG Phone 9 Pro — max gaming config with extra RAM, storage, and accessory ecosystem support.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — ROG Phone 9 Pro",
+          "feature_text": "24GB RAM; 1TB; AirTriggers; GameCool; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 99999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_130",
+      "name": "Infinix Note 50 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Infinix Note 50 Pro 5G — value mid-ranger with large battery and fast charging for budget buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Note 50 Pro",
+          "feature_text": "5G; large battery; fast charge; AMOLED",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 18999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_131",
+      "name": "Infinix Hot 60 Pro 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Infinix Hot 60 Pro 5G — entry Hot series 5G popular in offline India retail.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Hot 60 Pro",
+          "feature_text": "5G; large battery; dual camera; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 12999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_132",
+      "name": "Tecno Camon 40 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Tecno Camon 40 Pro 5G — camera-focused mid-ranger under Transsion's Tecno brand.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Camon 40 Pro",
+          "feature_text": "Portrait camera; AMOLED; 5G; large battery",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_133",
+      "name": "Tecno Spark 40 Pro 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Tecno Spark 40 Pro 5G — budget Spark for first 5G phones under ₹15k.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Spark 40 Pro",
+          "feature_text": "5G; large battery; dual camera; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 11999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_134",
+      "name": "Lava Blaze Curve 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Lava Blaze Curve 5G — Made-in-India curved AMOLED mid-ranger for buyers preferring domestic brands.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Blaze Curve",
+          "feature_text": "Curved AMOLED; 5G; large battery; Made in India",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 16999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_135",
+      "name": "Nothing Phone (2a) Plus 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Nothing Phone (2a) Plus — older Nothing still listed at deep discounts after 4a launch.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 2a Plus",
+          "feature_text": "Nothing OS; Glyph; AMOLED; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_136",
+      "name": "Samsung Galaxy S24 FE 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy S24 FE — Fan Edition prior-gen flagship features at mid-premium street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — S24 FE",
+          "feature_text": "Exynos/Snapdragon FE; AMOLED; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 44999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_137",
+      "name": "Google Pixel 8a 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 8a — older Pixel a-series still useful for budget Pixel camera buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 8a",
+          "feature_text": "Pixel camera; Tensor; clean Android; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 32999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_138",
+      "name": "OnePlus Nord CE 5 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus Nord CE 5 — prior CE generation anchoring OnePlus volumes in affordable premium.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Nord CE 5",
+          "feature_text": "OxygenOS; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_139",
+      "name": "Vivo T3 Ultra 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo T3 Ultra — prior T Ultra still competitive for performance buyers below X300.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — T3 Ultra",
+          "feature_text": "Strong mid/flagship SoC; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 35999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_140",
+      "name": "OPPO Reno13 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO Reno13 Pro — prior Reno Pro at discounted street pricing after Reno14 launch.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Reno13 Pro",
+          "feature_text": "Portrait camera; AMOLED; ColorOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 37999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_141",
+      "name": "Xiaomi 14 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Xiaomi 14 — compact prior flagship with Leica optics at reduced street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Xiaomi 14",
+          "feature_text": "Leica camera; flagship SoC; HyperOS; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 49999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_142",
+      "name": "Realme GT 6T 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Realme GT 6T — prior GT value flagship still popular for gaming under ₹40k.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — GT 6T",
+          "feature_text": "Near-flagship SoC; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 34999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_143",
+      "name": "iQOO Neo 9 Pro 12GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "iQOO Neo 9 Pro — prior Neo gaming phone at clearance pricing after Neo 10.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Neo 9 Pro",
+          "feature_text": "Gaming cooling; high refresh; strong SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 32999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_144",
+      "name": "Motorola Razr 60 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Motorola Razr 60 — clamshell foldable listed under smartphones for buyers seeking flip form without Z Flip pricing; also see Foldables section for Z Flip/Fold.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Razr 60",
+          "feature_text": "Clamshell flip; outer display; near-stock Android; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 69999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_145",
+      "name": "Samsung Galaxy A26 5G 8GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy A26 5G — durable mid A-series with IP65 and long software support for value buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A26 128GB",
+          "feature_text": "IP65; AMOLED; multi-year updates; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 22999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_146",
+      "name": "Vivo V50e 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Vivo V50e — prior V-series still stocked widely; strong selfie camera at mid-range street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — V50e",
+          "feature_text": "Selfie camera; AMOLED; fast charge; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_147",
+      "name": "OPPO A5x 5G 4GB + 128GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OPPO A5x 5G — entry Oppo 5G for first upgrades under ₹15k amid 2026 memory-driven price pressure.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — A5x 5G",
+          "feature_text": "5G; large battery; ColorOS; dual camera",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 12999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_148",
+      "name": "Redmi Note 14 Pro 5G 8GB + 256GB",
+      "category": "Electronics/Smartphones",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Redmi Note 14 Pro 5G — prior Note Pro generation still competitive at discounted street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Note 14 Pro",
+          "feature_text": "AMOLED; mid SoC; HyperOS; 5G; large battery",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 21999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_149",
+      "name": "Samsung Galaxy Z Fold7 12GB + 256GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy Z Fold7 — book-style foldable flagship with larger cover and inner displays, S Pen support, and Galaxy AI.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Z Fold7 256GB",
+          "feature_text": "Book foldable; large inner AMOLED; S Pen; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 164999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_150",
+      "name": "Samsung Galaxy Z Fold7 12GB + 512GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy Z Fold7 512GB for power users who keep work and media on the foldable.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Z Fold7 512GB",
+          "feature_text": "512GB; book foldable; S Pen; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 179999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_151",
+      "name": "Samsung Galaxy Z Fold6 12GB + 256GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy Z Fold6 — prior Fold at reduced street prices after Fold7 launch.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Z Fold6",
+          "feature_text": "Book foldable; S Pen support; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 134999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_152",
+      "name": "Samsung Galaxy Z Flip7 8GB + 256GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy Z Flip7 — clamshell foldable with larger cover screen and compact pocket form.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Z Flip7 256GB",
+          "feature_text": "Clamshell foldable; cover screen; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 109999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_153",
+      "name": "Samsung Galaxy Z Flip7 12GB + 512GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy Z Flip7 higher storage for Flip buyers who shoot a lot of video.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Z Flip7 512GB",
+          "feature_text": "512GB; clamshell foldable; cover screen; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 119999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_154",
+      "name": "Samsung Galaxy Z Flip6 8GB + 256GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Samsung Galaxy Z Flip6 — prior Flip still available at discounted street pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Z Flip6",
+          "feature_text": "Clamshell foldable; FlexWindow; Galaxy AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 84999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_155",
+      "name": "Google Pixel 10 Pro Fold 16GB + 256GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 Pro Fold — Google's book foldable with Pixel camera and AI on both screens.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro Fold 256GB",
+          "feature_text": "Book foldable; Pixel camera; Tensor; Pixel AI; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 159785
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_156",
+      "name": "Google Pixel 10 Pro Fold 16GB + 512GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 10 Pro Fold 512GB for creators who want more on-device storage.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Pro Fold 512GB",
+          "feature_text": "512GB; book foldable; Pixel camera; Tensor; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 174785
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_157",
+      "name": "Google Pixel 9 Pro Fold 16GB + 256GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Google Pixel 9 Pro Fold — prior-gen Pixel foldable at reduced street prices.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 9 Pro Fold",
+          "feature_text": "Book foldable; Pixel camera; Tensor; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 103850
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_158",
+      "name": "OnePlus Open 2 16GB + 512GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "OnePlus Open 2 — OxygenOS book foldable competing with Fold7 on price and software fluidity.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Open 2",
+          "feature_text": "Book foldable; OxygenOS; Hasselblad camera; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 139999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_159",
+      "name": "Motorola Razr 60 Ultra 12GB + 512GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Motorola Razr 60 Ultra — premium clamshell with large outer display and near-stock Android.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Razr 60 Ultra",
+          "feature_text": "Clamshell foldable; large outer display; near-stock Android; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 119999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_160",
+      "name": "Honor Magic V5 16GB + 512GB",
+      "category": "Electronics/Foldables",
+      "unit": "device",
+      "kb_article": null,
+      "description": "Honor Magic V5 — thin book foldable with MagicOS returning to India's ultra-premium foldable segment.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Magic V5",
+          "feature_text": "Book foldable; thin design; MagicOS; flagship SoC; 5G",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 149999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_161",
+      "name": "Apple AirPods Pro 3",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple AirPods Pro 3 wireless earbuds with active noise cancellation, Adaptive Audio, and USB-C MagSafe charging case for iPhone users in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — AirPods Pro 3",
+          "feature_text": "ANC; Adaptive Audio; MagSafe case; Spatial Audio; USB-C",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 24900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_162",
+      "name": "Apple AirPods 4 with ANC",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple AirPods 4 with active noise cancellation — open-ear comfort with ANC for everyday iPhone listening.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — AirPods 4 ANC",
+          "feature_text": "ANC; open-ear; USB-C; Spatial Audio",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 17900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_163",
+      "name": "Apple AirPods 4",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple AirPods 4 without ANC — affordable Apple earbuds for FaceTime and daily media.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — AirPods 4",
+          "feature_text": "Open-ear; USB-C; Spatial Audio; Apple H2",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 12900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_164",
+      "name": "Samsung Galaxy Buds3 Pro",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Samsung Galaxy Buds3 Pro — blade-style ANC earbuds with Galaxy AI audio features for Galaxy phones.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Buds3 Pro",
+          "feature_text": "ANC; Galaxy AI audio; IP57; wireless charging",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 16999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_165",
+      "name": "Samsung Galaxy Buds3",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Samsung Galaxy Buds3 — stem-design Galaxy earbuds below Pro pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Buds3",
+          "feature_text": "ANC; Galaxy ecosystem; IP57; USB-C case",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 12999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_166",
+      "name": "Samsung Galaxy Buds FE 2",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Samsung Galaxy Buds FE 2 — Fan Edition ANC earbuds for value Galaxy buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Buds FE 2",
+          "feature_text": "ANC; Galaxy Wearable app; USB-C; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 7999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_167",
+      "name": "Nothing Ear (3)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Nothing Ear (3) — transparent-design ANC earbuds with Nothing OS companion features.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Ear (3)",
+          "feature_text": "ANC; transparent design; Nothing X app; USB-C",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 11999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_168",
+      "name": "Nothing Ear (a)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Nothing Ear (a) — affordable Nothing earbuds with strong bass and clean design.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Ear (a)",
+          "feature_text": "ANC lite; Nothing design; USB-C; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 4999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_169",
+      "name": "OnePlus Buds 4",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "OnePlus Buds 4 — ANC earbuds tuned for OxygenOS with fast charging case.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Buds 4",
+          "feature_text": "ANC; fast charge case; OnePlus Fast Pair; USB-C",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 9999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_170",
+      "name": "OnePlus Buds 4r",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "OnePlus Buds 4r — value OnePlus earbuds for Nord and mid-range phone buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Buds 4r",
+          "feature_text": "ANC lite; fast charge; USB-C; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 4999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_171",
+      "name": "Sony WF-1000XM5",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Sony WF-1000XM5 — premium ANC true wireless earbuds with industry-leading noise canceling.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — WF-1000XM5",
+          "feature_text": "Industry ANC; LDAC; IPX4; wireless charging",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 19990
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_172",
+      "name": "boAt Airdopes 800",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "boAt Airdopes 800 — popular India-brand TWS with ANC and long battery for budget buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Airdopes 800",
+          "feature_text": "ANC; long battery; ASAP charge; Bluetooth 5.3",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_173",
+      "name": "Noise Air Buds Pro 5",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Noise Air Buds Pro 5 — value ANC earbuds from Noise with app EQ and long playtime.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Air Buds Pro 5",
+          "feature_text": "ANC; app EQ; long battery; USB-C",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_174",
+      "name": "Apple 20W USB-C Power Adapter",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple 20W USB-C Power Adapter — official fast charger for iPhone 15/16/17 series in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 20W Adapter",
+          "feature_text": "20W USB-C PD; compact; Apple certified",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_175",
+      "name": "Apple 35W Dual USB-C Port Compact Power Adapter",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple 35W dual USB-C compact charger for charging iPhone and AirPods or iPad together.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 35W Dual USB-C",
+          "feature_text": "35W; dual USB-C; compact; Apple certified",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 5800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_176",
+      "name": "Samsung 45W USB-C Super Fast Charging 2.0 Adapter",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Samsung 45W Super Fast Charging 2.0 adapter for Galaxy S and A series phones.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 45W Adapter",
+          "feature_text": "45W PPS; USB-C; Super Fast Charging 2.0",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 3499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_177",
+      "name": "Anker 735 Charger (Nano II 65W)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Anker Nano II 65W GaN charger with multiple ports for phone, laptop, and earbuds travel kits.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Anker 65W GaN",
+          "feature_text": "65W GaN; multi-port; foldable plug; PD/PPS",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 4999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_178",
+      "name": "Xiaomi 67W HyperCharge Combo",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Xiaomi 67W HyperCharge adapter + cable combo for Redmi/Xiaomi/POCO fast charging.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 67W Combo",
+          "feature_text": "67W HyperCharge; USB-C cable included; Mi certified",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_179",
+      "name": "OnePlus SUPERVOOC 80W Power Adapter",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "OnePlus SUPERVOOC 80W charger for OnePlus 15 / Nord series (use with SUPERVOOC cable).",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 80W SUPERVOOC",
+          "feature_text": "80W SUPERVOOC; USB-A/USB-C per SKU; OnePlus certified",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_180",
+      "name": "Anker Power Bank 20000mAh 30W",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Anker 20000mAh power bank with 30W USB-C PD — travel essential for phones and earbuds.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 20000mAh 30W",
+          "feature_text": "20000mAh; 30W PD; dual port; airline-friendly",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 4499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_181",
+      "name": "Xiaomi Power Bank 20000mAh 33W",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Xiaomi 20000mAh 33W power bank popular with Redmi and POCO users in India.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Mi 20000mAh 33W",
+          "feature_text": "20000mAh; 33W; dual output; USB-C in/out",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_182",
+      "name": "Ambrane 10000mAh 22.5W Power Bank",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Ambrane compact 10000mAh 22.5W power bank for daily commute top-ups.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 10000mAh 22.5W",
+          "feature_text": "10000mAh; 22.5W; slim; dual port",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1299
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_183",
+      "name": "Apple MagSafe Battery Pack (USB-C)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple MagSafe Battery Pack with USB-C for snap-on charging of MagSafe iPhones.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — MagSafe Battery",
+          "feature_text": "MagSafe snap-on; USB-C; Find My; Apple certified",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 11900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_184",
+      "name": "Spigen Ultra Hybrid Case for iPhone 17 Pro",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Spigen Ultra Hybrid clear case for iPhone 17 Pro — MagSafe compatible shock protection.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Ultra Hybrid 17 Pro",
+          "feature_text": "MagSafe; clear hybrid; drop protection; yellowing-resistant",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_185",
+      "name": "Spigen Tough Armor Case for Galaxy S26 Ultra",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Spigen Tough Armor case for Samsung Galaxy S26 Ultra with kickstand and military-grade drop protection.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Tough Armor S26 Ultra",
+          "feature_text": "Kickstand; dual-layer; S Pen cutout; MagSafe-style ring optional",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_186",
+      "name": "Apple Silicone Case with MagSafe for iPhone 17",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Official Apple silicone MagSafe case for iPhone 17 — soft-touch finish and precise camera control cutouts.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Apple Silicone 17",
+          "feature_text": "MagSafe; silicone; Apple certified; soft-touch",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 4900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_187",
+      "name": "Samsung Clear Case for Galaxy S26",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Official Samsung clear case for Galaxy S26 showing the phone design with basic drop protection.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Clear Case S26",
+          "feature_text": "Official Samsung; clear; slim; S26 fit",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_188",
+      "name": "Ringke Fusion Case for Nothing Phone (4a)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Ringke Fusion clear case designed for Nothing Phone (4a) Glyph light pass-through.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Fusion 4a",
+          "feature_text": "Glyph-compatible; clear PC; bumpers; precise cutouts",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_189",
+      "name": "Nillkin CamShield Case for OnePlus 15",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Nillkin CamShield case for OnePlus 15 with sliding camera cover for privacy.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — CamShield OnePlus 15",
+          "feature_text": "Sliding cam cover; PC+TPU; slim; OnePlus 15 fit",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1299
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_190",
+      "name": "3M Tempered Glass for iPhone 17 / 17 Pro (2-pack)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "3M tempered glass screen protector 2-pack for iPhone 17 and 17 Pro with alignment tray.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — 3M Glass 17 2-pack",
+          "feature_text": "9H tempered; oleophobic; alignment tray; 2-pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_191",
+      "name": "Whitestone Dome Glass for Galaxy S26 Ultra",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Whitestone Dome UV-cured glass for Galaxy S26 Ultra curved display — premium screen protection.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Dome Glass S26 Ultra",
+          "feature_text": "UV-cured; fingerprint unlock compatible; curved fit",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 3999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_192",
+      "name": "Spigen Glas.tR for Pixel 10 Pro (2-pack)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Spigen Glas.tR tempered glass 2-pack for Google Pixel 10 Pro with case-friendly edges.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Glas.tR Pixel 10 Pro",
+          "feature_text": "9H; case-friendly; 2-pack; oleophobic",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1799
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_193",
+      "name": "Apple Watch Series 11 GPS 42mm",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple Watch Series 11 GPS 42mm — health sensors, watchOS latest, and MagSafe-style charging for iPhone users.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Watch S11 GPS 42mm",
+          "feature_text": "watchOS; heart/SpO2; GPS; always-on display; swimproof",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 46900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_194",
+      "name": "Apple Watch SE 3 GPS 40mm",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Apple Watch SE 3 GPS — value Apple Watch for fitness tracking without Ultra or Series pricing.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Watch SE 3 GPS",
+          "feature_text": "watchOS; crash detection; GPS; swimproof; value",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 29900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_195",
+      "name": "Samsung Galaxy Watch7 44mm Bluetooth",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Samsung Galaxy Watch7 — Wear OS with Galaxy AI health insights for Galaxy phone users.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Watch7 44mm BT",
+          "feature_text": "Wear OS; Galaxy AI health; BioActive sensor; Bluetooth",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 27999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_196",
+      "name": "Samsung Galaxy Watch Ultra 2026 LTE",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Samsung Galaxy Watch Ultra 2026 LTE — rugged premium Galaxy watch with titanium and dual-frequency GPS.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Watch Ultra LTE",
+          "feature_text": "Titanium; LTE; dual-freq GPS; Wear OS; 100m water",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 59999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_197",
+      "name": "Noise ColorFit Pro 5 Max",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Noise ColorFit Pro 5 Max — large AMOLED smartwatch popular in India value wearable segment.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — ColorFit Pro 5 Max",
+          "feature_text": "AMOLED; SpO2; Bluetooth calling; 7-day battery",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 4999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_198",
+      "name": "Fire-Boltt Invincible Plus",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Fire-Boltt Invincible Plus — AMOLED Bluetooth-calling smartwatch for budget fitness buyers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Invincible Plus",
+          "feature_text": "AMOLED; BT calling; sports modes; value pricing",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 3499
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_199",
+      "name": "Apple USB-C to USB-C Charge Cable (2m)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Official Apple USB-C to USB-C 2m braided/charge cable for iPhone 15/16/17 and MagSafe chargers.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — USB-C Cable 2m",
+          "feature_text": "USB-C; 2m; Apple certified; PD charging",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1900
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    },
+    {
+      "id": "tel_200",
+      "name": "Anker USB-C to USB-C Cable 100W 1.8m (2-pack)",
+      "category": "Electronics/Accessories",
+      "unit": "piece",
+      "kb_article": null,
+      "description": "Anker 100W USB-C cable 2-pack for phones, tablets, and GaN chargers — durable braided build.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Street — Anker 100W 2-pack",
+          "feature_text": "100W PD; braided; 1.8m; 2-pack",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1999
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-21T00:00:00+00:00"
+    }
+  ]
+}

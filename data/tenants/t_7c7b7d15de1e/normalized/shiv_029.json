@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_029",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Bungalow unit in Shivalik Swagat Bungalows, Ambli–Bopal. Shivalik Group low-density residential offering; typical portal pricing band ~₹3–4. 4 Cr depending on plot and built-up.",
+    "short_pitch": "Shivalik Swagat Bungalows — Ambli-Bopal — residential listing",
+    "category_path": "Residential/Bungalows",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "family_buyer",
+      "end_user_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Independent bungalow",
+        "parking",
+        "garden",
+        "gated community"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

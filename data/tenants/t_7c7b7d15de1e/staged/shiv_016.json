@@ -1,0 +1,32 @@
+{
+  "id": "shiv_016",
+  "name": "Shivalik Skyview — 3 BHK, GIFT City",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK at Shivalik Skyview, GIFT City. Mid-size family configuration in Shivalik Group's GIFT City residential tower; RERA area in the mid band of ~828–2606 sq ft range. Strong investment + end-use demand near IFSC.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "feature_text": "Family 3 BHK; clubhouse, gym, children's play, covered parking",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 18500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 18500000.0
+  },
+  "price_max": {
+    "INR": 18500000.0
+  },
+  "content_hash": "95f0e59a9e722e4b9026ee3d860a0e14bc99922f35641431bc552f7d9b283716",
+  "needs_normalization": true
+}

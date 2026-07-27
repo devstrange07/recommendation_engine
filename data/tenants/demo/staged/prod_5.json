@@ -1,0 +1,92 @@
+{
+  "id": "prod_5",
+  "name": "GrowthCRM",
+  "category_raw": "Sales",
+  "description_text": "BEST IN CLASS!! growth-focused sales CRM Amazing ROI World-class support Limited time offer — act NOW!!!",
+  "unit": "seat",
+  "kb_article": "https://kb.example.com/prod_5",
+  "plans": [
+    {
+      "id": "prod_5_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_5_plan_1",
+      "name": "Pro",
+      "feature_text": null,
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": 1273.72
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": 15.92
+        }
+      ]
+    },
+    {
+      "id": "prod_5_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1998.0,
+          "discounted_amount": 1798.2
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.98,
+          "discounted_amount": 19.98
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 12.49,
+    "INR": 1273.72
+  },
+  "price_max": {
+    "USD": 19.98,
+    "INR": 1798.2
+  },
+  "content_hash": "2f9d71dd2ad604c5f31bda29042363473d9affebdaf9985908f1efa17b51d8de",
+  "needs_normalization": false
+}

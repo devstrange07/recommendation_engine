@@ -1,0 +1,32 @@
+{
+  "id": "tel_369",
+  "name": "OPPO K14 5G 8GB + 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "OPPO K14 5G performance K-series.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 128GB",
+      "feature_text": "5G; high refresh; ColorOS",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 22999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 22999.0
+  },
+  "price_max": {
+    "INR": 22999.0
+  },
+  "content_hash": "ee3ef476275163026590fae6393b7a3b8bb1ff698d3bb5d8f313c64b179050ed",
+  "needs_normalization": true
+}

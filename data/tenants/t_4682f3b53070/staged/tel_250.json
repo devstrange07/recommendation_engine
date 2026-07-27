@@ -1,0 +1,32 @@
+{
+  "id": "tel_250",
+  "name": "Apple iPhone 17 — Coral Pink 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 17 base model for most iOS buyers in India 2026. India retail SKU in Coral Pink finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Coral Pink 128GB",
+      "feature_text": "iOS; Apple Intelligence; Face ID; 5G; MagSafe",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 82900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 82900.0
+  },
+  "price_max": {
+    "INR": 82900.0
+  },
+  "content_hash": "2ae4aefe7695d51ca3c39607ad355339147d448f5d89a2d30aee4d518a8f2d95",
+  "needs_normalization": true
+}

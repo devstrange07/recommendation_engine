@@ -1,0 +1,32 @@
+{
+  "id": "tel_481",
+  "name": "Portronics Power Bank 10000mAh 22.5W",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Portronics slim 10000mAh power bank for daily carry.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Portronics 10k",
+      "feature_text": "10000mAh; 22.5W; slim",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 999.0
+  },
+  "price_max": {
+    "INR": 999.0
+  },
+  "content_hash": "a5db4594896f8a272c327f56477522bd1af7bfbda0cb815540335944ccc327d7",
+  "needs_normalization": true
+}

@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_187",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Official Samsung clear case for Galaxy S26 showing the phone design with basic drop protection.",
+    "short_pitch": "Samsung Clear Case for Galaxy S26 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Official Samsung",
+        "clear",
+        "slim",
+        "S26 fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

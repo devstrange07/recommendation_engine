@@ -1,0 +1,32 @@
+{
+  "id": "shiv_033",
+  "name": "Shivalik Curv — Office Suite 507 sq ft, GIFT City",
+  "category_raw": "Commercial/Offices",
+  "description_text": "Compact office suite at Shivalik Curv, GIFT City. Commercial tower by Shivalik Group; RERA area from ~507 sq ft. Designed for small professional firms and IFSC-adjacent businesses needing Grade-A GIFT address.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office 507 sq ft",
+      "feature_text": "RA ~507 sq ft; lifts, parking, power backup, CCTV, fire systems",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 5500000.0
+  },
+  "price_max": {
+    "INR": 5500000.0
+  },
+  "content_hash": "65651db20e653fb01da355a6ae9fc0c87cf20db3f0babd8d496b4cd9f7ae4214",
+  "needs_normalization": true
+}

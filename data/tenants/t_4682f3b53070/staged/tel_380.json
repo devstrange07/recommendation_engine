@@ -1,0 +1,32 @@
+{
+  "id": "tel_380",
+  "name": "Sony Xperia 10 VII 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Sony Xperia 10 VII — compact Xperia with clean Android and good audio.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "feature_text": "Compact; stereo speakers; AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 49999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 49999.0
+  },
+  "price_max": {
+    "INR": 49999.0
+  },
+  "content_hash": "94aca6b776e2c52ed034fd897dee965bb984eeb8733f1eeb9fa1c96289d5c24c",
+  "needs_normalization": true
+}

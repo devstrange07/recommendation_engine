@@ -1,0 +1,136 @@
+{
+  "id": "prod_12",
+  "kind": "service",
+  "title": "ResolveNow",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "fast ticket resolution tool.",
+  "short_pitch": "ResolveNow — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "ResolveNow"
+  ],
+  "price_min": {
+    "GBP": 24.99,
+    "INR": 2499.0,
+    "USD": 24.99
+  },
+  "price_max": {
+    "GBP": 31.859999999999996,
+    "INR": 4998.0,
+    "USD": 62.48
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_12_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": 24.99
+        }
+      ]
+    },
+    {
+      "id": "prod_12_plan_1",
+      "name": "Business",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": 31.859999999999996
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_12_plan_2",
+      "name": "Pro",
+      "features": [
+        "Same features as listed on website"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": 4248.3
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "967a77ec4448f9f223b997b7f45dbc869e8bc0406f89273e1011d44fdb20e9de",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "ResolveNow. Category: Support/Helpdesk. fast ticket resolution tool. Pitch: ResolveNow — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: ResolveNow. Plans: Annual Plus (annual): Same features as listed on website | Business (monthly): Same features as listed on website | Pro (monthly): Same features as listed on website",
+  "display_card": {
+    "INR": "₹2,499/yr",
+    "GBP": "£25/yr",
+    "USD": "$25/yr"
+  }
+}

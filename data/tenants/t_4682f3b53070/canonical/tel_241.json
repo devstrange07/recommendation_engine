@@ -1,0 +1,60 @@
+{
+  "id": "tel_241",
+  "kind": "service",
+  "title": "Apple iPhone 17 Pro Max — Coral Pink 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 17 Pro Max with largest display and battery in the 17 line. India retail SKU in Coral Pink finish.",
+  "short_pitch": "Apple iPhone 17 Pro Max — Coral Pink 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 169900.0
+  },
+  "price_max": {
+    "INR": 169900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Coral Pink 512GB",
+      "features": [
+        "Pro Max display",
+        "Pro camera",
+        "Apple Intelligence",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 169900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "281de3f702d0135ea1081dd24c7a26ccc4fec8768e27bbb2cbb26bf6e9d8d2aa",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 17 Pro Max — Coral Pink 512GB. Category: Electronics/Smartphones. Apple iPhone 17 Pro Max with largest display and battery in the 17 line. India retail SKU in Coral Pink finish. Pitch: Apple iPhone 17 Pro Max — Coral Pink 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: Street — Coral Pink 512GB (one_time): Pro Max display; Pro camera; Apple Intelligence; 5G",
+  "display_card": {
+    "INR": "₹169,900"
+  }
+}

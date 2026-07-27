@@ -1,0 +1,61 @@
+{
+  "id": "phone_013",
+  "kind": "service",
+  "title": "Apple iPhone 16 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Previous-gen Apple iPhone 16 128GB still widely sold in India as a value iOS option. Camera Control / Apple Intelligence capable generation at a lower street price than iPhone 17.",
+  "short_pitch": "Apple iPhone 16 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 69900.0
+  },
+  "price_max": {
+    "INR": 69900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 128GB",
+      "features": [
+        "iOS",
+        "dual camera",
+        "A18-class chip",
+        "5G",
+        "MagSafe"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 69900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "072ea536e6d799b1d6953cdd59c4e30c3922d3da77fb4c0698ebc35b25efa915",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 16 128GB. Category: Electronics/Smartphones. Previous-gen Apple iPhone 16 128GB still widely sold in India as a value iOS option. Camera Control / Apple Intelligence capable generation at a lower street price than iPhone 17. Pitch: Apple iPhone 16 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: Street — 128GB (one_time): iOS; dual camera; A18-class chip; 5G; MagSafe",
+  "display_card": {
+    "INR": "₹69,900"
+  }
+}

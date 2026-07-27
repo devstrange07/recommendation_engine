@@ -1,0 +1,63 @@
+{
+  "id": "shiv_001",
+  "kind": "service",
+  "title": "Shivalik Edge — 4 BHK, Ambli",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "Luxury 4 BHK apartment by Shivalik Group at Shivalik Edge, Ambli, Ahmedabad. Ready-to-move premium tower with limited inventory (~48 units). RERA area approx 2267–2363 sq ft; super built-up ~4100+ sq ft.",
+  "short_pitch": "Shivalik Edge — 4 BHK, Ambli — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 32000000.0
+  },
+  "price_max": {
+    "INR": 32000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 4 BHK",
+      "features": [
+        "RERA area ~2300 sq ft",
+        "gym",
+        "infinity pool",
+        "clubhouse",
+        "covered parking",
+        "24x7 security",
+        "power backup"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 32000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "a3cce871d21c42a904574eea0a0d49dbec43f45af8098b955f0c3d495d1994e7",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Edge — 4 BHK, Ambli. Category: Residential/Apartments. Luxury 4 BHK apartment by Shivalik Group at Shivalik Edge, Ambli, Ahmedabad. Ready-to-move premium tower with limited inventory (~48 units). RERA area approx 2267–2363 sq ft; super built-up ~4100+ sq ft. Pitch: Shivalik Edge — 4 BHK, Ambli — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 4 BHK (one_time): RERA area ~2300 sq ft; gym; infinity pool; clubhouse; covered parking; 24x7 security; power backup",
+  "display_card": {
+    "INR": "₹32,000,000"
+  }
+}

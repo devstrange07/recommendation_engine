@@ -1,0 +1,33 @@
+use_case_tags:
+  - ready_possession
+  - investment
+  - primary_residence
+  - office_use
+  - retail_frontage
+  - lease
+  - sale
+  - daily_driver
+  - camera
+  - gaming
+  - compact
+  - flagship
+  - accessory
+  - audio
+  - charging
+  - wearable
+
+target_audience:
+  - end_user_buyer
+  - investor
+  - sme_office
+  - retailer
+  - family_buyer
+  - nri_buyer
+  - consumer
+  - power_user
+  - creator
+
+billing_periods:
+  - one_time
+  - monthly
+  - annual

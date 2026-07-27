@@ -1,0 +1,106 @@
+{
+  "id": "prod_7",
+  "name": "HairBook",
+  "category_raw": "appointments",
+  "description_text": "hair salon booking and client history",
+  "unit": "user",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_7_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": 26.99
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": 25.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": 2399.2
+        }
+      ]
+    },
+    {
+      "id": "prod_7_plan_1",
+      "name": "Basic",
+      "feature_text": "API access, priority support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_7_plan_2",
+      "name": "Annual Plus",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 25.49,
+    "INR": 2399.2,
+    "USD": 56.23
+  },
+  "price_max": {
+    "GBP": 26.99,
+    "INR": 5998.0,
+    "USD": 56.23
+  },
+  "content_hash": "47193a7c3d454991b829636b3600f5dff0e09ab1dcb7490cf4b0de9d24bf74d8",
+  "needs_normalization": false
+}

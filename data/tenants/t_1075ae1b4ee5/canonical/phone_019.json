@@ -1,0 +1,61 @@
+{
+  "id": "phone_019",
+  "kind": "service",
+  "title": "Google Pixel 10 Pro Fold",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "Google Pixel 10 Pro Fold — foldable Pixel with inner tablet-size display and Pixel AI/camera experience. Premium niche for users who want foldable productivity with Google software.",
+  "short_pitch": "Google Pixel 10 Pro Fold — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 159785.0
+  },
+  "price_max": {
+    "INR": 159785.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pro Fold",
+      "features": [
+        "Foldable OLED",
+        "Pixel Camera",
+        "Tensor",
+        "multi-tasking",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 159785.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "2ac0c23a7d4bd52f97a579ac532c4ef6b78c7e7809d5edb37e30a68a248ea250",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10 Pro Fold. Category: Electronics/Foldables. Google Pixel 10 Pro Fold — foldable Pixel with inner tablet-size display and Pixel AI/camera experience. Premium niche for users who want foldable productivity with Google software. Pitch: Google Pixel 10 Pro Fold — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Pro Fold (one_time): Foldable OLED; Pixel Camera; Tensor; multi-tasking; 5G",
+  "display_card": {
+    "INR": "₹159,785"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_005",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Compact Samsung Galaxy S26 base flagship. Same generation chipset and camera stack as the Plus in a more pocketable body — for users who want 2026 Galaxy software without Ultra size or price.",
+    "short_pitch": "Samsung Galaxy S26 — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Compact flagship",
+        "AMOLED",
+        "Galaxy AI",
+        "5G",
+        "multi-year updates"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

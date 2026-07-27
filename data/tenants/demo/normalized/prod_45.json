@@ -1,0 +1,32 @@
+{
+  "product_id": "prod_45",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "list growth and email blasts.",
+    "short_pitch": "ListLift — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "ListLift"
+    ],
+    "plan_features": {
+      "prod_45_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_45_plan_1": [
+        "Business tier"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

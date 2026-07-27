@@ -1,0 +1,61 @@
+{
+  "id": "tel_158",
+  "kind": "service",
+  "title": "OnePlus Open 2 16GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "OnePlus Open 2 — OxygenOS book foldable competing with Fold7 on price and software fluidity.",
+  "short_pitch": "OnePlus Open 2 16GB + 512GB — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 139999.0
+  },
+  "price_max": {
+    "INR": 139999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Open 2",
+      "features": [
+        "Book foldable",
+        "OxygenOS",
+        "Hasselblad camera",
+        "flagship SoC",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 139999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "671795a74613187b08e22da599a45a017144d77e540fcd44465fc078fc404d08",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Open 2 16GB + 512GB. Category: Electronics/Foldables. OnePlus Open 2 — OxygenOS book foldable competing with Fold7 on price and software fluidity. Pitch: OnePlus Open 2 16GB + 512GB — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — Open 2 (one_time): Book foldable; OxygenOS; Hasselblad camera; flagship SoC; 5G",
+  "display_card": {
+    "INR": "₹139,999"
+  }
+}

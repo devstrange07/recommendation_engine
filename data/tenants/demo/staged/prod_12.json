@@ -1,0 +1,106 @@
+{
+  "id": "prod_12",
+  "name": "ResolveNow",
+  "category_raw": "Customer Service",
+  "description_text": "fast ticket resolution tool",
+  "unit": "location",
+  "kb_article": "https://kb.example.com/prod_12",
+  "plans": [
+    {
+      "id": "prod_12_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": 24.99
+        }
+      ]
+    },
+    {
+      "id": "prod_12_plan_1",
+      "name": "Business",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": 31.859999999999996
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_12_plan_2",
+      "name": "Pro",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": 4248.3
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 24.99,
+    "INR": 2499.0,
+    "USD": 24.99
+  },
+  "price_max": {
+    "GBP": 31.859999999999996,
+    "INR": 4998.0,
+    "USD": 62.48
+  },
+  "content_hash": "967a77ec4448f9f223b997b7f45dbc869e8bc0406f89273e1011d44fdb20e9de",
+  "needs_normalization": false
+}

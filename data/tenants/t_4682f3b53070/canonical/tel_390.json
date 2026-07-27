@@ -1,0 +1,60 @@
+{
+  "id": "tel_390",
+  "kind": "service",
+  "title": "Sony Xperia 5 VII 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Sony Xperia 5 VII — compact pro Xperia for one-hand use and video.",
+  "short_pitch": "Sony Xperia 5 VII 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Sony"
+  ],
+  "price_min": {
+    "INR": 99999.0
+  },
+  "price_max": {
+    "INR": 99999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 12GB + 256GB",
+      "features": [
+        "Compact pro",
+        "4K display",
+        "flagship SoC",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 99999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d764fabc24ce70aed2f0629930c62ada37884a75d74ecf422ff9c7eb0aa2c956",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Sony Xperia 5 VII 12GB + 256GB. Category: Electronics/Smartphones. Sony Xperia 5 VII — compact pro Xperia for one-hand use and video. Pitch: Sony Xperia 5 VII 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Sony. Plans: Street — 12GB + 256GB (one_time): Compact pro; 4K display; flagship SoC; 5G",
+  "display_card": {
+    "INR": "₹99,999"
+  }
+}

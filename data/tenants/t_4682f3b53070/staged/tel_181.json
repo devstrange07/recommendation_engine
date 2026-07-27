@@ -1,0 +1,32 @@
+{
+  "id": "tel_181",
+  "name": "Samsung Galaxy Z Fold7 — Phantom Black 12GB + 256GB",
+  "category_raw": "Electronics/Foldables",
+  "description_text": "Samsung Galaxy Z Fold7 book foldable in Phantom Black. India retail SKU in Phantom Black finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Phantom Black 12GB + 256GB",
+      "feature_text": "Book foldable; S Pen; Galaxy AI; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 164999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 164999.0
+  },
+  "price_max": {
+    "INR": 164999.0
+  },
+  "content_hash": "2728a8e1e7d533233683d7f93894a9c9b0fd81455020dcfe7733ec02aa194fb8",
+  "needs_normalization": true
+}

@@ -1,0 +1,60 @@
+{
+  "id": "shiv_039",
+  "kind": "service",
+  "title": "Shivalik Abaise — Office Suite, Prahlad Nagar",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Offices",
+  "clean_description": "Office suite at Shivalik Abaise, Prahlad Nagar, Ahmedabad. Established Shivalik Group commercial address near SG Highway; typical sale range ~₹78 L–1. 2 Cr depending on size and floor.",
+  "short_pitch": "Shivalik Abaise — Office Suite, Prahlad Nagar — commercial listing",
+  "use_case_tags": [
+    "office_use",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "sme_office",
+    "investor"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 9500000.0
+  },
+  "price_max": {
+    "INR": 9500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office Suite",
+      "features": [
+        "Prahlad Nagar office",
+        "parking",
+        "lifts",
+        "power backup",
+        "CCTV"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c7f0991ad68035693e7b22b379c9ca5ae7ae040abc8d5ca3f605fd502050c9b9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Abaise — Office Suite, Prahlad Nagar. Category: Commercial/Offices. Office suite at Shivalik Abaise, Prahlad Nagar, Ahmedabad. Established Shivalik Group commercial address near SG Highway; typical sale range ~₹78 L–1. 2 Cr depending on size and floor. Pitch: Shivalik Abaise — Office Suite, Prahlad Nagar — commercial listing. Use cases: office_use, sale, investment. Audience: sme_office, investor. Aliases: Shivalik. Plans: Sale — Office Suite (one_time): Prahlad Nagar office; parking; lifts; power backup; CCTV",
+  "display_card": {
+    "INR": "₹9,500,000"
+  }
+}

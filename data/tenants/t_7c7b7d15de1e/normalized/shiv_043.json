@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_043",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Office unit at Shivalik Business Center on SG Highway / Satellite corridor. Established Shivalik Group commercial address for SMEs and professional firms needing highway connectivity.",
+    "short_pitch": "Shivalik Business Center — Office, SG Highway — commercial listing",
+    "category_path": "Commercial/Offices",
+    "use_case_tags": [
+      "office_use",
+      "sale",
+      "investment"
+    ],
+    "target_audience": [
+      "sme_office",
+      "investor"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "SG Hwy commercial",
+        "parking",
+        "lifts",
+        "security",
+        "power backup"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

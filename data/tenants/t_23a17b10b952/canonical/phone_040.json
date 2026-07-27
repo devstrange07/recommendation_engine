@@ -1,0 +1,61 @@
+{
+  "id": "phone_040",
+  "kind": "service",
+  "title": "Redmi Note 15 Pro 5G",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Redmi Note 15 Pro 5G — volume mid-ranger for India. AMOLED, fast charging, and capable cameras at aggressive Flipkart/Amazon street prices for students and families.",
+  "short_pitch": "Redmi Note 15 Pro 5G — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Redmi"
+  ],
+  "price_min": {
+    "INR": 24999.0
+  },
+  "price_max": {
+    "INR": 24999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Note 15 Pro",
+      "features": [
+        "AMOLED",
+        "5G",
+        "fast charge",
+        "108MP-class camera",
+        "HyperOS"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 24999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c6f8e238492e4a8d68fc8ebac07c59e45b5eee039b55986f203e1c51ab5c9e22",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Redmi Note 15 Pro 5G. Category: Electronics/Smartphones. Redmi Note 15 Pro 5G — volume mid-ranger for India. AMOLED, fast charging, and capable cameras at aggressive Flipkart/Amazon street prices for students and families. Pitch: Redmi Note 15 Pro 5G — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Redmi. Plans: Street — Note 15 Pro (one_time): AMOLED; 5G; fast charge; 108MP-class camera; HyperOS",
+  "display_card": {
+    "INR": "₹24,999"
+  }
+}

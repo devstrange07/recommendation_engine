@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_043",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy Z Fold7 — book-style foldable flagship with large inner display, S Pen support (Fold series), and Galaxy AI. Productivity foldable for multitasking and media.",
+    "short_pitch": "Samsung Galaxy Z Fold7 — device",
+    "category_path": "Electronics/Foldables",
+    "use_case_tags": [
+      "flagship",
+      "compact",
+      "daily_driver"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Foldable AMOLED",
+        "Dex-like multitasking",
+        "Galaxy AI",
+        "S Pen support",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

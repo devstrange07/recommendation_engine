@@ -1,0 +1,68 @@
+{
+  "id": "prod_73",
+  "name": "CareDesk Pro Suite",
+  "category_raw": "support desk",
+  "description_text": "Entry-level starter tool for beginners only. Basic free tier features. customer care helpdesk",
+  "unit": "seat",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_73_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": 21.24
+        }
+      ]
+    },
+    {
+      "id": "prod_73_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0,
+    "GBP": 21.24,
+    "USD": 46.86
+  },
+  "price_max": {
+    "INR": 3748.5,
+    "GBP": 21.24,
+    "USD": 46.86
+  },
+  "content_hash": "af77d801ee2d9119b21ddec7adca3258fc11b2e813a72adcfa80d72ec8a1929f",
+  "needs_normalization": false
+}

@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_015",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Google Pixel 10 Pro — Pro camera bar, brighter display, and advanced Pixel AI (Pixel Journal, Magic Cue). For Pixel loyalists who want telephoto and Pro hardware without XL size.",
+    "short_pitch": "Google Pixel 10 Pro — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Google"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pro camera",
+        "Tensor G5",
+        "telephoto",
+        "Pixel AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

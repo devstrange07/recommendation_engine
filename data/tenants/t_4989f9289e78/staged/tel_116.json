@@ -1,0 +1,32 @@
+{
+  "id": "tel_116",
+  "name": "Samsung Galaxy A36 5G 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Samsung Galaxy A36 5G 256GB storage upgrade.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — A36 256GB",
+      "feature_text": "256GB; AMOLED; Galaxy AI lite; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 29999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 29999.0
+  },
+  "price_max": {
+    "INR": 29999.0
+  },
+  "content_hash": "b30953c2c2ff8d1e87617d15c81adafc467c8d50a275c609a9ac5e6dddb0cd8f",
+  "needs_normalization": true
+}

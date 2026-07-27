@@ -1,0 +1,33 @@
+{
+  "product_id": "prod_24",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "ticket and reply management.",
+    "short_pitch": "ReplyRack — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "ReplyRack"
+    ],
+    "plan_features": {
+      "prod_24_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_24_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

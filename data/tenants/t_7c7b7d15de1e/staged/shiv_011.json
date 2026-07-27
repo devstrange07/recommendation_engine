@@ -1,0 +1,32 @@
+{
+  "id": "shiv_011",
+  "name": "Shivalik Greenfield — 3 BHK, Shantigram",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK apartment at Shivalik Greenfield, Shantigram (near SG Highway). Joint venture residential township offering with Adani Realty; RERA area approx 1379 sq ft. Under-construction / launch-phase inventory by Shivalik Group.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "feature_text": "RA ~1379 sq ft; clubhouse, gym, landscaped greens, children's play, parking",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 16000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 16000000.0
+  },
+  "price_max": {
+    "INR": 16000000.0
+  },
+  "content_hash": "77774ff5571c87c2235a22154d9a7e61c23e238bc78f2e4549071f5c2aca84d7",
+  "needs_normalization": true
+}

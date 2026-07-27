@@ -1,0 +1,33 @@
+{
+  "product_id": "shiv_012",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "4 BHK penthouse at Shivalik Greenfield, Shantigram. RERA area approx 2365 sq ft. Premium top-floor format in Shivalik–Adani township near SG Highway with large club amenities.",
+    "short_pitch": "Shivalik Greenfield — 4 BHK Penthouse, Shantigram — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RA ~2365 sq ft penthouse",
+        "clubhouse",
+        "pool/gym cluster",
+        "parking",
+        "security"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_072",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Nothing Phone (4a) — Glyph-light design, clean Nothing OS, strong value in upper mid India pricing. Fast-growing brand in 2026.",
+    "short_pitch": "Nothing Phone (4a) 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Nothing"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Nothing OS",
+        "Glyph design",
+        "AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

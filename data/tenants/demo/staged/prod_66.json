@@ -1,0 +1,86 @@
+{
+  "id": "prod_66",
+  "name": "TinyCRM",
+  "category_raw": "CRM",
+  "description_text": "minimal CRM for freelancers",
+  "unit": "workspace",
+  "kb_article": "https://kb.example.com/prod_66",
+  "plans": [
+    {
+      "id": "prod_66_plan_0",
+      "name": "Pro",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 9.99,
+          "discounted_amount": 8.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_66_plan_1",
+      "name": "Business",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": 1273.72
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.98,
+          "discounted_amount": 13.48
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": 1273.72
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 12.49,
+    "GBP": 8.49,
+    "INR": 999.0
+  },
+  "price_max": {
+    "USD": 18.73,
+    "GBP": 13.48,
+    "INR": 1273.72
+  },
+  "content_hash": "f26dd94260d72ecbbfb7b0e8834471beb7c3c8e0fc36b7117461c1d3ebbc8de5",
+  "needs_normalization": false
+}

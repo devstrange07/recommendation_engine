@@ -1,0 +1,32 @@
+{
+  "id": "tel_085",
+  "name": "Moto G86 5G 8GB + 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Moto G86 5G — entry G-series 5G still widely stocked in India offline retail.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — G86",
+      "feature_text": "5G; large battery; near-stock Android",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 14999.0
+  },
+  "price_max": {
+    "INR": 14999.0
+  },
+  "content_hash": "9b94e27627d5556302b46c52d610a721d781929cafe18ff5f133e5d904da1ed2",
+  "needs_normalization": true
+}

@@ -1,0 +1,80 @@
+{
+  "id": "prod_10",
+  "name": "TaxReady Books",
+  "category_raw": "Payments",
+  "description_text": "invoicing with tax lines",
+  "unit": "location",
+  "kb_article": "https://kb.example.com/prod_10",
+  "plans": [
+    {
+      "id": "prod_10_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 14.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_10_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_10_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 14.99,
+    "USD": 37.48
+  },
+  "price_max": {
+    "GBP": 22.48,
+    "USD": 37.48
+  },
+  "content_hash": "9460ebf6e366c06d2eca110b07d267271e4366960d3e9801b3d42bf767d99d98",
+  "needs_normalization": false
+}

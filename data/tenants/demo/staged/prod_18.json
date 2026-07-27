@@ -1,0 +1,66 @@
+{
+  "id": "prod_18",
+  "name": "DripPath",
+  "category_raw": null,
+  "description_text": "drip campaign automation",
+  "unit": null,
+  "kb_article": "https://kb.example.com/prod_18",
+  "plans": [
+    {
+      "id": "prod_18_plan_0",
+      "name": "Business",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": 679.15
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_18_plan_1",
+      "name": "Pro",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": 958.8
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": 1078.65
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 7.99,
+    "INR": 679.15
+  },
+  "price_max": {
+    "GBP": 7.99,
+    "INR": 1078.65
+  },
+  "content_hash": "cc683699fe92ce0611c582e1e135ec8dcc00a579df0b862cd7715d0260045644",
+  "needs_normalization": false
+}

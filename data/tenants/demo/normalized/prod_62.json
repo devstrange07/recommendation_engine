@@ -1,0 +1,38 @@
+{
+  "product_id": "prod_62",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "consultant booking pages.",
+    "short_pitch": "ConsultSlot — scheduling for teams",
+    "category_path": "Scheduling/Appointments",
+    "use_case_tags": [
+      "appointment_booking",
+      "online_scheduling",
+      "client_reminders"
+    ],
+    "target_audience": [
+      "salon_spa",
+      "small_business",
+      "clinic_healthcare"
+    ],
+    "aliases": [
+      "ConsultSlot"
+    ],
+    "plan_features": {
+      "prod_62_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_62_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_62_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

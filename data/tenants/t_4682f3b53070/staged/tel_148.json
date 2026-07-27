@@ -1,0 +1,32 @@
+{
+  "id": "tel_148",
+  "name": "Redmi Note 14 Pro 5G 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Redmi Note 14 Pro 5G — prior Note Pro generation still competitive at discounted street prices.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Note 14 Pro",
+      "feature_text": "AMOLED; mid SoC; HyperOS; 5G; large battery",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 21999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 21999.0
+  },
+  "price_max": {
+    "INR": 21999.0
+  },
+  "content_hash": "cf94be019e6ce5382ea70f5d6f9a645e3f2e63d1b213eaf6c4391e12f2be2d6c",
+  "needs_normalization": true
+}

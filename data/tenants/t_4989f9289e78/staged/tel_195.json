@@ -1,0 +1,32 @@
+{
+  "id": "tel_195",
+  "name": "Samsung Galaxy Watch7 44mm Bluetooth",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Samsung Galaxy Watch7 — Wear OS with Galaxy AI health insights for Galaxy phone users.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Watch7 44mm BT",
+      "feature_text": "Wear OS; Galaxy AI health; BioActive sensor; Bluetooth",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 27999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 27999.0
+  },
+  "price_max": {
+    "INR": 27999.0
+  },
+  "content_hash": "effac51269628873865ac4e4585ff7c2d80fe596425a00f349125fa44dff5b54",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_452",
+  "name": "Vivo V70 Silicone Case for Vivo V70",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Vivo V70 Silicone Case protective case for Vivo V70 — India retail accessory SKU.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Vivo Case",
+      "feature_text": "Drop protection; precise cutouts; Vivo V70 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 999.0
+  },
+  "price_max": {
+    "INR": 999.0
+  },
+  "content_hash": "8ebd64a7851ae563955bc97fade570432d5a94c610839f522b9d96a1b356c095",
+  "needs_normalization": true
+}

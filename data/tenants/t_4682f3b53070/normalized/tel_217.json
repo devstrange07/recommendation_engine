@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_217",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Compact Samsung Galaxy S26 base flagship for pocketable 2026 Galaxy buyers. India retail SKU in Ocean Blue finish.",
+    "short_pitch": "Samsung Galaxy S26 — Ocean Blue 12GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Compact flagship",
+        "AMOLED",
+        "Galaxy AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

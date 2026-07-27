@@ -1,0 +1,60 @@
+{
+  "id": "tel_392",
+  "kind": "service",
+  "title": "Tecno Pova 7 Pro 5G 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Tecno Pova 7 Pro 5G — battery-focused Tecno for gaming and media.",
+  "short_pitch": "Tecno Pova 7 Pro 5G 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Tecno"
+  ],
+  "price_min": {
+    "INR": 22999.0
+  },
+  "price_max": {
+    "INR": 22999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "features": [
+        "Huge battery",
+        "gaming",
+        "AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 22999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "31116a677b44a26a59a8bead4c605ec6bd876de0be30a83e533e12a23962d6d1",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Tecno Pova 7 Pro 5G 8GB + 256GB. Category: Electronics/Smartphones. Tecno Pova 7 Pro 5G — battery-focused Tecno for gaming and media. Pitch: Tecno Pova 7 Pro 5G 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Tecno. Plans: Street — 8GB + 256GB (one_time): Huge battery; gaming; AMOLED; 5G",
+  "display_card": {
+    "INR": "₹22,999"
+  }
+}

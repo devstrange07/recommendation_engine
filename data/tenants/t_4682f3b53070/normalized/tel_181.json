@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_181",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy Z Fold7 book foldable in Phantom Black. India retail SKU in Phantom Black finish.",
+    "short_pitch": "Samsung Galaxy Z Fold7 — Phantom Black 12GB + 256GB — device",
+    "category_path": "Electronics/Foldables",
+    "use_case_tags": [
+      "flagship",
+      "compact",
+      "daily_driver"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Book foldable",
+        "S Pen",
+        "Galaxy AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

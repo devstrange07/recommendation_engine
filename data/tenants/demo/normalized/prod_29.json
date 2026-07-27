@@ -1,0 +1,43 @@
+{
+  "product_id": "prod_29",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "professional invoice generator —.",
+    "short_pitch": "BillCraft — invoicing for teams",
+    "category_path": "Invoicing/Billing",
+    "use_case_tags": [
+      "invoice_generation",
+      "recurring_billing"
+    ],
+    "target_audience": [
+      "solo_freelancer",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "BillCraft"
+    ],
+    "plan_features": {
+      "prod_29_plan_0": [
+        "Same features as listed on website"
+      ],
+      "prod_29_plan_1": [
+        "Same features as listed on website"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "plans_indistinguishable",
+      "field": "plans",
+      "issue": "Plan feature_text values are identical",
+      "options": [
+        "Business",
+        "Basic",
+        "differentiate_manually"
+      ],
+      "recommended": "differentiate_manually"
+    }
+  ]
+}

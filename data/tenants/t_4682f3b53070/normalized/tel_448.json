@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_448",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Spigen Liquid Crystal protective case for Google Pixel 10 Pro — India retail accessory SKU.",
+    "short_pitch": "Spigen Liquid Crystal for Google Pixel 10 Pro — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Spigen"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Drop protection",
+        "precise cutouts",
+        "Google Pixel 10 Pro fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

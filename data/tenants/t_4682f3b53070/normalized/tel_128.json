@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_128",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Asus ROG Phone 9 — dedicated gaming phone with AirTriggers, high refresh AMOLED, and extreme cooling.",
+    "short_pitch": "Asus ROG Phone 9 16GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Asus"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "AirTriggers",
+        "185Hz-class display",
+        "GameCool",
+        "flagship SoC",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

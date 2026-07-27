@@ -1,0 +1,32 @@
+{
+  "id": "phone_045",
+  "name": "Realme GT 7 Pro",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Realme GT 7 Pro — performance flagship killer with high-refresh display, flagship chipset, and aggressive pricing vs Samsung/OnePlus. Aimed at gamers and power users.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — GT 7 Pro",
+      "feature_text": "Flagship SoC; 144Hz AMOLED; fast charge; vapor cooling; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 57999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 57999.0
+  },
+  "price_max": {
+    "INR": 57999.0
+  },
+  "content_hash": "afd88c8e030e219cafa5b6a06d053b59d34172bf3ca28444d54dda48f0d01202",
+  "needs_normalization": true
+}

@@ -1,0 +1,106 @@
+{
+  "id": "prod_71",
+  "name": "NewsWire Pro",
+  "category_raw": "Campaigns",
+  "description_text": "newsletter publishing",
+  "unit": "user",
+  "kb_article": "https://kb.example.com/prod_71",
+  "plans": [
+    {
+      "id": "prod_71_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": 26.549999999999997
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_71_plan_1",
+      "name": "Business",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": 39.83
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": 2998.8
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_71_plan_2",
+      "name": "Basic",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": 49.98
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 62.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 26.549999999999997,
+    "GBP": 24.99,
+    "INR": 2998.8
+  },
+  "price_max": {
+    "USD": 62.48,
+    "GBP": 37.48,
+    "INR": 4998.0
+  },
+  "content_hash": "8adac639cbd143204e9db72e2cfd7ed4bbec36463e435a7ed3616728f162c719",
+  "needs_normalization": false
+}

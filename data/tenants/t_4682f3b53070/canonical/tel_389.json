@@ -1,0 +1,60 @@
+{
+  "id": "tel_389",
+  "kind": "service",
+  "title": "Nokia XR21 5G 8GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Nokia XR21 5G — rugged Nokia with IP69 and MIL-STD durability.",
+  "short_pitch": "Nokia XR21 5G 8GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Nokia"
+  ],
+  "price_min": {
+    "INR": 24999.0
+  },
+  "price_max": {
+    "INR": 24999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 128GB",
+      "features": [
+        "Rugged",
+        "IP69",
+        "5G",
+        "stock Android"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 24999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "87003418863f0b267a84fef52f42a413d508e8b55cfd63900fc96b6ffebb3168",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Nokia XR21 5G 8GB + 128GB. Category: Electronics/Smartphones. Nokia XR21 5G — rugged Nokia with IP69 and MIL-STD durability. Pitch: Nokia XR21 5G 8GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Nokia. Plans: Street — 8GB + 128GB (one_time): Rugged; IP69; 5G; stock Android",
+  "display_card": {
+    "INR": "₹24,999"
+  }
+}

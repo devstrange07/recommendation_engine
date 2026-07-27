@@ -1,0 +1,115 @@
+{
+  "id": "prod_4",
+  "kind": "service",
+  "title": "CampaignNest",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "newsletter and drip campaigns.",
+  "short_pitch": "CampaignNest — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "CampaignNest"
+  ],
+  "price_min": {
+    "USD": 4.99,
+    "GBP": 4.49,
+    "INR": 499.0
+  },
+  "price_max": {
+    "USD": 9.36,
+    "GBP": 4.49,
+    "INR": 748.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_4_plan_0",
+      "name": "Basic",
+      "features": [
+        "Basic tier"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": 4.99
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_4_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d2f82a1f40e707a3061eb032392415ec600512c8135dc4ad23ac69dd4f3978b9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "CampaignNest. Category: Marketing/Email. newsletter and drip campaigns. Pitch: CampaignNest — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: CampaignNest. Plans: Basic (one_time): Basic tier | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹499",
+    "GBP": "£4",
+    "USD": "$5"
+  }
+}

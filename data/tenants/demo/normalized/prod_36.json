@@ -1,0 +1,33 @@
+{
+  "product_id": "prod_36",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "fast invoicing for freelancers.",
+    "short_pitch": "QuickBill — invoicing for teams",
+    "category_path": "Invoicing/Billing",
+    "use_case_tags": [
+      "invoice_generation",
+      "recurring_billing"
+    ],
+    "target_audience": [
+      "solo_freelancer",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "QuickBill"
+    ],
+    "plan_features": {
+      "prod_36_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_36_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

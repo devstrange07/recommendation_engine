@@ -1,0 +1,61 @@
+{
+  "id": "tel_058",
+  "kind": "service",
+  "title": "iQOO 13 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "iQOO 13 — gaming-oriented flagship from Vivo sub-brand. High refresh rate, advanced cooling, Snapdragon flagship silicon.",
+  "short_pitch": "iQOO 13 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "iQOO"
+  ],
+  "price_min": {
+    "INR": 54999.0
+  },
+  "price_max": {
+    "INR": 54999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — iQOO 13 256GB",
+      "features": [
+        "Flagship Snapdragon",
+        "gaming cooling",
+        "high refresh AMOLED",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 54999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "7037f941745ca0ac346798cb477d7adc10b6508ae51410f6ed95d8a13902dade",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "iQOO 13 12GB + 256GB. Category: Electronics/Smartphones. iQOO 13 — gaming-oriented flagship from Vivo sub-brand. High refresh rate, advanced cooling, Snapdragon flagship silicon. Pitch: iQOO 13 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: iQOO. Plans: Street — iQOO 13 256GB (one_time): Flagship Snapdragon; gaming cooling; high refresh AMOLED; fast charge; 5G",
+  "display_card": {
+    "INR": "₹54,999"
+  }
+}

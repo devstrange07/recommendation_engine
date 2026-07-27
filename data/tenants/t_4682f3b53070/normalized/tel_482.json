@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_482",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple Watch ocean band for Series 11 / Ultra swim use.",
+    "short_pitch": "Apple Watch Sport Band 45mm — Ocean Band — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Ocean band",
+        "swimproof",
+        "45mm fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

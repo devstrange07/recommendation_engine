@@ -1,0 +1,61 @@
+{
+  "id": "phone_043",
+  "kind": "service",
+  "title": "Samsung Galaxy Z Fold7",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "Samsung Galaxy Z Fold7 — book-style foldable flagship with large inner display, S Pen support (Fold series), and Galaxy AI. Productivity foldable for multitasking and media.",
+  "short_pitch": "Samsung Galaxy Z Fold7 — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 164999.0
+  },
+  "price_max": {
+    "INR": 164999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Z Fold7",
+      "features": [
+        "Foldable AMOLED",
+        "Dex-like multitasking",
+        "Galaxy AI",
+        "S Pen support",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 164999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "126f7f7d00b325f6053a3d69ed6743ad6a72a2a61ca6f38c4003be8ea3f46ce2",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy Z Fold7. Category: Electronics/Foldables. Samsung Galaxy Z Fold7 — book-style foldable flagship with large inner display, S Pen support (Fold series), and Galaxy AI. Productivity foldable for multitasking and media. Pitch: Samsung Galaxy Z Fold7 — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Z Fold7 (one_time): Foldable AMOLED; Dex-like multitasking; Galaxy AI; S Pen support; 5G",
+  "display_card": {
+    "INR": "₹164,999"
+  }
+}

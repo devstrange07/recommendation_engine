@@ -1,0 +1,60 @@
+{
+  "id": "tel_138",
+  "kind": "service",
+  "title": "OnePlus Nord CE 5 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OnePlus Nord CE 5 — prior CE generation anchoring OnePlus volumes in affordable premium.",
+  "short_pitch": "OnePlus Nord CE 5 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 24999.0
+  },
+  "price_max": {
+    "INR": 24999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Nord CE 5",
+      "features": [
+        "OxygenOS",
+        "AMOLED",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 24999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "3453d8096b46aeca5a5164ef420b9c82f7de464606bf374db3b771e45c4733d8",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Nord CE 5 8GB + 256GB. Category: Electronics/Smartphones. OnePlus Nord CE 5 — prior CE generation anchoring OnePlus volumes in affordable premium. Pitch: OnePlus Nord CE 5 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — Nord CE 5 (one_time): OxygenOS; AMOLED; fast charge; 5G",
+  "display_card": {
+    "INR": "₹24,999"
+  }
+}

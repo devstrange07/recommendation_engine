@@ -1,0 +1,32 @@
+{
+  "id": "tel_157",
+  "name": "Google Pixel 9 Pro Fold 16GB + 256GB",
+  "category_raw": "Electronics/Foldables",
+  "description_text": "Google Pixel 9 Pro Fold — prior-gen Pixel foldable at reduced street prices.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 9 Pro Fold",
+      "feature_text": "Book foldable; Pixel camera; Tensor; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 103850.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 103850.0
+  },
+  "price_max": {
+    "INR": 103850.0
+  },
+  "content_hash": "e63c31a87bf3ecc1e58eb3d2c1e389b91fe97ac3cac6c1275de664d2ea52ad40",
+  "needs_normalization": true
+}

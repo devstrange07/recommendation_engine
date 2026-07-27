@@ -1,0 +1,98 @@
+{
+  "id": "prod_75",
+  "kind": "service",
+  "title": "PipelineAce",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "sales pipeline management —.",
+  "short_pitch": "PipelineAce — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "PipelineAce"
+  ],
+  "price_min": {
+    "GBP": 6.79,
+    "INR": 799.0,
+    "USD": 14.98
+  },
+  "price_max": {
+    "GBP": 11.98,
+    "INR": 799.0,
+    "USD": 14.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_75_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.99,
+          "discounted_amount": 6.79
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_75_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b8d23106a5bb059ec9088fe4aa9b1a0f0d7aec0f29d2c4fbe61005525479f814",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "PipelineAce. Category: CRM/Sales. sales pipeline management —. Pitch: PipelineAce — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: PipelineAce. Plans: Business (monthly): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹799/mo",
+    "GBP": "£7/mo",
+    "USD": "$15/mo"
+  }
+}

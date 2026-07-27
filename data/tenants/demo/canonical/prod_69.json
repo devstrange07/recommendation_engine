@@ -1,0 +1,104 @@
+{
+  "id": "prod_69",
+  "kind": "service",
+  "title": "FixTicket",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "simple ticketing for SMBs —.",
+  "short_pitch": "FixTicket — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "FixTicket"
+  ],
+  "price_min": {
+    "INR": 1499.0,
+    "USD": 15.929999999999998,
+    "GBP": 22.48
+  },
+  "price_max": {
+    "INR": 2248.5,
+    "USD": 25.3,
+    "GBP": 22.48
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_69_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": 15.929999999999998
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_69_plan_1",
+      "name": "Annual Plus",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 28.11,
+          "discounted_amount": 25.3
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2248.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "473b13c506a4aa91f82a8e084dc1879ae3b2737df4078f728d501a4d0d63bc6d",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "FixTicket. Category: Support/Helpdesk. simple ticketing for SMBs —. Pitch: FixTicket — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: FixTicket. Plans: Basic (one_time): Up to 2 users; email support | Annual Plus (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹1,499",
+    "GBP": "£22",
+    "USD": "$16"
+  }
+}

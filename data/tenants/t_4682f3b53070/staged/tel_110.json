@@ -1,0 +1,32 @@
+{
+  "id": "tel_110",
+  "name": "Realme Narzo 80 Pro 5G 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Realme Narzo 80 Pro 5G — value gaming-leaning mid-ranger under the Narzo sub-brand.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Narzo 80 Pro",
+      "feature_text": "5G; high refresh; large battery; mid SoC",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 21999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 21999.0
+  },
+  "price_max": {
+    "INR": 21999.0
+  },
+  "content_hash": "0541ad3bc158015442eecfff45e5b2e5bb4361a56235095c6b7d55a295ce05cc",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_360",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "iQOO 13 gaming flagship with advanced cooling. India retail SKU in Midnight Black finish.",
+    "short_pitch": "iQOO 13 — Midnight Black 12GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "iQOO"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Flagship Snapdragon",
+        "gaming cooling",
+        "high refresh AMOLED",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

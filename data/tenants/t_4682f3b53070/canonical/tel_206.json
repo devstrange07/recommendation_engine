@@ -1,0 +1,60 @@
+{
+  "id": "tel_206",
+  "kind": "service",
+  "title": "Samsung Galaxy S26 Plus — Ocean Blue 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Samsung Galaxy S26 Plus value flagship with large AMOLED and Galaxy AI. India retail SKU in Ocean Blue finish.",
+  "short_pitch": "Samsung Galaxy S26 Plus — Ocean Blue 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 94999.0
+  },
+  "price_max": {
+    "INR": 94999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ocean Blue 12GB + 256GB",
+      "features": [
+        "Large AMOLED",
+        "flagship chipset",
+        "Galaxy AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 94999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "93e38592c05e572e3d672b4cde8b85748cfeea8fcee24a9c9b31723fa89ca8f9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy S26 Plus — Ocean Blue 12GB + 256GB. Category: Electronics/Smartphones. Samsung Galaxy S26 Plus value flagship with large AMOLED and Galaxy AI. India retail SKU in Ocean Blue finish. Pitch: Samsung Galaxy S26 Plus — Ocean Blue 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Ocean Blue 12GB + 256GB (one_time): Large AMOLED; flagship chipset; Galaxy AI; 5G",
+  "display_card": {
+    "INR": "₹94,999"
+  }
+}

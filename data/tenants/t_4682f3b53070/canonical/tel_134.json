@@ -1,0 +1,60 @@
+{
+  "id": "tel_134",
+  "kind": "service",
+  "title": "Lava Blaze Curve 5G 8GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Lava Blaze Curve 5G — Made-in-India curved AMOLED mid-ranger for buyers preferring domestic brands.",
+  "short_pitch": "Lava Blaze Curve 5G 8GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Lava"
+  ],
+  "price_min": {
+    "INR": 16999.0
+  },
+  "price_max": {
+    "INR": 16999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Blaze Curve",
+      "features": [
+        "Curved AMOLED",
+        "5G",
+        "large battery",
+        "Made in India"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 16999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b7ca2f2651b7a0b21b48b3bd59f039c93bb84273c778485b2fe4eaf9bfdcf058",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Lava Blaze Curve 5G 8GB + 128GB. Category: Electronics/Smartphones. Lava Blaze Curve 5G — Made-in-India curved AMOLED mid-ranger for buyers preferring domestic brands. Pitch: Lava Blaze Curve 5G 8GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Lava. Plans: Street — Blaze Curve (one_time): Curved AMOLED; 5G; large battery; Made in India",
+  "display_card": {
+    "INR": "₹16,999"
+  }
+}

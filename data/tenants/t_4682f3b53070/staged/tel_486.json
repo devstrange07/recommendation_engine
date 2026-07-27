@@ -1,0 +1,32 @@
+{
+  "id": "tel_486",
+  "name": "boAt Bassheads 900 Pro",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "boAt Bassheads 900 Pro wired over-ear for gaming and calls.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Bassheads 900 Pro",
+      "feature_text": "Wired; 40mm drivers; foldable",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "88661123cf5ff6000e509e4819f215202b6a7cc0c7afffb8d106beada997a348",
+  "needs_normalization": true
+}

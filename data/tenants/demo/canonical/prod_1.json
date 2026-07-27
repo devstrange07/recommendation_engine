@@ -1,0 +1,92 @@
+{
+  "id": "prod_1",
+  "kind": "service",
+  "title": "AudienceGlow",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "email marketing and segments.",
+  "short_pitch": "AudienceGlow — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "AudienceGlow"
+  ],
+  "price_min": {
+    "GBP": 9.99,
+    "USD": 12.49,
+    "INR": 1498.5
+  },
+  "price_max": {
+    "GBP": 9.99,
+    "USD": 18.73,
+    "INR": 1498.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_1_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_1_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "f3e5388b6c695b22d3a787d7f09b1cee57dd1bff4e2a2973d7790a612e828c57",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "AudienceGlow. Category: Marketing/Email. email marketing and segments. Pitch: AudienceGlow — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: AudienceGlow. Plans: Annual Plus (annual): Up to 2 users; email support | Business (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹1,498/yr",
+    "GBP": "£10/yr",
+    "USD": "$12/yr"
+  }
+}

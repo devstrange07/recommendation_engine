@@ -1,0 +1,111 @@
+{
+  "id": "prod_40",
+  "kind": "service",
+  "title": "CalendarHQ",
+  "brand_or_provider": null,
+  "category_path": "Scheduling/Appointments",
+  "clean_description": "shared team calendar and booking links.",
+  "short_pitch": "CalendarHQ — scheduling for teams",
+  "use_case_tags": [
+    "appointment_booking",
+    "online_scheduling",
+    "client_reminders"
+  ],
+  "target_audience": [
+    "salon_spa",
+    "small_business",
+    "clinic_healthcare"
+  ],
+  "aliases": [
+    "CalendarHQ"
+  ],
+  "price_min": {
+    "INR": 1349.1,
+    "USD": 15.929999999999998,
+    "GBP": 22.48
+  },
+  "price_max": {
+    "INR": 2248.5,
+    "USD": 28.11,
+    "GBP": 22.48
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_40_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1499.0,
+          "discounted_amount": 1349.1
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": 15.929999999999998
+        }
+      ]
+    },
+    {
+      "id": "prod_40_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2248.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 28.11,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "8c153214c3ab0dc8b70a894ac54236231ff314fe932fb72278ceadeb1bef3c94",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "CalendarHQ. Category: Scheduling/Appointments. shared team calendar and booking links. Pitch: CalendarHQ — scheduling for teams. Use cases: appointment_booking, online_scheduling, client_reminders. Audience: salon_spa, small_business, clinic_healthcare. Aliases: CalendarHQ. Plans: Basic (one_time): Up to 2 users; email support | Business (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹1,349",
+    "GBP": "£22",
+    "USD": "$16"
+  }
+}

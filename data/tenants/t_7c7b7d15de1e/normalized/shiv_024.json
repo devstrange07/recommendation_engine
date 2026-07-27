@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_024",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "2 BHK at Shivalik Park Lane / Parklane, Keshavbaug–Ambawadi. Mixed-use redevelopment by Shivalik Group; residential RERA area from ~375 sq ft upward alongside retail. Compact urban living near Ambawadi.",
+    "short_pitch": "Shivalik Park Lane — 2 BHK, Keshavbaug Ambawadi — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Compact 2 BHK",
+        "lifts",
+        "security",
+        "mixed-use retail below"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,35 @@
+{
+  "product_id": "shiv_002",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Corner 4 BHK at Shivalik Edge, Ambli by Shivalik Group. Higher floor with open views toward Ambli Road. Ready possession.",
+    "short_pitch": "Shivalik Edge — 4 BHK Corner, Ambli — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RERA area ~2363 sq ft",
+        "corner unit",
+        "dual parking",
+        "gym",
+        "pool",
+        "CCTV",
+        "lifts"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

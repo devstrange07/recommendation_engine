@@ -1,0 +1,32 @@
+{
+  "id": "tel_144",
+  "name": "Motorola Razr 60 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Motorola Razr 60 — clamshell foldable listed under smartphones for buyers seeking flip form without Z Flip pricing; also see Foldables section for Z Flip/Fold.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Razr 60",
+      "feature_text": "Clamshell flip; outer display; near-stock Android; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 69999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 69999.0
+  },
+  "price_max": {
+    "INR": 69999.0
+  },
+  "content_hash": "b17b4df7d54fe4408be3c9f02e7d0a65f95d195021a11d789336f7711e2bef69",
+  "needs_normalization": true
+}

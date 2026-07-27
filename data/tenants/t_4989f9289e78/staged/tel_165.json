@@ -1,0 +1,32 @@
+{
+  "id": "tel_165",
+  "name": "Samsung Galaxy Buds3",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Samsung Galaxy Buds3 — stem-design Galaxy earbuds below Pro pricing.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds3",
+      "feature_text": "ANC; Galaxy ecosystem; IP57; USB-C case",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 12999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 12999.0
+  },
+  "price_max": {
+    "INR": 12999.0
+  },
+  "content_hash": "ce088503a280595efa41b12bd1abe9b7f67a722bae2ea31b42d14b642f2b5c2d",
+  "needs_normalization": true
+}

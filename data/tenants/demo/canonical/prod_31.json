@@ -1,0 +1,116 @@
+{
+  "id": "prod_31",
+  "kind": "service",
+  "title": "InvoiceBee",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "invoicing and payment collection.",
+  "short_pitch": "InvoiceBee — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "InvoiceBee"
+  ],
+  "price_min": {
+    "INR": 2499.0,
+    "GBP": 24.99,
+    "USD": 46.86
+  },
+  "price_max": {
+    "INR": 3748.5,
+    "GBP": 37.48,
+    "USD": 46.86
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_31_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_31_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "243f41ee8c225a4c9dc02de20f14679f82562215428433a7ed85c4d65186f798",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "InvoiceBee. Category: Invoicing/Billing. invoicing and payment collection. Pitch: InvoiceBee — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: InvoiceBee. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹2,499",
+    "GBP": "£25",
+    "USD": "$47"
+  }
+}

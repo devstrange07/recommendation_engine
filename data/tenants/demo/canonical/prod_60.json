@@ -1,0 +1,92 @@
+{
+  "id": "prod_60",
+  "kind": "service",
+  "title": "MoneyNote",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "invoice and estimate tool —.",
+  "short_pitch": "MoneyNote — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "MoneyNote"
+  ],
+  "price_min": {
+    "USD": 24.99,
+    "GBP": 26.98,
+    "INR": 2398.8
+  },
+  "price_max": {
+    "USD": 24.99,
+    "GBP": 26.98,
+    "INR": 2398.8
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_60_plan_0",
+      "name": "Pro",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_60_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.98,
+          "discounted_amount": 26.98
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": 2398.8
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "708650164204522d8cd33a795022352f32eff3b2c89060189ca9c1b5aaeca6ed",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "MoneyNote. Category: Invoicing/Billing. invoice and estimate tool —. Pitch: MoneyNote — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: MoneyNote. Plans: Pro (monthly): Up to 2 users; email support | Basic (one_time): API access; priority support",
+  "display_card": {
+    "INR": "₹2,399/mo",
+    "GBP": "£27/mo",
+    "USD": "$25/mo"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "product_id": "shiv_001",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Luxury 4 BHK apartment by Shivalik Group at Shivalik Edge, Ambli, Ahmedabad. Ready-to-move premium tower with limited inventory (~48 units). RERA area approx 2267–2363 sq ft; super built-up ~4100+ sq ft.",
+    "short_pitch": "Shivalik Edge — 4 BHK, Ambli — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RERA area ~2300 sq ft",
+        "gym",
+        "infinity pool",
+        "clubhouse",
+        "covered parking",
+        "24x7 security",
+        "power backup"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

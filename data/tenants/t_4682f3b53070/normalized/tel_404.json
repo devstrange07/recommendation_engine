@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_404",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy Buds3 Pro — blade-style ANC earbuds with Galaxy AI audio features for Galaxy phones.",
+    "short_pitch": "Samsung Galaxy Buds3 Pro — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "ANC",
+        "Galaxy AI audio",
+        "IP57",
+        "wireless charging"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

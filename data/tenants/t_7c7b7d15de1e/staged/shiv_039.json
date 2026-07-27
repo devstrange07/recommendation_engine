@@ -1,0 +1,32 @@
+{
+  "id": "shiv_039",
+  "name": "Shivalik Abaise — Office Suite, Prahlad Nagar",
+  "category_raw": "Commercial/Offices",
+  "description_text": "Office suite at Shivalik Abaise, Prahlad Nagar, Ahmedabad. Established Shivalik Group commercial address near SG Highway; typical sale range ~₹78 L–1.2 Cr depending on size and floor.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office Suite",
+      "feature_text": "Prahlad Nagar office; parking, lifts, power backup, CCTV",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 9500000.0
+  },
+  "price_max": {
+    "INR": 9500000.0
+  },
+  "content_hash": "c7f0991ad68035693e7b22b379c9ca5ae7ae040abc8d5ca3f605fd502050c9b9",
+  "needs_normalization": true
+}

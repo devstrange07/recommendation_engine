@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_169",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "OnePlus Buds 4 — ANC earbuds tuned for OxygenOS with fast charging case.",
+    "short_pitch": "OnePlus Buds 4 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "OnePlus"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "ANC",
+        "fast charge case",
+        "OnePlus Fast Pair",
+        "USB-C"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,133 @@
+{
+  "id": "prod_77",
+  "kind": "service",
+  "title": "NexusSales",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "team sales CRM.",
+  "short_pitch": "NexusSales — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "NexusSales"
+  ],
+  "price_min": {
+    "GBP": 26.99,
+    "USD": 31.87,
+    "INR": 2999.0
+  },
+  "price_max": {
+    "GBP": 59.98,
+    "USD": 44.98,
+    "INR": 5998.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_77_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": 26.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 31.87
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_77_plan_1",
+      "name": "Business",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": 44.98
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_77_plan_2",
+      "name": "Pro",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 59.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "eedd44c1ed37d6cbe3d03deae085433f4e03536f316d093f24fcfafd3d2218b7",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "NexusSales. Category: CRM/Sales. team sales CRM. Pitch: NexusSales — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: NexusSales. Plans: Annual Plus (annual): Up to 2 users; email support | Business (monthly): API access; priority support | Pro (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,999/yr",
+    "GBP": "£27/yr",
+    "USD": "$32/yr"
+  }
+}

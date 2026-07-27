@@ -1,0 +1,32 @@
+{
+  "id": "phone_030",
+  "name": "Nothing Phone (3a) Pro",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Nothing Phone (3a) Pro — previous Nothing mid-ranger still sold widely. Glyph design language, periscope-style zoom in Pro trim, and transparent aesthetic for design-conscious buyers.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 3a Pro",
+      "feature_text": "Nothing OS; Glyph; telephoto/zoom; AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 27999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 27999.0
+  },
+  "price_max": {
+    "INR": 27999.0
+  },
+  "content_hash": "555ff182296ee418575b3ad89acf421b6eac022bf7741a9391016120e1649ac2",
+  "needs_normalization": true
+}

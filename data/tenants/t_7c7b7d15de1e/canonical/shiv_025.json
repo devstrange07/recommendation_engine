@@ -1,0 +1,60 @@
+{
+  "id": "shiv_025",
+  "kind": "service",
+  "title": "Shivalik Paradise — 3 BHK, Ambawadi",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "3 BHK in Shivalik Paradise, Ambawadi — an established Shivalik Group tower. Suitable for resale / ready inventory seekers wanting a known Ambawadi address with basic society amenities.",
+  "short_pitch": "Shivalik Paradise — 3 BHK, Ambawadi — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 9800000.0
+  },
+  "price_max": {
+    "INR": 9800000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK Ready",
+      "features": [
+        "Ready to move",
+        "parking",
+        "lifts",
+        "society security"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9800000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "6d30cec45ba4ea83e1dd571d29f639911b8f54ae8369870203601996a5f5886a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Paradise — 3 BHK, Ambawadi. Category: Residential/Apartments. 3 BHK in Shivalik Paradise, Ambawadi — an established Shivalik Group tower. Suitable for resale / ready inventory seekers wanting a known Ambawadi address with basic society amenities. Pitch: Shivalik Paradise — 3 BHK, Ambawadi — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 3 BHK Ready (one_time): Ready to move; parking; lifts; society security",
+  "display_card": {
+    "INR": "₹9,800,000"
+  }
+}

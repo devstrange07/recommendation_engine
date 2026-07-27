@@ -1,0 +1,106 @@
+{
+  "id": "prod_6",
+  "name": "EngageMail",
+  "category_raw": "marketing",
+  "description_text": "engagement-focused email tool",
+  "unit": "user",
+  "kb_article": "https://kb.example.com/prod_6",
+  "plans": [
+    {
+      "id": "prod_6_plan_0",
+      "name": "Pro",
+      "feature_text": null,
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 16.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 16.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_6_plan_1",
+      "name": "Annual Plus",
+      "feature_text": "API access, priority support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": 1656.23
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 19.48,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_6_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 32.48,
+          "discounted_amount": 25.979999999999997
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 25.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 32.48,
+          "discounted_amount": 29.229999999999997
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 25.98,
+          "discounted_amount": 23.38
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 16.24,
+    "INR": 1656.23,
+    "GBP": 19.48
+  },
+  "price_max": {
+    "USD": 29.229999999999997,
+    "INR": 1948.5,
+    "GBP": 25.98
+  },
+  "content_hash": "cfb58c9ac26740b1cc81cc771129ee9940d21d4452dba405fde5bb3a90197085",
+  "needs_normalization": false
+}

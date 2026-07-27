@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_53",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "multi-channel support.",
+    "short_pitch": "SupportGrid — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "SupportGrid"
+    ],
+    "plan_features": {
+      "prod_53_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_53_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_53_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

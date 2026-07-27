@@ -1,0 +1,9 @@
+{
+  "product_id": "prod_28",
+  "fields": {
+    "name_vs_description": {
+      "value": "rewrite_description",
+      "flag_type": "contradiction"
+    }
+  }
+}

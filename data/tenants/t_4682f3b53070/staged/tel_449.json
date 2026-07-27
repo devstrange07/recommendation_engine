@@ -1,0 +1,32 @@
+{
+  "id": "tel_449",
+  "name": "OnePlus Kevlar Case for OnePlus 15",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "OnePlus Kevlar Case protective case for OnePlus 15 — India retail accessory SKU.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — OnePlus Case",
+      "feature_text": "Drop protection; precise cutouts; OnePlus 15 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "43f539aa8ac072925123f2be366ea87778b4aa6d27c38a28cab14fe85236b46c",
+  "needs_normalization": true
+}

@@ -1,0 +1,56 @@
+{
+  "id": "user_00c9f785",
+  "kind": "service",
+  "title": "Zephyr Unique Widget XYZ",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "Exclusive isolation test product for tenant verify2 only.",
+  "short_pitch": "Zephyr Unique Widget XYZ — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "Zephyr"
+  ],
+  "price_min": {
+    "INR": 499.0
+  },
+  "price_max": {
+    "INR": 499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Basic",
+      "features": [
+        "Tickets and inbox"
+      ],
+      "billing_period": null,
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "110614eee327c2eae4ce42fdc6ec5a7de38b18f3a0d0f33a2e5603ce0f0f3c13",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Zephyr Unique Widget XYZ. Category: Support/Helpdesk. Exclusive isolation test product for tenant verify2 only. Pitch: Zephyr Unique Widget XYZ — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: Zephyr. Plans: Basic (unspecified): Tickets and inbox",
+  "display_card": {
+    "INR": "₹499"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shiv_020",
+  "name": "Shivalik Enclave — 3 BHK, Shahibaug",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK at Shivalik Enclave, Shahibaug. Mixed-use Shivalik Group development; residential RERA area ~1462–2274 sq ft band. Ground retail presence (including pre-leased brands in project pocket). Good for families preferring Shahibaug.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "feature_text": "RA from ~1462 sq ft; parking, security, lifts, retail in campus",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 13500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 13500000.0
+  },
+  "price_max": {
+    "INR": 13500000.0
+  },
+  "content_hash": "296a885e28bd23498adbb53797415955fa22a553d96cf2c46c90eaadf32bd0ae",
+  "needs_normalization": true
+}

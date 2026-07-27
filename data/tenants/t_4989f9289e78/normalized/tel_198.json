@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_198",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Fire-Boltt Invincible Plus — AMOLED Bluetooth-calling smartwatch for budget fitness buyers.",
+    "short_pitch": "Fire-Boltt Invincible Plus — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Fire-Boltt"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "AMOLED",
+        "BT calling",
+        "sports modes",
+        "value pricing"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

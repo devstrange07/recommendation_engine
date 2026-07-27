@@ -1,0 +1,139 @@
+{
+  "id": "prod_52",
+  "kind": "service",
+  "title": "PulseMail",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "email automation for SMBs —.",
+  "short_pitch": "PulseMail — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "PulseMail"
+  ],
+  "price_min": {
+    "USD": 33.74,
+    "GBP": 29.99,
+    "INR": 3598.8
+  },
+  "price_max": {
+    "USD": 63.72,
+    "GBP": 59.98,
+    "INR": 4498.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_52_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 33.74
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_52_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": 3598.8
+        }
+      ]
+    },
+    {
+      "id": "prod_52_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 59.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": 63.72
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "3b0d0d16883a0ce3da11c9a10bdfd91325f0aed781d53e4cbf65ea0203102901",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "PulseMail. Category: Marketing/Email. email automation for SMBs —. Pitch: PulseMail — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: PulseMail. Plans: Basic (annual): Up to 2 users; email support | Pro (monthly): API access; priority support | Business (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹3,599/yr",
+    "GBP": "£30/yr",
+    "USD": "$34/yr"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "product_id": "prod_83",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "revenue pipeline CRM Legacy edition.",
+    "short_pitch": "RevenueMap (Legacy) — crm for teams",
+    "category_path": "CRM/Sales",
+    "use_case_tags": [
+      "lead_tracking",
+      "pipeline_management"
+    ],
+    "target_audience": [
+      "small_business",
+      "agency",
+      "saas_startup"
+    ],
+    "aliases": [
+      "RevenueMap"
+    ],
+    "plan_features": {
+      "prod_3_plan_0": [
+        "Annual Plus tier"
+      ],
+      "prod_3_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_3_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "suspected_duplicate",
+      "field": "name",
+      "issue": "Product name looks like a legacy duplicate",
+      "options": [
+        "merge",
+        "retire",
+        "keep_both"
+      ],
+      "recommended": "merge"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_420",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Anker 20000mAh power bank with 30W USB-C PD — travel essential for phones and earbuds.",
+    "short_pitch": "Anker Power Bank 20000mAh 30W — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Anker"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "20000mAh",
+        "30W PD",
+        "dual port",
+        "airline-friendly"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

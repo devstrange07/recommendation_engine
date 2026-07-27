@@ -1,0 +1,32 @@
+{
+  "id": "phone_012",
+  "name": "Apple iPhone 17 Pro Max 1TB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 17 Pro Max 1TB top storage SKU. For users who keep full photo/video libraries on-device and want maximum Pro Max capability.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "MRP / Street — Pro Max 1TB",
+      "feature_text": "1TB storage; Pro Max display and camera; Apple Intelligence",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 189900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 189900.0
+  },
+  "price_max": {
+    "INR": 189900.0
+  },
+  "content_hash": "6cb1743be705474fb3d407e0de52de0f93a47e56a7d6452c17c6223658c10b2b",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_047",
+  "name": "Vivo X300 Pro 12GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Vivo X300 Pro — flagship camera phone below Ultra pricing with Zeiss tuning and fast charging.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — X300 Pro 256GB",
+      "feature_text": "Zeiss camera; flagship SoC; AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 99999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 99999.0
+  },
+  "price_max": {
+    "INR": 99999.0
+  },
+  "content_hash": "62c95fa40df727218d9d91b2d54b73c091db5d500b244e56a9f7e0c5ba6efd75",
+  "needs_normalization": true
+}

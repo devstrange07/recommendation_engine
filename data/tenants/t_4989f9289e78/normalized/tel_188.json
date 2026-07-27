@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_188",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Ringke Fusion clear case designed for Nothing Phone (4a) Glyph light pass-through.",
+    "short_pitch": "Ringke Fusion Case for Nothing Phone (4a) — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Ringke"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Glyph-compatible",
+        "clear PC",
+        "bumpers",
+        "precise cutouts"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

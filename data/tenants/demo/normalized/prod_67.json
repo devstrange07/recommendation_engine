@@ -1,0 +1,33 @@
+{
+  "product_id": "prod_67",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "funnel-centric CRM.",
+    "short_pitch": "FunnelCRM — crm for teams",
+    "category_path": "CRM/Sales",
+    "use_case_tags": [
+      "lead_tracking",
+      "pipeline_management"
+    ],
+    "target_audience": [
+      "small_business",
+      "agency",
+      "saas_startup"
+    ],
+    "aliases": [
+      "FunnelCRM"
+    ],
+    "plan_features": {
+      "prod_67_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_67_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

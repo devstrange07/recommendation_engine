@@ -1,0 +1,62 @@
+{
+  "id": "prod_81",
+  "name": "AudienceGlow (Legacy)",
+  "category_raw": "Marketing",
+  "description_text": "email marketing and segments Legacy edition.",
+  "unit": "seat",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_1_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_1_plan_1",
+      "name": "Business",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 9.99,
+    "USD": 12.49,
+    "INR": 1498.5
+  },
+  "price_max": {
+    "GBP": 9.99,
+    "USD": 18.73,
+    "INR": 1498.5
+  },
+  "content_hash": "e874820b2d1d6ca9a04d031cc59391f932dce75e4df28241fa2b87d0929856f4",
+  "needs_normalization": false
+}

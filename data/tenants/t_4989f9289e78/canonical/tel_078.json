@@ -1,0 +1,60 @@
+{
+  "id": "tel_078",
+  "kind": "service",
+  "title": "Motorola Edge 70 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Motorola Edge 70 — standout mid-premium with clean near-stock Android and strong battery life.",
+  "short_pitch": "Motorola Edge 70 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Motorola"
+  ],
+  "price_min": {
+    "INR": 27999.0
+  },
+  "price_max": {
+    "INR": 27999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Edge 70",
+      "features": [
+        "Near-stock Android",
+        "AMOLED",
+        "large battery",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 27999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "0c9cea7b63e3fda2c7ec0b2825d7f93e3b8e66cfa851722cc2b3a9f4e534b355",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Motorola Edge 70 8GB + 256GB. Category: Electronics/Smartphones. Motorola Edge 70 — standout mid-premium with clean near-stock Android and strong battery life. Pitch: Motorola Edge 70 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Motorola. Plans: Street — Edge 70 (one_time): Near-stock Android; AMOLED; large battery; 5G",
+  "display_card": {
+    "INR": "₹27,999"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "tel_455",
+  "kind": "service",
+  "title": "Motorola Edge 70 Fabric Case for Motorola Edge 70",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Motorola Edge 70 Fabric Case protective case for Motorola Edge 70 — India retail accessory SKU.",
+  "short_pitch": "Motorola Edge 70 Fabric Case for Motorola Edge 70 — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Motorola"
+  ],
+  "price_min": {
+    "INR": 1299.0
+  },
+  "price_max": {
+    "INR": 1299.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Motorola Case",
+      "features": [
+        "Drop protection",
+        "precise cutouts",
+        "Motorola Edge 70 fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b0f01ab65faa4d76ed1fe64a800944b017f8ce2f7d92f19408261f43deeefeff",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Motorola Edge 70 Fabric Case for Motorola Edge 70. Category: Electronics/Accessories. Motorola Edge 70 Fabric Case protective case for Motorola Edge 70 — India retail accessory SKU. Pitch: Motorola Edge 70 Fabric Case for Motorola Edge 70 — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Motorola. Plans: Street — Motorola Case (one_time): Drop protection; precise cutouts; Motorola Edge 70 fit",
+  "display_card": {
+    "INR": "₹1,299"
+  }
+}

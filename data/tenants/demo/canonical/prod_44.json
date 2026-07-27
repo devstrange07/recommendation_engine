@@ -1,0 +1,96 @@
+{
+  "id": "prod_44",
+  "kind": "service",
+  "title": "SpaSchedule",
+  "brand_or_provider": null,
+  "category_path": "Scheduling/Appointments",
+  "clean_description": "spa treatment booking and packages.",
+  "short_pitch": "SpaSchedule — scheduling for teams",
+  "use_case_tags": [
+    "appointment_booking",
+    "online_scheduling",
+    "client_reminders"
+  ],
+  "target_audience": [
+    "salon_spa",
+    "small_business",
+    "clinic_healthcare"
+  ],
+  "aliases": [
+    "SpaSchedule"
+  ],
+  "price_min": {
+    "USD": 31.24,
+    "INR": 2499.0
+  },
+  "price_max": {
+    "USD": 46.86,
+    "INR": 3748.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_44_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_44_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": 39.83
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "0b5cec33b886914a39f1620050920292c3061e5d82eefe2a1d87c3ec51c4e72e",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "SpaSchedule. Category: Scheduling/Appointments. spa treatment booking and packages. Pitch: SpaSchedule — scheduling for teams. Use cases: appointment_booking, online_scheduling, client_reminders. Audience: salon_spa, small_business, clinic_healthcare. Aliases: SpaSchedule. Plans: Business (monthly): Up to 2 users; email support | Basic (one_time): API access; priority support",
+  "display_card": {
+    "USD": "$31/mo",
+    "INR": "₹2,499/mo"
+  }
+}

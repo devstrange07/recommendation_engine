@@ -1,0 +1,59 @@
+{
+  "id": "tel_440",
+  "kind": "service",
+  "title": "Anker USB-C to USB-C Cable 100W 1.8m (2-pack)",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Anker 100W USB-C cable 2-pack for phones, tablets, and GaN chargers — durable braided build.",
+  "short_pitch": "Anker USB-C to USB-C Cable 100W 1.8m (2-pack) — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Anker"
+  ],
+  "price_min": {
+    "INR": 1999.0
+  },
+  "price_max": {
+    "INR": 1999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Anker 100W 2-pack",
+      "features": [
+        "100W PD",
+        "braided",
+        "1.8m",
+        "2-pack"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c468f09ab282dffb2227542a3337f35991c2afc09aaeb98c736b85c6b3143ee3",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Anker USB-C to USB-C Cable 100W 1.8m (2-pack). Category: Electronics/Accessories. Anker 100W USB-C cable 2-pack for phones, tablets, and GaN chargers — durable braided build. Pitch: Anker USB-C to USB-C Cable 100W 1.8m (2-pack) — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Anker. Plans: Street — Anker 100W 2-pack (one_time): 100W PD; braided; 1.8m; 2-pack",
+  "display_card": {
+    "INR": "₹1,999"
+  }
+}

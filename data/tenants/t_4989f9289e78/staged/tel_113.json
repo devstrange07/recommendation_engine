@@ -1,0 +1,32 @@
+{
+  "id": "tel_113",
+  "name": "Samsung Galaxy A56 5G 8GB + 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Samsung Galaxy A56 5G — premium A-series with long software support and Galaxy AI features.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — A56 128GB",
+      "feature_text": "AMOLED; Galaxy AI; multi-year updates; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 35999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 35999.0
+  },
+  "price_max": {
+    "INR": 35999.0
+  },
+  "content_hash": "1c1f8d70434c58d1c0d2ab0e09f84e0ea96c61de2f387c24130ab1689a493104",
+  "needs_normalization": true
+}

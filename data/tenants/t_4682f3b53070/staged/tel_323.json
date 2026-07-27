@@ -1,0 +1,32 @@
+{
+  "id": "tel_323",
+  "name": "Vivo V70 — Pearl White 12GB + 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Vivo V70 premium mid-ranger with strong selfie camera. India retail SKU in Pearl White finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pearl White 12GB + 512GB",
+      "feature_text": "Selfie camera; AMOLED; fast charge; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 44999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 44999.0
+  },
+  "price_max": {
+    "INR": 44999.0
+  },
+  "content_hash": "c036570bea00fcc692ac42c392576da4a949c130e57371a59fe8314367382a36",
+  "needs_normalization": true
+}

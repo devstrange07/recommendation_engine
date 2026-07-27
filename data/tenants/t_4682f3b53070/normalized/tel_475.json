@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_475",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung 25W USB-C fast charger for Galaxy A/M/S series.",
+    "short_pitch": "Samsung 25W USB-C Fast Charger — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "25W PD",
+        "USB-C",
+        "Samsung certified"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

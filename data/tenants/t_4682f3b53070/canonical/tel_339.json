@@ -1,0 +1,60 @@
+{
+  "id": "tel_339",
+  "kind": "service",
+  "title": "Redmi Note 15 Pro 5G — Pearl White 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Redmi Note 15 Pro 5G volume mid-ranger with AMOLED. India retail SKU in Pearl White finish.",
+  "short_pitch": "Redmi Note 15 Pro 5G — Pearl White 12GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Redmi"
+  ],
+  "price_min": {
+    "INR": 27999.0
+  },
+  "price_max": {
+    "INR": 27999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pearl White 12GB + 512GB",
+      "features": [
+        "AMOLED",
+        "large battery",
+        "HyperOS",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 27999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "356e3352290d473027a6fca20b50b19c7149be7d6fa752dbc185cfb8e19b20ee",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Redmi Note 15 Pro 5G — Pearl White 12GB + 512GB. Category: Electronics/Smartphones. Redmi Note 15 Pro 5G volume mid-ranger with AMOLED. India retail SKU in Pearl White finish. Pitch: Redmi Note 15 Pro 5G — Pearl White 12GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Redmi. Plans: Street — Pearl White 12GB + 512GB (one_time): AMOLED; large battery; HyperOS; 5G",
+  "display_card": {
+    "INR": "₹27,999"
+  }
+}

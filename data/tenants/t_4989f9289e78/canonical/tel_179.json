@@ -1,0 +1,58 @@
+{
+  "id": "tel_179",
+  "kind": "service",
+  "title": "OnePlus SUPERVOOC 80W Power Adapter",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "OnePlus SUPERVOOC 80W charger for OnePlus 15 / Nord series (use with SUPERVOOC cable).",
+  "short_pitch": "OnePlus SUPERVOOC 80W Power Adapter — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 2999.0
+  },
+  "price_max": {
+    "INR": 2999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 80W SUPERVOOC",
+      "features": [
+        "80W SUPERVOOC",
+        "USB-A/USB-C per SKU",
+        "OnePlus certified"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "39389bada7e060a047d91cbd790767d51d0cb3487723baabaa9275b34df52ccd",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus SUPERVOOC 80W Power Adapter. Category: Electronics/Accessories. OnePlus SUPERVOOC 80W charger for OnePlus 15 / Nord series (use with SUPERVOOC cable). Pitch: OnePlus SUPERVOOC 80W Power Adapter — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: OnePlus. Plans: Street — 80W SUPERVOOC (one_time): 80W SUPERVOOC; USB-A/USB-C per SKU; OnePlus certified",
+  "display_card": {
+    "INR": "₹2,999"
+  }
+}

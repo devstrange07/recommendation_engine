@@ -1,0 +1,62 @@
+{
+  "id": "shiv_015",
+  "kind": "service",
+  "title": "Shivalik Skyview — 2 BHK, GIFT City",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "2 BHK apartment at Shivalik Skyview, GIFT City. Compact high-rise living by Shivalik Group; RERA area from ~828 sq ft. Ideal for professionals working in GIFT / IFSC who want ready or near-term residential inventory.",
+  "short_pitch": "Shivalik Skyview — 2 BHK, GIFT City — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 14000000.0
+  },
+  "price_max": {
+    "INR": 14000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 2 BHK",
+      "features": [
+        "RA ~828 sq ft",
+        "gym",
+        "clubhouse",
+        "parking",
+        "24x7 security",
+        "lifts"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ee876ef25ba79405ed523420dde7790b568d03269082da3587941709ccd27c30",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Skyview — 2 BHK, GIFT City. Category: Residential/Apartments. 2 BHK apartment at Shivalik Skyview, GIFT City. Compact high-rise living by Shivalik Group; RERA area from ~828 sq ft. Ideal for professionals working in GIFT / IFSC who want ready or near-term residential inventory. Pitch: Shivalik Skyview — 2 BHK, GIFT City — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 2 BHK (one_time): RA ~828 sq ft; gym; clubhouse; parking; 24x7 security; lifts",
+  "display_card": {
+    "INR": "₹14,000,000"
+  }
+}

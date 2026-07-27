@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_047",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Compact retail unit at Shivalik Sharda Park View, Shela. Retail RERA area from ~266 sq ft (up to ~1477). Ground-floor convenience retail in Shivalik Group's Shela mixed-use residential campus.",
+    "short_pitch": "Shivalik Sharda Park View — Retail 266 sq ft, Shela — commercial listing",
+    "category_path": "Commercial/Retail",
+    "use_case_tags": [
+      "retail_frontage",
+      "sale",
+      "investment"
+    ],
+    "target_audience": [
+      "retailer",
+      "investor",
+      "sme_office"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RA ~266 sq ft",
+        "campus footfall",
+        "parking access",
+        "CCTV"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

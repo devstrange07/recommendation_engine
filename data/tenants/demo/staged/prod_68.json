@@ -1,0 +1,66 @@
+{
+  "id": "prod_68",
+  "name": "ChatSupport Pro",
+  "category_raw": "Support",
+  "description_text": "live chat and tickets",
+  "unit": "workspace",
+  "kb_article": "https://kb.example.com/prod_68",
+  "plans": [
+    {
+      "id": "prod_68_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1799.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_68_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2698.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2698.5,
+          "discounted_amount": 2158.8
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1799.0,
+    "USD": 33.73
+  },
+  "price_max": {
+    "INR": 2698.5,
+    "USD": 33.73
+  },
+  "content_hash": "c1e8c7e64421d27a0f86f3b35c9c106fa17b78098b313875887bbbbfa32319ce",
+  "needs_normalization": false
+}

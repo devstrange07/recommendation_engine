@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_094",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Redmi Note 15 5G — base Note for budget 5G upgrades in the Xiaomi ecosystem.",
+    "short_pitch": "Redmi Note 15 5G 6GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Redmi"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "large battery",
+        "HyperOS",
+        "dual camera"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

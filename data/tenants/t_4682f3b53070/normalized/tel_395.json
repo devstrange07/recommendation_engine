@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_395",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Nokia G21 4G — prior Nokia G-series still stocked at clearance pricing.",
+    "short_pitch": "Nokia G21 4G 6GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Nokia"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Large battery",
+        "stock Android",
+        "dual camera"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

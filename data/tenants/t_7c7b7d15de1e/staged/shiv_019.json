@@ -1,0 +1,32 @@
+{
+  "id": "shiv_019",
+  "name": "Shivalik Parkview 2 — 3 BHK, Shela",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK unit at Shivalik Parkview 2, Shela. Continuation of Shivalik Group's Shela residential-retail mixed-use offering. Efficient layout for first-time / upgrader buyers near SP Ring Road access.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "feature_text": "Efficient 3 BHK; covered parking, CCTV, power backup, mixed-use convenience",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 8200000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 8200000.0
+  },
+  "price_max": {
+    "INR": 8200000.0
+  },
+  "content_hash": "7e4f57c9c5f1fa93e793c8f06dadfb0d0e1e49705ceef282239471195d06d020",
+  "needs_normalization": true
+}

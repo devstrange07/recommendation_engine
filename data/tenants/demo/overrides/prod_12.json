@@ -1,0 +1,9 @@
+{
+  "product_id": "prod_12",
+  "fields": {
+    "plans": {
+      "value": "differentiate_manually",
+      "flag_type": "plans_indistinguishable"
+    }
+  }
+}

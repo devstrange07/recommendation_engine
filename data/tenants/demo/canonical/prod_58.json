@@ -1,0 +1,131 @@
+{
+  "id": "prod_58",
+  "kind": "service",
+  "title": "PaySlip Pro",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "billing and receipts for services.",
+  "short_pitch": "PaySlip Pro — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "PaySlip"
+  ],
+  "price_min": {
+    "USD": 7.99,
+    "GBP": 11.98,
+    "INR": 1198.5
+  },
+  "price_max": {
+    "USD": 19.98,
+    "GBP": 11.98,
+    "INR": 1598.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_58_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.99,
+          "discounted_amount": 7.99
+        }
+      ]
+    },
+    {
+      "id": "prod_58_plan_1",
+      "name": "Basic",
+      "features": [
+        "Basic tier"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 11.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1198.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 14.98,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_58_plan_2",
+      "name": "Annual Plus",
+      "features": [
+        "Annual Plus tier"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 19.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1598.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "9a66cc1431393965ce72bb0b6531b15bbd12b51095408fdfd68b2ffc6bc159d8",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "PaySlip Pro. Category: Invoicing/Billing. billing and receipts for services. Pitch: PaySlip Pro — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: PaySlip. Plans: Business (monthly): Up to 2 users; email support | Basic (one_time): Basic tier | Annual Plus (annual): Annual Plus tier",
+  "display_card": {
+    "INR": "₹1,198/mo",
+    "GBP": "£12/mo",
+    "USD": "$8/mo"
+  }
+}

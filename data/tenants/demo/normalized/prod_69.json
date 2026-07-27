@@ -1,0 +1,47 @@
+{
+  "product_id": "prod_69",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "simple ticketing for SMBs —.",
+    "short_pitch": "FixTicket — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "FixTicket"
+    ],
+    "plan_features": {
+      "prod_69_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_69_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "cant_categorize",
+      "field": "category_path",
+      "issue": "Missing raw category; heuristic assigned best guess",
+      "options": [
+        "Scheduling/Appointments",
+        "CRM/Sales",
+        "Invoicing/Billing",
+        "Marketing/Email",
+        "Support/Helpdesk"
+      ],
+      "recommended": "Support/Helpdesk"
+    }
+  ]
+}

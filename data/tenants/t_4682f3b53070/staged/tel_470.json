@@ -1,0 +1,32 @@
+{
+  "id": "tel_470",
+  "name": "Motorola Edge 70 Glass for Motorola Edge 70",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Motorola Edge 70 Glass tempered glass / film kit for Motorola Edge 70.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Glass for Motorola",
+      "feature_text": "9H tempered; oleophobic; Motorola Edge 70 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 599.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 599.0
+  },
+  "price_max": {
+    "INR": 599.0
+  },
+  "content_hash": "7e4ff109f7c9511855e68d98f708975d3842d48c21cc1372b73f8c41234c5dc4",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_193",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple Watch Series 11 GPS 42mm — health sensors, watchOS latest, and MagSafe-style charging for iPhone users.",
+    "short_pitch": "Apple Watch Series 11 GPS 42mm — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "watchOS",
+        "heart/SpO2",
+        "GPS",
+        "always-on display",
+        "swimproof"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

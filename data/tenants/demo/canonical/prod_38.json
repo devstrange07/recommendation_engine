@@ -1,0 +1,104 @@
+{
+  "id": "prod_38",
+  "kind": "service",
+  "title": "ClientBill",
+  "brand_or_provider": null,
+  "category_path": "Invoicing/Billing",
+  "clean_description": "client billing portal.",
+  "short_pitch": "ClientBill — invoicing for teams",
+  "use_case_tags": [
+    "invoice_generation",
+    "recurring_billing"
+  ],
+  "target_audience": [
+    "solo_freelancer",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "ClientBill"
+  ],
+  "price_min": {
+    "GBP": 29.99,
+    "USD": 37.49,
+    "INR": 4498.5
+  },
+  "price_max": {
+    "GBP": 29.99,
+    "USD": 56.23,
+    "INR": 4498.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_38_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_38_plan_1",
+      "name": "Annual Plus",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d8efae969ddbd14328a6657908137cb5e76da1b8de2580e9a328707d9e304289",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "ClientBill. Category: Invoicing/Billing. client billing portal. Pitch: ClientBill — invoicing for teams. Use cases: invoice_generation, recurring_billing. Audience: solo_freelancer, small_business, agency. Aliases: ClientBill. Plans: Basic (one_time): Up to 2 users; email support | Annual Plus (annual): API access; priority support",
+  "display_card": {
+    "INR": "₹4,498",
+    "GBP": "£30",
+    "USD": "$37"
+  }
+}

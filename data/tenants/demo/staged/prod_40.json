@@ -1,0 +1,80 @@
+{
+  "id": "prod_40",
+  "name": "CalendarHQ",
+  "category_raw": "appointments",
+  "description_text": "shared team calendar and booking links",
+  "unit": "seat",
+  "kb_article": "https://kb.example.com/prod_40",
+  "plans": [
+    {
+      "id": "prod_40_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1499.0,
+          "discounted_amount": 1349.1
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.74,
+          "discounted_amount": 15.929999999999998
+        }
+      ]
+    },
+    {
+      "id": "prod_40_plan_1",
+      "name": "Business",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2248.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 28.11,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 22.48,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1349.1,
+    "USD": 15.929999999999998,
+    "GBP": 22.48
+  },
+  "price_max": {
+    "INR": 2248.5,
+    "USD": 28.11,
+    "GBP": 22.48
+  },
+  "content_hash": "8c153214c3ab0dc8b70a894ac54236231ff314fe932fb72278ceadeb1bef3c94",
+  "needs_normalization": false
+}

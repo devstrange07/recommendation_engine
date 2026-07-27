@@ -1,0 +1,126 @@
+{
+  "id": "prod_30",
+  "kind": "service",
+  "title": "OptIn Lab",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "signup forms and email —.",
+  "short_pitch": "OptIn Lab — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "OptIn"
+  ],
+  "price_min": {
+    "INR": 499.0,
+    "USD": 5.300000000000001,
+    "GBP": 9.98
+  },
+  "price_max": {
+    "INR": 998.0,
+    "USD": 12.47,
+    "GBP": 9.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_30_plan_0",
+      "name": "Pro",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": 5.300000000000001
+        }
+      ]
+    },
+    {
+      "id": "prod_30_plan_1",
+      "name": "Basic",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": 8.42
+        }
+      ]
+    },
+    {
+      "id": "prod_30_plan_2",
+      "name": "Annual Plus",
+      "features": [
+        "Annual Plus tier"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.47,
+          "discounted_amount": 9.98
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.47,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 9.98,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "86dc5f7a7731f8b39bee717c15d9495a9907e8e9425f3408311e23f541a6b40a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OptIn Lab. Category: Marketing/Email. signup forms and email —. Pitch: OptIn Lab — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: OptIn. Plans: Pro (one_time): Up to 2 users; email support | Basic (one_time): API access; priority support | Annual Plus (annual): Annual Plus tier",
+  "display_card": {
+    "INR": "₹499",
+    "GBP": "£10",
+    "USD": "$5"
+  }
+}

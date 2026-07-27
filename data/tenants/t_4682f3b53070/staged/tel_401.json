@@ -1,0 +1,32 @@
+{
+  "id": "tel_401",
+  "name": "Apple AirPods Pro 3",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Apple AirPods Pro 3 wireless earbuds with active noise cancellation, Adaptive Audio, and USB-C MagSafe charging case for iPhone users in India.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — AirPods Pro 3",
+      "feature_text": "ANC; Adaptive Audio; MagSafe case; Spatial Audio; USB-C",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 24900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 24900.0
+  },
+  "price_max": {
+    "INR": 24900.0
+  },
+  "content_hash": "e8bb4bff6fd43a9a8af6ac1f9ae7af3293f752e19e16b325e7fce808e960e335",
+  "needs_normalization": true
+}

@@ -1,0 +1,80 @@
+{
+  "id": "prod_56",
+  "name": "CustomerLine",
+  "category_raw": "Support",
+  "description_text": "customer support line tool",
+  "unit": "location",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_56_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.99,
+          "discounted_amount": 19.99
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 19.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_56_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 29.98,
+          "discounted_amount": 26.98
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2998.5,
+          "discounted_amount": 2548.73
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.48,
+          "discounted_amount": 31.859999999999996
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1999.0,
+    "USD": 19.99,
+    "GBP": 19.99
+  },
+  "price_max": {
+    "INR": 2548.73,
+    "USD": 37.48,
+    "GBP": 26.98
+  },
+  "content_hash": "4a5403041ee36ed90b10a32b871f7c6c137983ba9a19ba5ee4f415efe8156a64",
+  "needs_normalization": false
+}

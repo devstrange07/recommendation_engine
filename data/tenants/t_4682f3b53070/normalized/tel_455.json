@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_455",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Motorola Edge 70 Fabric Case protective case for Motorola Edge 70 — India retail accessory SKU.",
+    "short_pitch": "Motorola Edge 70 Fabric Case for Motorola Edge 70 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Motorola"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Drop protection",
+        "precise cutouts",
+        "Motorola Edge 70 fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

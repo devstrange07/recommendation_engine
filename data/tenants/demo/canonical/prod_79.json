@@ -1,0 +1,111 @@
+{
+  "id": "prod_79",
+  "kind": "service",
+  "title": "MeetGrid",
+  "brand_or_provider": null,
+  "category_path": "Scheduling/Appointments",
+  "clean_description": "meeting scheduler with buffer times.",
+  "short_pitch": "MeetGrid — scheduling for teams",
+  "use_case_tags": [
+    "appointment_booking",
+    "online_scheduling",
+    "client_reminders"
+  ],
+  "target_audience": [
+    "salon_spa",
+    "small_business",
+    "clinic_healthcare"
+  ],
+  "aliases": [
+    "MeetGrid"
+  ],
+  "price_min": {
+    "USD": 31.24,
+    "INR": 1999.2,
+    "GBP": 37.48
+  },
+  "price_max": {
+    "USD": 46.86,
+    "INR": 3748.5,
+    "GBP": 37.48
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_79_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": 1999.2
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_79_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "a5b2c91181d730f5ce1c77632c7b5bd0f9e36cae6490820fb9c33e4b3ace40bd",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "MeetGrid. Category: Scheduling/Appointments. meeting scheduler with buffer times. Pitch: MeetGrid — scheduling for teams. Use cases: appointment_booking, online_scheduling, client_reminders. Audience: salon_spa, small_business, clinic_healthcare. Aliases: MeetGrid. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹1,999",
+    "GBP": "£37",
+    "USD": "$31"
+  }
+}

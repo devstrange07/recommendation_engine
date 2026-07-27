@@ -1,0 +1,32 @@
+{
+  "id": "tel_190",
+  "name": "Samsung Galaxy Z Flip6 — Yellow 8GB + 256GB",
+  "category_raw": "Electronics/Foldables",
+  "description_text": "Samsung Galaxy Z Flip6 Yellow prior-gen Flip color SKU. India retail SKU in Yellow finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Yellow 8GB + 256GB",
+      "feature_text": "Clamshell foldable; FlexWindow; Galaxy AI; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 84999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 84999.0
+  },
+  "price_max": {
+    "INR": 84999.0
+  },
+  "content_hash": "00625c788986a0a5f33aba64a2847e394ef71c7e4880481ddf33762294691655",
+  "needs_normalization": true
+}

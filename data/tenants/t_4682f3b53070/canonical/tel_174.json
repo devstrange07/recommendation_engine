@@ -1,0 +1,60 @@
+{
+  "id": "tel_174",
+  "kind": "service",
+  "title": "Realme GT 6 12GB + 256GB 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Realme GT 6 prior GT at clearance after GT 7 series.",
+  "short_pitch": "Realme GT 6 12GB + 256GB 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Realme"
+  ],
+  "price_min": {
+    "INR": 32999.0
+  },
+  "price_max": {
+    "INR": 32999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 12GB + 256GB",
+      "features": [
+        "Near-flagship SoC",
+        "AMOLED",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 32999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "6ae2add78b11dde1cb50c150c5bdf41fbcdd8503d05c811547b5db65abe75531",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Realme GT 6 12GB + 256GB 12GB + 256GB. Category: Electronics/Smartphones. Realme GT 6 prior GT at clearance after GT 7 series. Pitch: Realme GT 6 12GB + 256GB 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Realme. Plans: Street — 12GB + 256GB (one_time): Near-flagship SoC; AMOLED; fast charge; 5G",
+  "display_card": {
+    "INR": "₹32,999"
+  }
+}

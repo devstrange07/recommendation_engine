@@ -1,0 +1,61 @@
+{
+  "id": "tel_246",
+  "kind": "service",
+  "title": "Apple iPhone 17 — Ocean Blue 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 17 base model for most iOS buyers in India 2026. India retail SKU in Ocean Blue finish.",
+  "short_pitch": "Apple iPhone 17 — Ocean Blue 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 82900.0
+  },
+  "price_max": {
+    "INR": 82900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ocean Blue 128GB",
+      "features": [
+        "iOS",
+        "Apple Intelligence",
+        "Face ID",
+        "5G",
+        "MagSafe"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 82900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "65c84ddd3359431697cf8a6bd99407ba8644872419444e64903c0b0060054009",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 17 — Ocean Blue 128GB. Category: Electronics/Smartphones. Apple iPhone 17 base model for most iOS buyers in India 2026. India retail SKU in Ocean Blue finish. Pitch: Apple iPhone 17 — Ocean Blue 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: Street — Ocean Blue 128GB (one_time): iOS; Apple Intelligence; Face ID; 5G; MagSafe",
+  "display_card": {
+    "INR": "₹82,900"
+  }
+}

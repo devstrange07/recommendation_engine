@@ -1,0 +1,32 @@
+{
+  "id": "tel_282",
+  "name": "Xiaomi 15 Ultra — Titanium Black 16GB + 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Xiaomi 15 Ultra with Leica Summilux optics and variable aperture. India retail SKU in Titanium Black finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Titanium Black 16GB + 512GB",
+      "feature_text": "Leica Summilux; flagship SoC; HyperOS; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "content_hash": "24d3ee6bce4f035b6a5515168336076d46a851435e82c30913c1335c6b2f80e6",
+  "needs_normalization": true
+}

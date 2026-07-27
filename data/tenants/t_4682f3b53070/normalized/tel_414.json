@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_414",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple 20W USB-C Power Adapter — official fast charger for iPhone 15/16/17 series in India.",
+    "short_pitch": "Apple 20W USB-C Power Adapter — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "20W USB-C PD",
+        "compact",
+        "Apple certified"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

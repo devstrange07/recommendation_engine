@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_042",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Office suite at Shivalik Satyamev, Bopal, Ahmedabad. Shivalik Group commercial project; portal sale range often ~₹61 L–2. 2 Cr.",
+    "short_pitch": "Shivalik Satyamev — Office Suite, Bopal — commercial listing",
+    "category_path": "Commercial/Offices",
+    "use_case_tags": [
+      "office_use",
+      "sale",
+      "investment"
+    ],
+    "target_audience": [
+      "sme_office",
+      "investor"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Bopal commercial",
+        "parking",
+        "lifts",
+        "backup power",
+        "CCTV"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

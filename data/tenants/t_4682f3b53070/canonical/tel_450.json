@@ -1,0 +1,58 @@
+{
+  "id": "tel_450",
+  "kind": "service",
+  "title": "Nillkin Frosted Shield for OnePlus Nord 6",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Nillkin Frosted Shield protective case for OnePlus Nord 6 — India retail accessory SKU.",
+  "short_pitch": "Nillkin Frosted Shield for OnePlus Nord 6 — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Nillkin"
+  ],
+  "price_min": {
+    "INR": 1299.0
+  },
+  "price_max": {
+    "INR": 1299.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Nillkin Case",
+      "features": [
+        "Drop protection",
+        "precise cutouts",
+        "OnePlus Nord 6 fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ac8a16254617d7696c26a621ef2928e34da6c8f24fb9f2484c420ed05fcacd05",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Nillkin Frosted Shield for OnePlus Nord 6. Category: Electronics/Accessories. Nillkin Frosted Shield protective case for OnePlus Nord 6 — India retail accessory SKU. Pitch: Nillkin Frosted Shield for OnePlus Nord 6 — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Nillkin. Plans: Street — Nillkin Case (one_time): Drop protection; precise cutouts; OnePlus Nord 6 fit",
+  "display_card": {
+    "INR": "₹1,299"
+  }
+}

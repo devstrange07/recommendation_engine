@@ -1,0 +1,61 @@
+{
+  "id": "shiv_018",
+  "kind": "service",
+  "title": "Shivalik Sharda Park View — 3 BHK, Shela",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "3 BHK at Shivalik Sharda Park View / Parkview, Shela, Ahmedabad. Compact RERA area ~817–822 sq ft. Popular Shivalik Group mid–premium address in west Ahmedabad's Shela growth pocket with ground retail in the mixed-use campus.",
+  "short_pitch": "Shivalik Sharda Park View — 3 BHK, Shela — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 7500000.0
+  },
+  "price_max": {
+    "INR": 7500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "features": [
+        "RA ~820 sq ft",
+        "parking",
+        "security",
+        "lifts",
+        "nearby retail in project"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 7500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b1b0941a6a9c8546ec98bec9b9ca5856a786e35c0c591052025e7fa8cf43f1c9",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Sharda Park View — 3 BHK, Shela. Category: Residential/Apartments. 3 BHK at Shivalik Sharda Park View / Parkview, Shela, Ahmedabad. Compact RERA area ~817–822 sq ft. Popular Shivalik Group mid–premium address in west Ahmedabad's Shela growth pocket with ground retail in the mixed-use campus. Pitch: Shivalik Sharda Park View — 3 BHK, Shela — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 3 BHK (one_time): RA ~820 sq ft; parking; security; lifts; nearby retail in project",
+  "display_card": {
+    "INR": "₹7,500,000"
+  }
+}

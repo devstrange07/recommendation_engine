@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_022",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Apple iPhone 16 Pro at reduced street pricing — Pro camera and Action Button without 17 Pro premium.",
+    "short_pitch": "Apple iPhone 16 Pro 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Apple"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pro camera",
+        "ProMotion",
+        "Action Button",
+        "Face ID",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

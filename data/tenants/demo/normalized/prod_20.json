@@ -1,0 +1,38 @@
+{
+  "product_id": "prod_20",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "salon appointment and staff scheduling.",
+    "short_pitch": "SalonFlow — scheduling for teams",
+    "category_path": "Scheduling/Appointments",
+    "use_case_tags": [
+      "appointment_booking",
+      "online_scheduling",
+      "client_reminders"
+    ],
+    "target_audience": [
+      "salon_spa",
+      "small_business",
+      "clinic_healthcare"
+    ],
+    "aliases": [
+      "SalonFlow"
+    ],
+    "plan_features": {
+      "prod_20_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_20_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_20_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

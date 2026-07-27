@@ -1,0 +1,98 @@
+{
+  "id": "prod_73",
+  "kind": "service",
+  "title": "CareDesk Pro Suite",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "Entry-level starter tool for beginners only. Basic free tier features. customer care helpdesk.",
+  "short_pitch": "CareDesk Pro Suite — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "CareDesk"
+  ],
+  "price_min": {
+    "INR": 2499.0,
+    "GBP": 21.24,
+    "USD": 46.86
+  },
+  "price_max": {
+    "INR": 3748.5,
+    "GBP": 21.24,
+    "USD": 46.86
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_73_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": 21.24
+        }
+      ]
+    },
+    {
+      "id": "prod_73_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 46.86,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "af77d801ee2d9119b21ddec7adca3258fc11b2e813a72adcfa80d72ec8a1929f",
+  "review_pending": true,
+  "schema_version": 1,
+  "embedding_text": "CareDesk Pro Suite. Category: Support/Helpdesk. Entry-level starter tool for beginners only. Basic free tier features. customer care helpdesk. Pitch: CareDesk Pro Suite — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: CareDesk. Plans: Business (monthly): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹2,499/mo",
+    "GBP": "£21/mo",
+    "USD": "$47/mo"
+  }
+}

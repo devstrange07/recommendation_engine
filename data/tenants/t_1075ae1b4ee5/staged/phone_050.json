@@ -1,0 +1,32 @@
+{
+  "id": "phone_050",
+  "name": "Google Pixel 9 Pro XL",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Google Pixel 9 Pro XL — previous-gen large Pixel Pro still on sale at reduced street prices (~₹89,999). Strong camera and AI features for buyers who do not need Pixel 10 Pro XL.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 9 Pro XL",
+      "feature_text": "Pro camera; Tensor; large OLED; Pixel AI; 7-yr updates; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 89999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 89999.0
+  },
+  "price_max": {
+    "INR": 89999.0
+  },
+  "content_hash": "1c5da882311841c91328aaf8b848b6df0c6d071c74f3d9d29c01979fc62af138",
+  "needs_normalization": false
+}

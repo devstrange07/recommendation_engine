@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_044",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Office floor at Shivalik Corporate Park, Satellite, Ahmedabad. Shivalik Group commercial campus-style inventory for mid-size corporate occupancy with parking and modern building services.",
+    "short_pitch": "Shivalik Corporate Park — Office Floor, Satellite — commercial listing",
+    "category_path": "Commercial/Offices",
+    "use_case_tags": [
+      "office_use",
+      "sale",
+      "investment"
+    ],
+    "target_audience": [
+      "sme_office",
+      "investor"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Corporate office floor",
+        "multi parking",
+        "lifts",
+        "CCTV",
+        "fire systems"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

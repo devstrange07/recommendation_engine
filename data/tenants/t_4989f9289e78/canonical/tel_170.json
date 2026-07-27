@@ -1,0 +1,59 @@
+{
+  "id": "tel_170",
+  "kind": "service",
+  "title": "OnePlus Buds 4r",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "OnePlus Buds 4r — value OnePlus earbuds for Nord and mid-range phone buyers.",
+  "short_pitch": "OnePlus Buds 4r — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 4999.0
+  },
+  "price_max": {
+    "INR": 4999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds 4r",
+      "features": [
+        "ANC lite",
+        "fast charge",
+        "USB-C",
+        "value pricing"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "df24fdc7c3e15b0ed820cfc88b17550af7725552a53e0891976cbe853647142a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Buds 4r. Category: Electronics/Accessories. OnePlus Buds 4r — value OnePlus earbuds for Nord and mid-range phone buyers. Pitch: OnePlus Buds 4r — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: OnePlus. Plans: Street — Buds 4r (one_time): ANC lite; fast charge; USB-C; value pricing",
+  "display_card": {
+    "INR": "₹4,999"
+  }
+}

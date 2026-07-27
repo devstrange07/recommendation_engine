@@ -1,0 +1,51 @@
+{
+  "product_id": "prod_52",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "email automation for SMBs —.",
+    "short_pitch": "PulseMail — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "PulseMail"
+    ],
+    "plan_features": {
+      "prod_52_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_52_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_52_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "cant_categorize",
+      "field": "category_path",
+      "issue": "Missing raw category; heuristic assigned best guess",
+      "options": [
+        "Scheduling/Appointments",
+        "CRM/Sales",
+        "Invoicing/Billing",
+        "Marketing/Email",
+        "Support/Helpdesk"
+      ],
+      "recommended": "Marketing/Email"
+    }
+  ]
+}

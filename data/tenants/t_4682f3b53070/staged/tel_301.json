@@ -1,0 +1,32 @@
+{
+  "id": "tel_301",
+  "name": "Nothing Phone (4a) — Coral Pink 12GB + 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Nothing Phone (4a) with Glyph design and Nothing OS. India retail SKU in Coral Pink finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Coral Pink 12GB + 512GB",
+      "feature_text": "Nothing OS; Glyph design; AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 42999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 42999.0
+  },
+  "price_max": {
+    "INR": 42999.0
+  },
+  "content_hash": "e1d6f80524f6d3fcb3d8ae5d88aee82cf4b94a3631daaf4f9b463e7369854c6d",
+  "needs_normalization": true
+}

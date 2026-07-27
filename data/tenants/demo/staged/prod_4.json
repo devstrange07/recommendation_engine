@@ -1,0 +1,86 @@
+{
+  "id": "prod_4",
+  "name": "CampaignNest",
+  "category_raw": "Campaigns",
+  "description_text": "newsletter and drip campaigns",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_4_plan_0",
+      "name": "Basic",
+      "feature_text": null,
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": 4.99
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.49
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_4_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 4.99,
+    "GBP": 4.49,
+    "INR": 499.0
+  },
+  "price_max": {
+    "USD": 9.36,
+    "GBP": 4.49,
+    "INR": 748.5
+  },
+  "content_hash": "d2f82a1f40e707a3061eb032392415ec600512c8135dc4ad23ac69dd4f3978b9",
+  "needs_normalization": false
+}

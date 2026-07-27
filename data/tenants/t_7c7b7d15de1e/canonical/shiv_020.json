@@ -1,0 +1,61 @@
+{
+  "id": "shiv_020",
+  "kind": "service",
+  "title": "Shivalik Enclave — 3 BHK, Shahibaug",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "3 BHK at Shivalik Enclave, Shahibaug. Mixed-use Shivalik Group development; residential RERA area ~1462–2274 sq ft band. Ground retail presence (including pre-leased brands in project pocket).",
+  "short_pitch": "Shivalik Enclave — 3 BHK, Shahibaug — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 13500000.0
+  },
+  "price_max": {
+    "INR": 13500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "features": [
+        "RA from ~1462 sq ft",
+        "parking",
+        "security",
+        "lifts",
+        "retail in campus"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 13500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "296a885e28bd23498adbb53797415955fa22a553d96cf2c46c90eaadf32bd0ae",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Enclave — 3 BHK, Shahibaug. Category: Residential/Apartments. 3 BHK at Shivalik Enclave, Shahibaug. Mixed-use Shivalik Group development; residential RERA area ~1462–2274 sq ft band. Ground retail presence (including pre-leased brands in project pocket). Pitch: Shivalik Enclave — 3 BHK, Shahibaug — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 3 BHK (one_time): RA from ~1462 sq ft; parking; security; lifts; retail in campus",
+  "display_card": {
+    "INR": "₹13,500,000"
+  }
+}

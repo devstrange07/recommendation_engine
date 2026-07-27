@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_043",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "OnePlus Nord CE 6 Lite 256GB — more storage for budget Nord buyers.",
+    "short_pitch": "OnePlus Nord CE 6 Lite 5G 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "OnePlus"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "256GB",
+        "5G",
+        "OxygenOS",
+        "large battery",
+        "dual camera"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

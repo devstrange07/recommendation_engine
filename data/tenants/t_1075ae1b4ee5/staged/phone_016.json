@@ -1,0 +1,32 @@
+{
+  "id": "phone_016",
+  "name": "Google Pixel 10 Pro XL",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Google Pixel 10 Pro XL — largest Pixel 10 Pro display and battery. Tensor G5 improves heat/efficiency vs older Tensors; AI features for early adopters. Flagship Pixel pricing tier.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pro XL",
+      "feature_text": "Large OLED; Tensor G5; Pro camera; Pixel AI; faster charging vs prior gens",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 124999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 124999.0
+  },
+  "price_max": {
+    "INR": 124999.0
+  },
+  "content_hash": "6872d7c653dcac8cee22f8b3b13a5507f6b346bd6d63079cb688c45f954b1cee",
+  "needs_normalization": false
+}

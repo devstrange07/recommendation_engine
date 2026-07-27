@@ -1,0 +1,32 @@
+{
+  "id": "shiv_030",
+  "name": "Shivalik Samarth Bungalows — Satellite",
+  "category_raw": "Residential/Bungalows",
+  "description_text": "Bungalow in Shivalik Samarth Bungalows, Satellite area, Ahmedabad. Older Shivalik Group bungalow inventory in a mature west Ahmedabad neighbourhood with established civic infrastructure.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Bungalow",
+      "feature_text": "Ready bungalow; private parking, plot garden, neighbourhood security",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 28000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 28000000.0
+  },
+  "price_max": {
+    "INR": 28000000.0
+  },
+  "content_hash": "f1ca5519a4bbf621e18d3cb0dbede395431f1b82bf6cfd21e7f95772f11c4aef",
+  "needs_normalization": true
+}

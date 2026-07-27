@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_350",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Realme 15 Pro 5G mid-ranger with fast charging. India retail SKU in Aurora Purple finish.",
+    "short_pitch": "Realme 15 Pro 5G — Aurora Purple 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Realme"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "AMOLED",
+        "fast charge",
+        "mid SoC",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

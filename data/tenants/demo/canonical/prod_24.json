@@ -1,0 +1,110 @@
+{
+  "id": "prod_24",
+  "kind": "service",
+  "title": "ReplyRack",
+  "brand_or_provider": null,
+  "category_path": "Support/Helpdesk",
+  "clean_description": "ticket and reply management.",
+  "short_pitch": "ReplyRack — support for teams",
+  "use_case_tags": [
+    "ticket_management",
+    "live_chat"
+  ],
+  "target_audience": [
+    "saas_startup",
+    "ecommerce",
+    "enterprise"
+  ],
+  "aliases": [
+    "ReplyRack"
+  ],
+  "price_min": {
+    "GBP": 9.99,
+    "USD": 12.49,
+    "INR": 999.0
+  },
+  "price_max": {
+    "GBP": 14.98,
+    "USD": 18.73,
+    "INR": 1498.5
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_24_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 9.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_24_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 14.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 14.98,
+          "discounted_amount": 11.98
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "31012e4c1c56538dfae27aa420d2d45bda0fdedd65d213c57b6994568d3a6ead",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "ReplyRack. Category: Support/Helpdesk. ticket and reply management. Pitch: ReplyRack — support for teams. Use cases: ticket_management, live_chat. Audience: saas_startup, ecommerce, enterprise. Aliases: ReplyRack. Plans: Annual Plus (annual): Up to 2 users; email support | Pro (monthly): API access; priority support",
+  "display_card": {
+    "INR": "₹999/yr",
+    "GBP": "£10/yr",
+    "USD": "$12/yr"
+  }
+}

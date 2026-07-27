@@ -1,0 +1,32 @@
+{
+  "id": "tel_087",
+  "name": "Xiaomi 15 12GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Xiaomi 15 — compact flagship with Leica optics and HyperOS for Android enthusiasts.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Xiaomi 15 256GB",
+      "feature_text": "Leica camera; flagship SoC; HyperOS; AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 64999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 64999.0
+  },
+  "price_max": {
+    "INR": 64999.0
+  },
+  "content_hash": "a6d4ea4595bbc559ff1d6c654839ef6d20f20aa5282d7ef433a669e909431890",
+  "needs_normalization": true
+}

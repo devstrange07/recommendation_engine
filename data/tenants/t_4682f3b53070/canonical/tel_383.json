@@ -1,0 +1,59 @@
+{
+  "id": "tel_383",
+  "kind": "service",
+  "title": "Lava Blaze 3 5G 6GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Lava Blaze 3 5G — Made-in-India 5G with clean UI.",
+  "short_pitch": "Lava Blaze 3 5G 6GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Lava"
+  ],
+  "price_min": {
+    "INR": 11999.0
+  },
+  "price_max": {
+    "INR": 11999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 6GB + 128GB",
+      "features": [
+        "5G",
+        "Made in India",
+        "large battery"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 11999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "fab0915a5434b3c8326f3988738681cc63d07785d11b6596563b2883ede87279",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Lava Blaze 3 5G 6GB + 128GB. Category: Electronics/Smartphones. Lava Blaze 3 5G — Made-in-India 5G with clean UI. Pitch: Lava Blaze 3 5G 6GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Lava. Plans: Street — 6GB + 128GB (one_time): 5G; Made in India; large battery",
+  "display_card": {
+    "INR": "₹11,999"
+  }
+}

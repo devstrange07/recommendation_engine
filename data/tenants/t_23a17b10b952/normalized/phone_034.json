@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_034",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Motorola Signature — premium Moto design-led phone starting around ₹52,499. Leather/premium finish options, clean Android, aimed at style-conscious buyers above Edge series.",
+    "short_pitch": "Motorola Signature — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Motorola"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Premium design",
+        "clean Android",
+        "pOLED",
+        "5G",
+        "hi-fi audio"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

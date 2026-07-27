@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_041",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "OnePlus Nord 6 higher storage for users who prioritize endurance and local media.",
+    "short_pitch": "OnePlus Nord 6 12GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "OnePlus"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "12GB RAM",
+        "512GB",
+        "huge battery",
+        "OxygenOS",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

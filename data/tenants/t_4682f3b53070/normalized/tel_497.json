@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_497",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Nillkin Super Frosted Shield case for Vivo X300 Pro.",
+    "short_pitch": "Nillkin Super Frosted Shield for Vivo X300 Pro — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Nillkin"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Frosted PC",
+        "bumpers",
+        "X300 Pro fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,43 @@
+{
+  "product_id": "prod_66",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "minimal CRM for freelancers.",
+    "short_pitch": "TinyCRM — crm for teams",
+    "category_path": "CRM/Sales",
+    "use_case_tags": [
+      "lead_tracking",
+      "pipeline_management"
+    ],
+    "target_audience": [
+      "small_business",
+      "agency",
+      "saas_startup"
+    ],
+    "aliases": [
+      "TinyCRM"
+    ],
+    "plan_features": {
+      "prod_66_plan_0": [
+        "Same features as listed on website"
+      ],
+      "prod_66_plan_1": [
+        "Same features as listed on website"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "plans_indistinguishable",
+      "field": "plans",
+      "issue": "Plan feature_text values are identical",
+      "options": [
+        "Pro",
+        "Business",
+        "differentiate_manually"
+      ],
+      "recommended": "differentiate_manually"
+    }
+  ]
+}

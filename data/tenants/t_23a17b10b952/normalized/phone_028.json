@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_028",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "OPPO Find X9 Ultra — Hasselblad co-branded camera flagship. Competes with Vivo X300 Ultra for best camera phone; premium build and ColorOS for photography-first buyers.",
+    "short_pitch": "OPPO Find X9 Ultra — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "OPPO"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Hasselblad camera",
+        "flagship chipset",
+        "LTPO AMOLED",
+        "SuperVOOC",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

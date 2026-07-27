@@ -1,0 +1,61 @@
+{
+  "id": "tel_042",
+  "kind": "service",
+  "title": "OnePlus Nord CE 6 Lite 5G 8GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OnePlus Nord CE 6 Lite 5G — budget Nord for first 5G upgrades with clean OxygenOS lite experience.",
+  "short_pitch": "OnePlus Nord CE 6 Lite 5G 8GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 18999.0
+  },
+  "price_max": {
+    "INR": 18999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — CE 6 Lite 128GB",
+      "features": [
+        "5G",
+        "OxygenOS",
+        "large battery",
+        "mid-range display",
+        "dual camera"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 18999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b6df30422727af9a83bde91656c7d740be92f0b3177138833ab51c6b1509c8d5",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Nord CE 6 Lite 5G 8GB + 128GB. Category: Electronics/Smartphones. OnePlus Nord CE 6 Lite 5G — budget Nord for first 5G upgrades with clean OxygenOS lite experience. Pitch: OnePlus Nord CE 6 Lite 5G 8GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — CE 6 Lite 128GB (one_time): 5G; OxygenOS; large battery; mid-range display; dual camera",
+  "display_card": {
+    "INR": "₹18,999"
+  }
+}

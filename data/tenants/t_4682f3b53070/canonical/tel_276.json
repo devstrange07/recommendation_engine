@@ -1,0 +1,60 @@
+{
+  "id": "tel_276",
+  "kind": "service",
+  "title": "Vivo X300 Pro — Ocean Blue 12GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Vivo X300 Pro camera flagship with Zeiss optics. India retail SKU in Ocean Blue finish.",
+  "short_pitch": "Vivo X300 Pro — Ocean Blue 12GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Vivo"
+  ],
+  "price_min": {
+    "INR": 99999.0
+  },
+  "price_max": {
+    "INR": 99999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ocean Blue 12GB + 256GB",
+      "features": [
+        "Zeiss camera",
+        "flagship SoC",
+        "AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 99999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "94d2297845290633b169d856b8ee58d8a46d70b647895bd9974cf43bdb75e823",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Vivo X300 Pro — Ocean Blue 12GB + 256GB. Category: Electronics/Smartphones. Vivo X300 Pro camera flagship with Zeiss optics. India retail SKU in Ocean Blue finish. Pitch: Vivo X300 Pro — Ocean Blue 12GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Vivo. Plans: Street — Ocean Blue 12GB + 256GB (one_time): Zeiss camera; flagship SoC; AMOLED; 5G",
+  "display_card": {
+    "INR": "₹99,999"
+  }
+}

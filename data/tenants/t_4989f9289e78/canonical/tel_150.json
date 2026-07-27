@@ -1,0 +1,61 @@
+{
+  "id": "tel_150",
+  "kind": "service",
+  "title": "Samsung Galaxy Z Fold7 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "Samsung Galaxy Z Fold7 512GB for power users who keep work and media on the foldable.",
+  "short_pitch": "Samsung Galaxy Z Fold7 12GB + 512GB — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 179999.0
+  },
+  "price_max": {
+    "INR": 179999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Z Fold7 512GB",
+      "features": [
+        "512GB",
+        "book foldable",
+        "S Pen",
+        "Galaxy AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 179999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "fddea1ab3b88a39277155299b7972770b2368f80522dbbdf31d9ab6a3741a335",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy Z Fold7 12GB + 512GB. Category: Electronics/Foldables. Samsung Galaxy Z Fold7 512GB for power users who keep work and media on the foldable. Pitch: Samsung Galaxy Z Fold7 12GB + 512GB — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Z Fold7 512GB (one_time): 512GB; book foldable; S Pen; Galaxy AI; 5G",
+  "display_card": {
+    "INR": "₹179,999"
+  }
+}

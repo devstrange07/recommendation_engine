@@ -1,0 +1,32 @@
+{
+  "id": "phone_015",
+  "name": "Google Pixel 10 Pro",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Google Pixel 10 Pro — Pro camera bar, brighter display, and advanced Pixel AI (Pixel Journal, Magic Cue). For Pixel loyalists who want telephoto and Pro hardware without XL size.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pixel 10 Pro",
+      "feature_text": "Pro camera; Tensor G5; telephoto; Pixel AI; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 102899.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 102899.0
+  },
+  "price_max": {
+    "INR": 102899.0
+  },
+  "content_hash": "97c0479de14c01ecbd033a82fc0b685ef3d174f633fbb2746c37355e2adaaa8e",
+  "needs_normalization": true
+}

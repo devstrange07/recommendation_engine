@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_451",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Nothing Case (4a) protective case for Nothing Phone (4a) — India retail accessory SKU.",
+    "short_pitch": "Nothing Case (4a) for Nothing Phone (4a) — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Nothing"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Drop protection",
+        "precise cutouts",
+        "Nothing Phone (4a) fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

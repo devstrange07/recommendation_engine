@@ -1,0 +1,61 @@
+{
+  "id": "phone_032",
+  "kind": "service",
+  "title": "Motorola Edge 60 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Motorola Edge 60 Pro — curved-display mid-premium Moto with stronger cameras and charging than Edge Fusion. Good alternative to OnePlus Nord for stock-Android fans.",
+  "short_pitch": "Motorola Edge 60 Pro — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Motorola"
+  ],
+  "price_min": {
+    "INR": 28999.0
+  },
+  "price_max": {
+    "INR": 28999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Edge 60 Pro",
+      "features": [
+        "Curved pOLED",
+        "clean Android",
+        "fast charge",
+        "IP rating",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 28999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ddff72b0372ac843775be9b771ec7e44793132775318061d3969561eb3f86c35",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Motorola Edge 60 Pro. Category: Electronics/Smartphones. Motorola Edge 60 Pro — curved-display mid-premium Moto with stronger cameras and charging than Edge Fusion. Good alternative to OnePlus Nord for stock-Android fans. Pitch: Motorola Edge 60 Pro — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Motorola. Plans: Street — Edge 60 Pro (one_time): Curved pOLED; clean Android; fast charge; IP rating; 5G",
+  "display_card": {
+    "INR": "₹28,999"
+  }
+}

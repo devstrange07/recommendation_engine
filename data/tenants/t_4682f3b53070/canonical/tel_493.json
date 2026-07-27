@@ -1,0 +1,58 @@
+{
+  "id": "tel_493",
+  "kind": "service",
+  "title": "Samsung 15W Wireless Charger Stand",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Samsung 15W wireless charging stand for Galaxy phones and Buds.",
+  "short_pitch": "Samsung 15W Wireless Charger Stand — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 3499.0
+  },
+  "price_max": {
+    "INR": 3499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 15W Wireless Stand",
+      "features": [
+        "15W wireless",
+        "stand",
+        "Samsung certified"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ccf6d361b0f277fe9c122b40632177e3655243742bc5e0604e2110aa1e33b893",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung 15W Wireless Charger Stand. Category: Electronics/Accessories. Samsung 15W wireless charging stand for Galaxy phones and Buds. Pitch: Samsung 15W Wireless Charger Stand — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Samsung. Plans: Street — 15W Wireless Stand (one_time): 15W wireless; stand; Samsung certified",
+  "display_card": {
+    "INR": "₹3,499"
+  }
+}

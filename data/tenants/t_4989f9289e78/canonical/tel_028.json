@@ -1,0 +1,62 @@
+{
+  "id": "tel_028",
+  "kind": "service",
+  "title": "Google Pixel 10 Pro 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Google Pixel 10 Pro — telephoto camera, brighter display, and advanced Pixel AI for creators.",
+  "short_pitch": "Google Pixel 10 Pro 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 102899.0
+  },
+  "price_max": {
+    "INR": 102899.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pro 256GB",
+      "features": [
+        "Pro camera",
+        "Tensor",
+        "OLED",
+        "Pixel AI",
+        "7-yr updates",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 102899.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d18a3be36a26b1923176a4f05d3aab849cb0be80a585b1069d955900746083e7",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10 Pro 256GB. Category: Electronics/Smartphones. Google Pixel 10 Pro — telephoto camera, brighter display, and advanced Pixel AI for creators. Pitch: Google Pixel 10 Pro 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Pro 256GB (one_time): Pro camera; Tensor; OLED; Pixel AI; 7-yr updates; 5G",
+  "display_card": {
+    "INR": "₹102,899"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_237",
+  "name": "Apple iPhone 17 Pro Max — Ocean Blue 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 17 Pro Max with largest display and battery in the 17 line. India retail SKU in Ocean Blue finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ocean Blue 512GB",
+      "feature_text": "Pro Max display; Pro camera; Apple Intelligence; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 169900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 169900.0
+  },
+  "price_max": {
+    "INR": 169900.0
+  },
+  "content_hash": "25285d894a68b0334f910d47b05e2f260d5d3aeded288e485dc2871ebd124e44",
+  "needs_normalization": true
+}

@@ -1,0 +1,47 @@
+{
+  "product_id": "prod_47",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "shared support mailbox.",
+    "short_pitch": "DeskFlow — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "DeskFlow"
+    ],
+    "plan_features": {
+      "prod_47_plan_0": [
+        "Same features as listed on website"
+      ],
+      "prod_47_plan_1": [
+        "Same features as listed on website"
+      ],
+      "prod_47_plan_2": [
+        "Same features as listed on website"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "plans_indistinguishable",
+      "field": "plans",
+      "issue": "Plan feature_text values are identical",
+      "options": [
+        "Basic",
+        "Pro",
+        "Business",
+        "differentiate_manually"
+      ],
+      "recommended": "differentiate_manually"
+    }
+  ]
+}

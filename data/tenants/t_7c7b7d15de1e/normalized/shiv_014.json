@@ -1,0 +1,33 @@
+{
+  "product_id": "shiv_014",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "4 BHK penthouse at Shivalik Green View, Shantigram. RERA area approx 2105 sq ft. Larger format for buyers wanting Shantigram address with Shivalik Group brand and township amenities.",
+    "short_pitch": "Shivalik Green View — 4 BHK Penthouse, Shantigram — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RA ~2105 sq ft",
+        "club amenities",
+        "parking",
+        "power backup",
+        "landscaped campus"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

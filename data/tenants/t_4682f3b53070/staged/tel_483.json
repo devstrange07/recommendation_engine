@@ -1,0 +1,32 @@
+{
+  "id": "tel_483",
+  "name": "Samsung Galaxy Watch7 Sport Band",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Samsung official sport band for Galaxy Watch7.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Watch7 Sport Band",
+      "feature_text": "Official Samsung; sport; Watch7 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2999.0
+  },
+  "price_max": {
+    "INR": 2999.0
+  },
+  "content_hash": "32b0d2e766ef3982416d77e8facc660cac931f774ea7deb71203a334fcb76b43",
+  "needs_normalization": true
+}

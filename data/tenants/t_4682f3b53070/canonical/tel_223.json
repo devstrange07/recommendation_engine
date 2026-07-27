@@ -1,0 +1,61 @@
+{
+  "id": "tel_223",
+  "kind": "service",
+  "title": "Apple iPhone 17 Pro — Titanium Black 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Apple iPhone 17 Pro with pro camera system and Apple Intelligence. India retail SKU in Titanium Black finish.",
+  "short_pitch": "Apple iPhone 17 Pro — Titanium Black 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 154900.0
+  },
+  "price_max": {
+    "INR": 154900.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Titanium Black 512GB",
+      "features": [
+        "Pro camera",
+        "Apple Intelligence",
+        "ProMotion",
+        "Face ID",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 154900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ccaa34d1fc99b609a63c85f7a7ef6fea861b2b0738a4ab5d0a5391207463315c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple iPhone 17 Pro — Titanium Black 512GB. Category: Electronics/Smartphones. Apple iPhone 17 Pro with pro camera system and Apple Intelligence. India retail SKU in Titanium Black finish. Pitch: Apple iPhone 17 Pro — Titanium Black 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Apple. Plans: Street — Titanium Black 512GB (one_time): Pro camera; Apple Intelligence; ProMotion; Face ID; 5G",
+  "display_card": {
+    "INR": "₹154,900"
+  }
+}

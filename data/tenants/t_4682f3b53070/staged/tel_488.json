@@ -1,0 +1,32 @@
+{
+  "id": "tel_488",
+  "name": "Apple EarPods USB-C",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Apple EarPods with USB-C connector for iPhone buyers who skip wireless.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — EarPods USB-C",
+      "feature_text": "USB-C wired; Apple certified",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2000.0
+  },
+  "price_max": {
+    "INR": 2000.0
+  },
+  "content_hash": "821d9e38c5b288cbb5d7ad891f746377ea097456d4bd29019cb628f7297904eb",
+  "needs_normalization": true
+}

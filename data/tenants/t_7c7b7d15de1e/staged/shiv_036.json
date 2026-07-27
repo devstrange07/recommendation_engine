@@ -1,0 +1,32 @@
+{
+  "id": "shiv_036",
+  "name": "Shivalik Trophy — Grade-A Office Lease, GIFT City",
+  "category_raw": "Commercial/Offices",
+  "description_text": "Grade-A commercial space at Shivalik Trophy, GIFT City. Large floor-plate office by Shivalik Group offered primarily on lease / co-invest model for corporates seeking IFSC-adjacent premium workspace.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Lease — Grade-A Office",
+      "feature_text": "Large floor plates; parking, lifts, power backup, CCTV, firefighting",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 450000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 450000.0
+  },
+  "price_max": {
+    "INR": 450000.0
+  },
+  "content_hash": "12d569b0476698b08050ac43b48ac541f510dbba472a2b7a534e7738c40fa160",
+  "needs_normalization": true
+}

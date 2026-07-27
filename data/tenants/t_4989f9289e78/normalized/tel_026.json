@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_026",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Google Pixel 10 base — clean Android, Tensor G5-class AI features, and strong computational photography for India.",
+    "short_pitch": "Google Pixel 10 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Google"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pixel camera",
+        "Tensor",
+        "Pixel AI",
+        "7-yr updates",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

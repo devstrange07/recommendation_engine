@@ -1,0 +1,33 @@
+{
+  "product_id": "shiv_027",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Independent bungalow at Shivalik Florette, Ambli–Bopal belt, Ahmedabad. Luxury low-rise living by Shivalik Group with private garden / plot feel, gated community security, and proximity to Ambli Road amenities.",
+    "short_pitch": "Shivalik Florette — Bungalow, Ambli-Bopal — residential listing",
+    "category_path": "Residential/Bungalows",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "family_buyer",
+      "end_user_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Private bungalow",
+        "garden",
+        "covered parking",
+        "gated security",
+        "power backup"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "tel_467",
+  "kind": "service",
+  "title": "Vivo V70 Tempered Glass for Vivo V70",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Vivo V70 Tempered Glass tempered glass / film kit for Vivo V70.",
+  "short_pitch": "Vivo V70 Tempered Glass for Vivo V70 — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Vivo"
+  ],
+  "price_min": {
+    "INR": 499.0
+  },
+  "price_max": {
+    "INR": 499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Glass for Vivo",
+      "features": [
+        "9H tempered",
+        "oleophobic",
+        "Vivo V70 fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "1ab1b965278fb5616f929fd4f5ae3fb495fcdf644f088ab64ee1b938aa661187",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Vivo V70 Tempered Glass for Vivo V70. Category: Electronics/Accessories. Vivo V70 Tempered Glass tempered glass / film kit for Vivo V70. Pitch: Vivo V70 Tempered Glass for Vivo V70 — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Vivo. Plans: Street — Glass for Vivo (one_time): 9H tempered; oleophobic; Vivo V70 fit",
+  "display_card": {
+    "INR": "₹499"
+  }
+}

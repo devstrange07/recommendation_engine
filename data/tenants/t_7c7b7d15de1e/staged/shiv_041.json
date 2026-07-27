@@ -1,0 +1,32 @@
+{
+  "id": "shiv_041",
+  "name": "Shivalik Shilp — Office, SG Highway Vastrapur",
+  "category_raw": "Commercial/Offices",
+  "description_text": "Office space at Shivalik Shilp / Shilp 2 on SG Highway / Vastrapur belt. Grade commercial inventory by Shivalik Group for shops, showrooms, and office suites with highway visibility.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office / Showroom",
+      "feature_text": "SG Highway frontage; parking, lifts, power backup, CCTV",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 18500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 18500000.0
+  },
+  "price_max": {
+    "INR": 18500000.0
+  },
+  "content_hash": "ae7dd755cc3fb9eb2a6e75153e4d44c37759b3d8d3b9db4de85ac11d661df9f0",
+  "needs_normalization": true
+}

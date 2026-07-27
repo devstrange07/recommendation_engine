@@ -1,0 +1,100 @@
+{
+  "id": "prod_82",
+  "name": "MarketPulse Mail (Legacy)",
+  "category_raw": "Email Marketing",
+  "description_text": "marketing email analytics Legacy edition.",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_2_plan_0",
+      "name": "Pro",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.49
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_2_plan_1",
+      "name": "Business",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": 636.23
+        }
+      ]
+    },
+    {
+      "id": "prod_2_plan_2",
+      "name": "Basic",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.47,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 6.24,
+    "GBP": 4.49,
+    "INR": 636.23
+  },
+  "price_max": {
+    "USD": 12.47,
+    "GBP": 4.99,
+    "INR": 998.0
+  },
+  "content_hash": "11fdb2f93261f42f8c604c12ccfd0cd55e4823b93c82cdf3055c88d4d43fb3e7",
+  "needs_normalization": false
+}

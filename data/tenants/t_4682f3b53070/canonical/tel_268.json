@@ -1,0 +1,61 @@
+{
+  "id": "tel_268",
+  "kind": "service",
+  "title": "Google Pixel 10 Pro — Forest Green 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Google Pixel 10 Pro with telephoto camera and Pixel AI. India retail SKU in Forest Green finish.",
+  "short_pitch": "Google Pixel 10 Pro — Forest Green 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 102899.0
+  },
+  "price_max": {
+    "INR": 102899.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Forest Green 256GB",
+      "features": [
+        "Pro camera",
+        "Tensor",
+        "Pixel AI",
+        "7-yr updates",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 102899.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "1abc926a2ed1546c9e60cb6a70b9278c5d04fdc88259bf988c7e036717c4e626",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10 Pro — Forest Green 256GB. Category: Electronics/Smartphones. Google Pixel 10 Pro with telephoto camera and Pixel AI. India retail SKU in Forest Green finish. Pitch: Google Pixel 10 Pro — Forest Green 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Forest Green 256GB (one_time): Pro camera; Tensor; Pixel AI; 7-yr updates; 5G",
+  "display_card": {
+    "INR": "₹102,899"
+  }
+}

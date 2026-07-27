@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_101",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "POCO F7 Pro max config for competitive gamers who want flagship silicon without flagship branding.",
+    "short_pitch": "POCO F7 Pro 16GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "POCO"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "16GB RAM",
+        "512GB",
+        "near-flagship SoC",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

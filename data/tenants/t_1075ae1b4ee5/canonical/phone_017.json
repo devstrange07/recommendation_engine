@@ -1,0 +1,61 @@
+{
+  "id": "phone_017",
+  "kind": "service",
+  "title": "Google Pixel 10a",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Google Pixel 10a — affordable Pixel with flagship-class computational photography and clean Android. Best Pixel value for buyers who prioritize camera and software over premium build.",
+  "short_pitch": "Google Pixel 10a — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 46930.0
+  },
+  "price_max": {
+    "INR": 46930.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pixel 10a",
+      "features": [
+        "Pixel Camera",
+        "Tensor",
+        "clean Android",
+        "multi-year updates",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 46930.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "8f849c0a043633ef1da02f700aa7205594bcee0765b8d24ac8b0e6dad52c3646",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10a. Category: Electronics/Smartphones. Google Pixel 10a — affordable Pixel with flagship-class computational photography and clean Android. Best Pixel value for buyers who prioritize camera and software over premium build. Pitch: Google Pixel 10a — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Pixel 10a (one_time): Pixel Camera; Tensor; clean Android; multi-year updates; 5G",
+  "display_card": {
+    "INR": "₹46,930"
+  }
+}

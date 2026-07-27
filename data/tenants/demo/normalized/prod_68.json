@@ -1,0 +1,33 @@
+{
+  "product_id": "prod_68",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "live chat and tickets.",
+    "short_pitch": "ChatSupport Pro — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "ChatSupport"
+    ],
+    "plan_features": {
+      "prod_68_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_68_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

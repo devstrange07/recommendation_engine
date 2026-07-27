@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_055",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Vivo Y31 5G — entry 5G handset that contributed heavily to Vivo's 2026 India volume share.",
+    "short_pitch": "Vivo Y31 5G 6GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Vivo"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "large battery",
+        "dual camera",
+        "value pricing"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_78",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "invoices and expense tracking.",
+    "short_pitch": "CashFlow Docs — invoicing for teams",
+    "category_path": "Invoicing/Billing",
+    "use_case_tags": [
+      "invoice_generation",
+      "recurring_billing"
+    ],
+    "target_audience": [
+      "solo_freelancer",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "CashFlow"
+    ],
+    "plan_features": {
+      "prod_78_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_78_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_78_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

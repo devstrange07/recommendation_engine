@@ -1,0 +1,17 @@
+categories:
+  - path: Residential/Apartments
+    labels: [apartment, flat, bhk, residential tower, high-rise]
+  - path: Residential/Bungalows
+    labels: [bungalow, villa, independent house, row house]
+  - path: Residential/Plots
+    labels: [plot, land, residential plot, plot sale]
+  - path: Commercial/Offices
+    labels: [office, commercial office, workspace, floor plate, business center]
+  - path: Commercial/Retail
+    labels: [retail, shop, showroom, retail shop, high street]
+  - path: Electronics/Smartphones
+    labels: [smartphone, phone, mobile, galaxy, android, iphone, handset]
+  - path: Electronics/Foldables
+    labels: [foldable, fold, flip, clamshell, galaxy z]
+  - path: Electronics/Accessories
+    labels: [accessory, case, charger, earbuds, buds, power bank, screen protector, smartwatch, cable]

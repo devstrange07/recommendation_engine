@@ -1,0 +1,32 @@
+{
+  "id": "tel_421",
+  "name": "Xiaomi Power Bank 20000mAh 33W",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Xiaomi 20000mAh 33W power bank popular with Redmi and POCO users in India.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Mi 20000mAh 33W",
+      "feature_text": "20000mAh; 33W; dual output; USB-C in/out",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "60dba93412384a3692593d48fbad2091953354a59c31fa959fef84c088ecb4aa",
+  "needs_normalization": true
+}

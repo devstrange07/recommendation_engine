@@ -1,0 +1,60 @@
+{
+  "id": "shiv_034",
+  "kind": "service",
+  "title": "Shivalik Curv — Office Suite 1200 sq ft, GIFT City",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Offices",
+  "clean_description": "Mid-size office at Shivalik Curv, GIFT City (~1200 sq ft RA within 507–1575 band). Shivalik Group Grade-A commercial for growing teams needing GIFT City presence.",
+  "short_pitch": "Shivalik Curv — Office Suite 1200 sq ft, GIFT City — commercial listing",
+  "use_case_tags": [
+    "office_use",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "sme_office",
+    "investor"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 12500000.0
+  },
+  "price_max": {
+    "INR": 12500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Office 1200 sq ft",
+      "features": [
+        "RA ~1200 sq ft",
+        "parking",
+        "high-speed lifts",
+        "backup power",
+        "firefighting"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 12500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "470e4c6034ea899a1e43f2c24df99c5b2eaa1bfdf0fe8f3c70ef09074daa0f01",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Curv — Office Suite 1200 sq ft, GIFT City. Category: Commercial/Offices. Mid-size office at Shivalik Curv, GIFT City (~1200 sq ft RA within 507–1575 band). Shivalik Group Grade-A commercial for growing teams needing GIFT City presence. Pitch: Shivalik Curv — Office Suite 1200 sq ft, GIFT City — commercial listing. Use cases: office_use, sale, investment. Audience: sme_office, investor. Aliases: Shivalik. Plans: Sale — Office 1200 sq ft (one_time): RA ~1200 sq ft; parking; high-speed lifts; backup power; firefighting",
+  "display_card": {
+    "INR": "₹12,500,000"
+  }
+}

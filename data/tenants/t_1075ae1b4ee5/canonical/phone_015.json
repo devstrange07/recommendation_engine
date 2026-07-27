@@ -1,0 +1,61 @@
+{
+  "id": "phone_015",
+  "kind": "service",
+  "title": "Google Pixel 10 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Google Pixel 10 Pro — Pro camera bar, brighter display, and advanced Pixel AI (Pixel Journal, Magic Cue). For Pixel loyalists who want telephoto and Pro hardware without XL size.",
+  "short_pitch": "Google Pixel 10 Pro — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 102899.0
+  },
+  "price_max": {
+    "INR": 102899.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Pixel 10 Pro",
+      "features": [
+        "Pro camera",
+        "Tensor G5",
+        "telephoto",
+        "Pixel AI",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 102899.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "97c0479de14c01ecbd033a82fc0b685ef3d174f633fbb2746c37355e2adaaa8e",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10 Pro. Category: Electronics/Smartphones. Google Pixel 10 Pro — Pro camera bar, brighter display, and advanced Pixel AI (Pixel Journal, Magic Cue). For Pixel loyalists who want telephoto and Pro hardware without XL size. Pitch: Google Pixel 10 Pro — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Pixel 10 Pro (one_time): Pro camera; Tensor G5; telephoto; Pixel AI; 5G",
+  "display_card": {
+    "INR": "₹102,899"
+  }
+}

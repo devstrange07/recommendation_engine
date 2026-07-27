@@ -1,0 +1,32 @@
+{
+  "id": "tel_192",
+  "name": "Spigen Glas.tR for Pixel 10 Pro (2-pack)",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Spigen Glas.tR tempered glass 2-pack for Google Pixel 10 Pro with case-friendly edges.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Glas.tR Pixel 10 Pro",
+      "feature_text": "9H; case-friendly; 2-pack; oleophobic",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1799.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1799.0
+  },
+  "price_max": {
+    "INR": 1799.0
+  },
+  "content_hash": "16d7247fd941f38ed287d745d30d86db50506f4ce2dbc5b6578d4361a9720b2b",
+  "needs_normalization": true
+}

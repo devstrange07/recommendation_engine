@@ -1,0 +1,60 @@
+{
+  "id": "tel_335",
+  "kind": "service",
+  "title": "OnePlus Nord 6 — Sunset Gold 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OnePlus Nord 6 with massive battery and OxygenOS. India retail SKU in Sunset Gold finish.",
+  "short_pitch": "OnePlus Nord 6 — Sunset Gold 12GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 49999.0
+  },
+  "price_max": {
+    "INR": 49999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Sunset Gold 12GB + 512GB",
+      "features": [
+        "~9000mAh battery",
+        "OxygenOS",
+        "fast charging",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 49999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d82c43b9ef5c33d4f9bb8b943eb384917fe67c46d7c712c4ef241beba3de5810",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Nord 6 — Sunset Gold 12GB + 512GB. Category: Electronics/Smartphones. OnePlus Nord 6 with massive battery and OxygenOS. India retail SKU in Sunset Gold finish. Pitch: OnePlus Nord 6 — Sunset Gold 12GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OnePlus. Plans: Street — Sunset Gold 12GB + 512GB (one_time): ~9000mAh battery; OxygenOS; fast charging; 5G",
+  "display_card": {
+    "INR": "₹49,999"
+  }
+}

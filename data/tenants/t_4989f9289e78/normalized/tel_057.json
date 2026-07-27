@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_057",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Vivo T4 5G — performance-oriented T series mid-ranger for gaming and multitasking on a budget.",
+    "short_pitch": "Vivo T4 5G 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Vivo"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "high refresh display",
+        "large battery",
+        "mid SoC"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

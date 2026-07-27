@@ -1,0 +1,32 @@
+{
+  "product_id": "prod_4",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "newsletter and drip campaigns.",
+    "short_pitch": "CampaignNest — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "CampaignNest"
+    ],
+    "plan_features": {
+      "prod_4_plan_0": [
+        "Basic tier"
+      ],
+      "prod_4_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

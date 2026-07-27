@@ -1,0 +1,33 @@
+{
+  "product_id": "prod_11",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "staff shift and appointment hybrid.",
+    "short_pitch": "ShiftSync — scheduling for teams",
+    "category_path": "Scheduling/Appointments",
+    "use_case_tags": [
+      "appointment_booking",
+      "online_scheduling",
+      "client_reminders"
+    ],
+    "target_audience": [
+      "salon_spa",
+      "small_business",
+      "clinic_healthcare"
+    ],
+    "aliases": [
+      "ShiftSync"
+    ],
+    "plan_features": {
+      "prod_11_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_11_plan_1": [
+        "Pro tier"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

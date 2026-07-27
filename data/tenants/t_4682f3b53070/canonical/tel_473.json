@@ -1,0 +1,58 @@
+{
+  "id": "tel_473",
+  "kind": "service",
+  "title": "Noise Buds VS104 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Noise Buds VS104 Pro value ANC earbuds.",
+  "short_pitch": "Noise Buds VS104 Pro — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Noise"
+  ],
+  "price_min": {
+    "INR": 1499.0
+  },
+  "price_max": {
+    "INR": 1499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — VS104 Pro",
+      "features": [
+        "ANC",
+        "long battery",
+        "USB-C"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ae614984cc79ecb0cbe9a49b4b8f508917d5847d2cc6e02c9254a709444e5173",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Noise Buds VS104 Pro. Category: Electronics/Accessories. Noise Buds VS104 Pro value ANC earbuds. Pitch: Noise Buds VS104 Pro — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Noise. Plans: Street — VS104 Pro (one_time): ANC; long battery; USB-C",
+  "display_card": {
+    "INR": "₹1,499"
+  }
+}

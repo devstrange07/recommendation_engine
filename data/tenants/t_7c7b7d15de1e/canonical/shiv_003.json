@@ -1,0 +1,62 @@
+{
+  "id": "shiv_003",
+  "kind": "service",
+  "title": "Shivalik Legacy — 4 BHK, Bodakdev",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "Ultra-luxury 4 BHK residence at Shivalik Legacy, Bodakdev, Ahmedabad. Shivalik Group development in premium west Ahmedabad. Spacious layout with servant room option; landscaped podium and high-end lobby.",
+  "short_pitch": "Shivalik Legacy — 4 BHK, Bodakdev — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 49500000.0
+  },
+  "price_max": {
+    "INR": 49500000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 4 BHK",
+      "features": [
+        "Luxury finishes",
+        "gym",
+        "clubhouse",
+        "covered parking",
+        "power backup",
+        "CCTV"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 49500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c6da34f3f8a7b5f9a681f94bf31fcb81d9a8f41070f88be94073d31e0694b9f2",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Legacy — 4 BHK, Bodakdev. Category: Residential/Apartments. Ultra-luxury 4 BHK residence at Shivalik Legacy, Bodakdev, Ahmedabad. Shivalik Group development in premium west Ahmedabad. Spacious layout with servant room option; landscaped podium and high-end lobby. Pitch: Shivalik Legacy — 4 BHK, Bodakdev — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 4 BHK (one_time): Luxury finishes; gym; clubhouse; covered parking; power backup; CCTV",
+  "display_card": {
+    "INR": "₹49,500,000"
+  }
+}

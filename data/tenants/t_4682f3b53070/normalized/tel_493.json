@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_493",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung 15W wireless charging stand for Galaxy phones and Buds.",
+    "short_pitch": "Samsung 15W Wireless Charger Stand — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "15W wireless",
+        "stand",
+        "Samsung certified"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

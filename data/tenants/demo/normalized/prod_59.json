@@ -1,0 +1,45 @@
+{
+  "product_id": "prod_59",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Entry-level starter tool for beginners only. Basic free tier features. invoice and payout tracking.",
+    "short_pitch": "PayoutDesk Pro Suite — invoicing for teams",
+    "category_path": "Invoicing/Billing",
+    "use_case_tags": [
+      "invoice_generation",
+      "recurring_billing"
+    ],
+    "target_audience": [
+      "solo_freelancer",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "PayoutDesk"
+    ],
+    "plan_features": {
+      "prod_59_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_59_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "contradiction",
+      "field": "name_vs_description",
+      "issue": "Name suggests premium suite but description describes entry-level",
+      "options": [
+        "keep_name",
+        "rename_to_basic",
+        "rewrite_description"
+      ],
+      "recommended": "rewrite_description"
+    }
+  ]
+}

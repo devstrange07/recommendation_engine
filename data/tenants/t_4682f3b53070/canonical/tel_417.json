@@ -1,0 +1,59 @@
+{
+  "id": "tel_417",
+  "kind": "service",
+  "title": "Anker 735 Charger (Nano II 65W)",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Anker Nano II 65W GaN charger with multiple ports for phone, laptop, and earbuds travel kits.",
+  "short_pitch": "Anker 735 Charger (Nano II 65W) — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Anker"
+  ],
+  "price_min": {
+    "INR": 4999.0
+  },
+  "price_max": {
+    "INR": 4999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Anker 65W GaN",
+      "features": [
+        "65W GaN",
+        "multi-port",
+        "foldable plug",
+        "PD/PPS"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "a9a6e39dfb083051bb33b0b4a22bcba0f035383335aa16661d6a1598f412e95a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Anker 735 Charger (Nano II 65W). Category: Electronics/Accessories. Anker Nano II 65W GaN charger with multiple ports for phone, laptop, and earbuds travel kits. Pitch: Anker 735 Charger (Nano II 65W) — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Anker. Plans: Street — Anker 65W GaN (one_time): 65W GaN; multi-port; foldable plug; PD/PPS",
+  "display_card": {
+    "INR": "₹4,999"
+  }
+}

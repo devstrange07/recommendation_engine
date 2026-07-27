@@ -1,0 +1,32 @@
+{
+  "id": "tel_371",
+  "name": "POCO M7 Pro 5G 6GB + 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "POCO M7 Pro 5G budget POCO.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 6GB + 128GB",
+      "feature_text": "5G; high refresh; HyperOS",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 14999.0
+  },
+  "price_max": {
+    "INR": 14999.0
+  },
+  "content_hash": "4edd7a3cad04a25c415788e00c25c1f05e46b26b2341c6810407208b806f50dd",
+  "needs_normalization": true
+}

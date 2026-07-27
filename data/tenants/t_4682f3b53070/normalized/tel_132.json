@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_132",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Tecno Camon 40 Pro 5G — camera-focused mid-ranger under Transsion's Tecno brand.",
+    "short_pitch": "Tecno Camon 40 Pro 5G 8GB + 256GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Tecno"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Portrait camera",
+        "AMOLED",
+        "5G",
+        "large battery"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

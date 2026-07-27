@@ -1,0 +1,127 @@
+{
+  "id": "prod_35",
+  "kind": "service",
+  "title": "LeadNest",
+  "brand_or_provider": null,
+  "category_path": "CRM/Sales",
+  "clean_description": "CRM for tracking leads and deals —.",
+  "short_pitch": "LeadNest — crm for teams",
+  "use_case_tags": [
+    "lead_tracking",
+    "pipeline_management"
+  ],
+  "target_audience": [
+    "small_business",
+    "agency",
+    "saas_startup"
+  ],
+  "aliases": [
+    "LeadNest"
+  ],
+  "price_min": {
+    "GBP": 3.99,
+    "USD": 6.24,
+    "INR": 998.0
+  },
+  "price_max": {
+    "GBP": 7.49,
+    "USD": 12.47,
+    "INR": 998.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_35_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.24
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 3.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_35_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": 7.959999999999999
+        }
+      ]
+    },
+    {
+      "id": "prod_35_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.47,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "d2f7c35c47d6b4508c0792a115c852e68fd32e6fa78fdf9fadb187207b4504fd",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "LeadNest. Category: CRM/Sales. CRM for tracking leads and deals —. Pitch: LeadNest — crm for teams. Use cases: lead_tracking, pipeline_management. Audience: small_business, agency, saas_startup. Aliases: LeadNest. Plans: Basic (monthly): Up to 2 users; email support | Pro (monthly): API access; priority support | Business (monthly): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹998/mo",
+    "GBP": "£4/mo",
+    "USD": "$6/mo"
+  }
+}

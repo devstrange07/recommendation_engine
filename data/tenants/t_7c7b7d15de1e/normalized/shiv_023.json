@@ -1,0 +1,32 @@
+{
+  "product_id": "shiv_023",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "4 BHK penthouse at Shivalik Harmony, Ambawadi. RERA area ~1827–1933 sq ft. Top-floor Shivalik Group unit for buyers wanting larger Ambawadi home with mixed-use convenience below.",
+    "short_pitch": "Shivalik Harmony — 4 BHK Penthouse, Ambawadi — residential listing",
+    "category_path": "Residential/Apartments",
+    "use_case_tags": [
+      "primary_residence",
+      "sale",
+      "ready_possession"
+    ],
+    "target_audience": [
+      "end_user_buyer",
+      "family_buyer",
+      "nri_buyer"
+    ],
+    "aliases": [
+      "Shivalik"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "RA ~1900 sq ft penthouse",
+        "parking",
+        "CCTV",
+        "power backup"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

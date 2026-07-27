@@ -1,0 +1,34 @@
+{
+  "product_id": "phone_042",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy A56 5G — upper A-series with bright AMOLED, IP67, and longer software support than typical mid-rangers. Reliable Samsung alternative to Nothing/Moto around ₹35–40k.",
+    "short_pitch": "Samsung Galaxy A56 5G — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Super AMOLED",
+        "IP67",
+        "OIS camera",
+        "One UI",
+        "multi-year updates",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

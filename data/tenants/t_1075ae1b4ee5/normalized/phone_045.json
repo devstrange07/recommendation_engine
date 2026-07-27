@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_045",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Realme GT 7 Pro — performance flagship killer with high-refresh display, flagship chipset, and aggressive pricing vs Samsung/OnePlus. Aimed at gamers and power users.",
+    "short_pitch": "Realme GT 7 Pro — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Realme"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Flagship SoC",
+        "144Hz AMOLED",
+        "fast charge",
+        "vapor cooling",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_019",
+  "name": "Apple iPhone 16 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 16 128GB — prior-gen base iPhone at discounted street prices after iPhone 17 launch.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 128GB",
+      "feature_text": "iOS; A18-class chip; dual camera; Face ID; 5G; MagSafe",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 69900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 69900.0
+  },
+  "price_max": {
+    "INR": 69900.0
+  },
+  "content_hash": "7d131e96ada0f3a54b0a635592964b2f235a57715ba387b038fbfc33aebaa111",
+  "needs_normalization": true
+}

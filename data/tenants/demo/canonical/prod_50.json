@@ -1,0 +1,133 @@
+{
+  "id": "prod_50",
+  "kind": "service",
+  "title": "MailBurst",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "email campaign platform.",
+  "short_pitch": "MailBurst — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "MailBurst"
+  ],
+  "price_min": {
+    "GBP": 29.99,
+    "INR": 2549.15,
+    "USD": 37.49
+  },
+  "price_max": {
+    "GBP": 29.99,
+    "INR": 5398.2,
+    "USD": 56.23
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_50_plan_0",
+      "name": "Business",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": 2549.15
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_50_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": 4048.65
+        }
+      ]
+    },
+    {
+      "id": "prod_50_plan_2",
+      "name": "Basic",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": 5098.3
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": 5398.2
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ddd2761704c73cbe1e54137fd65cf50352ac67e6691757c4e7a57ff18c2fb29f",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "MailBurst. Category: Marketing/Email. email campaign platform. Pitch: MailBurst — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: MailBurst. Plans: Business (monthly): Up to 2 users; email support | Pro (monthly): API access; priority support | Basic (one_time): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,549/mo",
+    "GBP": "£30/mo",
+    "USD": "$37/mo"
+  }
+}

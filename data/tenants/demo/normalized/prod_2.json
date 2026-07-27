@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_2",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "marketing email analytics.",
+    "short_pitch": "MarketPulse Mail — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "MarketPulse"
+    ],
+    "plan_features": {
+      "prod_2_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_2_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_2_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

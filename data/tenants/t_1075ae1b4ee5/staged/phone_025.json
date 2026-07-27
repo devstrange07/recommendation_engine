@@ -1,0 +1,32 @@
+{
+  "id": "phone_025",
+  "name": "OnePlus Nord CE 6 Lite 5G",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "OnePlus Nord CE 6 Lite 5G — budget Nord for first 5G upgrades. Clean OxygenOS lite experience, adequate performance for social/media, and aggressive street pricing.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Nord CE 6 Lite",
+      "feature_text": "5G; OxygenOS; large battery; mid-range display; dual camera",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 18999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 18999.0
+  },
+  "price_max": {
+    "INR": 18999.0
+  },
+  "content_hash": "24797998098bb6acad2eda2386b49cc3676a0b60978feeede8765cfcb9fb19a1",
+  "needs_normalization": false
+}

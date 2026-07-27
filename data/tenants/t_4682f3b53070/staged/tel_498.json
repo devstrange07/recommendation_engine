@@ -1,0 +1,32 @@
+{
+  "id": "tel_498",
+  "name": "ESR HaloLock Wireless Car Charger 15W",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "ESR MagSafe 15W wireless car charger mount.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — HaloLock Car 15W",
+      "feature_text": "MagSafe 15W; vent mount; one-hand",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 3999.0
+  },
+  "price_max": {
+    "INR": 3999.0
+  },
+  "content_hash": "e6a72c0efae93b8f0d7207eaf5d34e0ffe39cb4f48a1b157138d12800f03bd0a",
+  "needs_normalization": true
+}

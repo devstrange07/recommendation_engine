@@ -1,0 +1,32 @@
+{
+  "id": "tel_102",
+  "name": "POCO M7 Pro 5G 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "POCO M7 Pro 5G — budget POCO with high refresh display for casual gaming.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — M7 Pro",
+      "feature_text": "5G; high refresh; large battery; HyperOS",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 16999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 16999.0
+  },
+  "price_max": {
+    "INR": 16999.0
+  },
+  "content_hash": "8dcc376d1c9edd3a143ebf7d39fcf8b7323fbcfe73d1519faf73d72629cf661b",
+  "needs_normalization": true
+}

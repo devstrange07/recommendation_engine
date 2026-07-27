@@ -1,0 +1,32 @@
+{
+  "id": "tel_193",
+  "name": "Apple Watch Series 11 GPS 42mm",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Apple Watch Series 11 GPS 42mm — health sensors, watchOS latest, and MagSafe-style charging for iPhone users.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Watch S11 GPS 42mm",
+      "feature_text": "watchOS; heart/SpO2; GPS; always-on display; swimproof",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 46900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 46900.0
+  },
+  "price_max": {
+    "INR": 46900.0
+  },
+  "content_hash": "fbd21eb8791510570b1056239c1490fcb463df8a04941aafdff637106bc0e15c",
+  "needs_normalization": true
+}

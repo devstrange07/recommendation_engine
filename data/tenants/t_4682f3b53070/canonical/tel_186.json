@@ -1,0 +1,60 @@
+{
+  "id": "tel_186",
+  "kind": "service",
+  "title": "Google Pixel 10 Pro Fold — Porcelain 16GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "Google Pixel 10 Pro Fold Porcelain 512GB. India retail SKU in Porcelain finish.",
+  "short_pitch": "Google Pixel 10 Pro Fold — Porcelain 16GB + 512GB — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 174785.0
+  },
+  "price_max": {
+    "INR": 174785.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Porcelain 16GB + 512GB",
+      "features": [
+        "512GB",
+        "book foldable",
+        "Pixel camera",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 174785.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "6b0abe2e47b1777ee9ba1401275ce793b9b95d3a5740fd69409f7dc38fa451fa",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel 10 Pro Fold — Porcelain 16GB + 512GB. Category: Electronics/Foldables. Google Pixel 10 Pro Fold Porcelain 512GB. India retail SKU in Porcelain finish. Pitch: Google Pixel 10 Pro Fold — Porcelain 16GB + 512GB — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — Porcelain 16GB + 512GB (one_time): 512GB; book foldable; Pixel camera; 5G",
+  "display_card": {
+    "INR": "₹174,785"
+  }
+}

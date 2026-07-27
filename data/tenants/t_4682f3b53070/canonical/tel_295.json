@@ -1,0 +1,60 @@
+{
+  "id": "tel_295",
+  "kind": "service",
+  "title": "Nothing Phone (4a) — Silver Shadow 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Nothing Phone (4a) with Glyph design and Nothing OS. India retail SKU in Silver Shadow finish.",
+  "short_pitch": "Nothing Phone (4a) — Silver Shadow 12GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Nothing"
+  ],
+  "price_min": {
+    "INR": 42999.0
+  },
+  "price_max": {
+    "INR": 42999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Silver Shadow 12GB + 512GB",
+      "features": [
+        "Nothing OS",
+        "Glyph design",
+        "AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 42999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "c6e2c3b773cead16a42bc02f1d0959b9d8433a0b7a24168dc56bbb475108f7bf",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Nothing Phone (4a) — Silver Shadow 12GB + 512GB. Category: Electronics/Smartphones. Nothing Phone (4a) with Glyph design and Nothing OS. India retail SKU in Silver Shadow finish. Pitch: Nothing Phone (4a) — Silver Shadow 12GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Nothing. Plans: Street — Silver Shadow 12GB + 512GB (one_time): Nothing OS; Glyph design; AMOLED; 5G",
+  "display_card": {
+    "INR": "₹42,999"
+  }
+}

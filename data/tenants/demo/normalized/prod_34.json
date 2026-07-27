@@ -1,0 +1,52 @@
+{
+  "product_id": "prod_34",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "patient appointment booking for clinics.",
+    "short_pitch": "ClinicSlot — scheduling for teams",
+    "category_path": "Scheduling/Appointments",
+    "use_case_tags": [
+      "appointment_booking",
+      "online_scheduling",
+      "client_reminders"
+    ],
+    "target_audience": [
+      "salon_spa",
+      "small_business",
+      "clinic_healthcare"
+    ],
+    "aliases": [
+      "ClinicSlot"
+    ],
+    "plan_features": {
+      "prod_34_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_34_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_34_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "cant_categorize",
+      "field": "category_path",
+      "issue": "Missing raw category; heuristic assigned best guess",
+      "options": [
+        "Scheduling/Appointments",
+        "CRM/Sales",
+        "Invoicing/Billing",
+        "Marketing/Email",
+        "Support/Helpdesk"
+      ],
+      "recommended": "Scheduling/Appointments"
+    }
+  ]
+}

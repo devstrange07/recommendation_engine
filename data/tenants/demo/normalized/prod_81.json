@@ -1,0 +1,45 @@
+{
+  "product_id": "prod_81",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "email marketing and segments Legacy edition.",
+    "short_pitch": "AudienceGlow (Legacy) — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "AudienceGlow"
+    ],
+    "plan_features": {
+      "prod_1_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_1_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "suspected_duplicate",
+      "field": "name",
+      "issue": "Product name looks like a legacy duplicate",
+      "options": [
+        "merge",
+        "retire",
+        "keep_both"
+      ],
+      "recommended": "merge"
+    }
+  ]
+}

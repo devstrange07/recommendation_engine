@@ -1,0 +1,92 @@
+{
+  "id": "prod_70",
+  "name": "Appointly Pro",
+  "category_raw": "Scheduling",
+  "description_text": "online booking pages and reminders",
+  "unit": "workspace",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_70_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_70_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": 30.359999999999996
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2698.5,
+          "discounted_amount": 2293.73
+        }
+      ]
+    },
+    {
+      "id": "prod_70_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 44.98,
+          "discounted_amount": 40.48
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1799.0,
+    "USD": 22.49
+  },
+  "price_max": {
+    "INR": 3598.0,
+    "USD": 44.98
+  },
+  "content_hash": "3e9d06509063378c603d0c6afb0ebe0d73406ef49ba501c63b04a68a783317e1",
+  "needs_normalization": false
+}

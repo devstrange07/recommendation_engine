@@ -1,0 +1,59 @@
+{
+  "id": "tel_369",
+  "kind": "service",
+  "title": "OPPO K14 5G 8GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OPPO K14 5G performance K-series.",
+  "short_pitch": "OPPO K14 5G 8GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OPPO"
+  ],
+  "price_min": {
+    "INR": 22999.0
+  },
+  "price_max": {
+    "INR": 22999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 128GB",
+      "features": [
+        "5G",
+        "high refresh",
+        "ColorOS"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 22999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ee3ef476275163026590fae6393b7a3b8bb1ff698d3bb5d8f313c64b179050ed",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OPPO K14 5G 8GB + 128GB. Category: Electronics/Smartphones. OPPO K14 5G performance K-series. Pitch: OPPO K14 5G 8GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OPPO. Plans: Street — 8GB + 128GB (one_time): 5G; high refresh; ColorOS",
+  "display_card": {
+    "INR": "₹22,999"
+  }
+}

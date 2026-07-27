@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_467",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Vivo V70 Tempered Glass tempered glass / film kit for Vivo V70.",
+    "short_pitch": "Vivo V70 Tempered Glass for Vivo V70 — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Vivo"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "9H tempered",
+        "oleophobic",
+        "Vivo V70 fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shiv_032",
+  "name": "Shivalik Navnidhi Bungalows — Satellite",
+  "category_raw": "Residential/Bungalows",
+  "description_text": "Bungalow unit in Shivalik Navnidhi Bungalows, Satellite. Legacy Shivalik Group low-rise inventory; suitable for end-users seeking quiet residential pocket with bungalow lifestyle.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Bungalow",
+      "feature_text": "Bungalow with parking and private outdoor space",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 26500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 26500000.0
+  },
+  "price_max": {
+    "INR": 26500000.0
+  },
+  "content_hash": "a74a7e47227fa31d223e32dcbb1f2b2c74430cf710535206bd50dcea35105d77",
+  "needs_normalization": true
+}

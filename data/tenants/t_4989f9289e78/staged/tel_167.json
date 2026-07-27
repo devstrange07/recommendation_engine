@@ -1,0 +1,32 @@
+{
+  "id": "tel_167",
+  "name": "Nothing Ear (3)",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Nothing Ear (3) — transparent-design ANC earbuds with Nothing OS companion features.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ear (3)",
+      "feature_text": "ANC; transparent design; Nothing X app; USB-C",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 11999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 11999.0
+  },
+  "price_max": {
+    "INR": 11999.0
+  },
+  "content_hash": "a86241f556597579e6de7bc2c2361ad6bd4227617e0f55eeb1fba49130e1d424",
+  "needs_normalization": true
+}

@@ -1,0 +1,54 @@
+{
+  "product_id": "prod_64",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Entry-level starter tool for beginners only. Basic free tier features. support knowledge and tickets.",
+    "short_pitch": "AssistHub Pro Suite — support for teams",
+    "category_path": "Support/Helpdesk",
+    "use_case_tags": [
+      "ticket_management",
+      "live_chat"
+    ],
+    "target_audience": [
+      "saas_startup",
+      "ecommerce",
+      "enterprise"
+    ],
+    "aliases": [
+      "AssistHub"
+    ],
+    "plan_features": {
+      "prod_64_plan_0": [
+        "Same features as listed on website"
+      ],
+      "prod_64_plan_1": [
+        "Same features as listed on website"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "contradiction",
+      "field": "name_vs_description",
+      "issue": "Name suggests premium suite but description describes entry-level",
+      "options": [
+        "keep_name",
+        "rename_to_basic",
+        "rewrite_description"
+      ],
+      "recommended": "rewrite_description"
+    },
+    {
+      "type": "plans_indistinguishable",
+      "field": "plans",
+      "issue": "Plan feature_text values are identical",
+      "options": [
+        "Pro",
+        "Basic",
+        "differentiate_manually"
+      ],
+      "recommended": "differentiate_manually"
+    }
+  ]
+}

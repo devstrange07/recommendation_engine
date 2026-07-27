@@ -1,0 +1,59 @@
+{
+  "id": "tel_198",
+  "kind": "service",
+  "title": "Fire-Boltt Invincible Plus",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Fire-Boltt Invincible Plus — AMOLED Bluetooth-calling smartwatch for budget fitness buyers.",
+  "short_pitch": "Fire-Boltt Invincible Plus — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Fire-Boltt"
+  ],
+  "price_min": {
+    "INR": 3499.0
+  },
+  "price_max": {
+    "INR": 3499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Invincible Plus",
+      "features": [
+        "AMOLED",
+        "BT calling",
+        "sports modes",
+        "value pricing"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "fb167edf995c93f7605c756f68a57165e00450ced89e69175f736b2cb7701129",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Fire-Boltt Invincible Plus. Category: Electronics/Accessories. Fire-Boltt Invincible Plus — AMOLED Bluetooth-calling smartwatch for budget fitness buyers. Pitch: Fire-Boltt Invincible Plus — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Fire-Boltt. Plans: Street — Invincible Plus (one_time): AMOLED; BT calling; sports modes; value pricing",
+  "display_card": {
+    "INR": "₹3,499"
+  }
+}

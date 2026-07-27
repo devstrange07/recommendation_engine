@@ -1,0 +1,32 @@
+{
+  "id": "tel_356",
+  "name": "POCO F7 Pro — Aurora Purple 12GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "POCO F7 Pro with near-flagship Snapdragon performance. India retail SKU in Aurora Purple finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Aurora Purple 12GB + 256GB",
+      "feature_text": "Near-flagship SoC; AMOLED; HyperOS; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 42999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 42999.0
+  },
+  "price_max": {
+    "INR": 42999.0
+  },
+  "content_hash": "cdbe97efdb591cbaed785362e94ab45343525eb0dcb2f9e435d2e6bad796f1fd",
+  "needs_normalization": true
+}

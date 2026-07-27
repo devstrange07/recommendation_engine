@@ -1,0 +1,86 @@
+{
+  "id": "prod_29",
+  "name": "BillCraft",
+  "category_raw": "Billing",
+  "description_text": "BEST IN CLASS!! professional invoice generator Amazing ROI World-class support Limited time offer — act NOW!!!",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_29_plan_0",
+      "name": "Business",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": 26.549999999999997
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 31.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 24.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_29_plan_1",
+      "name": "Basic",
+      "feature_text": "Same features as listed on website",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 37.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": 2998.8
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3748.5,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 26.549999999999997,
+    "GBP": 24.99,
+    "INR": 2499.0
+  },
+  "price_max": {
+    "USD": 31.24,
+    "GBP": 37.48,
+    "INR": 3748.5
+  },
+  "content_hash": "76355997c6a91d4531aaa170a7fe9f7416e313b59544bd42ef120ebed67e1886",
+  "needs_normalization": false
+}

@@ -1,0 +1,37 @@
+{
+  "product_id": "prod_25",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "visual deal board for small sales teams.",
+    "short_pitch": "DealBoard — crm for teams",
+    "category_path": "CRM/Sales",
+    "use_case_tags": [
+      "lead_tracking",
+      "pipeline_management"
+    ],
+    "target_audience": [
+      "small_business",
+      "agency",
+      "saas_startup"
+    ],
+    "aliases": [
+      "DealBoard"
+    ],
+    "plan_features": {
+      "prod_25_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_25_plan_1": [
+        "API access",
+        "priority support"
+      ],
+      "prod_25_plan_2": [
+        "Multi-location",
+        "role-based access"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

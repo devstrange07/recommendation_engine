@@ -1,0 +1,32 @@
+{
+  "id": "tel_170",
+  "name": "OnePlus Buds 4r",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "OnePlus Buds 4r — value OnePlus earbuds for Nord and mid-range phone buyers.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds 4r",
+      "feature_text": "ANC lite; fast charge; USB-C; value pricing",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 4999.0
+  },
+  "price_max": {
+    "INR": 4999.0
+  },
+  "content_hash": "df24fdc7c3e15b0ed820cfc88b17550af7725552a53e0891976cbe853647142a",
+  "needs_normalization": true
+}

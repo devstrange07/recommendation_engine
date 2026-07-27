@@ -1,0 +1,60 @@
+{
+  "id": "tel_306",
+  "kind": "service",
+  "title": "Motorola Edge 70 — Ocean Blue 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Motorola Edge 70 mid-premium with near-stock Android. India retail SKU in Ocean Blue finish.",
+  "short_pitch": "Motorola Edge 70 — Ocean Blue 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Motorola"
+  ],
+  "price_min": {
+    "INR": 27999.0
+  },
+  "price_max": {
+    "INR": 27999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Ocean Blue 8GB + 256GB",
+      "features": [
+        "Near-stock Android",
+        "AMOLED",
+        "large battery",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 27999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "e46b279352a79e4bf22479a2b3bd6e9bc1336061faf1680f7a27735b169ce81e",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Motorola Edge 70 — Ocean Blue 8GB + 256GB. Category: Electronics/Smartphones. Motorola Edge 70 mid-premium with near-stock Android. India retail SKU in Ocean Blue finish. Pitch: Motorola Edge 70 — Ocean Blue 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Motorola. Plans: Street — Ocean Blue 8GB + 256GB (one_time): Near-stock Android; AMOLED; large battery; 5G",
+  "display_card": {
+    "INR": "₹27,999"
+  }
+}

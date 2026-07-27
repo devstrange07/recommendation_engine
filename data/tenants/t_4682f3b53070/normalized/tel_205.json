@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_205",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy S26 Plus value flagship with large AMOLED and Galaxy AI. India retail SKU in Silver Shadow finish.",
+    "short_pitch": "Samsung Galaxy S26 Plus — Silver Shadow 12GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Large AMOLED",
+        "flagship chipset",
+        "Galaxy AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

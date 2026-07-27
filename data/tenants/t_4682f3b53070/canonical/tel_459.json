@@ -1,0 +1,58 @@
+{
+  "id": "tel_459",
+  "kind": "service",
+  "title": "POCO F7 Pro Hard Case for POCO F7 Pro",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "POCO F7 Pro Hard Case protective case for POCO F7 Pro — India retail accessory SKU.",
+  "short_pitch": "POCO F7 Pro Hard Case for POCO F7 Pro — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "POCO"
+  ],
+  "price_min": {
+    "INR": 799.0
+  },
+  "price_max": {
+    "INR": 799.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — POCO Case",
+      "features": [
+        "Drop protection",
+        "precise cutouts",
+        "POCO F7 Pro fit"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 799.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "f3aae5041036b18487b46b6a19e4c1c2f1f5ccd7c177fdb3c209a9b0735bd31f",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "POCO F7 Pro Hard Case for POCO F7 Pro. Category: Electronics/Accessories. POCO F7 Pro Hard Case protective case for POCO F7 Pro — India retail accessory SKU. Pitch: POCO F7 Pro Hard Case for POCO F7 Pro — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: POCO. Plans: Street — POCO Case (one_time): Drop protection; precise cutouts; POCO F7 Pro fit",
+  "display_card": {
+    "INR": "₹799"
+  }
+}

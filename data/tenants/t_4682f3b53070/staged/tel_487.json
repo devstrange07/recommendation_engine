@@ -1,0 +1,32 @@
+{
+  "id": "tel_487",
+  "name": "Samsung Galaxy Buds2 Pro",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Samsung Galaxy Buds2 Pro prior Buds still popular at discount.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Buds2 Pro",
+      "feature_text": "ANC; 360 audio; IPX7; USB-C",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 9999.0
+  },
+  "price_max": {
+    "INR": 9999.0
+  },
+  "content_hash": "48c7b5ae2e8e59d7b03875848090966696627f208f96ee115efc758524f9541d",
+  "needs_normalization": true
+}

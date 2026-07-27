@@ -1,0 +1,94 @@
+{
+  "id": "prod_35",
+  "name": "LeadNest",
+  "category_raw": "CRM",
+  "description_text": "BEST IN CLASS!! CRM for tracking leads and deals Amazing ROI World-class support Limited time offer — act NOW!!!",
+  "unit": null,
+  "kb_article": "https://kb.example.com/prod_35",
+  "plans": [
+    {
+      "id": "prod_35_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 4.24
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        },
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 3.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_35_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": 7.959999999999999
+        }
+      ]
+    },
+    {
+      "id": "prod_35_plan_2",
+      "name": "Business",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 998.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.47,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "GBP": 3.99,
+    "USD": 6.24,
+    "INR": 998.0
+  },
+  "price_max": {
+    "GBP": 7.49,
+    "USD": 12.47,
+    "INR": 998.0
+  },
+  "content_hash": "d2f7c35c47d6b4508c0792a115c852e68fd32e6fa78fdf9fadb187207b4504fd",
+  "needs_normalization": false
+}

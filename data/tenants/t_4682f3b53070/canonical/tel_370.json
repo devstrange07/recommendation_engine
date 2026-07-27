@@ -1,0 +1,59 @@
+{
+  "id": "tel_370",
+  "kind": "service",
+  "title": "Redmi 15 5G 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Redmi 15 5G 256GB.",
+  "short_pitch": "Redmi 15 5G 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Redmi"
+  ],
+  "price_min": {
+    "INR": 14999.0
+  },
+  "price_max": {
+    "INR": 14999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "features": [
+        "256GB",
+        "5G",
+        "HyperOS"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "2d291a0895a13381bd9fb20e53cab5e188448b64c73b8fcb637d38d49aa3c1d3",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Redmi 15 5G 8GB + 256GB. Category: Electronics/Smartphones. Redmi 15 5G 256GB. Pitch: Redmi 15 5G 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Redmi. Plans: Street — 8GB + 256GB (one_time): 256GB; 5G; HyperOS",
+  "display_card": {
+    "INR": "₹14,999"
+  }
+}

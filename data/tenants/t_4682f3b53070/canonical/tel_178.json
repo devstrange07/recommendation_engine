@@ -1,0 +1,60 @@
+{
+  "id": "tel_178",
+  "kind": "service",
+  "title": "Google Pixel Fold 256GB 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "Google Pixel Fold first-gen at deep discount after Pixel 10 Pro Fold.",
+  "short_pitch": "Google Pixel Fold 256GB 256GB — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Google"
+  ],
+  "price_min": {
+    "INR": 89999.0
+  },
+  "price_max": {
+    "INR": 89999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 256GB",
+      "features": [
+        "Book foldable",
+        "Pixel camera",
+        "Tensor",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 89999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "b7b7e1a11e594933ccef8fc82c3bd287fd78325f3ff0ed306f0de0ce484675eb",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Google Pixel Fold 256GB 256GB. Category: Electronics/Foldables. Google Pixel Fold first-gen at deep discount after Pixel 10 Pro Fold. Pitch: Google Pixel Fold 256GB 256GB — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: Google. Plans: Street — 256GB (one_time): Book foldable; Pixel camera; Tensor; 5G",
+  "display_card": {
+    "INR": "₹89,999"
+  }
+}

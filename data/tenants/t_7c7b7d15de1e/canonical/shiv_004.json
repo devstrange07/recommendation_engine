@@ -1,0 +1,61 @@
+{
+  "id": "shiv_004",
+  "kind": "service",
+  "title": "Shivalik Legacy — 5 BHK, Bodakdev",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "5 BHK luxury apartment at Shivalik Legacy, Bodakdev. Flagship residential offering by Shivalik Group for large families seeking Bodakdev address with club amenities and covered parking.",
+  "short_pitch": "Shivalik Legacy — 5 BHK, Bodakdev — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 62000000.0
+  },
+  "price_max": {
+    "INR": 62000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 5 BHK",
+      "features": [
+        "Large format luxury unit",
+        "clubhouse",
+        "gym",
+        "landscaped garden",
+        "multi-level parking"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 62000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ccf70a10c067f3e4a8ae209fa6be25456a3489644dc8f255836161d8fa57a50f",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Legacy — 5 BHK, Bodakdev. Category: Residential/Apartments. 5 BHK luxury apartment at Shivalik Legacy, Bodakdev. Flagship residential offering by Shivalik Group for large families seeking Bodakdev address with club amenities and covered parking. Pitch: Shivalik Legacy — 5 BHK, Bodakdev — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 5 BHK (one_time): Large format luxury unit; clubhouse; gym; landscaped garden; multi-level parking",
+  "display_card": {
+    "INR": "₹62,000,000"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_183",
+  "name": "Samsung Galaxy Z Flip7 — Mint 8GB + 256GB",
+  "category_raw": "Electronics/Foldables",
+  "description_text": "Samsung Galaxy Z Flip7 clamshell in Mint finish. India retail SKU in Mint finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Mint 8GB + 256GB",
+      "feature_text": "Clamshell foldable; cover screen; Galaxy AI; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "content_hash": "255c160d30d527be5059436506a3443b18c4fc65747a6bb47a952dd14168ddb3",
+  "needs_normalization": true
+}

@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_383",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Lava Blaze 3 5G — Made-in-India 5G with clean UI.",
+    "short_pitch": "Lava Blaze 3 5G 6GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Lava"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "Made in India",
+        "large battery"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

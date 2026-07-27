@@ -1,0 +1,94 @@
+{
+  "id": "prod_8",
+  "name": "BillWave",
+  "category_raw": "Billing",
+  "description_text": "BEST IN CLASS!! subscription billing invoices Amazing ROI World-class support Limited time offer — act NOW!!!",
+  "unit": "location",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_8_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 12.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": 899.1
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": 849.15
+        }
+      ]
+    },
+    {
+      "id": "prod_8_plan_1",
+      "name": "Annual Plus",
+      "feature_text": "API access, priority support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 18.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1498.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_8_plan_2",
+      "name": "Pro",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 19.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.98,
+          "discounted_amount": 21.23
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 24.98,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 12.49,
+    "INR": 849.15,
+    "GBP": 19.98
+  },
+  "price_max": {
+    "USD": 24.98,
+    "INR": 1498.5,
+    "GBP": 19.98
+  },
+  "content_hash": "219b416cc481b6d0a332b78506196fe1a2606c12e771144cbd6244ae2fabce1a",
+  "needs_normalization": false
+}

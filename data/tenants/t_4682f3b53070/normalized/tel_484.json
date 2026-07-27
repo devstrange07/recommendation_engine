@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_484",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Replacement strap 3-pack for Noise ColorFit Pro 5 Max.",
+    "short_pitch": "Noise ColorFit Pro 5 Max Strap Pack — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Noise"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "3 straps",
+        "quick release",
+        "ColorFit fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

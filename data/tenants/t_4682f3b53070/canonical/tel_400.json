@@ -1,0 +1,59 @@
+{
+  "id": "tel_400",
+  "kind": "service",
+  "title": "OPPO A58 4G 6GB + 128GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "OPPO A58 4G value 4G for budget buyers.",
+  "short_pitch": "OPPO A58 4G 6GB + 128GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "OPPO"
+  ],
+  "price_min": {
+    "INR": 11999.0
+  },
+  "price_max": {
+    "INR": 11999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 6GB + 128GB",
+      "features": [
+        "Large battery",
+        "ColorOS",
+        "dual camera"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 11999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "9c9ba72df6a05815d2c3ed6c3dff8584efb2680937b609572ec266ad0240fc94",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OPPO A58 4G 6GB + 128GB. Category: Electronics/Smartphones. OPPO A58 4G value 4G for budget buyers. Pitch: OPPO A58 4G 6GB + 128GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: OPPO. Plans: Street — 6GB + 128GB (one_time): Large battery; ColorOS; dual camera",
+  "display_card": {
+    "INR": "₹11,999"
+  }
+}

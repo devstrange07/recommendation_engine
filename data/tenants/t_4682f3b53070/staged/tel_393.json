@@ -1,0 +1,32 @@
+{
+  "id": "tel_393",
+  "name": "itel S24 Plus 5G 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "itel S24 Plus 5G — stylish budget itel with AMOLED.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "feature_text": "AMOLED; 5G; dual camera; value pricing",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 14999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 14999.0
+  },
+  "price_max": {
+    "INR": 14999.0
+  },
+  "content_hash": "deecbf7b2807028e7232e6e5d8082d2b23f88eeb39f4a2d92ba8594b99c0cd9a",
+  "needs_normalization": true
+}

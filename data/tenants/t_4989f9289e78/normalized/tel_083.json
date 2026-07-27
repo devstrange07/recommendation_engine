@@ -1,0 +1,32 @@
+{
+  "product_id": "tel_083",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Moto G96 5G — volume G-series 5G for budget first-time upgrades.",
+    "short_pitch": "Moto G96 5G 8GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Moto"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "5G",
+        "large battery",
+        "near-stock Android",
+        "dual camera"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_382",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "itel A70 4G — entry itel for first smartphone buyers.",
+    "short_pitch": "itel A70 4G 4GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "itel"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Large battery",
+        "dual camera",
+        "value pricing"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

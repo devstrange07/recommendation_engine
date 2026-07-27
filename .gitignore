@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+data/raw/
+data/staged/
+data/normalized/
+data/canonical/
+data/overrides/
+data/review_queue.jsonl
+data/dead_letter.jsonl
+data/hash_ledger.json
+*.egg-info/
+.DS_Store

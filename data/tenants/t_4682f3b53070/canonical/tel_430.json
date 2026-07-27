@@ -1,0 +1,59 @@
+{
+  "id": "tel_430",
+  "kind": "service",
+  "title": "3M Tempered Glass for iPhone 17 / 17 Pro (2-pack)",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "3M tempered glass screen protector 2-pack for iPhone 17 and 17 Pro with alignment tray.",
+  "short_pitch": "3M Tempered Glass for iPhone 17 / 17 Pro (2-pack) — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "3M"
+  ],
+  "price_min": {
+    "INR": 1499.0
+  },
+  "price_max": {
+    "INR": 1499.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 3M Glass 17 2-pack",
+      "features": [
+        "9H tempered",
+        "oleophobic",
+        "alignment tray",
+        "2-pack"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "edfefa2b715c07104ce25c4459fc4bf0c924d3813fcd34b9fab46b4d197ecc3c",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "3M Tempered Glass for iPhone 17 / 17 Pro (2-pack). Category: Electronics/Accessories. 3M tempered glass screen protector 2-pack for iPhone 17 and 17 Pro with alignment tray. Pitch: 3M Tempered Glass for iPhone 17 / 17 Pro (2-pack) — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: 3M. Plans: Street — 3M Glass 17 2-pack (one_time): 9H tempered; oleophobic; alignment tray; 2-pack",
+  "display_card": {
+    "INR": "₹1,499"
+  }
+}

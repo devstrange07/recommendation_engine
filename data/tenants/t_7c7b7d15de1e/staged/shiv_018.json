@@ -1,0 +1,32 @@
+{
+  "id": "shiv_018",
+  "name": "Shivalik Sharda Park View — 3 BHK, Shela",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK at Shivalik Sharda Park View / Parkview, Shela, Ahmedabad. Compact RERA area ~817–822 sq ft. Popular Shivalik Group mid–premium address in west Ahmedabad's Shela growth pocket with ground retail in the mixed-use campus.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK",
+      "feature_text": "RA ~820 sq ft; parking, security, lifts, nearby retail in project",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 7500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 7500000.0
+  },
+  "price_max": {
+    "INR": 7500000.0
+  },
+  "content_hash": "b1b0941a6a9c8546ec98bec9b9ca5856a786e35c0c591052025e7fa8cf43f1c9",
+  "needs_normalization": true
+}

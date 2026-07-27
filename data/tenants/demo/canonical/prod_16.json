@@ -1,0 +1,127 @@
+{
+  "id": "prod_16",
+  "kind": "service",
+  "title": "LetterLane",
+  "brand_or_provider": null,
+  "category_path": "Marketing/Email",
+  "clean_description": "simple newsletter tool.",
+  "short_pitch": "LetterLane — marketing for teams",
+  "use_case_tags": [
+    "email_campaigns",
+    "audience_segmentation"
+  ],
+  "target_audience": [
+    "ecommerce",
+    "small_business",
+    "agency"
+  ],
+  "aliases": [
+    "LetterLane"
+  ],
+  "price_min": {
+    "USD": 31.87,
+    "GBP": 29.99,
+    "INR": 2999.0
+  },
+  "price_max": {
+    "USD": 63.72,
+    "GBP": 59.98,
+    "INR": 3598.8
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_16_plan_0",
+      "name": "Annual Plus",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 31.87
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 29.99,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_16_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": 47.8
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": 3598.8
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 56.23,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_16_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 59.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": 63.72
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "81694b056de2904e0de5ac50806e2a9ad834abedbf6df07b2a7b5f0fd80913f3",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "LetterLane. Category: Marketing/Email. simple newsletter tool. Pitch: LetterLane — marketing for teams. Use cases: email_campaigns, audience_segmentation. Audience: ecommerce, small_business, agency. Aliases: LetterLane. Plans: Annual Plus (annual): Up to 2 users; email support | Pro (monthly): API access; priority support | Business (one_time): Multi-location; role-based access",
+  "display_card": {
+    "INR": "₹2,999/yr",
+    "GBP": "£30/yr",
+    "USD": "$32/yr"
+  }
+}

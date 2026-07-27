@@ -1,0 +1,33 @@
+{
+  "product_id": "prod_9",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "audience segmentation email —.",
+    "short_pitch": "SegmentSpark — marketing for teams",
+    "category_path": "Marketing/Email",
+    "use_case_tags": [
+      "email_campaigns",
+      "audience_segmentation"
+    ],
+    "target_audience": [
+      "ecommerce",
+      "small_business",
+      "agency"
+    ],
+    "aliases": [
+      "SegmentSpark"
+    ],
+    "plan_features": {
+      "prod_9_plan_0": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "prod_9_plan_1": [
+        "API access",
+        "priority support"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

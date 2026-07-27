@@ -1,0 +1,42 @@
+{
+  "product_id": "user_f3105998",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Leads and pipeline.",
+    "short_pitch": "Paste Test CRM — crm for teams",
+    "category_path": "CRM/Sales",
+    "use_case_tags": [
+      "lead_tracking",
+      "pipeline_management"
+    ],
+    "target_audience": [
+      "small_business",
+      "agency",
+      "saas_startup"
+    ],
+    "aliases": [
+      "Paste"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Pro tier"
+      ]
+    }
+  },
+  "confidence": 0.55,
+  "flags": [
+    {
+      "type": "cant_categorize",
+      "field": "category_path",
+      "issue": "Missing raw category; heuristic assigned best guess",
+      "options": [
+        "Scheduling/Appointments",
+        "CRM/Sales",
+        "Invoicing/Billing",
+        "Marketing/Email",
+        "Support/Helpdesk"
+      ],
+      "recommended": "CRM/Sales"
+    }
+  ]
+}

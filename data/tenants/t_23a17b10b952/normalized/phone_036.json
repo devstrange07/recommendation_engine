@@ -1,0 +1,33 @@
+{
+  "product_id": "phone_036",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "POCO X8 Pro Max — best gaming phone pick in mid-2026 India roundups under ₹50k. High-refresh display, strong SoC cooling, and HyperOS/MIUI gaming tools for PUBG/BGMI and heavy titles.",
+    "short_pitch": "POCO X8 Pro Max — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "POCO"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Gaming SoC",
+        "high-refresh AMOLED",
+        "large battery",
+        "fast charge",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

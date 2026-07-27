@@ -1,0 +1,80 @@
+{
+  "id": "prod_65",
+  "name": "TicketBay",
+  "category_raw": "Support",
+  "description_text": "helpdesk ticketing system",
+  "unit": "workspace",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_65_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 499.0,
+          "discounted_amount": 399.2
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 4.99,
+          "discounted_amount": 3.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 6.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_65_plan_1",
+      "name": "Annual Plus",
+      "feature_text": "API access, priority support",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 7.49,
+          "discounted_amount": 5.99
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": 7.489999999999999
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 9.36,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 748.5,
+          "discounted_amount": 598.8
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 399.2,
+    "GBP": 3.99,
+    "USD": 6.24
+  },
+  "price_max": {
+    "INR": 598.8,
+    "GBP": 5.99,
+    "USD": 9.36
+  },
+  "content_hash": "735cb863db18565a68bedea08c4efd98a84b06938c4153013f33d335a21283c0",
+  "needs_normalization": false
+}

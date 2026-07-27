@@ -1,0 +1,58 @@
+{
+  "id": "tel_489",
+  "kind": "service",
+  "title": "OnePlus Warp Charge 100W Cable",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "OnePlus Warp Charge 100W braided USB-C cable for SUPERVOOC phones.",
+  "short_pitch": "OnePlus Warp Charge 100W Cable — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "OnePlus"
+  ],
+  "price_min": {
+    "INR": 999.0
+  },
+  "price_max": {
+    "INR": 999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Warp 100W Cable",
+      "features": [
+        "100W SUPERVOOC",
+        "braided",
+        "USB-C"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "03db55fd03c5c8546b7a457c84b95851b1b5c5ab29ef566a0fabc7fc8017ad20",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "OnePlus Warp Charge 100W Cable. Category: Electronics/Accessories. OnePlus Warp Charge 100W braided USB-C cable for SUPERVOOC phones. Pitch: OnePlus Warp Charge 100W Cable — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: OnePlus. Plans: Street — Warp 100W Cable (one_time): 100W SUPERVOOC; braided; USB-C",
+  "display_card": {
+    "INR": "₹999"
+  }
+}

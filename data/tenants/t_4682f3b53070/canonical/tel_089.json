@@ -1,0 +1,61 @@
+{
+  "id": "tel_089",
+  "kind": "service",
+  "title": "Xiaomi 15 Ultra 16GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Xiaomi 15 Ultra — camera flagship with Leica Summilux optics and variable aperture.",
+  "short_pitch": "Xiaomi 15 Ultra 16GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Xiaomi"
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 15 Ultra",
+      "features": [
+        "Leica Summilux",
+        "flagship SoC",
+        "HyperOS",
+        "AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "afded4242d55fa84c09947203276c169b25a2029cd975f8b595a75710ff89e4d",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Xiaomi 15 Ultra 16GB + 512GB. Category: Electronics/Smartphones. Xiaomi 15 Ultra — camera flagship with Leica Summilux optics and variable aperture. Pitch: Xiaomi 15 Ultra 16GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Xiaomi. Plans: Street — 15 Ultra (one_time): Leica Summilux; flagship SoC; HyperOS; AMOLED; 5G",
+  "display_card": {
+    "INR": "₹109,999"
+  }
+}

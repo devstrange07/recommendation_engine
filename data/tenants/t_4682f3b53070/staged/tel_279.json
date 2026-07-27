@@ -1,0 +1,32 @@
+{
+  "id": "tel_279",
+  "name": "Vivo X300 Pro — Forest Green 16GB + 512GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Vivo X300 Pro camera flagship with Zeiss optics. India retail SKU in Forest Green finish.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Forest Green 16GB + 512GB",
+      "feature_text": "Zeiss camera; flagship SoC; AMOLED; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "content_hash": "d3f47e5669fb5d4bc156a425fa92bf2e30e4df2280d056b865874396d413109d",
+  "needs_normalization": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tel_163",
+  "name": "Apple iPhone 15 Pro 128GB 128GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Apple iPhone 15 Pro 128GB — prior Pro at reduced street pricing.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 128GB",
+      "feature_text": "Pro camera; titanium; Action Button; 5G",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 99900.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 99900.0
+  },
+  "price_max": {
+    "INR": 99900.0
+  },
+  "content_hash": "313d2a43140e15c56ef63145343f3acda1f8c4689f0cf27cec4cb3dac37ddcda",
+  "needs_normalization": true
+}

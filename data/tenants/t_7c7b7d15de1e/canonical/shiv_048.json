@@ -1,0 +1,60 @@
+{
+  "id": "shiv_048",
+  "kind": "service",
+  "title": "Shivalik Park Lane — Retail Unit, Ambawadi",
+  "brand_or_provider": null,
+  "category_path": "Commercial/Retail",
+  "clean_description": "Retail unit at Shivalik Park Lane, Keshavbaug / Ambawadi. Mixed-use redevelopment retail by Shivalik Group; RERA area in ~375–1860 sq ft project band. Urban high-street style exposure in Ambawadi.",
+  "short_pitch": "Shivalik Park Lane — Retail Unit, Ambawadi — commercial listing",
+  "use_case_tags": [
+    "retail_frontage",
+    "sale",
+    "investment"
+  ],
+  "target_audience": [
+    "retailer",
+    "investor",
+    "sme_office"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 9800000.0
+  },
+  "price_max": {
+    "INR": 9800000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — Retail",
+      "features": [
+        "Street-facing retail",
+        "parking nearby",
+        "CCTV",
+        "power backup"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9800000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "17070d74db8f084939962f7598d5bf7fb5c8adb8278694f9dab9d597429a8918",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Park Lane — Retail Unit, Ambawadi. Category: Commercial/Retail. Retail unit at Shivalik Park Lane, Keshavbaug / Ambawadi. Mixed-use redevelopment retail by Shivalik Group; RERA area in ~375–1860 sq ft project band. Urban high-street style exposure in Ambawadi. Pitch: Shivalik Park Lane — Retail Unit, Ambawadi — commercial listing. Use cases: retail_frontage, sale, investment. Audience: retailer, investor, sme_office. Aliases: Shivalik. Plans: Sale — Retail (one_time): Street-facing retail; parking nearby; CCTV; power backup",
+  "display_card": {
+    "INR": "₹9,800,000"
+  }
+}

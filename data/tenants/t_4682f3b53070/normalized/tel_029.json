@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_029",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Google Pixel 10 Pro 512GB for power users who keep large media libraries on device.",
+    "short_pitch": "Google Pixel 10 Pro 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Google"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "512GB",
+        "Pro camera",
+        "Tensor",
+        "Pixel AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

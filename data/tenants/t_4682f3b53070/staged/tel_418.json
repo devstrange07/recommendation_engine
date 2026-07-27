@@ -1,0 +1,32 @@
+{
+  "id": "tel_418",
+  "name": "Xiaomi 67W HyperCharge Combo",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Xiaomi 67W HyperCharge adapter + cable combo for Redmi/Xiaomi/POCO fast charging.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — 67W Combo",
+      "feature_text": "67W HyperCharge; USB-C cable included; Mi certified",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "4455e1ac0ed218428a46c41640f8d779a4682c9ae190c1fe9c22fd4965562d91",
+  "needs_normalization": true
+}

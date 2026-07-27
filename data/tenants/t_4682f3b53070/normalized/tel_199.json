@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_199",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Samsung Galaxy S26 Ultra flagship with Snapdragon 8 Elite Gen 5 and 200MP camera. India retail SKU in Forest Green finish.",
+    "short_pitch": "Samsung Galaxy S26 Ultra — Forest Green 12GB + 512GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Samsung"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "200MP camera",
+        "Snapdragon 8 Elite Gen 5",
+        "AMOLED",
+        "S Pen",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

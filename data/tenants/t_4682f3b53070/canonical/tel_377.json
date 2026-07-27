@@ -1,0 +1,60 @@
+{
+  "id": "tel_377",
+  "kind": "service",
+  "title": "Nokia G42 5G 8GB + 256GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Nokia G42 5G — durable mid-ranger with clean Android and long update promise.",
+  "short_pitch": "Nokia G42 5G 8GB + 256GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Nokia"
+  ],
+  "price_min": {
+    "INR": 18999.0
+  },
+  "price_max": {
+    "INR": 18999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 8GB + 256GB",
+      "features": [
+        "5G",
+        "stock Android",
+        "large battery",
+        "dual camera"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 18999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "65a0740ae0c72a1e5540253a0ae455b07da00a3e72caeb1b143ba7dbd770d96a",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Nokia G42 5G 8GB + 256GB. Category: Electronics/Smartphones. Nokia G42 5G — durable mid-ranger with clean Android and long update promise. Pitch: Nokia G42 5G 8GB + 256GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Nokia. Plans: Street — 8GB + 256GB (one_time): 5G; stock Android; large battery; dual camera",
+  "display_card": {
+    "INR": "₹18,999"
+  }
+}

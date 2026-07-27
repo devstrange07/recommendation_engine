@@ -1,0 +1,32 @@
+{
+  "id": "tel_469",
+  "name": "Samsung Z Flip7 Inner+Outer Film Kit for Samsung Galaxy Z Flip7",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Samsung Z Flip7 Inner+Outer Film Kit tempered glass / film kit for Samsung Galaxy Z Flip7.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Glass for Samsung",
+      "feature_text": "9H tempered; oleophobic; Samsung Galaxy Z Flip7 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "a8dd31b5aad47e14c3ece4f0da8af900eb502cd8a4e42977695f571605b7e744",
+  "needs_normalization": true
+}

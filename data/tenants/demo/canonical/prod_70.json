@@ -1,0 +1,125 @@
+{
+  "id": "prod_70",
+  "kind": "service",
+  "title": "Appointly Pro",
+  "brand_or_provider": null,
+  "category_path": "Scheduling/Appointments",
+  "clean_description": "online booking pages and reminders.",
+  "short_pitch": "Appointly Pro — scheduling for teams",
+  "use_case_tags": [
+    "appointment_booking",
+    "online_scheduling",
+    "client_reminders"
+  ],
+  "target_audience": [
+    "salon_spa",
+    "small_business",
+    "clinic_healthcare"
+  ],
+  "aliases": [
+    "Appointly"
+  ],
+  "price_min": {
+    "INR": 1799.0,
+    "USD": 22.49
+  },
+  "price_max": {
+    "INR": 3598.0,
+    "USD": 44.98
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "prod_70_plan_0",
+      "name": "Basic",
+      "features": [
+        "Up to 2 users",
+        "email support"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1799.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_70_plan_1",
+      "name": "Pro",
+      "features": [
+        "API access",
+        "priority support"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": 30.359999999999996
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2698.5,
+          "discounted_amount": 2293.73
+        }
+      ]
+    },
+    {
+      "id": "prod_70_plan_2",
+      "name": "Business",
+      "features": [
+        "Multi-location",
+        "role-based access"
+      ],
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 44.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 3598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 44.98,
+          "discounted_amount": 40.48
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "3e9d06509063378c603d0c6afb0ebe0d73406ef49ba501c63b04a68a783317e1",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Appointly Pro. Category: Scheduling/Appointments. online booking pages and reminders. Pitch: Appointly Pro — scheduling for teams. Use cases: appointment_booking, online_scheduling, client_reminders. Audience: salon_spa, small_business, clinic_healthcare. Aliases: Appointly. Plans: Basic (one_time): Up to 2 users; email support | Pro (monthly): API access; priority support | Business (monthly): Multi-location; role-based access",
+  "display_card": {
+    "USD": "$22",
+    "INR": "₹1,799"
+  }
+}

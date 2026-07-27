@@ -1,0 +1,33 @@
+{
+  "product_id": "tel_155",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Google Pixel 10 Pro Fold — Google's book foldable with Pixel camera and AI on both screens.",
+    "short_pitch": "Google Pixel 10 Pro Fold 16GB + 256GB — device",
+    "category_path": "Electronics/Foldables",
+    "use_case_tags": [
+      "flagship",
+      "compact",
+      "daily_driver"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "Google"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Book foldable",
+        "Pixel camera",
+        "Tensor",
+        "Pixel AI",
+        "5G"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

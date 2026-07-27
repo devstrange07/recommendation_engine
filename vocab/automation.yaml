@@ -1,0 +1,17 @@
+# Sample per-category attribute vocabulary (POC — Scheduling)
+category_path: Scheduling/Appointments
+attributes:
+  integrations:
+    - google_calendar
+    - outlook
+    - zoom
+    - stripe
+  location_mode:
+    - in_person
+    - remote
+    - hybrid
+  staff_seats:
+    - "1"
+    - "2-5"
+    - "6-20"
+    - "unlimited"

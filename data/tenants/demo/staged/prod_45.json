@@ -1,0 +1,72 @@
+{
+  "id": "prod_45",
+  "name": "ListLift",
+  "category_raw": "Campaigns",
+  "description_text": "list growth and email blasts",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_45_plan_0",
+      "name": "Annual Plus",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": 20.24
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 17.99,
+          "discounted_amount": 14.389999999999999
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 22.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_45_plan_1",
+      "name": "Business",
+      "feature_text": null,
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "UK",
+          "currency": "GBP",
+          "amount": 26.98,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 33.73,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "USD": 20.24,
+    "GBP": 14.389999999999999
+  },
+  "price_max": {
+    "USD": 33.73,
+    "GBP": 26.98
+  },
+  "content_hash": "cddd3796ba2b75cbb661514ecfe26bcd598cb6221d0c9816bafbad885c516c40",
+  "needs_normalization": false
+}

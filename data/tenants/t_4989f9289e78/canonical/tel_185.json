@@ -1,0 +1,59 @@
+{
+  "id": "tel_185",
+  "kind": "service",
+  "title": "Spigen Tough Armor Case for Galaxy S26 Ultra",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Spigen Tough Armor case for Samsung Galaxy S26 Ultra with kickstand and military-grade drop protection.",
+  "short_pitch": "Spigen Tough Armor Case for Galaxy S26 Ultra — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Spigen"
+  ],
+  "price_min": {
+    "INR": 2999.0
+  },
+  "price_max": {
+    "INR": 2999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Tough Armor S26 Ultra",
+      "features": [
+        "Kickstand",
+        "dual-layer",
+        "S Pen cutout",
+        "MagSafe-style ring optional"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "65a480c4783757a21eb7a54ee81d3578e81285f722a46b09c92d119f37e4b4d6",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Spigen Tough Armor Case for Galaxy S26 Ultra. Category: Electronics/Accessories. Spigen Tough Armor case for Samsung Galaxy S26 Ultra with kickstand and military-grade drop protection. Pitch: Spigen Tough Armor Case for Galaxy S26 Ultra — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Spigen. Plans: Street — Tough Armor S26 Ultra (one_time): Kickstand; dual-layer; S Pen cutout; MagSafe-style ring optional",
+  "display_card": {
+    "INR": "₹2,999"
+  }
+}

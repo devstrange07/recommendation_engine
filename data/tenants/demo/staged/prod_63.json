@@ -1,0 +1,88 @@
+{
+  "id": "prod_63",
+  "name": "ServiceQueue",
+  "category_raw": "Helpdesk",
+  "description_text": "support queue management",
+  "unit": null,
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "prod_63_plan_0",
+      "name": "Business",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1299.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 16.24,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_63_plan_1",
+      "name": "Basic",
+      "feature_text": "API access, priority support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 19.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 1948.5,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_63_plan_2",
+      "name": "Annual Plus",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "annual",
+      "prices": [
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 32.48,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2598.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 25.98,
+          "discounted_amount": 20.78
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 1299.0,
+    "USD": 16.24,
+    "GBP": 19.48
+  },
+  "price_max": {
+    "INR": 2598.0,
+    "USD": 32.48,
+    "GBP": 20.78
+  },
+  "content_hash": "46f9dfb4774caad6de93f2fa6353bb67302524ce4d6f0be24eaa96f6cd9399ac",
+  "needs_normalization": false
+}

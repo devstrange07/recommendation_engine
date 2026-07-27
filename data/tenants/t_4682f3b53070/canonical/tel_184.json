@@ -1,0 +1,60 @@
+{
+  "id": "tel_184",
+  "kind": "service",
+  "title": "Samsung Galaxy Z Flip7 — Lavender 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Foldables",
+  "clean_description": "Samsung Galaxy Z Flip7 Lavender 512GB SKU. India retail SKU in Lavender finish.",
+  "short_pitch": "Samsung Galaxy Z Flip7 — Lavender 12GB + 512GB — device",
+  "use_case_tags": [
+    "flagship",
+    "compact",
+    "daily_driver"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Samsung"
+  ],
+  "price_min": {
+    "INR": 119999.0
+  },
+  "price_max": {
+    "INR": 119999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Lavender 12GB + 512GB",
+      "features": [
+        "512GB",
+        "clamshell foldable",
+        "cover screen",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 119999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "7e048662fbda7559da1a5440604b7cc31a5b2705d4e85f4c440a808b2b64b5cd",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Samsung Galaxy Z Flip7 — Lavender 12GB + 512GB. Category: Electronics/Foldables. Samsung Galaxy Z Flip7 Lavender 512GB SKU. India retail SKU in Lavender finish. Pitch: Samsung Galaxy Z Flip7 — Lavender 12GB + 512GB — device. Use cases: flagship, compact, daily_driver. Audience: consumer, power_user, creator. Aliases: Samsung. Plans: Street — Lavender 12GB + 512GB (one_time): 512GB; clamshell foldable; cover screen; 5G",
+  "display_card": {
+    "INR": "₹119,999"
+  }
+}

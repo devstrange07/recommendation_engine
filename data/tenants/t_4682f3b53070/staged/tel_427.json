@@ -1,0 +1,32 @@
+{
+  "id": "tel_427",
+  "name": "Samsung Clear Case for Galaxy S26",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "Official Samsung clear case for Galaxy S26 showing the phone design with basic drop protection.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Clear Case S26",
+      "feature_text": "Official Samsung; clear; slim; S26 fit",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2499.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2499.0
+  },
+  "price_max": {
+    "INR": 2499.0
+  },
+  "content_hash": "1a500b9a0e7fd3114784f5b326adf49acde4825e08dd27b9d27b18738c3628eb",
+  "needs_normalization": true
+}

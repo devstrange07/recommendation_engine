@@ -1,0 +1,32 @@
+{
+  "id": "shiv_025",
+  "name": "Shivalik Paradise — 3 BHK, Ambawadi",
+  "category_raw": "Residential/Apartments",
+  "description_text": "3 BHK in Shivalik Paradise, Ambawadi — an established Shivalik Group tower. Suitable for resale / ready inventory seekers wanting a known Ambawadi address with basic society amenities.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 3 BHK Ready",
+      "feature_text": "Ready to move; parking, lifts, society security",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 9800000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 9800000.0
+  },
+  "price_max": {
+    "INR": 9800000.0
+  },
+  "content_hash": "6d30cec45ba4ea83e1dd571d29f639911b8f54ae8369870203601996a5f5886a",
+  "needs_normalization": true
+}

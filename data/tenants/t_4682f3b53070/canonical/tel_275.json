@@ -1,0 +1,60 @@
+{
+  "id": "tel_275",
+  "kind": "service",
+  "title": "Vivo X300 Pro — Silver Shadow 16GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Vivo X300 Pro camera flagship with Zeiss optics. India retail SKU in Silver Shadow finish.",
+  "short_pitch": "Vivo X300 Pro — Silver Shadow 16GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Vivo"
+  ],
+  "price_min": {
+    "INR": 109999.0
+  },
+  "price_max": {
+    "INR": 109999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Silver Shadow 16GB + 512GB",
+      "features": [
+        "Zeiss camera",
+        "flagship SoC",
+        "AMOLED",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 109999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "3badf6a11d70d8cf411389ae79282fb98b2a8e0a4aeaf19a9e7b5e470daabbd1",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Vivo X300 Pro — Silver Shadow 16GB + 512GB. Category: Electronics/Smartphones. Vivo X300 Pro camera flagship with Zeiss optics. India retail SKU in Silver Shadow finish. Pitch: Vivo X300 Pro — Silver Shadow 16GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Vivo. Plans: Street — Silver Shadow 16GB + 512GB (one_time): Zeiss camera; flagship SoC; AMOLED; 5G",
+  "display_card": {
+    "INR": "₹109,999"
+  }
+}

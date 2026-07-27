@@ -1,0 +1,32 @@
+{
+  "id": "shiv_003",
+  "name": "Shivalik Legacy — 4 BHK, Bodakdev",
+  "category_raw": "Residential/Apartments",
+  "description_text": "Ultra-luxury 4 BHK residence at Shivalik Legacy, Bodakdev, Ahmedabad. Shivalik Group development in premium west Ahmedabad. Spacious layout with servant room option; landscaped podium and high-end lobby.",
+  "unit": "unit",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 4 BHK",
+      "feature_text": "Luxury finishes; gym, clubhouse, covered parking, power backup, CCTV",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 49500000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 49500000.0
+  },
+  "price_max": {
+    "INR": 49500000.0
+  },
+  "content_hash": "c6da34f3f8a7b5f9a681f94bf31fcb81d9a8f41070f88be94073d31e0694b9f2",
+  "needs_normalization": true
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tel_327",
+  "kind": "service",
+  "title": "Vivo V70 — Sunset Gold 12GB + 512GB",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Smartphones",
+  "clean_description": "Vivo V70 premium mid-ranger with strong selfie camera. India retail SKU in Sunset Gold finish.",
+  "short_pitch": "Vivo V70 — Sunset Gold 12GB + 512GB — device",
+  "use_case_tags": [
+    "daily_driver",
+    "flagship",
+    "camera"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user",
+    "creator"
+  ],
+  "aliases": [
+    "Vivo"
+  ],
+  "price_min": {
+    "INR": 44999.0
+  },
+  "price_max": {
+    "INR": 44999.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — Sunset Gold 12GB + 512GB",
+      "features": [
+        "Selfie camera",
+        "AMOLED",
+        "fast charge",
+        "5G"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 44999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "096cf9e65fc5212bc83a3e950c2fa03d0c175fbb6a0dc62ac5199b9985ddc48f",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Vivo V70 — Sunset Gold 12GB + 512GB. Category: Electronics/Smartphones. Vivo V70 premium mid-ranger with strong selfie camera. India retail SKU in Sunset Gold finish. Pitch: Vivo V70 — Sunset Gold 12GB + 512GB — device. Use cases: daily_driver, flagship, camera. Audience: consumer, power_user, creator. Aliases: Vivo. Plans: Street — Sunset Gold 12GB + 512GB (one_time): Selfie camera; AMOLED; fast charge; 5G",
+  "display_card": {
+    "INR": "₹44,999"
+  }
+}

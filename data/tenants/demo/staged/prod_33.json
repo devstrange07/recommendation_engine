@@ -1,0 +1,94 @@
+{
+  "id": "prod_33",
+  "name": "HelpOrbit",
+  "category_raw": "Support",
+  "description_text": "customer support inbox",
+  "unit": "user",
+  "kb_article": "https://kb.example.com/prod_33",
+  "plans": [
+    {
+      "id": "prod_33_plan_0",
+      "name": "Basic",
+      "feature_text": "Up to 2 users, email support",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 2999.0,
+          "discounted_amount": null
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": 33.74
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 37.49,
+          "discounted_amount": null
+        }
+      ]
+    },
+    {
+      "id": "prod_33_plan_1",
+      "name": "Pro",
+      "feature_text": "API access, priority support",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 4498.5,
+          "discounted_amount": 3598.8
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 44.98,
+          "discounted_amount": 35.98
+        }
+      ]
+    },
+    {
+      "id": "prod_33_plan_2",
+      "name": "Annual Plus",
+      "feature_text": "Multi-location, role-based access",
+      "billing_period": "monthly",
+      "prices": [
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "amount": 59.98,
+          "discounted_amount": 50.98
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "amount": 74.97,
+          "discounted_amount": null
+        },
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5998.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 2999.0,
+    "USD": 33.74,
+    "GBP": 35.98
+  },
+  "price_max": {
+    "INR": 5998.0,
+    "USD": 74.97,
+    "GBP": 50.98
+  },
+  "content_hash": "1120e19727690a5eb0f0681bb0da4f0280031e84ffa30111ea822ee5d5f08aac",
+  "needs_normalization": false
+}

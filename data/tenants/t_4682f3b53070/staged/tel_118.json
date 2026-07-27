@@ -1,0 +1,32 @@
+{
+  "id": "tel_118",
+  "name": "Samsung Galaxy A17 5G 8GB + 256GB",
+  "category_raw": "Electronics/Smartphones",
+  "description_text": "Samsung Galaxy A17 5G 256GB for buyers who want more storage in the entry A band.",
+  "unit": "device",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — A17 256GB",
+      "feature_text": "256GB; 5G; large battery; One UI",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 20999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 20999.0
+  },
+  "price_max": {
+    "INR": 20999.0
+  },
+  "content_hash": "b114612e3520e1ae498a5d1d50c00dfab7fef59029569dd61d13b140bcfca230",
+  "needs_normalization": true
+}

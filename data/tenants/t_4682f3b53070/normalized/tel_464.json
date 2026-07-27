@@ -1,0 +1,30 @@
+{
+  "product_id": "tel_464",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "Nillkin CP+ Pro Glass tempered glass / film kit for Samsung Galaxy A56 5G.",
+    "short_pitch": "Nillkin CP+ Pro Glass for Samsung Galaxy A56 5G — device",
+    "category_path": "Electronics/Accessories",
+    "use_case_tags": [
+      "accessory",
+      "audio",
+      "charging"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user"
+    ],
+    "aliases": [
+      "Nillkin"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "9H tempered",
+        "oleophobic",
+        "Samsung Galaxy A56 5G fit"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}

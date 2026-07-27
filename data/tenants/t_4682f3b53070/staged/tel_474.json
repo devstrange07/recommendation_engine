@@ -1,0 +1,32 @@
+{
+  "id": "tel_474",
+  "name": "JBL Tune Beam 2",
+  "category_raw": "Electronics/Accessories",
+  "description_text": "JBL Tune Beam 2 ANC earbuds with JBL signature sound.",
+  "unit": "piece",
+  "kb_article": null,
+  "plans": [
+    {
+      "id": "plan_1",
+      "name": "Street — Tune Beam 2",
+      "feature_text": "ANC; JBL sound; IP54; USB-C",
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 6999.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "price_min": {
+    "INR": 6999.0
+  },
+  "price_max": {
+    "INR": 6999.0
+  },
+  "content_hash": "d062706b1ec6e170890837bae512f1ceafadb71f7714563bed131888ed2fa6ab",
+  "needs_normalization": true
+}

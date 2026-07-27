@@ -1,0 +1,60 @@
+{
+  "id": "shiv_017",
+  "kind": "service",
+  "title": "Shivalik Skyview — 4 BHK, GIFT City",
+  "brand_or_provider": null,
+  "category_path": "Residential/Apartments",
+  "clean_description": "4 BHK apartment at Shivalik Skyview, GIFT City. Larger RERA area up to ~2606 sq ft. Premium Shivalik Group residential for families relocating to GIFT City / Gandhinagar–Ahmedabad corridor.",
+  "short_pitch": "Shivalik Skyview — 4 BHK, GIFT City — residential listing",
+  "use_case_tags": [
+    "primary_residence",
+    "sale",
+    "ready_possession"
+  ],
+  "target_audience": [
+    "end_user_buyer",
+    "family_buyer",
+    "nri_buyer"
+  ],
+  "aliases": [
+    "Shivalik"
+  ],
+  "price_min": {
+    "INR": 25000000.0
+  },
+  "price_max": {
+    "INR": 25000000.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Sale — 4 BHK",
+      "features": [
+        "RA up to ~2606 sq ft",
+        "full club amenities",
+        "multi parking",
+        "power backup"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 25000000.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "78c9dc25581a3efb8bf831744ec782a5929a2c05ac705dad4f027f926d307a00",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Shivalik Skyview — 4 BHK, GIFT City. Category: Residential/Apartments. 4 BHK apartment at Shivalik Skyview, GIFT City. Larger RERA area up to ~2606 sq ft. Premium Shivalik Group residential for families relocating to GIFT City / Gandhinagar–Ahmedabad corridor. Pitch: Shivalik Skyview — 4 BHK, GIFT City — residential listing. Use cases: primary_residence, sale, ready_possession. Audience: end_user_buyer, family_buyer, nri_buyer. Aliases: Shivalik. Plans: Sale — 4 BHK (one_time): RA up to ~2606 sq ft; full club amenities; multi parking; power backup",
+  "display_card": {
+    "INR": "₹25,000,000"
+  }
+}

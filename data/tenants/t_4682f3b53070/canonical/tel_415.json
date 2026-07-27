@@ -1,0 +1,59 @@
+{
+  "id": "tel_415",
+  "kind": "service",
+  "title": "Apple 35W Dual USB-C Port Compact Power Adapter",
+  "brand_or_provider": null,
+  "category_path": "Electronics/Accessories",
+  "clean_description": "Apple 35W dual USB-C compact charger for charging iPhone and AirPods or iPad together.",
+  "short_pitch": "Apple 35W Dual USB-C Port Compact Power Adapter — device",
+  "use_case_tags": [
+    "accessory",
+    "audio",
+    "charging"
+  ],
+  "target_audience": [
+    "consumer",
+    "power_user"
+  ],
+  "aliases": [
+    "Apple"
+  ],
+  "price_min": {
+    "INR": 5800.0
+  },
+  "price_max": {
+    "INR": 5800.0
+  },
+  "availability": "available",
+  "status": "active",
+  "offerings": [
+    {
+      "id": "plan_1",
+      "name": "Street — 35W Dual USB-C",
+      "features": [
+        "35W",
+        "dual USB-C",
+        "compact",
+        "Apple certified"
+      ],
+      "billing_period": "one_time",
+      "prices": [
+        {
+          "country": "IN",
+          "currency": "INR",
+          "amount": 5800.0,
+          "discounted_amount": null
+        }
+      ]
+    }
+  ],
+  "service_details": {},
+  "attributes": {},
+  "content_hash": "ab8805bdbedc87d1c677ddd5a192d0698abfc2229263f472d024344b0ff21d0e",
+  "review_pending": false,
+  "schema_version": 1,
+  "embedding_text": "Apple 35W Dual USB-C Port Compact Power Adapter. Category: Electronics/Accessories. Apple 35W dual USB-C compact charger for charging iPhone and AirPods or iPad together. Pitch: Apple 35W Dual USB-C Port Compact Power Adapter — device. Use cases: accessory, audio, charging. Audience: consumer, power_user. Aliases: Apple. Plans: Street — 35W Dual USB-C (one_time): 35W; dual USB-C; compact; Apple certified",
+  "display_card": {
+    "INR": "₹5,800"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "product_id": "tel_400",
+  "schema_version": 1,
+  "normalized": {
+    "clean_description": "OPPO A58 4G value 4G for budget buyers.",
+    "short_pitch": "OPPO A58 4G 6GB + 128GB — device",
+    "category_path": "Electronics/Smartphones",
+    "use_case_tags": [
+      "daily_driver",
+      "flagship",
+      "camera"
+    ],
+    "target_audience": [
+      "consumer",
+      "power_user",
+      "creator"
+    ],
+    "aliases": [
+      "OPPO"
+    ],
+    "plan_features": {
+      "plan_1": [
+        "Large battery",
+        "ColorOS",
+        "dual camera"
+      ]
+    }
+  },
+  "confidence": 0.9,
+  "flags": []
+}
