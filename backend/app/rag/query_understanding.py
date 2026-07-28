@@ -21,7 +21,18 @@ def build_search_products_tool() -> dict:
         "description": (
             "Extract the user's cumulative product requirements from the full conversation "
             "as of the latest message. Rewrite, don't append. Extract bare numbers for price_max; "
-            "the server binds currency from the session country. Call this before recommending products."
+            "the server binds currency from the session country.\n\n"
+            "CRITICAL negation handling: whenever the user excludes something with language like "
+            "'not X', 'no X', 'except X', 'without X', 'excluding X', 'other than X', or 'besides X', "
+            "you MUST do BOTH every time.\n"
+            "1) Put X (short and specific: brand, ingredient, material, feature, etc.) into exclude_terms.\n"
+            "2) Remove X and the full negation phrase from semantic_query. semantic_query must never "
+            "contain the excluded term or negation phrasing that references it.\n\n"
+            "Example: 'show me phones other than Samsung' -> semantic_query='phones', "
+            "exclude_terms=['Samsung']. WRONG: semantic_query='phones other than Samsung'.\n"
+            "Example: 'almond chocolates, but not from Lindt' -> semantic_query='almond chocolates', "
+            "exclude_terms=['Lindt'].\n\n"
+            "Call this before recommending products."
         ),
         "parameters": {
             "type": "object",
@@ -41,6 +52,16 @@ def build_search_products_tool() -> dict:
                 "target_audience": {
                     "type": "array",
                     "items": {"type": "string"},
+                },
+                "exclude_terms": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": (
+                        "Anything the user explicitly wants excluded (brand, ingredient, material, "
+                        "feature, color, or other noun phrase) from negation language such as "
+                        "'not X', 'no X', 'except X', 'without X', 'excluding X', 'other than X'. "
+                        "Keep X short and specific, and never leave it in semantic_query."
+                    ),
                 },
                 "price_max": {
                     "type": ["number", "null"],

@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import hashlib
+import logging
+import re
 import time
 from typing import Any
 
@@ -14,6 +16,17 @@ from app.pipeline.s4_index import get_qdrant
 from app.schemas import FallbackDebug, HitDebug, SearchRequest
 
 COUNTRY_CURRENCY = {"IN": "INR", "US": "USD", "GB": "GBP"}
+_NON_LITERAL_TERMS = {
+    "expensive",
+    "cheap",
+    "costly",
+    "pricey",
+    "overpriced",
+    "affordable",
+    "too much",
+    "too little",
+}
+logger = logging.getLogger(__name__)
 
 
 def _has_openai_key() -> bool:
@@ -52,6 +65,33 @@ def _bm25_vector(text: str) -> models.SparseVector:
         indices.append(idx)
         values.append(freq)
     return models.SparseVector(indices=indices, values=values)
+
+
+def _term_pattern(term: str) -> re.Pattern[str]:
+    """Boundary-safe matcher that avoids substring hits inside larger words."""
+    return re.compile(
+        rf"(?<![A-Za-z0-9]){re.escape(term.strip())}(?![A-Za-z0-9])",
+        re.IGNORECASE,
+    )
+
+
+def clean_query_for_embedding(query: str, exclude_terms: list[str]) -> str:
+    text = query
+    for term in exclude_terms:
+        stripped = term.strip()
+        if not stripped:
+            continue
+        negation_prefix = re.compile(
+            rf"(?:not|no|except|excluding|without|other than)\s+(?:from\s+)?"
+            rf"(?<![A-Za-z0-9]){re.escape(stripped)}(?![A-Za-z0-9])",
+            re.IGNORECASE,
+        )
+        text = negation_prefix.sub("", text)
+        text = _term_pattern(stripped).sub("", text)
+    text = re.sub(r"\s{2,}", " ", text)
+    text = re.sub(r"\s*,\s*", ", ", text)
+    text = re.sub(r"(,\s*){2,}", ", ", text)
+    return text.strip(" ,") or "products"
 
 
 def _build_filter(
@@ -177,12 +217,14 @@ def search_products(
     client = get_qdrant()
     collection = paths.collection
     currency = COUNTRY_CURRENCY.get(country.upper(), "INR")
-    dense = _embed_query(req.semantic_query)
-    sparse = _bm25_vector(req.semantic_query)
+    embed_query = clean_query_for_embedding(req.semantic_query, req.exclude_terms)
+    dense = _embed_query(embed_query)
+    sparse = _bm25_vector(embed_query)
 
     price = req.price_max
     steps: list[dict[str, Any]] = []
     fallback = FallbackDebug()
+    dropped_count = 0
 
     attempts = [
         {
@@ -245,6 +287,19 @@ def search_products(
             if _passes_price(
                 payload, country=country.upper(), currency=currency, price_max=a["price_max"]
             ):
+                if req.exclude_terms:
+                    haystack = payload.get("embedding_text") or ""
+                    hit_excluded_term = False
+                    for term in req.exclude_terms:
+                        normalized = term.strip().lower()
+                        if not normalized or normalized in _NON_LITERAL_TERMS:
+                            continue
+                        if _term_pattern(term).search(haystack):
+                            hit_excluded_term = True
+                            break
+                    if hit_excluded_term:
+                        dropped_count += 1
+                        continue
                 filtered.append(payload)
             if len(filtered) >= req.top_k:
                 break
@@ -284,6 +339,15 @@ def search_products(
         "currency": currency,
         "collection": collection,
         "tenant_id": paths.tenant_id,
+        "exclude_terms_active": req.exclude_terms,
+        "exclude_terms_dropped": dropped_count,
+        "embed_query": embed_query,
     }
+    if dropped_count > 0:
+        logger.info(
+            "exclude_terms post-filter dropped %d hits for terms=%s",
+            dropped_count,
+            req.exclude_terms,
+        )
     latency = (time.perf_counter() - t0) * 1000
     return hits_payload, qdrant_query, fallback, hit_debugs, latency

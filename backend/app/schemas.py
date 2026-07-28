@@ -185,6 +185,7 @@ class SearchRequest(BaseModel):
     category_path: str | None = None
     use_case_tags: list[str] = Field(default_factory=list)
     target_audience: list[str] = Field(default_factory=list)
+    exclude_terms: list[str] = Field(default_factory=list)
     price_max: float | None = None
     billing_period: str | None = None
     top_k: int = 8

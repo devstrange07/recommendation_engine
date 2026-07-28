@@ -3,13 +3,15 @@
 from __future__ import annotations
 
 import json
+import logging
+import re
 import time
 from typing import Any
 
 from app.config import get_settings
 from app.openai_client import chat_model, get_openai, responses_kwargs
 from app.rag.query_understanding import build_search_products_tool, parse_search_request
-from app.rag.search import COUNTRY_CURRENCY, search_products
+from app.rag.search import COUNTRY_CURRENCY, clean_query_for_embedding, search_products
 from app.schemas import (
     ChatRequest,
     ChatResponse,
@@ -28,6 +30,7 @@ Rules:
 - If a fallback was triggered (relaxed filters), say so honestly ("nothing under ₹X, closest is…").
 - If the user is making small talk with no product intent, reply briefly without searching.
 - Stay within this catalog's domain as described in CATALOG CONTEXT. Do not assume a different vertical.
+- When the user excludes something ("not X", "no X", "except X", "without X", "other than X"), pass X via search_products exclude_terms and remove X plus the negation phrase from semantic_query.
 """
 
 
@@ -117,6 +120,13 @@ def _inject_block(hits: list[dict[str, Any]], country: str) -> str:
 
 # session memory for previous filters (in-process)
 _PREV_FILTERS: dict[str, dict] = {}
+_INTENSIFIERS = {"too", "very", "quite", "extremely", "somewhat", "really"}
+_NEGATION_RE = re.compile(
+    r"\b(?:not|no|nothing|except|excluding|without|other than)\s+(?:from\s+)?"
+    r"([A-Za-z0-9][\w&'-]*(?:\s+[A-Za-z0-9][\w&'-]*){0,1})",
+    re.IGNORECASE,
+)
+logger = logging.getLogger(__name__)
 
 
 def _has_openai_key() -> bool:
@@ -166,6 +176,44 @@ def _first_function_call(resp: Any, name: str = "search_products") -> Any | None
 
 def _conversation_input(body: ChatRequest) -> list[dict[str, str]]:
     return [{"role": m.role, "content": m.content} for m in body.messages]
+
+
+def _regex_negation_terms(text: str) -> list[str]:
+    terms: list[str] = []
+    for m in _NEGATION_RE.finditer(text):
+        phrase = m.group(1).strip()
+        words = phrase.split()
+        if words and words[0].lower() in _INTENSIFIERS:
+            words = words[1:]
+        if not words:
+            continue
+        phrase = " ".join(words)
+        terms.append(phrase)
+        if len(words) > 1:
+            terms.append(words[0])
+    seen: set[str] = set()
+    deduped: list[str] = []
+    for term in terms:
+        key = term.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(term)
+    return deduped
+
+
+def _apply_negation_backstop(req: SearchRequest, body: ChatRequest, debug: DebugTrace | None = None) -> None:
+    last_user_msg = next((m.content for m in reversed(body.messages) if m.role == "user"), "")
+    if not last_user_msg.strip():
+        return
+    existing = {t.lower() for t in req.exclude_terms}
+    regex_terms = [t for t in _regex_negation_terms(last_user_msg) if t.lower() not in existing]
+    if not regex_terms:
+        return
+    logger.info("regex negation backstop added terms=%s (llm had=%s)", regex_terms, req.exclude_terms)
+    req.exclude_terms.extend(regex_terms)
+    if debug is not None:
+        debug.turn_flow.append(f"exclude_terms_regex_backstop_added:{len(regex_terms)}")
 
 
 def _heuristic_search_request(body: ChatRequest) -> SearchRequest:
@@ -261,6 +309,8 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
         debug.turn_flow.append("llm_decided_search")
         t0 = time.perf_counter()
         req = _heuristic_search_request(body)
+        _apply_negation_backstop(req, body, debug)
+        req.semantic_query = clean_query_for_embedding(req.semantic_query, req.exclude_terms)
         latency["extract"] = (time.perf_counter() - t0) * 1000
         debug.turn_flow.append("filters_extracted")
         debug.previous_filters = _PREV_FILTERS.get(body.session_id)
@@ -375,6 +425,8 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
                 semantic_query=body.messages[-1].content if body.messages else "products"
             )
 
+    _apply_negation_backstop(req, body, debug)
+    req.semantic_query = clean_query_for_embedding(req.semantic_query, req.exclude_terms)
     debug.turn_flow.append("filters_extracted")
     debug.previous_filters = _PREV_FILTERS.get(body.session_id)
     debug.extracted_filters = req.model_dump()
