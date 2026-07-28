@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from qdrant_client import QdrantClient
 
-from app.api import admin, catalog, chat, review
+from app.api import admin, catalog, catalogs, chat, review
 from app.config import get_settings, langsmith_key_present
 from app.openai_client import configure_langsmith
 from app.pipeline.io_utils import ensure_data_dirs
@@ -47,6 +47,7 @@ app.include_router(chat.router, tags=["chat"])
 app.include_router(review.router, tags=["review"])
 app.include_router(admin.router, tags=["admin"])
 app.include_router(catalog.router)
+app.include_router(catalogs.router)
 
 
 @app.get("/health")

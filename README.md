@@ -122,6 +122,7 @@ Health check: http://localhost:8009/health
 6. Watch filters accumulate + INR price bind; bot pitches 2–3 cards.
 7. Ask: `what's the size and parking like?` — answered from injected `plan_features`.
 8. Try residential: `show me 2 bhk near gift city` — should return apartments, not offices.
+9. Try food service: `looking for a cafe with outdoor seating for brunch` — expect `FoodService/Cafes` plus tags like `brunch` / `outdoor_seating`.
 
 ## Verify gates (quick)
 
@@ -142,3 +143,4 @@ Health check: http://localhost:8009/health
 - Backend defaults to port **8009** (see `vite.config.ts` proxy). Port 8000 is often blocked on Windows.
 - Qdrant: `docker compose up -d` or any local Qdrant on `QDRANT_URL` (default `http://localhost:6333`).
 - First UI visit runs a guided onboarding (setup checklist → how to use). Replay via **Replay tour** in the top bar.
+- **Vocab coverage:** besides real estate, travel, food service, electronics, and other existing domains, `vocab/` also covers Healthcare, Hygiene, Finance, Clothing, Hardware, Trading, NGO, Education, Photography, SolarPanels, SolarManufacture, and Paint.

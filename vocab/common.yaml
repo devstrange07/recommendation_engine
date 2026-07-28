@@ -29,6 +29,45 @@ use_case_tags:
   - chronic_care
   - immunity
   - self_care
+  - dine_in
+  - takeaway
+  - delivery
+  - catering
+  - brunch
+  - date_night
+  - family_dining
+  - work_friendly
+  - outdoor_seating
+  - clinical_care
+  - diagnostics
+  - telehealth
+  - personal_hygiene
+  - home_cleaning
+  - sanitizing
+  - loan
+  - insurance
+  - banking
+  - wealth_management
+  - everyday_wear
+  - formal_wear
+  - diy
+  - construction
+  - electrical_fit
+  - investing
+  - trading
+  - fundraising
+  - community_program
+  - volunteering
+  - k12_learning
+  - higher_ed
+  - upskilling
+  - photo_shoot
+  - studio_rental
+  - solar_install
+  - manufacturing
+  - interior_paint
+  - exterior_paint
+  - industrial_coating
 
 target_audience:
   - end_user_buyer
@@ -50,6 +89,28 @@ target_audience:
   - patient
   - caregiver
   - pharmacy_buyer
+  - diner
+  - foodie
+  - office_crowd
+  - family_diner
+  - couple
+  - tourist_diner
+  - patient_visitor
+  - clinic_admin
+  - household
+  - borrower
+  - investor_trader
+  - policyholder
+  - shopper
+  - contractor
+  - donor
+  - student
+  - parent
+  - photographer
+  - homeowner
+  - epc_buyer
+  - manufacturer
+  - painter
 
 billing_periods:
   - one_time

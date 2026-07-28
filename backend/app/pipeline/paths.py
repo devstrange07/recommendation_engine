@@ -22,6 +22,7 @@ def sanitize_tenant_id(tenant_id: str | None) -> str:
 class TenantPaths:
     tenant_id: str
     root: Path
+    catalog_meta: Path
     raw: Path
     raw_catalog: Path
     raw_ingest: Path
@@ -41,6 +42,7 @@ class TenantPaths:
         return TenantPaths(
             tenant_id=tid,
             root=root,
+            catalog_meta=root / "catalog.json",
             raw=root / "raw",
             raw_catalog=root / "raw" / "catalog.jsonl",
             raw_ingest=root / "raw" / "ingest",

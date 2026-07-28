@@ -1,6 +1,13 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  CatalogEntry as ApiCatalogEntry,
+  createCatalog as createCatalogApi,
+  listCatalogs,
+  renameCatalog as renameCatalogApi,
+} from "../api";
 
 const STORAGE_KEY = "prism-catalogs-v1";
+const ACTIVE_KEY = "prism-catalog-active-id";
 const LEGACY_TENANT_KEY = "prism-tenant-id";
 
 export const DEMO_CATALOG_ID = "demo";
@@ -10,16 +17,13 @@ export type CatalogEntry = {
   title: string;
   createdAt: number;
   updatedAt: number;
+  productCount?: number;
 };
 
 type Store = {
   catalogs: CatalogEntry[];
   activeId: string;
 };
-
-function newTenantId(): string {
-  return `t_${crypto.randomUUID().replace(/-/g, "").slice(0, 12)}`;
-}
 
 function demoEntry(now = Date.now()): CatalogEntry {
   return {
@@ -31,7 +35,12 @@ function demoEntry(now = Date.now()): CatalogEntry {
 }
 
 function ensureDemo(catalogs: CatalogEntry[]): CatalogEntry[] {
-  if (catalogs.some((c) => c.id === DEMO_CATALOG_ID)) return catalogs;
+  if (catalogs.some((c) => c.id === DEMO_CATALOG_ID)) {
+    return [
+      catalogs.find((c) => c.id === DEMO_CATALOG_ID)!,
+      ...catalogs.filter((c) => c.id !== DEMO_CATALOG_ID),
+    ];
+  }
   return [demoEntry(), ...catalogs];
 }
 
@@ -46,43 +55,100 @@ function nextUniqueTitle(catalogs: CatalogEntry[], requestedTitle: string): stri
   return `${base} ${suffix}`;
 }
 
-function loadStore(): Store {
+function readActiveId(catalogs: CatalogEntry[]): string {
+  try {
+    const stored = localStorage.getItem(ACTIVE_KEY);
+    if (stored && catalogs.some((c) => c.id === stored)) return stored;
+    const legacy = localStorage.getItem(STORAGE_KEY);
+    if (legacy) {
+      const parsed = JSON.parse(legacy) as Store;
+      if (parsed.activeId && catalogs.some((c) => c.id === parsed.activeId)) {
+        return parsed.activeId;
+      }
+    }
+    const oldTenant = localStorage.getItem(LEGACY_TENANT_KEY);
+    if (oldTenant && catalogs.some((c) => c.id === oldTenant)) return oldTenant;
+  } catch {
+    /* ignore */
+  }
+  return DEMO_CATALOG_ID;
+}
+
+function loadCache(): Store {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (raw) {
       const parsed = JSON.parse(raw) as Store;
-      if (parsed.catalogs?.length && parsed.activeId) {
+      if (parsed.catalogs?.length) {
         const catalogs = ensureDemo(parsed.catalogs);
-        const activeId = catalogs.some((c) => c.id === parsed.activeId)
-          ? parsed.activeId
-          : DEMO_CATALOG_ID;
-        return { catalogs, activeId };
+        return { catalogs, activeId: readActiveId(catalogs) };
       }
     }
   } catch {
     /* ignore corrupt storage */
   }
-
-  const now = Date.now();
-  const catalogs: CatalogEntry[] = [demoEntry(now)];
-  const legacy = localStorage.getItem(LEGACY_TENANT_KEY);
-  if (legacy && legacy !== DEMO_CATALOG_ID) {
-    catalogs.push({
-      id: legacy,
-      title: "My catalog",
-      createdAt: now,
-      updatedAt: now,
-    });
-  }
+  const catalogs = [demoEntry()];
   return { catalogs, activeId: DEMO_CATALOG_ID };
 }
 
+function persistActive(activeId: string) {
+  try {
+    localStorage.setItem(ACTIVE_KEY, activeId);
+  } catch {
+    /* ignore */
+  }
+}
+
+function persistCache(store: Store) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
+    persistActive(store.activeId);
+  } catch {
+    /* ignore */
+  }
+}
+
+function fromApi(entry: ApiCatalogEntry): CatalogEntry {
+  return {
+    id: entry.id,
+    title: entry.title,
+    createdAt: entry.createdAt,
+    updatedAt: entry.updatedAt,
+    productCount: entry.productCount,
+  };
+}
+
 export function useCatalogs() {
-  const [store, setStore] = useState<Store>(() => loadStore());
+  const [store, setStore] = useState<Store>(() => loadCache());
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
+    persistCache(store);
   }, [store]);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const remote = await listCatalogs();
+        if (cancelled) return;
+        const catalogs = ensureDemo(remote.map(fromApi));
+        setStore((prev) => {
+          const activeId = catalogs.some((c) => c.id === prev.activeId)
+            ? prev.activeId
+            : readActiveId(catalogs);
+          return { catalogs, activeId };
+        });
+      } catch {
+        /* keep cached list if server unreachable */
+      } finally {
+        if (!cancelled) setReady(true);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const active = useMemo(
     () => store.catalogs.find((c) => c.id === store.activeId) ?? store.catalogs[0],
@@ -94,21 +160,17 @@ export function useCatalogs() {
     [store.catalogs]
   );
 
-  const create = useCallback((title: string) => {
-    const now = Date.now();
-    const uniqueTitle = nextUniqueTitle(store.catalogs, title);
-    const entry: CatalogEntry = {
-      id: newTenantId(),
-      title: uniqueTitle,
-      createdAt: now,
-      updatedAt: now,
-    };
+  const create = useCallback(async (title: string) => {
+    const entry = fromApi(await createCatalogApi(title.trim() || "New catalog"));
     setStore((prev) => ({
-      catalogs: [...ensureDemo(prev.catalogs), entry],
+      catalogs: ensureDemo([
+        ...prev.catalogs.filter((c) => c.id !== entry.id),
+        entry,
+      ]),
       activeId: entry.id,
     }));
     return entry.id;
-  }, [store.catalogs]);
+  }, []);
 
   const select = useCallback((id: string) => {
     setStore((prev) =>
@@ -116,15 +178,14 @@ export function useCatalogs() {
     );
   }, []);
 
-  const rename = useCallback((id: string, title: string) => {
+  const rename = useCallback(async (id: string, title: string) => {
     if (id === DEMO_CATALOG_ID) return;
     const trimmed = title.trim();
     if (!trimmed) return;
+    const entry = fromApi(await renameCatalogApi(id, trimmed));
     setStore((prev) => ({
       ...prev,
-      catalogs: prev.catalogs.map((c) =>
-        c.id === id ? { ...c, title: trimmed, updatedAt: Date.now() } : c
-      ),
+      catalogs: prev.catalogs.map((c) => (c.id === id ? entry : c)),
     }));
   }, []);
 
@@ -138,14 +199,27 @@ export function useCatalogs() {
     });
   }, []);
 
+  const refresh = useCallback(async () => {
+    const remote = await listCatalogs();
+    const catalogs = ensureDemo(remote.map(fromApi));
+    setStore((prev) => ({
+      catalogs,
+      activeId: catalogs.some((c) => c.id === prev.activeId)
+        ? prev.activeId
+        : DEMO_CATALOG_ID,
+    }));
+  }, []);
+
   return {
     catalogs: store.catalogs,
     activeId: store.activeId,
     active,
+    ready,
     create,
     suggestTitle,
     select,
     rename,
     remove,
+    refresh,
   };
 }

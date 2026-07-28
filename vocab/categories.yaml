@@ -37,3 +37,87 @@ categories:
     labels: [prescription, antibiotic, chronic, hypertension, diabetes, rx]
   - path: Pharmaceuticals/Wellness
     labels: [supplement, multivitamin, protein, immunity, ayurveda wellness]
+  - path: FoodService/Restaurants
+    labels: [restaurant, dining, fine dining, multi cuisine, thali, buffet, family restaurant, dhaba]
+  - path: FoodService/Cafes
+    labels: [cafe, coffee shop, bakery cafe, espresso, brunch, pastry, tea house]
+  - path: FoodService/QuickService
+    labels: [fast food, qsr, takeaway, cloud kitchen, food truck, counter service]
+  - path: Healthcare/Telehealth
+    labels: [telehealth, telemedicine, virtual consult, online doctor, remote care]
+  - path: Healthcare/Diagnostics
+    labels: [diagnostics, lab test, pathology, imaging, radiology, blood test]
+  - path: Healthcare/Hospitals
+    labels: [hospital, multi specialty, inpatient, emergency, ICU]
+  - path: Healthcare/Clinics
+    labels: [clinic, outpatient, polyclinic, specialty clinic, consultation]
+  - path: Hygiene/Sanitizers
+    labels: [sanitizer, disinfectant, hand rub, antiseptic spray]
+  - path: Hygiene/HomeCleaning
+    labels: [home cleaning, floor cleaner, detergent, dishwasher, surface cleaner]
+  - path: Hygiene/PersonalCare
+    labels: [personal care, soap, shampoo, toothpaste, body wash, hygiene]
+  - path: Finance/Loans
+    labels: [loan, home loan, personal loan, EMI, credit, mortgage]
+  - path: Finance/Insurance
+    labels: [insurance, policy, premium, health cover, term life]
+  - path: Finance/Banking
+    labels: [banking, savings account, current account, debit card, net banking]
+  - path: Finance/Wealth
+    labels: [wealth, portfolio, financial planning, private banking, AUM]
+  - path: Clothing/Apparel
+    labels: [apparel, clothing, shirt, dress, ethnic wear, garment]
+  - path: Clothing/Footwear
+    labels: [footwear, shoes, sneakers, sandals, boots]
+  - path: Clothing/Accessories
+    labels: [fashion accessory, handbag, belt, scarf, wallet, apparel accessory]
+  - path: Hardware/Tools
+    labels: [tools, hand tool, power tool, drill, wrench, DIY tools]
+  - path: Hardware/Building
+    labels: [building hardware, fasteners, hinges, locks, construction fittings]
+  - path: Hardware/Electrical
+    labels: [electrical hardware, switch, socket, wire, MCB, electrical fittings]
+  - path: Trading/Brokerage
+    labels: [brokerage, demat, trading account, equity broker, stock broker]
+  - path: Trading/MutualFunds
+    labels: [mutual fund, SIP, NAV, equity fund, debt fund]
+  - path: Trading/Advisory
+    labels: [investment advisory, research tips, portfolio advice, stock tips]
+  - path: NGO/Fundraising
+    labels: [fundraising, donation drive, crowdfunding, charity appeal]
+  - path: NGO/Programs
+    labels: [NGO program, community program, social impact, outreach]
+  - path: NGO/Volunteer
+    labels: [volunteer, volunteering, community service, volunteer drive]
+  - path: Education/K12
+    labels: [K12, school, primary school, secondary school, CBSE]
+  - path: Education/HigherEd
+    labels: [higher education, university, college, degree, campus]
+  - path: Education/EdTech
+    labels: [edtech, online learning, learning app, e-learning, LMS]
+  - path: Education/Vocational
+    labels: [vocational, skill training, ITI, upskilling, trade course]
+  - path: Photography/Services
+    labels: [photography service, photo shoot, wedding photography, event photography]
+  - path: Photography/Equipment
+    labels: [camera equipment, lens, tripod, photography gear, DSLR]
+  - path: Photography/Studios
+    labels: [photo studio, studio rental, portrait studio, shoot studio]
+  - path: SolarPanels/Residential
+    labels: [rooftop solar, residential solar, home solar panel, solar for home]
+  - path: SolarPanels/Commercial
+    labels: [commercial solar, industrial solar, solar for business, solar EPC]
+  - path: SolarPanels/Accessories
+    labels: [solar inverter, solar battery, mounting structure, solar accessory]
+  - path: SolarManufacture/Cells
+    labels: [solar cell, photovoltaic cell, wafer, PV cell]
+  - path: SolarManufacture/Modules
+    labels: [solar module, solar panel manufacturing, PV module, module line]
+  - path: SolarManufacture/Equipment
+    labels: [solar manufacturing equipment, laminator, stringer, fab equipment]
+  - path: Paint/Interior
+    labels: [interior paint, emulsion, wall paint, interior emulsion]
+  - path: Paint/Exterior
+    labels: [exterior paint, weather coat, outdoor paint, facade paint]
+  - path: Paint/Industrial
+    labels: [industrial paint, protective coating, epoxy coating, industrial coating]

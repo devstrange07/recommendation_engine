@@ -17,7 +17,18 @@ type Props = {
   debug: DebugTrace | null;
   shortlist?: ProductCard[];
   tenantId?: string;
+  country?: string;
 };
+
+const COUNTRY_CURRENCY: Record<string, string> = {
+  IN: "INR",
+  US: "USD",
+  GB: "GBP",
+};
+
+function currencyForCountry(country: string): string {
+  return COUNTRY_CURRENCY[country.toUpperCase()] ?? "INR";
+}
 
 function flowHas(flow: string[], pred: (e: string) => boolean) {
   return flow.some(pred);
@@ -143,10 +154,42 @@ function ReasoningBlock({
   );
 }
 
-function formatPrice(value: unknown): string {
+function formatPrice(value: unknown, currency: string): string {
   if (value == null || value === "") return "—";
-  if (typeof value === "number") return value.toLocaleString();
-  return String(value);
+  if (typeof value === "number") return `${currency} ${value.toLocaleString()}`;
+  if (typeof value === "string") return value;
+  if (typeof value === "object" && !Array.isArray(value)) {
+    const map = value as Record<string, unknown>;
+    const preferred = map[currency];
+    if (typeof preferred === "number") return `${currency} ${preferred.toLocaleString()}`;
+    if (typeof preferred === "string" && preferred) return preferred;
+    const entry = Object.entries(map).find(
+      ([, v]) => typeof v === "number" || (typeof v === "string" && v)
+    );
+    if (!entry) return "—";
+    const [cur, amt] = entry;
+    if (typeof amt === "number") return `${cur} ${amt.toLocaleString()}`;
+    return String(amt);
+  }
+  return "—";
+}
+
+function formatHitPrice(
+  payload: Record<string, unknown> | null,
+  excerpt: Record<string, unknown>,
+  currency: string
+): string {
+  const displayCard = payload?.display_card;
+  if (displayCard && typeof displayCard === "object" && !Array.isArray(displayCard)) {
+    const card = (displayCard as Record<string, unknown>)[currency];
+    if (typeof card === "string" && card) return card;
+  }
+  return formatPrice(payload?.price_min ?? excerpt.price_min, currency);
+}
+
+function formatScore(value: number | null | undefined): string {
+  if (value == null || Number.isNaN(value)) return "—";
+  return value.toFixed(4);
 }
 
 function asStringList(value: unknown): string[] {
@@ -157,15 +200,17 @@ function asStringList(value: unknown): string[] {
 function HitDetail({
   hit,
   payload,
+  currency,
 }: {
   hit: Hit;
   payload: Record<string, unknown> | null;
+  currency: string;
 }) {
   const excerpt = hit.payload_excerpt ?? {};
   const title = String(payload?.title ?? excerpt.title ?? hit.id);
   const category = String(payload?.category_path ?? excerpt.category_path ?? "—");
   const pitch = String(payload?.short_pitch ?? excerpt.short_pitch ?? "—");
-  const priceMin = payload?.price_min ?? excerpt.price_min;
+  const priceDisplay = formatHitPrice(payload, excerpt, currency);
   const tags = asStringList(payload?.use_case_tags);
   const audience = asStringList(payload?.target_audience);
   const offerings = Array.isArray(payload?.offerings) ? payload.offerings : [];
@@ -188,7 +233,7 @@ function HitDetail({
         </div>
         <div>
           <dt>Price min</dt>
-          <dd>{formatPrice(priceMin)}</dd>
+          <dd>{priceDisplay}</dd>
         </div>
         {tags.length > 0 && (
           <div>
@@ -244,7 +289,9 @@ export default function DebugPanel({
   debug,
   shortlist = [],
   tenantId = "demo",
+  country = "IN",
 }: Props) {
+  const currency = currencyForCountry(country);
   const phases = useMemo(() => (debug ? buildPhases(debug) : []), [debug]);
   const [selected, setSelected] = useState<PhaseId>("received");
   const [selectedHitId, setSelectedHitId] = useState<string | null>(null);
@@ -412,7 +459,11 @@ export default function DebugPanel({
                         </span>
                       </span>
                       <span className="hit-row__side">
-                        <span className="hit-row__price">{formatPrice(excerpt.price_min)}</span>
+                        <span className="hit-row__price">{formatPrice(excerpt.price_min, currency)}</span>
+                        <div className="hit-row__scores">
+                          <span className="hit-row__score">Semantic: {formatScore(h.semantic_score)}</span>
+                          <span className="hit-row__score">RRF: {formatScore(h.rrf_score)}</span>
+                        </div>
                         {isShortlisted && <span className="ret-chip catalog">shortlisted</span>}
                         {h.review_pending && <span className="badge">review</span>}
                       </span>
@@ -422,7 +473,7 @@ export default function DebugPanel({
                         {payloadLoading ? (
                           <p className="wf-muted">Loading product…</p>
                         ) : (
-                          <HitDetail hit={h} payload={payload} />
+                          <HitDetail hit={h} payload={payload} currency={currency} />
                         )}
                       </div>
                     )}

@@ -215,6 +215,8 @@ class HitDebug(BaseModel):
     id: str
     dense_score: float | None = None
     sparse_score: float | None = None
+    semantic_score: float | None = None
+    rrf_score: float | None = None
     rrf_rank: int
     payload_excerpt: dict[str, Any] = Field(default_factory=dict)
     review_pending: bool = False
@@ -324,6 +326,26 @@ class IngestValidateResponse(BaseModel):
 class IngestTextRequest(BaseModel):
     text: str
     source_name: str | None = None
+
+
+# ---------------------------------------------------------------------------
+# Catalog registry
+# ---------------------------------------------------------------------------
+
+class CatalogEntry(BaseModel):
+    id: str
+    title: str
+    createdAt: int
+    updatedAt: int
+    productCount: int = 0
+
+
+class CreateCatalogRequest(BaseModel):
+    title: str = "New catalog"
+
+
+class RenameCatalogRequest(BaseModel):
+    title: str
 
 
 # ---------------------------------------------------------------------------

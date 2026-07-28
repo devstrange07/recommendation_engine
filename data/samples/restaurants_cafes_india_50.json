@@ -1,0 +1,1254 @@
+{
+  "products": [
+    {
+      "id": "food_001",
+      "name": "Spice Route Multi Cuisine",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Multi cuisine family restaurant with dine-in thali and buffet options.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Lunch Thali",
+          "feature_text": "Lunch Thali; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 450
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_002",
+      "name": "Punjab Dhaba Highway",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Highway dhaba serving north indian thali and family dining.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Thali Combo",
+          "feature_text": "Thali Combo; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 280
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_003",
+      "name": "Coastal Catch Fine Dining",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Fine dining seafood restaurant for date night and celebrations.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Chef Tasting",
+          "feature_text": "Chef Tasting; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1800
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_004",
+      "name": "Gujarati Thali House",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Traditional gujarati thali buffet restaurant for family dining.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Unlimited Thali",
+          "feature_text": "Unlimited Thali; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 350
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_005",
+      "name": "Biryani Nawab",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Hyderabadi biryani restaurant with dine-in and family portions.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Dum Biryani Plate",
+          "feature_text": "Dum Biryani Plate; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 320
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_006",
+      "name": "Mumbai Masala Kitchen",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Multi cuisine restaurant with buffet lunch and dinner service.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Buffet Lunch",
+          "feature_text": "Buffet Lunch; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 599
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_007",
+      "name": "Heritage Haveli Dining",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Fine dining indian restaurant with outdoor seating for date night.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Set Menu",
+          "feature_text": "Set Menu; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2200
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_008",
+      "name": "South Plate Banana Leaf",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "South indian thali restaurant with dine-in family meals.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Banana Leaf Thali",
+          "feature_text": "Banana Leaf Thali; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 260
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_009",
+      "name": "Kebab Korner Grill",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Tandoor grill restaurant for family dining and celebrations.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Grill Platter",
+          "feature_text": "Grill Platter; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 750
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_010",
+      "name": "Urban Thali Express",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Modern thali restaurant with multi cuisine sides and dine-in.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Weekday Thali",
+          "feature_text": "Weekday Thali; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 299
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_011",
+      "name": "Lakeview Family Restaurant",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Family restaurant with multi cuisine menu and kids seating.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Family Combo",
+          "feature_text": "Family Combo; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 899
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_012",
+      "name": "Rajasthani Rasoi",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Rajasthani thali and buffet dining for tourists and families.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Royal Thali",
+          "feature_text": "Royal Thali; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 480
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_013",
+      "name": "Chennai Chettinad House",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Chettinad dining restaurant with authentic spice-forward plates.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Chettinad Meal",
+          "feature_text": "Chettinad Meal; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 420
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_014",
+      "name": "Goan Seafood Shack",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Coastal dining restaurant with fresh catch and outdoor seating.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Seafood Platter",
+          "feature_text": "Seafood Platter; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1100
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_015",
+      "name": "Delhi Darbar Mughlai",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Mughlai restaurant with dine-in kebabs and family dining.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Mughlai Feast",
+          "feature_text": "Mughlai Feast; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 650
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_016",
+      "name": "Bengal Sweet and Spice",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Bengali multi cuisine restaurant with thali and fish specialties.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Bengali Thali",
+          "feature_text": "Bengali Thali; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 380
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_017",
+      "name": "Andhra Spice Pot",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Andhra dining restaurant known for spicy meals and family groups.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Andhra Meal",
+          "feature_text": "Andhra Meal; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 340
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_018",
+      "name": "Kashmir Wazwan Table",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Fine dining wazwan restaurant for special occasions and date night.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Wazwan Course",
+          "feature_text": "Wazwan Course; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 2500
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_019",
+      "name": "Village Dhaba Express",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Authentic dhaba restaurant with highway thali and dine-in.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Dhaba Thali",
+          "feature_text": "Dhaba Thali; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 220
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_020",
+      "name": "Skyline Rooftop Dining",
+      "category": "FoodService/Restaurants",
+      "unit": "cover",
+      "kb_article": null,
+      "description": "Rooftop fine dining multi cuisine restaurant with date night ambience.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Rooftop Set Menu",
+          "feature_text": "Rooftop Set Menu; India menu; Restaurants; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 1600
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_021",
+      "name": "Blue Peak Espresso Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Specialty espresso coffee shop with brunch and pastry counter.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Espresso Combo",
+          "feature_text": "Espresso Combo; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 280
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_022",
+      "name": "Bean & Book Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Work friendly cafe with coffee shop seating and outdoor seating.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Latte and Sandwich",
+          "feature_text": "Latte and Sandwich; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 350
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_023",
+      "name": "Croissant Corner Bakery Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Bakery cafe with pastry brunch and espresso drinks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pastry Brunch Box",
+          "feature_text": "Pastry Brunch Box; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 420
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_024",
+      "name": "Chai Ghar Tea House",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Tea house cafe with milky chai and light snacks for office crowd.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Chai and Snack",
+          "feature_text": "Chai and Snack; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 180
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_025",
+      "name": "Sunrise Brunch Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Brunch cafe with outdoor seating and coffee shop classics.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Brunch Plate",
+          "feature_text": "Brunch Plate; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 450
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_026",
+      "name": "Filter Brew Madras Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "South indian filter coffee shop with pastry and brunch bites.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Filter Coffee Set",
+          "feature_text": "Filter Coffee Set; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 160
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_027",
+      "name": "Artisan Roast Lab",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Espresso focused coffee shop for foodies and remote work.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Pour Over Flight",
+          "feature_text": "Pour Over Flight; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 320
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_028",
+      "name": "Muffin Mile Bakery Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Bakery cafe with muffins pastry and work friendly seating.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Muffin Coffee Combo",
+          "feature_text": "Muffin Coffee Combo; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 240
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_029",
+      "name": "Green Leaf Garden Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Garden cafe with outdoor seating brunch and tea house vibes.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Garden Brunch",
+          "feature_text": "Garden Brunch; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 480
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_030",
+      "name": "Laptop Latte Hub",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Work friendly coffee shop with espresso and light meals.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Workday Latte Meal",
+          "feature_text": "Workday Latte Meal; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 390
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_031",
+      "name": "Pune Patisserie Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "European pastry bakery cafe with brunch plates and espresso.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Patisserie Tray",
+          "feature_text": "Patisserie Tray; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 520
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_032",
+      "name": "Monsoon Tea Lounge",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Tea house cafe with monsoon menu and quiet dine-in seating.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Tea Tasting Set",
+          "feature_text": "Tea Tasting Set; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 290
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_033",
+      "name": "Coastal Cold Brew Cafe",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Coffee shop with cold brew espresso and beach brunch snacks.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Cold Brew Combo",
+          "feature_text": "Cold Brew Combo; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 260
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_034",
+      "name": "Himalaya Brew Cabin",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Mountain cafe with espresso brunch and outdoor seating.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Cabin Brunch",
+          "feature_text": "Cabin Brunch; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 410
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_035",
+      "name": "Studio Sip Coffee Shop",
+      "category": "FoodService/Cafes",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Creative studio coffee shop with pastry and work friendly tables.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Studio Sip Combo",
+          "feature_text": "Studio Sip Combo; India menu; Cafes; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 310
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_036",
+      "name": "QuickBite Burger Counter",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Fast food qsr counter service burgers with takeaway and delivery.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Burger Combo",
+          "feature_text": "Burger Combo; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 199
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_037",
+      "name": "WrapRocket Takeaway",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Takeaway wrap qsr with delivery and counter service.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Wrap Meal",
+          "feature_text": "Wrap Meal; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 149
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_038",
+      "name": "CloudKitchen Curry Box",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Cloud kitchen indian meals for delivery and takeaway only.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Curry Box",
+          "feature_text": "Curry Box; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 229
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_039",
+      "name": "StreetTruck Tacos",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Food truck mexican qsr with counter service and takeaway.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Taco Trio",
+          "feature_text": "Taco Trio; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 179
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_040",
+      "name": "FryDay Chicken Shack",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Fast food fried chicken qsr with delivery and dine-in counter.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Chicken Bucket Mini",
+          "feature_text": "Chicken Bucket Mini; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 349
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_041",
+      "name": "NoodleDash Express",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Indo chinese qsr cloud kitchen focused on delivery.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Noodle Bowl",
+          "feature_text": "Noodle Bowl; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 169
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_042",
+      "name": "PizzaSlice Counter",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Fast food pizza qsr with counter service takeaway and delivery.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Personal Pizza Meal",
+          "feature_text": "Personal Pizza Meal; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 249
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_043",
+      "name": "DosaDash Quick Counter",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "South indian qsr counter service dosa with takeaway.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Dosa Combo",
+          "feature_text": "Dosa Combo; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 129
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_044",
+      "name": "BowlBox Healthy Cloud",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Cloud kitchen healthy bowls for office delivery and takeaway.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Protein Bowl",
+          "feature_text": "Protein Bowl; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 279
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_045",
+      "name": "Momos On Wheels",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Food truck momos qsr with takeaway and counter service.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Momo Plate",
+          "feature_text": "Momo Plate; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 119
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_046",
+      "name": "Shawarma Street Express",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Fast food shawarma takeaway with delivery and qsr counter.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Shawarma Roll Meal",
+          "feature_text": "Shawarma Roll Meal; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 159
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_047",
+      "name": "Idli Instant Counter",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Breakfast qsr counter service idli with takeaway packs.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Idli Combo",
+          "feature_text": "Idli Combo; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 99
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_048",
+      "name": "BiryaniBox Cloud Kitchen",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Cloud kitchen biryani for delivery and takeaway orders.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Biryani Box",
+          "feature_text": "Biryani Box; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 299
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_049",
+      "name": "SandwichSprint QSR",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Fast food sandwich counter with takeaway and office delivery.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Club Sandwich Meal",
+          "feature_text": "Club Sandwich Meal; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 189
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    },
+    {
+      "id": "food_050",
+      "name": "ChaatCart Food Truck",
+      "category": "FoodService/QuickService",
+      "unit": "order",
+      "kb_article": null,
+      "description": "Food truck chaat qsr with counter service and takeaway.",
+      "plans": [
+        {
+          "id": "plan_1",
+          "name": "Retail - Chaat Platter",
+          "feature_text": "Chaat Platter; India menu; QuickService; vegetarian options available",
+          "billing_period": "one_time",
+          "price_lists": [
+            {
+              "name": "IN-inr",
+              "country": "IN",
+              "currency": "INR",
+              "amount": 139
+            }
+          ]
+        }
+      ],
+      "updated_at": "2026-07-27T00:00:00+00:00"
+    }
+  ]
+}

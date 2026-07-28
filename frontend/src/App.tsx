@@ -87,33 +87,37 @@ export default function App() {
     setShowTour(true);
   }
 
-  function ensureUserCatalog(): string {
-    if (catalogId !== DEMO_CATALOG_ID) return catalogId;
-    const existing = catalogs.find((c) => c.id !== DEMO_CATALOG_ID);
-    if (existing) {
-      selectCatalog(existing.id);
-      return existing.id;
-    }
-    return createCatalog("My catalog");
-  }
-
   function tryInChat(productName: string) {
-    ensureUserCatalog();
-    setChatPrompt(`I'm looking for ${productName}. What plans do you offer?`);
-    create();
-    setPage("chat");
+    void (async () => {
+      let tid = catalogId;
+      if (tid === DEMO_CATALOG_ID) {
+        const existing = catalogs.find((c) => c.id !== DEMO_CATALOG_ID);
+        tid = existing ? existing.id : await createCatalog("My catalog");
+        selectCatalog(tid);
+      }
+      setChatPrompt(`I'm looking for ${productName}. What plans do you offer?`);
+      create();
+      setPage("chat");
+    })();
   }
 
   function goAddProducts() {
-    ensureUserCatalog();
-    setPage("catalog");
+    void (async () => {
+      if (catalogId === DEMO_CATALOG_ID) {
+        const existing = catalogs.find((c) => c.id !== DEMO_CATALOG_ID);
+        const tid = existing ? existing.id : await createCatalog("My catalog");
+        selectCatalog(tid);
+      }
+      setPage("catalog");
+    })();
   }
 
   function onNewCatalog() {
     const name = window.prompt("Catalog name", suggestCatalogTitle("New catalog"));
     if (name === null) return;
-    createCatalog(name.trim() || suggestCatalogTitle("New catalog"));
-    setPage("catalog");
+    void createCatalog(name.trim() || suggestCatalogTitle("New catalog")).then(() => {
+      setPage("catalog");
+    });
   }
 
   async function onDeleteCatalog() {
@@ -234,7 +238,12 @@ export default function App() {
               </BentoTile>
               {debugOpen && (
                 <BentoTile span="debug" title="Retrieval" noPad>
-                  <DebugPanel debug={debug} shortlist={shortlist} tenantId={catalogId} />
+                  <DebugPanel
+                    debug={debug}
+                    shortlist={shortlist}
+                    tenantId={catalogId}
+                    country={country}
+                  />
                 </BentoTile>
               )}
             </BentoGrid>

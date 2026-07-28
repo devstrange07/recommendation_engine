@@ -34,6 +34,8 @@ export type DebugTrace = {
     id: string;
     dense_score: number | null;
     sparse_score: number | null;
+    semantic_score: number | null;
+    rrf_score: number | null;
     rrf_rank: number;
     payload_excerpt: Record<string, unknown>;
     review_pending: boolean;
@@ -202,6 +204,35 @@ export async function deleteCatalog(tenantId: string): Promise<{
   tenant_deleted: boolean;
 }> {
   return apiFetch("/catalog", { method: "DELETE" }, tenantId);
+}
+
+export type CatalogEntry = {
+  id: string;
+  title: string;
+  createdAt: number;
+  updatedAt: number;
+  productCount?: number;
+};
+
+export async function listCatalogs(): Promise<CatalogEntry[]> {
+  return apiFetch("/catalogs", {});
+}
+
+export async function createCatalog(title: string): Promise<CatalogEntry> {
+  return apiFetch("/catalogs", {
+    method: "POST",
+    body: JSON.stringify({ title }),
+  });
+}
+
+export async function renameCatalog(
+  catalogId: string,
+  title: string
+): Promise<CatalogEntry> {
+  return apiFetch(`/catalogs/${encodeURIComponent(catalogId)}`, {
+    method: "PATCH",
+    body: JSON.stringify({ title }),
+  });
 }
 
 export async function createCatalogProduct(

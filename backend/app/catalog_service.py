@@ -9,6 +9,7 @@ from collections.abc import Iterator
 from datetime import datetime, timezone
 from pathlib import Path
 
+from app.catalog_registry import ensure_meta
 from app.pipeline import run_pipeline
 from app.pipeline.io_utils import append_jsonl, ensure_data_dirs, load_hash_ledger, read_jsonl
 from app.pipeline.paths import TenantPaths
@@ -157,6 +158,7 @@ def iter_ingest_and_run(
 ) -> Iterator[ProgressEvent]:
     """Yield ingest + pipeline progress; final done.detail is IngestJobResponse dict."""
     paths = ensure_data_dirs(tenant_id)
+    ensure_meta(tenant_id)
     if not products:
         raise ValueError("No products to ingest")
 
@@ -408,6 +410,8 @@ def iter_ingest_file(
 
     paths = ensure_data_dirs(tenant_id)
     save_upload_audit(paths, filename, content)
+    stem = Path(filename).stem.strip() or None
+    ensure_meta(tenant_id, title=stem)
 
     yield ProgressEvent(type="phase_start", phase="ingest", message="Starting file ingest")
 

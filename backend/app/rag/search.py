@@ -192,6 +192,40 @@ def _query(
             return []
 
 
+def _dense_scores_for_ids(
+    client: QdrantClient,
+    collection: str,
+    dense: list[float],
+    query_filter: models.Filter | None,
+    ids: set[str],
+    limit: int,
+) -> dict[str, float]:
+    if not ids:
+        return {}
+    try:
+        result = client.query_points(
+            collection_name=collection,
+            query=dense,
+            using="dense",
+            query_filter=query_filter,
+            limit=limit,
+            with_payload=True,
+        )
+    except Exception:
+        return {}
+    scores: dict[str, float] = {}
+    for point in result.points:
+        payload = point.payload or {}
+        pid = payload.get("id")
+        if not isinstance(pid, str) or pid not in ids:
+            continue
+        score = getattr(point, "score", None)
+        if score is None:
+            continue
+        scores[pid] = float(score)
+    return scores
+
+
 def _passes_price(payload: dict[str, Any], *, country: str, currency: str, price_max: float | None) -> bool:
     if price_max is None:
         return True
@@ -281,9 +315,26 @@ def search_products(
             use_category=a["use_category"],
         )
         points = _query(client, collection, dense, sparse, qfilter, max(req.top_k * 2, 16))
-        filtered = []
+        point_ids = {
+            str((p.payload or {}).get("id"))
+            for p in points
+            if isinstance((p.payload or {}).get("id"), str)
+        }
+        dense_score_by_id = _dense_scores_for_ids(
+            client,
+            collection,
+            dense,
+            qfilter,
+            point_ids,
+            max(req.top_k * 3, 20),
+        )
+        filtered: list[tuple[dict[str, Any], float | None, float | None]] = []
         for p in points:
             payload = p.payload or {}
+            pid = payload.get("id")
+            rrf_score_raw = getattr(p, "score", None)
+            rrf_score = float(rrf_score_raw) if rrf_score_raw is not None else None
+            semantic_score = dense_score_by_id.get(pid) if isinstance(pid, str) else None
             if _passes_price(
                 payload, country=country.upper(), currency=currency, price_max=a["price_max"]
             ):
@@ -300,18 +351,20 @@ def search_products(
                     if hit_excluded_term:
                         dropped_count += 1
                         continue
-                filtered.append(payload)
+                filtered.append((payload, semantic_score, rrf_score))
             if len(filtered) >= req.top_k:
                 break
         steps.append({"action": a["label"], "hits": len(filtered)})
         if filtered:
             used = a
-            hits_payload = filtered
+            hits_payload = [payload for payload, _, _ in filtered]
             hit_debugs = [
                 HitDebug(
                     id=payload.get("id", ""),
                     dense_score=None,
                     sparse_score=None,
+                    semantic_score=semantic_score,
+                    rrf_score=rrf_score,
                     rrf_rank=rank,
                     payload_excerpt={
                         "title": payload.get("title"),
@@ -321,7 +374,7 @@ def search_products(
                     },
                     review_pending=bool(payload.get("review_pending")),
                 )
-                for rank, payload in enumerate(filtered, start=1)
+                for rank, (payload, semantic_score, rrf_score) in enumerate(filtered, start=1)
             ]
             if a["label"] != "full_filters":
                 fallback = FallbackDebug(triggered=True, action=a["label"], steps=steps)
