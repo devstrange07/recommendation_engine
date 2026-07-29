@@ -8,9 +8,19 @@ import re
 import time
 from typing import Any
 
-from app.config import get_settings
-from app.openai_client import chat_model, get_openai, responses_kwargs
-from app.rag.query_understanding import build_search_products_tool, parse_search_request
+from app.openai_client import (
+    chat_completion_kwargs,
+    chat_key_present,
+    chat_model,
+    get_chat_client,
+    is_deepseek,
+    responses_kwargs,
+)
+from app.rag.query_understanding import (
+    build_search_products_tool,
+    build_search_products_tool_completions,
+    parse_search_request,
+)
 from app.rag.search import COUNTRY_CURRENCY, clean_query_for_embedding, search_products
 from app.schemas import (
     ChatRequest,
@@ -129,9 +139,8 @@ _NEGATION_RE = re.compile(
 logger = logging.getLogger(__name__)
 
 
-def _has_openai_key() -> bool:
-    key = get_settings().openai_api_key.strip()
-    return bool(key) and key != "sk-your-key-here"
+def _has_chat_key() -> bool:
+    return chat_key_present()
 
 
 def _usage_total(resp: Any) -> int:
@@ -298,52 +307,222 @@ def _heuristic_search_request(body: ChatRequest) -> SearchRequest:
     )
 
 
-def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
-    debug = DebugTrace(turn_flow=["received"])
+def _run_chat_offline(body: ChatRequest, tenant_id: str, debug: DebugTrace) -> ChatResponse:
+    tokens: dict[str, int] = {}
+    latency: dict[str, float] = {}
+    debug.turn_flow.append("llm_decided_search")
+    t0 = time.perf_counter()
+    req = _heuristic_search_request(body)
+    _apply_negation_backstop(req, body, debug)
+    req.semantic_query = clean_query_for_embedding(req.semantic_query, req.exclude_terms)
+    latency["extract"] = (time.perf_counter() - t0) * 1000
+    debug.turn_flow.append("filters_extracted")
+    debug.previous_filters = _PREV_FILTERS.get(body.session_id)
+    debug.extracted_filters = req.model_dump()
+    _PREV_FILTERS[body.session_id] = req.model_dump()
+    hits, qdrant_query, fallback, hit_debugs, q_ms = search_products(
+        req, country=body.country, tenant_id=tenant_id
+    )
+    latency["qdrant"] = q_ms
+    debug.qdrant_query = qdrant_query
+    debug.hits = hit_debugs
+    debug.fallback = fallback
+    debug.turn_flow.append("qdrant_query")
+    debug.turn_flow.append(f"fallback_{fallback.action}" if fallback.triggered else "fallback_none")
+    product_cards = _cards_from_hits(hits, body.country)
+    inject = _inject_block(hits, body.country) if hits else "PRODUCT CARDS: (none found)"
+    debug.injected_prompt_block = inject
+    debug.turn_flow.append(f"injected_{len(hits)}_cards")
+    if not hits:
+        reply = "I couldn't find a match with those constraints. Want to relax the budget or category?"
+    else:
+        lines = ["Based on what you shared, here are options:"]
+        for c in product_cards[:3]:
+            lines.append(f"- [{c.id}] {c.title}: {c.pitch} — {c.price_display}")
+        if fallback.triggered:
+            lines.append(f"(Note: relaxed search via {fallback.action})")
+        reply = "\n".join(lines)
+    debug.turn_flow.append("llm_pitched")
+    debug.tokens = tokens
+    debug.latency_ms = latency
+    return ChatResponse(reply=reply, product_cards=product_cards[:3], debug=debug)
+
+
+def _assistant_message_dict(message: Any) -> dict[str, Any]:
+    """Preserve tool_calls and DeepSeek reasoning_content for tool loops."""
+    out: dict[str, Any] = {
+        "role": "assistant",
+        "content": getattr(message, "content", None),
+    }
+    reasoning = getattr(message, "reasoning_content", None)
+    if reasoning:
+        out["reasoning_content"] = reasoning
+    tool_calls = getattr(message, "tool_calls", None)
+    if tool_calls:
+        serialized = []
+        for tc in tool_calls:
+            serialized.append(
+                {
+                    "id": getattr(tc, "id", None),
+                    "type": getattr(tc, "type", "function"),
+                    "function": {
+                        "name": getattr(getattr(tc, "function", None), "name", None),
+                        "arguments": getattr(getattr(tc, "function", None), "arguments", None),
+                    },
+                }
+            )
+        out["tool_calls"] = serialized
+    return out
+
+
+def _first_completions_tool_call(message: Any, name: str = "search_products") -> Any | None:
+    for tc in getattr(message, "tool_calls", None) or []:
+        fn = getattr(tc, "function", None)
+        if fn is not None and getattr(fn, "name", None) == name:
+            return tc
+    return None
+
+
+def _run_chat_deepseek(body: ChatRequest, tenant_id: str, debug: DebugTrace) -> ChatResponse:
+    tokens: dict[str, int] = {}
+    latency: dict[str, float] = {}
+    client = get_chat_client()
+    model = chat_model()
+    tools = [build_search_products_tool_completions()]
+    system = _system_prompt(body, tenant_id)
+    messages: list[dict[str, Any]] = [{"role": "system", "content": system}]
+    messages.extend(_conversation_input(body))
+    ckw = chat_completion_kwargs()
+
+    t0 = time.perf_counter()
+    first = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        tools=tools,
+        tool_choice="auto",
+        **ckw,
+    )
+    latency["extract"] = (time.perf_counter() - t0) * 1000
+    tokens["query_understanding"] = _usage_total(first)
+    first_msg = first.choices[0].message
+
+    tool_call = _first_completions_tool_call(first_msg)
+    if not tool_call:
+        debug.turn_flow.append("llm_decided_no_search")
+        reply = getattr(first_msg, "content", None) or ""
+        debug.tokens = tokens
+        debug.latency_ms = latency
+        return ChatResponse(reply=reply, product_cards=[], debug=debug)
+
+    debug.turn_flow.append("llm_decided_search")
+    try:
+        args = json.loads(tool_call.function.arguments)
+        req = parse_search_request(args)
+    except Exception:
+        debug.turn_flow.append("filter_parse_retry")
+        messages.append(_assistant_message_dict(first_msg))
+        messages.append(
+            {
+                "role": "tool",
+                "tool_call_id": tool_call.id,
+                "content": json.dumps(
+                    {"error": "invalid SearchRequest JSON, retry with valid fields"}
+                ),
+            }
+        )
+        retry = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            tools=tools,
+            tool_choice={"type": "function", "function": {"name": "search_products"}},
+            **ckw,
+        )
+        tokens["query_understanding"] = tokens.get("query_understanding", 0) + _usage_total(retry)
+        first_msg = retry.choices[0].message
+        tool_call = _first_completions_tool_call(first_msg)
+        if not tool_call:
+            debug.tokens = tokens
+            debug.latency_ms = latency
+            return ChatResponse(
+                reply=getattr(first_msg, "content", None)
+                or "I had trouble understanding filters. Could you rephrase?",
+                debug=debug,
+            )
+        try:
+            args = json.loads(tool_call.function.arguments)
+            req = parse_search_request(args)
+        except Exception:
+            req = SearchRequest(
+                semantic_query=body.messages[-1].content if body.messages else "products"
+            )
+
+    _apply_negation_backstop(req, body, debug)
+    req.semantic_query = clean_query_for_embedding(req.semantic_query, req.exclude_terms)
+    debug.turn_flow.append("filters_extracted")
+    debug.previous_filters = _PREV_FILTERS.get(body.session_id)
+    debug.extracted_filters = req.model_dump()
+    _PREV_FILTERS[body.session_id] = req.model_dump()
+
+    hits, qdrant_query, fallback, hit_debugs, q_ms = search_products(
+        req, country=body.country, tenant_id=tenant_id
+    )
+    latency["qdrant"] = q_ms
+    debug.qdrant_query = qdrant_query
+    debug.hits = hit_debugs
+    debug.fallback = fallback
+    debug.turn_flow.append("qdrant_query")
+    if fallback.triggered:
+        debug.turn_flow.append(f"fallback_{fallback.action}")
+    else:
+        debug.turn_flow.append("fallback_none")
+
+    product_cards = _cards_from_hits(hits, body.country)
+    inject = _inject_block(hits, body.country) if hits else "PRODUCT CARDS: (none found)"
+    debug.injected_prompt_block = inject
+    debug.turn_flow.append(f"injected_{len(hits)}_cards")
+
+    tool_payload = {
+        "hit_count": len(hits),
+        "fallback": fallback.model_dump(),
+        "cards": inject,
+        "guidance": (
+            "Ask one narrowing question"
+            if len(hits) > 12 or not hits
+            else "Pitch up to 3 products with [ID] refs"
+        ),
+    }
+
+    messages.append(_assistant_message_dict(first_msg))
+    messages.append(
+        {
+            "role": "tool",
+            "tool_call_id": tool_call.id,
+            "content": json.dumps(tool_payload),
+        }
+    )
+
+    t1 = time.perf_counter()
+    final = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        tools=tools,
+        **ckw,
+    )
+    latency["final_llm"] = (time.perf_counter() - t1) * 1000
+    tokens["final"] = _usage_total(final)
+    reply = getattr(final.choices[0].message, "content", None) or ""
+    debug.turn_flow.append("llm_pitched")
+    debug.tokens = tokens
+    debug.latency_ms = latency
+    return ChatResponse(reply=reply, product_cards=product_cards[:3], debug=debug)
+
+
+def _run_chat_openai(body: ChatRequest, tenant_id: str, debug: DebugTrace) -> ChatResponse:
     tokens: dict[str, int] = {}
     latency: dict[str, float] = {}
     product_cards: list[ProductCard] = []
 
-    # Offline / no-key path: heuristic extract + search + template pitch
-    if not _has_openai_key():
-        debug.turn_flow.append("llm_decided_search")
-        t0 = time.perf_counter()
-        req = _heuristic_search_request(body)
-        _apply_negation_backstop(req, body, debug)
-        req.semantic_query = clean_query_for_embedding(req.semantic_query, req.exclude_terms)
-        latency["extract"] = (time.perf_counter() - t0) * 1000
-        debug.turn_flow.append("filters_extracted")
-        debug.previous_filters = _PREV_FILTERS.get(body.session_id)
-        debug.extracted_filters = req.model_dump()
-        _PREV_FILTERS[body.session_id] = req.model_dump()
-        hits, qdrant_query, fallback, hit_debugs, q_ms = search_products(
-            req, country=body.country, tenant_id=tenant_id
-        )
-        latency["qdrant"] = q_ms
-        debug.qdrant_query = qdrant_query
-        debug.hits = hit_debugs
-        debug.fallback = fallback
-        debug.turn_flow.append("qdrant_query")
-        debug.turn_flow.append(f"fallback_{fallback.action}" if fallback.triggered else "fallback_none")
-        product_cards = _cards_from_hits(hits, body.country)
-        inject = _inject_block(hits, body.country) if hits else "PRODUCT CARDS: (none found)"
-        debug.injected_prompt_block = inject
-        debug.turn_flow.append(f"injected_{len(hits)}_cards")
-        if not hits:
-            reply = "I couldn't find a match with those constraints. Want to relax the budget or category?"
-        else:
-            lines = ["Based on what you shared, here are options:"]
-            for c in product_cards[:3]:
-                lines.append(f"- [{c.id}] {c.title}: {c.pitch} — {c.price_display}")
-            if fallback.triggered:
-                lines.append(f"(Note: relaxed search via {fallback.action})")
-            reply = "\n".join(lines)
-        debug.turn_flow.append("llm_pitched")
-        debug.tokens = tokens
-        debug.latency_ms = latency
-        return ChatResponse(reply=reply, product_cards=product_cards[:3], debug=debug)
-
-    client = get_openai()
+    client = get_chat_client()
     model = chat_model()
     tools = [build_search_products_tool()]
     instructions = _system_prompt(body, tenant_id)
@@ -487,3 +666,15 @@ def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
     debug.tokens = tokens
     debug.latency_ms = latency
     return ChatResponse(reply=reply, product_cards=product_cards[:3], debug=debug)
+
+
+def run_chat_turn(body: ChatRequest, tenant_id: str = "demo") -> ChatResponse:
+    debug = DebugTrace(turn_flow=["received"])
+
+    if not _has_chat_key():
+        return _run_chat_offline(body, tenant_id, debug)
+
+    if is_deepseek():
+        return _run_chat_deepseek(body, tenant_id, debug)
+
+    return _run_chat_openai(body, tenant_id, debug)

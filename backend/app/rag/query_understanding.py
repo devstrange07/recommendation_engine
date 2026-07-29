@@ -79,6 +79,19 @@ def build_search_products_tool() -> dict:
     }
 
 
+def build_search_products_tool_completions() -> dict:
+    """Chat Completions nested function-tool schema (DeepSeek / OpenAI completions)."""
+    flat = build_search_products_tool()
+    return {
+        "type": "function",
+        "function": {
+            "name": flat["name"],
+            "description": flat["description"],
+            "parameters": flat["parameters"],
+        },
+    }
+
+
 # Built at import for callers that expect a module-level constant; rebuild if vocab changes at runtime.
 SEARCH_PRODUCTS_TOOL = build_search_products_tool()
 

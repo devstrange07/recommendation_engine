@@ -6,7 +6,13 @@ from qdrant_client import QdrantClient
 
 from app.api import admin, catalog, catalogs, chat, review
 from app.config import get_settings, langsmith_key_present
-from app.openai_client import configure_langsmith
+from app.openai_client import (
+    chat_key_present,
+    chat_model,
+    chat_provider,
+    configure_langsmith,
+    openai_key_present,
+)
 from app.pipeline.io_utils import ensure_data_dirs
 from app.pipeline.paths import DEMO_TENANT, TenantPaths, migrate_legacy_to_demo
 from app.pipeline.s4_index import get_qdrant
@@ -60,14 +66,14 @@ def health():
         qdrant_ok = True
     except Exception:
         qdrant_ok = False
-    key = (settings.openai_api_key or "").strip()
-    key_present = bool(key) and key != "sk-your-key-here"
     return {
         "ok": True,
-        "openai_key_present": key_present,
+        "openai_key_present": openai_key_present(settings),
+        "chat_key_present": chat_key_present(settings),
+        "chat_provider": chat_provider(),
         "langsmith_key_present": langsmith_key_present(settings),
         "qdrant_reachable": qdrant_ok,
-        "chat_model": settings.chat_model,
+        "chat_model": chat_model(),
         "chat_reasoning_effort": settings.chat_reasoning_effort,
         "embedding_model": settings.embedding_model,
         "langsmith_project": settings.langsmith_project,

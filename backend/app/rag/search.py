@@ -10,8 +10,7 @@ from typing import Any
 
 from qdrant_client import QdrantClient, models
 
-from app.config import get_settings
-from app.openai_client import embedding_model, get_openai
+from app.openai_client import embedding_model, get_embedding_client, openai_key_present
 from app.pipeline.s4_index import get_qdrant
 from app.schemas import FallbackDebug, HitDebug, SearchRequest
 
@@ -30,8 +29,7 @@ logger = logging.getLogger(__name__)
 
 
 def _has_openai_key() -> bool:
-    key = get_settings().openai_api_key.strip()
-    return bool(key) and key != "sk-your-key-here"
+    return openai_key_present()
 
 
 def _hash_embed(text: str, dim: int = 1536) -> list[float]:
@@ -48,7 +46,7 @@ def _embed_query(text: str) -> list[float]:
     if not _has_openai_key():
         return _hash_embed(text)
     try:
-        resp = get_openai().embeddings.create(model=embedding_model(), input=[text])
+        resp = get_embedding_client().embeddings.create(model=embedding_model(), input=[text])
         return resp.data[0].embedding
     except Exception:
         return _hash_embed(text)

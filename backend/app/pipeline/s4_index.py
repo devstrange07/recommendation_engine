@@ -10,7 +10,7 @@ from typing import Any
 from qdrant_client import QdrantClient, models
 
 from app.config import get_settings
-from app.openai_client import embedding_model, get_openai
+from app.openai_client import embedding_model, get_embedding_client, openai_key_present
 from app.pipeline.io_utils import ensure_data_dirs, load_hash_ledger, save_hash_ledger
 
 
@@ -62,8 +62,7 @@ def _hash_embed(text: str, dim: int = 1536) -> list[float]:
 
 
 def _has_openai_key() -> bool:
-    key = get_settings().openai_api_key.strip()
-    return bool(key) and key != "sk-your-key-here"
+    return openai_key_present()
 
 
 def _embed(texts: list[str]) -> list[list[float]]:
@@ -71,7 +70,7 @@ def _embed(texts: list[str]) -> list[list[float]]:
         print("WARN: OPENAI_API_KEY missing — using hash embeddings")
         return [_hash_embed(t) for t in texts]
     try:
-        client = get_openai()
+        client = get_embedding_client()
         resp = client.embeddings.create(model=embedding_model(), input=texts)
         by_idx = sorted(resp.data, key=lambda d: d.index)
         return [d.embedding for d in by_idx]

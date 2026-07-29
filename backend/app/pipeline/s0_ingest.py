@@ -1,4 +1,4 @@
-"""Stage 0 — LLM-assisted structuring of messy catalog input."""
+﻿"""Stage 0 — LLM-assisted structuring of messy catalog input."""
 
 from __future__ import annotations
 
@@ -7,9 +7,15 @@ import re
 import uuid
 from datetime import datetime, timezone
 
-from app.config import get_settings
-from app.openai_client import chat_completion_kwargs, chat_model, get_openai
-from app.schemas import RawPlan, RawPriceList, RawProduct
+from app.openai_client import (
+    call_with_forced_tool,
+    chat_completion_kwargs,
+    chat_key_present,
+    chat_model,
+    get_chat_client,
+    is_deepseek,
+)
+from app.schemas import ExtractProductsResponse, RawPlan, RawPriceList, RawProduct
 
 EXTRACT_SYSTEM = """You are a catalog data extractor. Convert messy product catalog text or partial JSON into strict RawProduct records.
 
@@ -34,10 +40,14 @@ Rules:
 - Prefer ISO country codes IN, US, GB when possible.
 """
 
+EXTRACT_SYSTEM_TOOL = (
+    EXTRACT_SYSTEM
+    + """
 
-def _has_openai_key() -> bool:
-    key = get_settings().openai_api_key.strip()
-    return bool(key) and key != "sk-your-key-here"
+CRITICAL: You MUST call the `submit_products` tool with the extracted products.
+Do NOT put JSON in the message content — only the tool call.
+"""
+)
 
 
 def _now_iso() -> str:
@@ -108,11 +118,44 @@ def _parse_structured(text: str) -> list[RawProduct] | None:
     return products
 
 
-def _llm_extract(text: str, *, source_name: str | None = None) -> list[RawProduct]:
-    if not _has_openai_key():
-        return _heuristic_from_text(text)
+def _finalize_products(rows: list[RawProduct]) -> list[RawProduct]:
+    out: list[RawProduct] = []
+    for row in rows:
+        data = row.model_dump()
+        if not data.get("id"):
+            data["id"] = _new_product_id()
+        if not data.get("updated_at"):
+            data["updated_at"] = _now_iso()
+        out.append(RawProduct.model_validate(data))
+    return out
 
-    client = get_openai()
+
+def _llm_extract_deepseek(text: str, *, source_name: str | None = None) -> list[RawProduct]:
+    user = {
+        "source": source_name or "paste",
+        "content": text[:12000],
+        "instruction": "Call submit_products with key products — array of RawProduct.",
+    }
+    messages = [
+        {"role": "system", "content": EXTRACT_SYSTEM_TOOL},
+        {"role": "user", "content": json.dumps(user)},
+    ]
+
+    def validate(data: dict) -> list[RawProduct]:
+        parsed = ExtractProductsResponse.model_validate(data)
+        return _finalize_products(parsed.products)
+
+    return call_with_forced_tool(
+        messages=messages,
+        tool_name="submit_products",
+        tool_description="Submit the extracted RawProduct array. Required.",
+        parameters_model=ExtractProductsResponse,
+        validate=validate,
+    )
+
+
+def _llm_extract_openai(text: str, *, source_name: str | None = None) -> list[RawProduct]:
+    client = get_chat_client()
     user = {
         "source": source_name or "paste",
         "content": text[:12000],
@@ -145,6 +188,14 @@ def _llm_extract(text: str, *, source_name: str | None = None) -> list[RawProduc
         return _call()
     except Exception:
         return _call()
+
+
+def _llm_extract(text: str, *, source_name: str | None = None) -> list[RawProduct]:
+    if not chat_key_present():
+        return _heuristic_from_text(text)
+    if is_deepseek():
+        return _llm_extract_deepseek(text, source_name=source_name)
+    return _llm_extract_openai(text, source_name=source_name)
 
 
 def extract_products(text: str, *, source_name: str | None = None) -> list[RawProduct]:

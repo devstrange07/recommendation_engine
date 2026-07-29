@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import base64
 
-from app.openai_client import chat_model, get_openai
+from app.openai_client import chat_model, get_chat_client
 
 VISION_SYSTEM = (
     "You are a product catalog analyst. Describe the content of this image factually. "
@@ -16,7 +16,7 @@ MAX_IMAGES_PER_FILE = 8
 
 
 def describe_image(image_bytes: bytes, *, mime: str = "image/png", context: str = "") -> str:
-    client = get_openai()
+    client = get_chat_client()
     b64 = base64.b64encode(image_bytes).decode()
     user_parts: list[dict] = [
         {

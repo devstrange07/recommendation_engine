@@ -19,6 +19,9 @@ class Settings(BaseSettings):
     )
 
     openai_api_key: str = ""
+    deepseek_api_key: str = ""
+    # openai | deepseek — selects chat/pipeline LLM; embeddings always use OpenAI
+    chat_provider: str = "openai"
     qdrant_url: str = "http://localhost:6333"
     chat_model: str = "gpt-5.4-mini"
     chat_reasoning_effort: str = "medium"

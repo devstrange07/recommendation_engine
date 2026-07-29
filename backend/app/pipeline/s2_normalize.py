@@ -8,7 +8,14 @@ import json
 import yaml
 
 from app.config import get_settings
-from app.openai_client import chat_completion_kwargs, chat_model, get_openai
+from app.openai_client import (
+    call_with_forced_tool,
+    chat_completion_kwargs,
+    chat_key_present,
+    chat_model,
+    get_chat_client,
+    is_deepseek,
+)
 from app.pipeline.io_utils import ensure_data_dirs, write_json
 from app.pipeline.paths import TenantPaths
 from app.pipeline.progress import ProgressCallback, emit
@@ -24,7 +31,7 @@ from app.schemas import (
 
 _NORMALIZED_FIELD_NAMES = set(Normalized.model_fields.keys())
 
-NORMALIZATION_SYSTEM = """You are a catalog data engineer. Normalize messy product catalog records into a strict schema.
+_NORMALIZATION_RULES = """You are a catalog data engineer. Normalize messy product catalog records into a strict schema.
 
 Rules:
 - Use ONLY values from the provided vocabulary for category_path, use_case_tags, and target_audience.
@@ -55,6 +62,15 @@ Example NormalizationRecord:
 }
 """
 
+NORMALIZATION_SYSTEM = _NORMALIZATION_RULES
+
+NORMALIZATION_SYSTEM_TOOL = (
+    _NORMALIZATION_RULES
+    + """
+CRITICAL: You MUST call the `submit_normalization_batch` tool with the records.
+Do NOT put JSON in the message content — only the tool call.
+"""
+)
 
 def load_vocab() -> dict:
     settings = get_settings()
@@ -87,9 +103,8 @@ def _product_payload(staged: StagedProduct, overrides: dict) -> dict:
     }
 
 
-def _has_openai_key() -> bool:
-    key = get_settings().openai_api_key.strip()
-    return bool(key) and key != "sk-your-key-here"
+def _has_chat_key() -> bool:
+    return chat_key_present()
 
 
 def _coerce_flat_record(raw: dict) -> dict:
@@ -179,13 +194,12 @@ def _normalize_batch(
     batch_idx: int = 0,
     batch_total: int = 0,
 ) -> list[NormalizationRecord]:
-    if not _has_openai_key():
+    if not _has_chat_key():
         from app.pipeline.heuristic_normalize import normalize_batch
 
-        print("WARN: OPENAI_API_KEY missing — using heuristic normalizer")
+        print("WARN: chat API key missing — using heuristic normalizer")
         return normalize_batch(batch, vocab)
 
-    client = get_openai()
     payloads = [_product_payload(s, load_overrides(paths, s.id)) for s in batch]
     user = {
         "vocabulary": vocab,
@@ -193,10 +207,17 @@ def _normalize_batch(
         "instruction": (
             "Return a JSON object with key 'records' — an array of NormalizationRecord, "
             "one per product, same order. Each record must include nested 'normalized'."
+            if not is_deepseek()
+            else (
+                "Call submit_normalization_batch with key 'records' — an array of "
+                "NormalizationRecord, one per product, same order. Each record must "
+                "include nested 'normalized'."
+            )
         ),
     }
 
-    def _call():
+    def _call_openai():
+        client = get_chat_client()
         resp = client.chat.completions.parse(
             model=chat_model(),
             messages=[
@@ -212,6 +233,32 @@ def _normalize_batch(
         )
         message = resp.choices[0].message
         return _records_from_parsed(message.parsed, message.content)
+
+    def _call_deepseek():
+        def validate(data: dict) -> list[NormalizationRecord]:
+            parsed = NormalizationBatchResponse.model_validate(data)
+            return _records_from_parsed(parsed, None)
+
+        return call_with_forced_tool(
+            messages=[
+                {"role": "system", "content": NORMALIZATION_SYSTEM_TOOL},
+                {
+                    "role": "user",
+                    "content": json.dumps(user)
+                    + "\nCall submit_normalization_batch with "
+                    '{"records":[NormalizationRecord,...]}',
+                },
+            ],
+            tool_name="submit_normalization_batch",
+            tool_description=(
+                "Submit the normalization batch. Required. "
+                "Arguments must match NormalizationBatchResponse."
+            ),
+            parameters_model=NormalizationBatchResponse,
+            validate=validate,
+        )
+
+    _call = _call_deepseek if is_deepseek() else _call_openai
 
     try:
         with ThreadPoolExecutor(max_workers=1) as executor:

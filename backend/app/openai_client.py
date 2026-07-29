@@ -1,15 +1,24 @@
-"""Shared OpenAI client with optional LangSmith wrapping."""
+"""Shared LLM clients (OpenAI + DeepSeek) with optional LangSmith wrapping."""
 
 from __future__ import annotations
 
+import json
 import os
+from typing import Any, Callable, TypeVar
 
 from openai import OpenAI
+from pydantic import BaseModel
 
 from app.config import get_settings, langsmith_key_present
 
-_client: OpenAI | None = None
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash"
+
+_embedding_client: OpenAI | None = None
+_chat_client: OpenAI | None = None
 _langsmith_configured = False
+
+T = TypeVar("T")
 
 
 def configure_langsmith() -> bool:
@@ -30,24 +39,85 @@ def configure_langsmith() -> bool:
     return True
 
 
-def get_openai() -> OpenAI:
-    global _client
-    if _client is None:
+def _maybe_wrap(client: OpenAI) -> OpenAI:
+    if not configure_langsmith():
+        return client
+    try:
+        from langsmith.wrappers import wrap_openai
+
+        return wrap_openai(client)
+    except Exception as e:
+        print(f"WARN: LangSmith wrap_openai failed: {e}")
+        return client
+
+
+def chat_provider() -> str:
+    p = (get_settings().chat_provider or "openai").strip().lower()
+    return p if p in ("openai", "deepseek") else "openai"
+
+
+def is_deepseek() -> bool:
+    return chat_provider() == "deepseek"
+
+
+def openai_key_present(settings=None) -> bool:
+    s = settings or get_settings()
+    key = (s.openai_api_key or "").strip()
+    return bool(key) and key != "sk-your-key-here"
+
+
+def deepseek_key_present(settings=None) -> bool:
+    s = settings or get_settings()
+    return bool((s.deepseek_api_key or "").strip())
+
+
+def chat_key_present(settings=None) -> bool:
+    """True if the active chat provider has a usable API key."""
+    s = settings or get_settings()
+    if chat_provider() == "deepseek":
+        return deepseek_key_present(s)
+    return openai_key_present(s)
+
+
+def get_embedding_client() -> OpenAI:
+    """Always OpenAI — used for embeddings only."""
+    global _embedding_client
+    if _embedding_client is None:
         settings = get_settings()
         client = OpenAI(api_key=settings.openai_api_key or "missing")
-        if configure_langsmith():
-            try:
-                from langsmith.wrappers import wrap_openai
+        _embedding_client = _maybe_wrap(client)
+    return _embedding_client
 
-                client = wrap_openai(client)
-            except Exception as e:
-                print(f"WARN: LangSmith wrap_openai failed: {e}")
-        _client = client
-    return _client
+
+def get_chat_client() -> OpenAI:
+    """OpenAI or DeepSeek client for chat / pipeline / vision."""
+    global _chat_client
+    if _chat_client is None:
+        settings = get_settings()
+        if chat_provider() == "deepseek":
+            client = OpenAI(
+                api_key=settings.deepseek_api_key or "missing",
+                base_url=DEEPSEEK_BASE_URL,
+            )
+        else:
+            client = OpenAI(api_key=settings.openai_api_key or "missing")
+        _chat_client = _maybe_wrap(client)
+    return _chat_client
+
+
+def get_openai() -> OpenAI:
+    """Backward-compatible alias: embedding client (historical OpenAI-only usage)."""
+    return get_embedding_client()
 
 
 def chat_model() -> str:
-    return get_settings().chat_model
+    settings = get_settings()
+    model = (settings.chat_model or "").strip()
+    if chat_provider() == "deepseek":
+        if not model or model.startswith("gpt-"):
+            return DEFAULT_DEEPSEEK_MODEL
+        return model
+    return model or "gpt-5.4-mini"
 
 
 def embedding_model() -> str:
@@ -55,17 +125,126 @@ def embedding_model() -> str:
 
 
 def chat_completion_kwargs(*, for_tools: bool = False) -> dict:
-    """Kwargs for /v1/chat/completions (normalize / ingest / vision)."""
+    """Kwargs for /v1/chat/completions (normalize / ingest / vision / DeepSeek chat)."""
     del for_tools  # unused; kept for call-site compatibility
     effort = get_settings().chat_reasoning_effort.strip()
+    if chat_provider() == "deepseek":
+        if not effort or effort.lower() == "none":
+            return {"extra_body": {"thinking": {"type": "disabled"}}}
+        # DeepSeek thinking: effort is high|max when enabled
+        ds_effort = "max" if effort.lower() in ("max", "xhigh") else "high"
+        return {
+            "reasoning_effort": ds_effort,
+            "extra_body": {"thinking": {"type": "enabled"}},
+        }
     if not effort or effort.lower() == "none":
         return {}
     return {"reasoning_effort": effort}
 
 
 def responses_kwargs() -> dict:
-    """Kwargs for /v1/responses (chat agent: tools + reasoning together)."""
+    """Kwargs for /v1/responses (OpenAI chat agent only)."""
+    if chat_provider() == "deepseek":
+        return {}
     effort = get_settings().chat_reasoning_effort.strip()
     if not effort or effort.lower() == "none":
         return {}
     return {"reasoning": {"effort": effort, "summary": "auto"}}
+
+
+def _tool_parameters_schema(model: type[BaseModel]) -> dict[str, Any]:
+    schema = model.model_json_schema()
+    # Chat Completions tools expect a plain object schema; keep $defs for $ref resolution.
+    if schema.get("type") != "object":
+        schema = {
+            "type": "object",
+            "properties": schema.get("properties", {}),
+            "required": schema.get("required", []),
+        }
+    schema.pop("title", None)
+    return schema
+
+
+def build_submit_tool(
+    *,
+    name: str,
+    description: str,
+    parameters_model: type[BaseModel],
+) -> dict[str, Any]:
+    return {
+        "type": "function",
+        "function": {
+            "name": name,
+            "description": description,
+            "parameters": _tool_parameters_schema(parameters_model),
+        },
+    }
+
+
+def parse_forced_tool_args(
+    message: Any,
+    *,
+    tool_name: str,
+    validate: Callable[[dict], T],
+) -> T:
+    tool_calls = getattr(message, "tool_calls", None) or []
+    for tc in tool_calls:
+        fn = getattr(tc, "function", None)
+        if fn is None:
+            continue
+        if getattr(fn, "name", None) != tool_name:
+            continue
+        raw = getattr(fn, "arguments", None) or "{}"
+        data = json.loads(raw) if isinstance(raw, str) else raw
+        if not isinstance(data, dict):
+            raise ValueError(f"tool args must be object, got {type(data)}")
+        return validate(data)
+    raise ValueError(f"expected tool call '{tool_name}', got none")
+
+
+def call_with_forced_tool(
+    *,
+    messages: list[dict[str, Any]],
+    tool_name: str,
+    tool_description: str,
+    parameters_model: type[BaseModel],
+    validate: Callable[[dict], T],
+) -> T:
+    """Force a tool call for structured output (DeepSeek-safe with thinking). Retries once."""
+    client = get_chat_client()
+    model = chat_model()
+    tools = [
+        build_submit_tool(
+            name=tool_name,
+            description=tool_description,
+            parameters_model=parameters_model,
+        )
+    ]
+    tool_choice = {"type": "function", "function": {"name": tool_name}}
+    kwargs = chat_completion_kwargs()
+
+    def _once(msgs: list[dict[str, Any]]) -> T:
+        resp = client.chat.completions.create(
+            model=model,
+            messages=msgs,
+            tools=tools,
+            tool_choice=tool_choice,
+            **kwargs,
+        )
+        message = resp.choices[0].message
+        return parse_forced_tool_args(message, tool_name=tool_name, validate=validate)
+
+    try:
+        return _once(messages)
+    except Exception:
+        repair = list(messages) + [
+            {
+                "role": "user",
+                "content": (
+                    f"Your previous reply was invalid. You MUST call the `{tool_name}` tool "
+                    "with arguments that exactly match the tool schema. "
+                    "Do not put JSON in the message content — only the tool call."
+                ),
+            }
+        ]
+        return _once(repair)

@@ -40,6 +40,12 @@ class RawProduct(BaseModel):
     updated_at: str
 
 
+class ExtractProductsResponse(BaseModel):
+    """Wire type for LLM tool-based product extraction (S0)."""
+
+    products: list[RawProduct]
+
+
 # ---------------------------------------------------------------------------
 # Staged (after deterministic pre-processing)
 # ---------------------------------------------------------------------------
