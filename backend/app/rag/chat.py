@@ -435,7 +435,7 @@ def _run_chat_deepseek(body: ChatRequest, tenant_id: str, debug: DebugTrace) -> 
             messages=messages,
             tools=tools,
             tool_choice={"type": "function", "function": {"name": "search_products"}},
-            **ckw,
+            **chat_completion_kwargs(for_tools=True),
         )
         tokens["query_understanding"] = tokens.get("query_understanding", 0) + _usage_total(retry)
         first_msg = retry.choices[0].message

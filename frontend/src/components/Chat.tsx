@@ -49,10 +49,17 @@ export default function Chat({
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const composerInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, busy]);
+
+  useEffect(() => {
+    if (!busy) {
+      composerInputRef.current?.focus();
+    }
+  }, [busy]);
 
   useEffect(() => {
     if (initialPrompt) {
@@ -87,6 +94,7 @@ export default function Chat({
       });
     } finally {
       setBusy(false);
+      requestAnimationFrame(() => composerInputRef.current?.focus());
     }
   }
 
@@ -154,6 +162,7 @@ export default function Chat({
       {busy && <div className="typing">Thinking…</div>}
       <div className="composer composer--compact">
         <input
+          ref={composerInputRef}
           value={input}
           placeholder="Message…"
           onChange={(e) => setInput(e.target.value)}

@@ -523,6 +523,8 @@ select:focus {
   align-self: flex-start;
   background: var(--bubble-assistant-bg);
   box-shadow: var(--shadow-sm);
+  font-size: 0.82rem;
+  line-height: 1.42;
 }
 
 .cards-row {
@@ -1872,6 +1874,11 @@ select:focus {
   padding: 0.55rem 0.75rem;
   font-size: 0.92rem;
   line-height: 1.45;
+}
+
+.chat--compact .bubble.assistant {
+  font-size: 0.78rem;
+  line-height: 1.4;
 }
 
 .product-card--compact {

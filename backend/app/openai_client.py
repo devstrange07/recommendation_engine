@@ -126,10 +126,9 @@ def embedding_model() -> str:
 
 def chat_completion_kwargs(*, for_tools: bool = False) -> dict:
     """Kwargs for /v1/chat/completions (normalize / ingest / vision / DeepSeek chat)."""
-    del for_tools  # unused; kept for call-site compatibility
     effort = get_settings().chat_reasoning_effort.strip()
     if chat_provider() == "deepseek":
-        if not effort or effort.lower() == "none":
+        if for_tools or not effort or effort.lower() == "none":
             return {"extra_body": {"thinking": {"type": "disabled"}}}
         # DeepSeek thinking: effort is high|max when enabled
         ds_effort = "max" if effort.lower() in ("max", "xhigh") else "high"
@@ -220,10 +219,12 @@ def call_with_forced_tool(
             parameters_model=parameters_model,
         )
     ]
-    tool_choice = {"type": "function", "function": {"name": tool_name}}
-    kwargs = chat_completion_kwargs()
-
-    def _once(msgs: list[dict[str, Any]]) -> T:
+    def _once(
+        msgs: list[dict[str, Any]],
+        *,
+        tool_choice: str | dict[str, Any],
+        kwargs: dict[str, Any],
+    ) -> T:
         resp = client.chat.completions.create(
             model=model,
             messages=msgs,
@@ -235,7 +236,12 @@ def call_with_forced_tool(
         return parse_forced_tool_args(message, tool_name=tool_name, validate=validate)
 
     try:
-        return _once(messages)
+        # Phase 1: preserve thinking and strongly prompt tool usage.
+        return _once(
+            messages,
+            tool_choice="auto",
+            kwargs=chat_completion_kwargs(for_tools=False),
+        )
     except Exception:
         repair = list(messages) + [
             {
@@ -247,4 +253,9 @@ def call_with_forced_tool(
                 ),
             }
         ]
-        return _once(repair)
+        # Phase 2: guarantee a tool call by forcing it with thinking disabled.
+        return _once(
+            repair,
+            tool_choice={"type": "function", "function": {"name": tool_name}},
+            kwargs=chat_completion_kwargs(for_tools=True),
+        )
