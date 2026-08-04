@@ -1,0 +1,69 @@
+id: budget_smb_tool_finder
+source: auto
+title: Budget-Conscious Small Business Tool Finder
+description: A small business owner is shopping for affordable back-office SaaS on
+  a tight monthly budget. The user asks for tools in specific categories (email marketing,
+  scheduling, helpdesk, invoicing, CRM) with a hard price ceiling, sometimes in different
+  currencies (USD, GBP, INR). The bot must apply both category/use-case filters and
+  price/currency filters together, returning only in-scope products that satisfy the
+  stated budget, and must not broaden results into out-of-scope domains such as full
+  accounting suites, e-commerce, or project management.
+soft_expectations:
+  must_use_search: true
+  expected_category_hints:
+  - Marketing/Email
+  - Scheduling/Appointments
+  - Support/Helpdesk
+  - Invoicing/Billing
+  - CRM/Sales
+  expected_facet_keys: []
+  must_not_domains:
+  - Accounting/Bookkeeping (full suite)
+  - E-commerce/Online Store
+  - Project Management
+  - Analytics/Business Intelligence
+  relevance_notes: Every result must match both the requested category/use case and
+    the stated price ceiling in the correct currency. Cheaper out-of-category products
+    or in-category products above budget are both irrelevant. Do not substitute full
+    accounting/ERP suites when the user asks for invoicing/billing.
+goal: Verify retrieval quality when multiple constraints (category/use case + price
+  ceiling + currency) must be combined to filter the catalog, and confirm that budget
+  limits are respected across currencies.
+max_turns: 6
+seed_opening: null
+test_cases:
+- id: budget_email_usd
+  intent: search_products
+  constraints:
+  - 'Category: Marketing/Email'
+  - 'Budget: max $15/month'
+  - 'Currency: USD'
+  - 'Pricing: monthly subscription'
+- id: budget_salon_schedule
+  intent: search_products
+  constraints:
+  - 'Category: Scheduling/Appointments'
+  - 'Use case: salon appointment booking'
+  - 'Budget: max $25/month'
+  - 'Pricing: monthly subscription'
+- id: budget_helpdesk_gbp
+  intent: search_products
+  constraints:
+  - 'Category: Support/Helpdesk'
+  - 'Use case: ticketing and ticket resolution'
+  - 'Budget: max £20/month'
+  - 'Currency: GBP'
+- id: budget_recurring_billing
+  intent: search_products
+  constraints:
+  - 'Category: Invoicing/Billing'
+  - 'Use case: recurring/subscription billing'
+  - 'Budget: max $30/month'
+  - 'Currency: USD'
+- id: budget_deal_crm
+  intent: search_products
+  constraints:
+  - 'Category: CRM/Sales'
+  - 'Use case: deal tracking and pipeline'
+  - 'Budget: max $10/month'
+  - 'Currency: USD'

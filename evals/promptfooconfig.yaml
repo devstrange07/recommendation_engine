@@ -1,0 +1,33 @@
+# Promptfoo config for retrieval (search_products) judging.
+# The Python runner writes per-run pf-tests.yaml and invokes:
+#   npx promptfoo eval -c evals/promptfooconfig.yaml --tests <run>/pf-tests.yaml
+
+description: Prism search_products retrieval rubric
+
+prompts:
+  - file://prompts/retrieval_judge.txt
+
+providers:
+  - id: echo
+    config:
+      # Echo the retrieval blob so llm-rubric scores tool args + hits, not chat prose.
+      transform: "typeof vars.retrieval_blob === 'string' ? vars.retrieval_blob : JSON.stringify(vars.retrieval_blob)"
+
+defaultTest:
+  assert:
+    - type: llm-rubric
+      value: |
+        You are scoring PRODUCT RETRIEVAL quality (search_products tool), not the assistant reply.
+        The output is a JSON retrieval blob with scenario soft_expectations, user_message,
+        search_products_args, hits, and fallback.
+
+        Pass overall if:
+        - When must_use_search and the user is product-seeking, search_products_args is present
+        - semantic_query is a clean rewrite (no negation phrases left in the query)
+        - filters (category/tags/facets/price/exclude_terms) align with conversation + expectations
+        - hits are non-empty for clear product intent, and not systematically wrong-domain
+        - hit ids are present when there are hits
+
+        Fail if search was required but missing, wrong-domain flooding, or empty hits for clear intent.
+
+tests: []

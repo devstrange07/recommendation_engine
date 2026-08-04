@@ -297,6 +297,7 @@ export type ProgressPhase =
   | "normalize"
   | "merge"
   | "index"
+  | "eval_profile"
   | "done";
 
 export type ProgressEventType =
@@ -432,3 +433,171 @@ export async function streamPipelineRun(
   const detail = (done.detail || {}) as { ok?: boolean; summary?: string };
   return { ok: detail.ok !== false, summary: detail.summary };
 }
+
+// ---------------------------------------------------------------------------
+// Retrieval evals
+// ---------------------------------------------------------------------------
+
+export type EvalSoftExpectations = {
+  must_use_search?: boolean;
+  expected_category_hints?: string[];
+  expected_facet_keys?: string[];
+  must_not_domains?: string[];
+  relevance_notes?: string;
+};
+
+export type EvalScenario = {
+  id: string;
+  source: "auto" | "user";
+  title: string;
+  description: string;
+  soft_expectations: EvalSoftExpectations;
+  goal: string;
+  max_turns: number;
+  seed_opening?: string | null;
+  test_cases: Array<{ id: string; intent: string; constraints: string[] }>;
+};
+
+export type CatalogProfile = {
+  version?: number;
+  tenant_id?: string;
+  generated_at?: string;
+  product_count?: number;
+  overview?: string;
+  soft_expectations?: {
+    in_scope_domains?: string[];
+    out_of_scope_domains?: string[];
+    notable_facets?: string[];
+    typical_constraints?: string[];
+  };
+  domains?: Array<Record<string, unknown>>;
+};
+
+export type EvalRunSummary = {
+  run_id: string;
+  status?: string;
+  manifest?: Record<string, unknown>;
+  conclusion?: {
+    overall?: string;
+    scenario_pass_rate?: number;
+    scenarios_passed?: number;
+    scenarios_total?: number;
+    dimension_pass_rates?: Record<string, number | null>;
+    per_scenario?: Array<Record<string, unknown>>;
+    failure_themes?: Array<{ theme: string; count: number }>;
+  };
+};
+
+export type EvalRunDetail = EvalRunSummary & {
+  conclusion_md?: string | null;
+  scenarios?: Record<string, Array<Record<string, unknown>>>;
+  progress?: Record<string, unknown>;
+};
+
+export async function getEvalProfile(tenantId: string): Promise<{
+  profile: CatalogProfile | null;
+  exists: boolean;
+}> {
+  return apiFetch("/evals/profile", {}, tenantId);
+}
+
+export async function regenerateEvalProfile(tenantId: string): Promise<{
+  profile: CatalogProfile;
+  exists: boolean;
+}> {
+  return apiFetch("/evals/profile/regenerate", { method: "POST" }, tenantId);
+}
+
+export async function listEvalScenarios(tenantId: string): Promise<{ scenarios: EvalScenario[] }> {
+  return apiFetch("/evals/scenarios", {}, tenantId);
+}
+
+export async function generateEvalScenarios(
+  tenantId: string,
+  count = 5,
+  replace = false
+): Promise<{ scenarios: EvalScenario[] }> {
+  return apiFetch(
+    "/evals/scenarios/generate",
+    { method: "POST", body: JSON.stringify({ count, replace }) },
+    tenantId
+  );
+}
+
+export async function draftEvalScenario(
+  tenantId: string,
+  description: string
+): Promise<{ draft_id: string; questions: Array<{ id: string; question: string }> }> {
+  return apiFetch(
+    "/evals/scenarios/draft",
+    { method: "POST", body: JSON.stringify({ description }) },
+    tenantId
+  );
+}
+
+export async function confirmEvalScenario(
+  tenantId: string,
+  draftId: string,
+  answers: Record<string, string>
+): Promise<{ scenario: EvalScenario }> {
+  return apiFetch(
+    "/evals/scenarios/confirm",
+    { method: "POST", body: JSON.stringify({ draft_id: draftId, answers }) },
+    tenantId
+  );
+}
+
+export async function deleteEvalScenario(tenantId: string, scenarioId: string): Promise<{ ok: boolean }> {
+  return apiFetch(`/evals/scenarios/${encodeURIComponent(scenarioId)}`, { method: "DELETE" }, tenantId);
+}
+
+export async function startEvalRun(
+  tenantId: string,
+  body: { scenario_ids?: string[] | null; country?: string; max_turns?: number | null }
+): Promise<{ run_id: string }> {
+  return apiFetch("/evals/runs", { method: "POST", body: JSON.stringify(body) }, tenantId);
+}
+
+export async function listEvalRuns(tenantId: string): Promise<{ runs: EvalRunSummary[] }> {
+  return apiFetch("/evals/runs", {}, tenantId);
+}
+
+export async function getEvalRun(tenantId: string, runId: string): Promise<EvalRunDetail> {
+  return apiFetch(`/evals/runs/${encodeURIComponent(runId)}`, {}, tenantId);
+}
+
+export async function streamEvalRun(
+  tenantId: string,
+  runId: string,
+  onEvent: (payload: Record<string, unknown>) => void
+): Promise<void> {
+  const headers = new Headers();
+  headers.set("X-Tenant-Id", tenantId);
+  headers.set("Accept", "text/event-stream");
+  const res = await fetch(`${BASE}/evals/runs/${encodeURIComponent(runId)}/stream`, { headers });
+  if (!res.ok) throw new Error(await res.text());
+  if (!res.body) throw new Error("No SSE body");
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = "";
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const parts = buffer.split("\n\n");
+    buffer = parts.pop() ?? "";
+    for (const part of parts) {
+      const dataLine = part
+        .split("\n")
+        .map((l) => l.trimEnd())
+        .find((l) => l.startsWith("data:"));
+      if (!dataLine) continue;
+      const raw = dataLine.slice(5).trim();
+      if (!raw) continue;
+      const payload = JSON.parse(raw) as Record<string, unknown>;
+      onEvent(payload);
+      if (payload.status === "done" || payload.status === "error") return;
+    }
+  }
+}
+

@@ -34,6 +34,13 @@ class Settings(BaseSettings):
     langsmith_tracing: bool = True
     langsmith_project: str = "prism"
 
+    # Normalize stage: concurrent LLM batches (category-clustered, token-balanced)
+    normalize_concurrency: int = 8
+    normalize_batch_max_products: int = 8
+    normalize_batch_token_budget: int = 3000
+    normalize_max_retries: int = 4
+    normalize_retry_base_delay_seconds: float = 1.0
+
 
 def langsmith_key_present(settings: Settings | None = None) -> bool:
     s = settings or get_settings()

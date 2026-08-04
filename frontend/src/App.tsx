@@ -3,6 +3,7 @@ import Chat from "./components/Chat";
 import DebugPanel from "./components/DebugPanel";
 import ReviewQueue from "./components/ReviewQueue";
 import Catalog from "./components/Catalog";
+import Evals from "./components/Evals";
 import Onboarding, {
   clearOnboarding,
   isOnboardingDone,
@@ -14,7 +15,7 @@ import { useConversations } from "./hooks/useConversations";
 import { DEMO_CATALOG_ID, useCatalogs } from "./hooks/useCatalogs";
 import { DebugTrace, ProductCard, deleteCatalog as deleteCatalogApi } from "./api";
 
-type Page = "chat" | "review" | "catalog";
+type Page = "chat" | "review" | "catalog" | "evals";
 
 const DEBUG_KEY = "prism-debug-open";
 
@@ -194,6 +195,12 @@ export default function App() {
             >
               Review Queue
             </button>
+            <button
+              className={page === "evals" ? "active" : ""}
+              onClick={() => setPage("evals")}
+            >
+              Evals
+            </button>
             {onboarded && (
               <button className="ghost" type="button" onClick={replayTour}>
                 Replay tour
@@ -255,6 +262,8 @@ export default function App() {
               onGoToChat={() => setPage("chat")}
               onNewCatalog={onNewCatalog}
             />
+          ) : page === "evals" ? (
+            <Evals key={catalogId} tenantId={catalogId} country={country} />
           ) : (
             <ReviewQueue key={catalogId} tenantId={catalogId} />
           )}

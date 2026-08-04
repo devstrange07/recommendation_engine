@@ -1,0 +1,57 @@
+id: workflow_specific_matching
+source: auto
+title: Workflow-Specific Tool Matching
+description: A user describes everyday business workflows rather than naming a category
+  outright (e.g., sending newsletters, online class booking, support ticket resolution,
+  subscription billing, lead tracking). The bot must map the described workflow to
+  the correct catalog domain and filter to products that genuinely fit that use case,
+  while rejecting adjacent but out-of-scope domains such as full accounting suites,
+  project management, HR, or analytics.
+soft_expectations:
+  must_use_search: true
+  expected_category_hints:
+  - Marketing/Email
+  - Scheduling/Appointments
+  - Support/Helpdesk
+  - Invoicing/Billing
+  - CRM/Sales
+  expected_facet_keys: []
+  must_not_domains:
+  - Accounting/Bookkeeping (full suite)
+  - Project Management
+  - Human Resources/HR
+  - Analytics/Business Intelligence
+  - Communication/Collaboration tools
+  relevance_notes: Results must belong to the single correct category implied by the
+    workflow. Ambiguous or adjacent products (e.g., full accounting suites for a subscription-billing
+    request, collaboration tools for a newsletter request) are irrelevant.
+goal: Verify retrieval quality on semantic workflow-to-category matching and use-case
+  filtering, ensuring no off-domain substitutions or over-broad category dumps.
+max_turns: 6
+seed_opening: null
+test_cases:
+- id: workflow_newsletter
+  intent: search_products
+  constraints:
+  - 'Use case: sending weekly newsletters to subscribers'
+  - 'Category: Marketing/Email'
+- id: workflow_class_booking
+  intent: search_products
+  constraints:
+  - 'Use case: online booking for yoga classes with waitlists'
+  - 'Category: Scheduling/Appointments'
+- id: workflow_ticket_resolution
+  intent: search_products
+  constraints:
+  - 'Use case: managing customer support tickets and replies'
+  - 'Category: Support/Helpdesk'
+- id: workflow_subscription_billing
+  intent: search_products
+  constraints:
+  - 'Use case: handling subscription plans, trials and failed payments'
+  - 'Category: Invoicing/Billing'
+- id: workflow_lead_pipeline
+  intent: search_products
+  constraints:
+  - 'Use case: tracking leads and deals through a sales pipeline'
+  - 'Category: CRM/Sales'

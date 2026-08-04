@@ -112,6 +112,30 @@ Open http://localhost:5173
 
 Health check: http://localhost:8009/health
 
+## Retrieval evals (promptfoo)
+
+After each successful pipeline, Prism writes `data/tenants/<id>/personas/catalog_profile.yaml` (catalog overview + soft expectations for retrieval testing).
+
+**UI:** open **Evals** in the top nav (per catalog / tenant).
+
+| Step | Action |
+|---|---|
+| Profile | View soft expectations; **Regenerate** force-rebuilds from `canonical/` |
+| Scenarios | **Generate** LLM bank from the profile, or **Add scenario** (describe → clarifying questions → save) |
+| Run | Select scenarios → **Run selected** — multi-turn shopper agent calls chat in-process, judges `search_products` args + hits |
+| Results | Master `conclusion.md` + per-turn rubric reasoning under `data/tenants/<id>/evals/runs/<timestamp>/` |
+
+Optional promptfoo HTML report (Node required):
+
+```bash
+cd evals
+npm install
+# runner also writes pf-tests.yaml per run; or:
+npx promptfoo eval -c promptfooconfig.yaml
+```
+
+Judging focuses on retrieval dimensions: tool args, facets/filters, empty/wrong-domain, soft ranking relevance, product ids — not assistant prose.
+
 ## Demo script
 
 1. Open **Review Queue**, resolve 1–2 flags (tap recommended or enter free text), click **Re-run pipeline**.

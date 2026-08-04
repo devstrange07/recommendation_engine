@@ -278,6 +278,37 @@ def iter_pipeline_progress(
         recall = measure_flag_recall(tenant_id)
         parts.append(f"flag_metrics={recall}")
 
+    yield ProgressEvent(
+        type="phase_start",
+        phase="eval_profile",
+        message="Generating catalog profile for evals",
+    )
+    yield ProgressEvent(
+        type="subtask",
+        phase="eval_profile",
+        message="Summarizing canonical catalog",
+    )
+    try:
+        from app.evals.profile import generate_catalog_profile
+
+        profile = generate_catalog_profile(tenant_id)
+        parts.append(f"catalog_profile=products:{profile.get('product_count', 0)}")
+        yield ProgressEvent(
+            type="phase_done",
+            phase="eval_profile",
+            message=f"Wrote catalog_profile ({profile.get('product_count', 0)} products)",
+            detail={"product_count": profile.get("product_count")},
+        )
+    except Exception as e:
+        print(f"WARN: catalog_profile generation failed: {e}")
+        parts.append(f"catalog_profile=error:{e}")
+        yield ProgressEvent(
+            type="phase_done",
+            phase="eval_profile",
+            message=f"Catalog profile skipped: {e}",
+            detail={"error": str(e)},
+        )
+
     summary = " | ".join(parts)
     print(summary)
     yield ProgressEvent(

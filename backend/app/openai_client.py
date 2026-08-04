@@ -4,8 +4,11 @@ from __future__ import annotations
 
 import json
 import os
+import random
+import time
 from typing import Any, Callable, TypeVar
 
+import openai
 from openai import OpenAI
 from pydantic import BaseModel
 
@@ -19,6 +22,28 @@ _chat_client: OpenAI | None = None
 _langsmith_configured = False
 
 T = TypeVar("T")
+
+
+def retry_on_rate_limit(fn: Callable[[], T]) -> T:
+    """Retry on 429 / connection / timeout with exponential backoff + jitter."""
+    settings = get_settings()
+    delay = settings.normalize_retry_base_delay_seconds
+    last_exc: Exception | None = None
+    for attempt in range(settings.normalize_max_retries + 1):
+        try:
+            return fn()
+        except (
+            openai.RateLimitError,
+            openai.APIConnectionError,
+            openai.APITimeoutError,
+        ) as exc:
+            last_exc = exc
+            if attempt == settings.normalize_max_retries:
+                raise
+            time.sleep(delay + random.uniform(0, delay * 0.5))
+            delay *= 2
+    assert last_exc is not None
+    raise last_exc
 
 
 def configure_langsmith() -> bool:

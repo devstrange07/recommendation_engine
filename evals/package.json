@@ -1,0 +1,11 @@
+{
+  "name": "prism-retrieval-evals",
+  "private": true,
+  "scripts": {
+    "eval": "promptfoo eval",
+    "view": "promptfoo view"
+  },
+  "dependencies": {
+    "promptfoo": "^0.114.0"
+  }
+}

@@ -33,12 +33,20 @@ class TenantPaths:
     review_queue: Path
     hash_ledger: Path
     dead_letter: Path
+    personas_dir: Path
+    catalog_profile: Path
+    evals_dir: Path
+    evals_scenarios: Path
+    evals_runs: Path
+    evals_drafts: Path
     collection: str
 
     @staticmethod
     def for_tenant(tenant_id: str | None) -> TenantPaths:
         tid = sanitize_tenant_id(tenant_id)
         root = get_settings().data_dir / "tenants" / tid
+        personas_dir = root / "personas"
+        evals_dir = root / "evals"
         return TenantPaths(
             tenant_id=tid,
             root=root,
@@ -53,6 +61,12 @@ class TenantPaths:
             review_queue=root / "review_queue.jsonl",
             hash_ledger=root / "hash_ledger.json",
             dead_letter=root / "dead_letter.jsonl",
+            personas_dir=personas_dir,
+            catalog_profile=personas_dir / "catalog_profile.yaml",
+            evals_dir=evals_dir,
+            evals_scenarios=evals_dir / "scenarios",
+            evals_runs=evals_dir / "runs",
+            evals_drafts=evals_dir / "drafts",
             collection=f"products_{tid}",
         )
 
@@ -66,6 +80,10 @@ def ensure_tenant_dirs(tenant_id: str | None) -> TenantPaths:
         paths.normalized,
         paths.canonical,
         paths.overrides,
+        paths.personas_dir,
+        paths.evals_scenarios,
+        paths.evals_runs,
+        paths.evals_drafts,
     ):
         d.mkdir(parents=True, exist_ok=True)
     return paths

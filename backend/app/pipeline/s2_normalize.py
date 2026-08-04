@@ -2,12 +2,12 @@
 
 from __future__ import annotations
 
-from concurrent.futures import ThreadPoolExecutor, TimeoutError
+from concurrent.futures import ThreadPoolExecutor, TimeoutError, as_completed
 import json
 
 import yaml
 
-from app.config import get_settings
+from app.config import Settings, get_settings
 from app.openai_client import (
     call_with_forced_tool,
     chat_completion_kwargs,
@@ -15,6 +15,7 @@ from app.openai_client import (
     chat_model,
     get_chat_client,
     is_deepseek,
+    retry_on_rate_limit,
 )
 from app.pipeline.io_utils import ensure_data_dirs, write_json
 from app.pipeline.paths import TenantPaths
@@ -121,6 +122,61 @@ def _product_payload(staged: StagedProduct, overrides: dict) -> dict:
         ],
         "human_overrides": overrides.get("fields", {}),
     }
+
+
+def _estimate_tokens(staged: StagedProduct) -> int:
+    """Rough token estimate from name + description + plan feature text."""
+    parts = [staged.name or "", staged.description_text or ""]
+    for p in staged.plans:
+        parts.append(p.name or "")
+        parts.append(p.feature_text or "")
+    return max(1, len(json.dumps(parts, ensure_ascii=False)) // 4)
+
+
+def _group_key(staged: StagedProduct) -> str:
+    return (staged.category_raw or "").strip().lower() or "uncategorized"
+
+
+def _build_batches(
+    to_process: list[StagedProduct],
+    settings: Settings,
+) -> list[list[StagedProduct]]:
+    """Group by category_raw, then greedily pack by token budget + product cap."""
+    groups: dict[str, list[StagedProduct]] = {}
+    group_order: list[str] = []
+    for staged in to_process:
+        key = _group_key(staged)
+        if key not in groups:
+            groups[key] = []
+            group_order.append(key)
+        groups[key].append(staged)
+
+    max_products = max(1, settings.normalize_batch_max_products)
+    token_budget = max(1, settings.normalize_batch_token_budget)
+    batches: list[list[StagedProduct]] = []
+
+    for key in group_order:
+        current: list[StagedProduct] = []
+        current_tokens = 0
+        for staged in groups[key]:
+            est = _estimate_tokens(staged)
+            would_exceed = (
+                current
+                and (
+                    len(current) >= max_products
+                    or current_tokens + est > token_budget
+                )
+            )
+            if would_exceed:
+                batches.append(current)
+                current = []
+                current_tokens = 0
+            current.append(staged)
+            current_tokens += est
+        if current:
+            batches.append(current)
+
+    return batches
 
 
 def _has_chat_key() -> bool:
@@ -329,7 +385,10 @@ def _normalize_batch(
             validate=validate,
         )
 
-    _call = _call_deepseek if is_deepseek() else _call_openai
+    _call_once = _call_deepseek if is_deepseek() else _call_openai
+
+    def _call():
+        return retry_on_rate_limit(_call_once)
 
     try:
         with ThreadPoolExecutor(max_workers=1) as executor:
@@ -395,6 +454,7 @@ def run(
 ) -> dict:
     paths = ensure_data_dirs(tenant_id)
     vocab = load_vocab()
+    settings = get_settings()
 
     to_process: list[StagedProduct] = []
     skipped = 0
@@ -409,8 +469,8 @@ def run(
     queue_items: list[ReviewFlagItem] = []
     done = 0
     flagged = 0
-    batch_size = 5
-    batch_total = (len(to_process) + batch_size - 1) // batch_size if to_process else 0
+    batches = _build_batches(to_process, settings)
+    batch_total = len(batches)
     if batch_total == 0:
         emit(
             on_progress,
@@ -419,14 +479,17 @@ def run(
             message="No products need normalization",
             detail={"batch_total": 0, "total_products": 0},
         )
-    for i in range(0, len(to_process), batch_size):
-        batch = to_process[i : i + batch_size]
-        batch_idx = (i // batch_size) + 1
+
+    # Emit dispatch events before workers start so the UI can allocate lines.
+    for batch_idx, batch in enumerate(batches, start=1):
         emit(
             on_progress,
             type="subtask",
             phase="normalize",
-            message=f"Normalize batch {batch_idx}/{batch_total}: sending {len(batch)} product(s)",
+            message=(
+                f"Normalize batch {batch_idx}/{batch_total}: "
+                f"sending {len(batch)} product(s)"
+            ),
             detail={
                 "batch_index": batch_idx,
                 "batch_total": batch_total,
@@ -435,6 +498,10 @@ def run(
                 "flagged": flagged,
             },
         )
+
+    def _process_batch(
+        batch_idx: int, batch: list[StagedProduct]
+    ) -> tuple[int, list[StagedProduct], list[NormalizationRecord]]:
         records = _normalize_batch(
             batch,
             vocab,
@@ -443,41 +510,52 @@ def run(
             batch_idx=batch_idx,
             batch_total=batch_total,
         )
-        for record in records:
-            overrides = load_overrides(paths, record.product_id)
-            if overrides:
-                record = _apply_overrides(record, overrides)
-            write_json(paths.normalized / f"{record.product_id}.json", record)
-            done += 1
-            name = next((s.name for s in batch if s.id == record.product_id), None)
-            for flag in record.flags:
-                if flag.field in overrides.get("fields", {}):
-                    continue
-                flagged += 1
-                queue_items.append(
-                    ReviewFlagItem(
-                        product_id=record.product_id,
-                        product_name=name,
-                        flag=flag,
-                        recommended=flag.recommended,
-                    )
+        return batch_idx, batch, records
+
+    workers = max(1, min(settings.normalize_concurrency, batch_total or 1))
+    if batches:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {
+                executor.submit(_process_batch, idx, batch): idx
+                for idx, batch in enumerate(batches, start=1)
+            }
+            for future in as_completed(futures):
+                batch_idx, batch, records = future.result()
+                for record in records:
+                    overrides = load_overrides(paths, record.product_id)
+                    if overrides:
+                        record = _apply_overrides(record, overrides)
+                    write_json(paths.normalized / f"{record.product_id}.json", record)
+                    done += 1
+                    name = next((s.name for s in batch if s.id == record.product_id), None)
+                    for flag in record.flags:
+                        if flag.field in overrides.get("fields", {}):
+                            continue
+                        flagged += 1
+                        queue_items.append(
+                            ReviewFlagItem(
+                                product_id=record.product_id,
+                                product_name=name,
+                                flag=flag,
+                                recommended=flag.recommended,
+                            )
+                        )
+                emit(
+                    on_progress,
+                    type="subtask",
+                    phase="normalize",
+                    message=(
+                        f"Normalize batch {batch_idx}/{batch_total}: complete "
+                        f"({done}/{len(to_process)} products)"
+                    ),
+                    detail={
+                        "batch_index": batch_idx,
+                        "batch_total": batch_total,
+                        "processed": done,
+                        "total_products": len(to_process),
+                        "flagged": flagged,
+                    },
                 )
-        emit(
-            on_progress,
-            type="subtask",
-            phase="normalize",
-            message=(
-                f"Normalize batch {batch_idx}/{batch_total}: complete "
-                f"({done}/{len(to_process)} products)"
-            ),
-            detail={
-                "batch_index": batch_idx,
-                "batch_total": batch_total,
-                "processed": done,
-                "total_products": len(to_process),
-                "flagged": flagged,
-            },
-        )
 
     existing_queue = []
     if paths.review_queue.exists():

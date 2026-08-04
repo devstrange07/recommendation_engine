@@ -1,0 +1,168 @@
+version: 1
+tenant_id: demo
+generated_at: '2026-08-04T08:08:01.853941+00:00'
+source: canonical_aggregate
+product_count: 83
+domains:
+- category_path: Marketing/Email
+  count: 18
+  kinds:
+  - service
+  brands: []
+  top_tags:
+  - email_campaigns
+  - audience_segmentation
+  price_ranges:
+    GBP:
+      min: 4.49
+      max: 44.98
+    USD:
+      min: 4.99
+      max: 37.49
+    INR:
+      min: 499.0
+      max: 3598.8
+  facet_keys: []
+  sample_titles:
+  - AudienceGlow
+  - RetainMail
+  - LetterLane
+  - DripPath
+  - MarketPulse Mail
+- category_path: CRM/Sales
+  count: 17
+  kinds:
+  - service
+  brands: []
+  top_tags:
+  - lead_tracking
+  - pipeline_management
+  price_ranges:
+    GBP:
+      min: 3.99
+      max: 38.23
+    INR:
+      min: 399.2
+      max: 2999.0
+    USD:
+      min: 6.24
+      max: 33.73
+  facet_keys: []
+  sample_titles:
+  - AccountPulse
+  - ContactHive
+  - DealBoard
+  - SalesOrbit
+  - RevenueMap
+- category_path: Scheduling/Appointments
+  count: 17
+  kinds:
+  - service
+  brands: []
+  top_tags:
+  - appointment_booking
+  - online_scheduling
+  - client_reminders
+  price_ranges:
+    USD:
+      min: 9.99
+      max: 56.23
+    INR:
+      min: 799.0
+      max: 2999.0
+    GBP:
+      min: 7.99
+      max: 39.98
+  facet_keys: []
+  sample_titles:
+  - ShiftSync
+  - SalonFlow
+  - ClearBooks Pro Suite
+  - SlotMaster
+  - ClinicSlot
+- category_path: Support/Helpdesk
+  count: 16
+  kinds:
+  - service
+  brands: []
+  top_tags:
+  - ticket_management
+  - live_chat
+  price_ranges:
+    GBP:
+      min: 3.99
+      max: 35.98
+    INR:
+      min: 399.2
+      max: 2999.0
+    USD:
+      min: 6.24
+      max: 46.86
+  facet_keys: []
+  sample_titles:
+  - ResolveNow
+  - AgentDesk Pro Suite
+  - IssueLane
+  - ReplyRack
+  - HelpOrbit
+- category_path: Invoicing/Billing
+  count: 15
+  kinds:
+  - service
+  brands: []
+  top_tags:
+  - invoice_generation
+  - recurring_billing
+  price_ranges:
+    GBP:
+      min: 6.390000000000001
+      max: 30.58
+    USD:
+      min: 7.99
+      max: 46.86
+    INR:
+      min: 719.1
+      max: 4498.5
+  facet_keys: []
+  sample_titles:
+  - TaxReady Books
+  - RecurPay
+  - FeeForge
+  - ChargeSheet
+  - BillCraft
+overview: This catalog contains 83 software-as-a-service products across five business
+  back-office categories. It includes email marketing platforms (AudienceGlow, RetainMail,
+  LetterLane), CRM/sales tools (AccountPulse, ContactHive, DealBoard), scheduling
+  and appointment management systems (ShiftSync, SalonFlow), support/helpdesk solutions
+  (ResolveNow, AgentDesk, IssueLane), and invoicing/billing software (TaxReady Books,
+  RecurPay, FeeForge). All items are services (subscriptions) rather than physical
+  goods, with no specific brands. Pricing spans roughly $5–$56 across USD, GBP, and
+  INR, and the catalog does not expose any structured facet attributes (no brand,
+  no filterable metadata beyond category and price).
+soft_expectations:
+  in_scope_domains:
+  - Marketing/Email
+  - CRM/Sales
+  - Scheduling/Appointments
+  - Support/Helpdesk
+  - Invoicing/Billing
+  out_of_scope_domains:
+  - E-commerce/Online Store
+  - Accounting/Bookkeeping (full suite)
+  - Project Management
+  - Human Resources/HR
+  - Communication/Collaboration tools
+  - POS/Hardware
+  - Web Development/Hosting
+  - Analytics/Business Intelligence
+  notable_facets:
+  - Category/use case (email marketing, CRM, scheduling, helpdesk, invoicing)
+  - Pricing tier (monthly subscription)
+  - Currency (USD, GBP, INR)
+  typical_constraints:
+  - Budget/price range per month
+  - Specific use case or workflow (e.g., salon scheduling, recurring billing, ticket
+    resolution)
+  - Deployment type (cloud/SaaS)
+  - Language or region supported fields
+  - Integration needs (e.g., with existing CRM or email tools)

@@ -423,7 +423,7 @@ class RenameCatalogRequest(BaseModel):
 
 ProgressEventType = Literal["phase_start", "subtask", "phase_done", "error", "done"]
 ProgressPhase = Literal[
-    "ingest", "preprocess", "normalize", "merge", "index", "done"
+    "ingest", "preprocess", "normalize", "merge", "index", "eval_profile", "done"
 ]
 
 

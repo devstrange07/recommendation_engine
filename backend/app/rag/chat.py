@@ -463,6 +463,32 @@ def _first_completions_tool_call(message: Any, name: str = "search_products") ->
     return None
 
 
+def _tool_result_messages(
+    message: Any,
+    *,
+    primary_id: str | None,
+    primary_content: str,
+) -> tuple[list[dict[str, Any]], int]:
+    """Reply to every tool_call_id (primary content for primary_id; stubs for the rest)."""
+    stub_content = json.dumps(
+        {"ok": False, "reason": "ignored_duplicate_or_extra_tool_call"}
+    )
+    out: list[dict[str, Any]] = []
+    stubbed = 0
+    for tc in getattr(message, "tool_calls", None) or []:
+        tc_id = getattr(tc, "id", None)
+        if not tc_id:
+            logger.warning("skipping tool_call with missing id")
+            continue
+        if tc_id == primary_id:
+            content = primary_content
+        else:
+            content = stub_content
+            stubbed += 1
+        out.append({"role": "tool", "tool_call_id": tc_id, "content": content})
+    return out, stubbed
+
+
 def _run_chat_deepseek(body: ChatRequest, tenant_id: str, debug: DebugTrace) -> ChatResponse:
     tokens: dict[str, int] = {}
     latency: dict[str, float] = {}
@@ -501,15 +527,16 @@ def _run_chat_deepseek(body: ChatRequest, tenant_id: str, debug: DebugTrace) -> 
     except Exception:
         debug.turn_flow.append("filter_parse_retry")
         messages.append(_assistant_message_dict(first_msg))
-        messages.append(
-            {
-                "role": "tool",
-                "tool_call_id": tool_call.id,
-                "content": json.dumps(
-                    {"error": "invalid SearchRequest JSON, retry with valid fields"}
-                ),
-            }
+        tool_msgs, stubbed = _tool_result_messages(
+            first_msg,
+            primary_id=getattr(tool_call, "id", None),
+            primary_content=json.dumps(
+                {"error": "invalid SearchRequest JSON, retry with valid fields"}
+            ),
         )
+        messages.extend(tool_msgs)
+        if stubbed:
+            debug.turn_flow.append(f"extra_tool_calls_stubbed:{stubbed}")
         retry = client.chat.completions.create(
             model=model,
             messages=messages,
@@ -573,13 +600,14 @@ def _run_chat_deepseek(body: ChatRequest, tenant_id: str, debug: DebugTrace) -> 
     }
 
     messages.append(_assistant_message_dict(first_msg))
-    messages.append(
-        {
-            "role": "tool",
-            "tool_call_id": tool_call.id,
-            "content": json.dumps(tool_payload),
-        }
+    tool_msgs, stubbed = _tool_result_messages(
+        first_msg,
+        primary_id=getattr(tool_call, "id", None),
+        primary_content=json.dumps(tool_payload),
     )
+    messages.extend(tool_msgs)
+    if stubbed:
+        debug.turn_flow.append(f"extra_tool_calls_stubbed:{stubbed}")
 
     t1 = time.perf_counter()
     final = client.chat.completions.create(

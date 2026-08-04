@@ -7,6 +7,7 @@ const PHASE_ORDER: ProgressPhase[] = [
   "normalize",
   "merge",
   "index",
+  "eval_profile",
   "done",
 ];
 
@@ -16,6 +17,7 @@ const PHASE_LABELS: Record<ProgressPhase, string> = {
   normalize: "Normalize",
   merge: "Merge",
   index: "Index",
+  eval_profile: "Eval profile",
   done: "Done",
 };
 
@@ -45,8 +47,8 @@ function buildPhases(
     : PHASE_ORDER.filter((p) => p !== "ingest");
 
   const linesByPhase: Partial<Record<ProgressPhase, string[]>> = {};
-  /** Index of the replaceable batch progress line within each phase bucket. */
-  const lastBatchLineIndex: Partial<Record<ProgressPhase, number>> = {};
+  /** Index of the replaceable progress line for each (phase, batch_index). */
+  const lastBatchLineIndex: Partial<Record<ProgressPhase, Record<number, number>>> = {};
   const started = new Set<ProgressPhase>();
   const finished = new Set<ProgressPhase>();
   let errored: ProgressPhase | null = null;
@@ -55,11 +57,13 @@ function buildPhases(
     const bucket = linesByPhase[ev.phase] || [];
     const batchIndex = ev.detail?.batch_index;
     if (typeof batchIndex === "number") {
-      const existing = lastBatchLineIndex[ev.phase];
+      const byBatch = lastBatchLineIndex[ev.phase] || {};
+      const existing = byBatch[batchIndex];
       if (existing !== undefined) {
         bucket[existing] = ev.message;
       } else {
-        lastBatchLineIndex[ev.phase] = bucket.length;
+        byBatch[batchIndex] = bucket.length;
+        lastBatchLineIndex[ev.phase] = byBatch;
         bucket.push(ev.message);
       }
     } else {
