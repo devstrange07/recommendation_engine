@@ -14,8 +14,7 @@ from app.pipeline.io_utils import (
     read_jsonl,
     write_json,
 )
-from app.pipeline.paths import TenantPaths
-from app.schemas import RawProduct, StagedPlan, StagedPrice, StagedProduct
+from app.schemas import RawPlan, RawProduct, StagedPlan, StagedPrice, StagedProduct
 
 COUNTRY_MAP = {
     "india": "IN",
@@ -38,18 +37,31 @@ CURRENCY_MAP = {
     "£": "GBP",
 }
 
-BILLING_MAP = {
-    "one_time": "one_time",
-    "one time": "one_time",
-    "onetime": "one_time",
-    "monthly": "monthly",
-    "mo": "monthly",
-    "month": "monthly",
-    "annual": "annual",
-    "yearly": "annual",
-    "yr": "annual",
-    "year": "annual",
+# Maps messy billing text / structured fields → (pricing_type, interval)
+PRICING_MAP: dict[str, tuple[str, str | None]] = {
+    "one_time": ("one_time", None),
+    "one time": ("one_time", None),
+    "onetime": ("one_time", None),
+    "once": ("one_time", None),
+    "monthly": ("recurring", "month"),
+    "mo": ("recurring", "month"),
+    "month": ("recurring", "month"),
+    "annual": ("recurring", "year"),
+    "yearly": ("recurring", "year"),
+    "yr": ("recurring", "year"),
+    "year": ("recurring", "year"),
+    "weekly": ("recurring", "week"),
+    "week": ("recurring", "week"),
+    "daily": ("recurring", "day"),
+    "day": ("recurring", "day"),
+    "per_use": ("usage", None),
+    "usage": ("usage", None),
+    "quote": ("quote", None),
+    "recurring": ("recurring", "month"),
 }
+
+VALID_PRICING = {"one_time", "recurring", "usage", "quote"}
+VALID_INTERVAL = {"day", "week", "month", "year"}
 
 
 def strip_html(text: str) -> str:
@@ -74,53 +86,85 @@ def canon_currency(raw: str) -> str | None:
     return CURRENCY_MAP.get(key)
 
 
-def canon_billing(raw: str | None) -> str | None:
-    if not raw:
-        return None
-    return BILLING_MAP.get(raw.strip().lower())
+def canon_pricing(
+    billing_period: str | None = None,
+    pricing_type: str | None = None,
+    interval: str | None = None,
+) -> tuple[str | None, str | None]:
+    """Prefer structured pricing_type/interval; fall back to messy billing_period text."""
+    if pricing_type:
+        pt = pricing_type.strip().lower().replace("-", "_")
+        iv = (interval or "").strip().lower() or None
+        if pt in VALID_PRICING:
+            if iv and iv not in VALID_INTERVAL:
+                iv = None
+            if pt == "recurring" and iv is None:
+                iv = "month"
+            return pt, iv
+    if not billing_period:
+        return None, None
+    key = billing_period.strip().lower().replace("-", "_")
+    return PRICING_MAP.get(key, (None, None))
 
 
 def content_hash(name: str, description: str, category: str | None, plans: list) -> str:
     plan_blob = "|".join(
-        f"{p.id}:{p.name}:{p.feature_text or ''}:{p.billing_period or ''}" for p in plans
+        f"{p.id}:{p.name}:{p.feature_text or ''}:"
+        f"{getattr(p, 'pricing_type', None) or ''}:"
+        f"{getattr(p, 'interval', None) or ''}"
+        for p in plans
     )
     blob = f"{name}||{description}||{category or ''}||{plan_blob}"
     return hashlib.sha256(blob.encode("utf-8")).hexdigest()
+
+
+def _stage_plan(plan: RawPlan) -> tuple[StagedPlan, bool]:
+    prices: list[StagedPrice] = []
+    prices_ok = True
+    for pl in plan.price_lists:
+        country = canon_country(pl.country)
+        currency = canon_currency(pl.currency)
+        if not country or not currency:
+            prices_ok = False
+            continue
+        discounted = None
+        if pl.discount is not None:
+            discounted = max(0.0, float(pl.amount) - float(pl.discount))
+        prices.append(
+            StagedPrice(
+                country=country,
+                currency=currency,
+                amount=float(pl.amount),
+                discounted_amount=discounted,
+            )
+        )
+    if not prices:
+        prices_ok = False
+    pricing_type, interval = canon_pricing(
+        billing_period=plan.billing_period,
+        pricing_type=plan.pricing_type,
+        interval=plan.interval,
+    )
+    staged = StagedPlan(
+        id=plan.id,
+        name=plan.name,
+        feature_text=plan.feature_text,
+        pricing_type=pricing_type,  # type: ignore[arg-type]
+        interval=interval,  # type: ignore[arg-type]
+        meter=plan.meter,
+        prices=prices,
+    )
+    return staged, prices_ok
 
 
 def stage_one(raw: RawProduct, prev_hash: str | None) -> StagedProduct | None:
     prices_ok = True
     staged_plans: list[StagedPlan] = []
     for plan in raw.plans:
-        prices: list[StagedPrice] = []
-        for pl in plan.price_lists:
-            country = canon_country(pl.country)
-            currency = canon_currency(pl.currency)
-            if not country or not currency:
-                prices_ok = False
-                continue
-            discounted = None
-            if pl.discount is not None:
-                discounted = max(0.0, float(pl.amount) - float(pl.discount))
-            prices.append(
-                StagedPrice(
-                    country=country,
-                    currency=currency,
-                    amount=float(pl.amount),
-                    discounted_amount=discounted,
-                )
-            )
-        if not prices:
+        staged, ok = _stage_plan(plan)
+        staged_plans.append(staged)
+        if not ok:
             prices_ok = False
-        staged_plans.append(
-            StagedPlan(
-                id=plan.id,
-                name=plan.name,
-                feature_text=plan.feature_text,
-                billing_period=canon_billing(plan.billing_period),  # type: ignore[arg-type]
-                prices=prices,
-            )
-        )
 
     if not prices_ok or not staged_plans:
         return None
@@ -142,6 +186,8 @@ def stage_one(raw: RawProduct, prev_hash: str | None) -> StagedProduct | None:
         description_text=desc,
         unit=raw.unit,
         kb_article=raw.kb_article,
+        brand=raw.brand,
+        kind=raw.kind,
         plans=staged_plans,
         price_min=price_min,
         price_max=price_max,

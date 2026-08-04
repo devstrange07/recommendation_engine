@@ -22,33 +22,80 @@ def get_qdrant() -> QdrantClient:
     return QdrantClient(url=get_settings().qdrant_url, check_compatibility=False)
 
 
+def _create_payload_index(client: QdrantClient, name: str, field: str, schema) -> None:
+    try:
+        client.create_payload_index(collection_name=name, field_name=field, field_schema=schema)
+    except Exception:
+        pass
+
+
+def _facet_index_schema(facet_type: str):
+    return {
+        "string": models.PayloadSchemaType.KEYWORD,
+        "float": models.PayloadSchemaType.FLOAT,
+        "int": models.PayloadSchemaType.INTEGER,
+        "bool": models.PayloadSchemaType.BOOL,
+    }.get(facet_type, models.PayloadSchemaType.KEYWORD)
+
+
 def ensure_collection(client: QdrantClient, name: str) -> None:
+    from app.pipeline.s2_normalize import load_vocab
+
     existing = {c.name for c in client.get_collections().collections}
-    if name in existing:
-        return
-    client.create_collection(
-        collection_name=name,
-        vectors_config={
-            "dense": models.VectorParams(size=1536, distance=models.Distance.COSINE),
-        },
-        sparse_vectors_config={
-            "bm25": models.SparseVectorParams(),
-        },
-    )
+    if name not in existing:
+        client.create_collection(
+            collection_name=name,
+            vectors_config={
+                "dense": models.VectorParams(size=1536, distance=models.Distance.COSINE),
+            },
+            sparse_vectors_config={
+                "bm25": models.SparseVectorParams(),
+            },
+        )
+
     for field, schema in [
         ("category_path", models.PayloadSchemaType.KEYWORD),
         ("use_case_tags", models.PayloadSchemaType.KEYWORD),
         ("target_audience", models.PayloadSchemaType.KEYWORD),
         ("status", models.PayloadSchemaType.KEYWORD),
         ("review_pending", models.PayloadSchemaType.BOOL),
+        ("kind", models.PayloadSchemaType.KEYWORD),
+        ("brand", models.PayloadSchemaType.KEYWORD),
+        ("unit", models.PayloadSchemaType.KEYWORD),
         ("offerings[].prices[].country", models.PayloadSchemaType.KEYWORD),
         ("offerings[].prices[].amount", models.PayloadSchemaType.FLOAT),
-        ("offerings[].billing_period", models.PayloadSchemaType.KEYWORD),
+        ("offerings[].pricing_type", models.PayloadSchemaType.KEYWORD),
+        ("offerings[].interval", models.PayloadSchemaType.KEYWORD),
     ]:
-        try:
-            client.create_payload_index(collection_name=name, field_name=field, field_schema=schema)
-        except Exception:
-            pass
+        _create_payload_index(client, name, field, schema)
+
+    # Dynamic facet indexes from vocab (filterable keys only)
+    try:
+        facet_schemas = (load_vocab().get("facet_schemas") or {})
+    except Exception:
+        facet_schemas = {}
+    for _domain, facets in facet_schemas.items():
+        for facet in facets or []:
+            if not facet.get("filterable", False):
+                continue
+            key = facet.get("key")
+            if not key:
+                continue
+            field = f"facets_indexed.{key}"
+            _create_payload_index(client, name, field, _facet_index_schema(facet.get("type", "string")))
+
+
+def _flatten_facets(item: dict[str, Any]) -> dict[str, Any]:
+    """Flat map for Qdrant filtering: facets_indexed.{key} = value."""
+    out: dict[str, Any] = {}
+    for f in item.get("facets") or []:
+        if not isinstance(f, dict):
+            continue
+        key = f.get("key")
+        if key is None:
+            continue
+        out[str(key)] = f.get("value")
+    return out
 
 
 def _hash_embed(text: str, dim: int = 1536) -> list[float]:
@@ -120,6 +167,7 @@ def run(tenant_id: str = "demo", force_all: bool = False) -> dict:
         points = []
         for item, vec in zip(batch, dense):
             payload = {k: v for k, v in item.items()}
+            payload["facets_indexed"] = _flatten_facets(item)
             points.append(
                 models.PointStruct(
                     id=product_uuid(item["id"]),

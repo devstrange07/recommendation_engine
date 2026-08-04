@@ -6,12 +6,24 @@ from app.pipeline.io_utils import ensure_data_dirs, write_json
 from app.pipeline.review_store import load_overrides
 from app.schemas import (
     CanonicalProduct,
+    Facet,
+    KindLiteral,
     NormalizationRecord,
     Offering,
     StagedProduct,
 )
 
 CURRENCY_SYMBOL = {"INR": "₹", "USD": "$", "GBP": "£"}
+
+DISPLAY_SUFFIX = {
+    ("recurring", "month"): "/mo",
+    ("recurring", "year"): "/yr",
+    ("recurring", "week"): "/wk",
+    ("recurring", "day"): "/day",
+    ("one_time", None): "",
+    ("usage", None): "/use",
+    ("quote", None): "",
+}
 
 
 def embedding_text(c: CanonicalProduct) -> str:
@@ -21,13 +33,22 @@ def embedding_text(c: CanonicalProduct) -> str:
     offering_bits = []
     for o in c.offerings:
         feats = "; ".join(o.features)
-        bp = o.billing_period or "unspecified"
-        offering_bits.append(f"{o.name} ({bp}): {feats}")
+        pt = o.pricing_type or "unspecified"
+        iv = f"/{o.interval}" if o.interval else ""
+        meter = f" {o.meter}" if o.meter else ""
+        offering_bits.append(f"{o.name} ({pt}{iv}{meter}): {feats}")
     offerings = " | ".join(offering_bits)
+    brand_str = f" by {c.brand}." if c.brand else "."
+    unit_str = f" Unit: {c.unit}." if c.unit else ""
+    facet_bits = [
+        f"{f.key}={f.value}" + (f" {f.unit}" if f.unit else "") for f in c.facets
+    ]
+    facets_str = f" Attributes: {', '.join(facet_bits)}." if facet_bits else ""
     return (
-        f"{c.title}. Category: {c.category_path}. "
+        f"{c.title}{brand_str} Kind: {c.kind}. Category: {c.category_path}.{unit_str} "
         f"{c.clean_description} Pitch: {c.short_pitch}. "
-        f"Use cases: {tags}. Audience: {audience}. Aliases: {aliases}. "
+        f"Use cases: {tags}. Audience: {audience}. Aliases: {aliases}."
+        f"{facets_str} "
         f"Plans: {offerings}"
     )
 
@@ -35,17 +56,21 @@ def embedding_text(c: CanonicalProduct) -> str:
 def display_cards(c: CanonicalProduct) -> dict[str, str]:
     cards: dict[str, str] = {}
     currencies = set(c.price_min.keys()) | set(c.price_max.keys())
+    pricing_type = None
+    interval = None
+    for o in c.offerings:
+        if o.pricing_type:
+            pricing_type = o.pricing_type
+            interval = o.interval
+            break
+    suffix = DISPLAY_SUFFIX.get((pricing_type, interval), "")
+    if pricing_type == "recurring" and not suffix and interval:
+        suffix = f"/{interval}"
     for cur in currencies:
         sym = CURRENCY_SYMBOL.get(cur, cur + " ")
         lo = c.price_min.get(cur)
         if lo is None:
             continue
-        bp = None
-        for o in c.offerings:
-            if o.billing_period:
-                bp = o.billing_period
-                break
-        suffix = {"monthly": "/mo", "annual": "/yr", "one_time": ""}.get(bp or "", "")
         cards[cur] = f"{sym}{lo:,.0f}{suffix}"
     return cards
 
@@ -62,6 +87,10 @@ def merge_one(staged: StagedProduct, record: NormalizationRecord, paths) -> Cano
             n["use_case_tags"] = [meta["value"]]
         elif field == "target_audience":
             n["target_audience"] = [meta["value"]]
+        elif field == "kind":
+            n["kind"] = meta["value"]
+        elif field == "brand":
+            n["brand"] = meta["value"]
 
     offerings = []
     for plan in staged.plans:
@@ -73,7 +102,9 @@ def merge_one(staged: StagedProduct, record: NormalizationRecord, paths) -> Cano
                 id=plan.id,
                 name=plan.name,
                 features=feats,
-                billing_period=plan.billing_period,
+                pricing_type=plan.pricing_type,
+                interval=plan.interval,
+                meter=plan.meter,
                 prices=plan.prices,
             )
         )
@@ -81,10 +112,18 @@ def merge_one(staged: StagedProduct, record: NormalizationRecord, paths) -> Cano
     remaining = [f for f in record.flags if f.field not in overrides.get("fields", {})]
     review_pending = len(remaining) > 0 or (record.confidence < 0.85 and not overrides)
 
+    kind_raw = n.get("kind") or staged.kind or "physical_good"
+    kind: KindLiteral = kind_raw  # type: ignore[assignment]
+    brand = n.get("brand") or staged.brand
+    facets_raw = n.get("facets") or []
+    facets = [f if isinstance(f, Facet) else Facet.model_validate(f) for f in facets_raw]
+
     return CanonicalProduct(
         id=staged.id,
+        kind=kind,
         title=staged.name,
-        brand_or_provider=None,
+        brand=brand,
+        unit=staged.unit,
         category_path=n["category_path"],
         clean_description=n["clean_description"],
         short_pitch=n["short_pitch"],
@@ -94,8 +133,10 @@ def merge_one(staged: StagedProduct, record: NormalizationRecord, paths) -> Cano
         price_min=staged.price_min,
         price_max=staged.price_max,
         offerings=offerings,
+        facets=facets,
         content_hash=staged.content_hash,
         review_pending=review_pending,
+        schema_version=2,
     )
 
 

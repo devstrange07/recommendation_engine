@@ -1,0 +1,20 @@
+domain: Automobiles
+facets:
+  - key: fuel
+    type: string
+    filterable: true
+    values: ["petrol", "diesel", "electric", "hybrid", "cng"]
+  - key: transmission
+    type: string
+    filterable: true
+    values: ["manual", "automatic", "amt", "cvt", "dct"]
+  - key: seats
+    type: int
+    filterable: true
+  - key: body_type
+    type: string
+    filterable: true
+    values: ["hatchback", "sedan", "suv", "muv", "coupe", "pickup"]
+  - key: color
+    type: string
+    filterable: false

@@ -8,6 +8,20 @@ from typing import Any, Literal
 from pydantic import BaseModel, Field
 
 
+KindLiteral = Literal[
+    "physical_good",
+    "digital_good",
+    "service",
+    "subscription",
+    "bundle",
+    "experience",
+    "venue_offering",
+    "financial_product",
+]
+PricingTypeLiteral = Literal["one_time", "recurring", "usage", "quote"]
+IntervalLiteral = Literal["day", "week", "month", "year"]
+
+
 # ---------------------------------------------------------------------------
 # Raw (synthetic generator — intentionally messy)
 # ---------------------------------------------------------------------------
@@ -27,6 +41,9 @@ class RawPlan(BaseModel):
     feature_text: str | None = None
     price_lists: list[RawPriceList]
     billing_period: str | None = None  # messy free text in raw
+    pricing_type: str | None = None  # optional structured override
+    interval: str | None = None
+    meter: str | None = None
 
 
 class RawProduct(BaseModel):
@@ -35,6 +52,8 @@ class RawProduct(BaseModel):
     category: str | None = None
     unit: str | None = None
     kb_article: str | None = None
+    brand: str | None = None
+    kind: str | None = None
     description: str
     plans: list[RawPlan]
     updated_at: str
@@ -61,7 +80,9 @@ class StagedPlan(BaseModel):
     id: str
     name: str
     feature_text: str | None = None
-    billing_period: Literal["one_time", "monthly", "annual"] | None = None
+    pricing_type: PricingTypeLiteral | None = None
+    interval: IntervalLiteral | None = None
+    meter: str | None = None
     prices: list[StagedPrice]
 
 
@@ -72,6 +93,8 @@ class StagedProduct(BaseModel):
     description_text: str
     unit: str | None = None
     kb_article: str | None = None
+    brand: str | None = None
+    kind: str | None = None
     plans: list[StagedPlan]
     price_min: dict[str, float]
     price_max: dict[str, float]
@@ -101,6 +124,12 @@ class Flag(BaseModel):
     recommended: str | None = None
 
 
+class Facet(BaseModel):
+    key: str
+    value: str | float | int | bool
+    unit: str | None = None
+
+
 class Normalized(BaseModel):
     clean_description: str
     short_pitch: str
@@ -109,11 +138,14 @@ class Normalized(BaseModel):
     target_audience: list[str]
     aliases: list[str]
     plan_features: dict[str, list[str]]
+    kind: KindLiteral | None = None
+    brand: str | None = None
+    facets: list[Facet] = Field(default_factory=list)
 
 
 class NormalizationRecord(BaseModel):
     product_id: str
-    schema_version: int = 1
+    schema_version: int = 2
     normalized: Normalized
     confidence: float
     flags: list[Flag] = Field(default_factory=list)
@@ -125,6 +157,12 @@ class PlanFeatureEntry(BaseModel):
     features: list[str]
 
 
+class FacetLLM(BaseModel):
+    key: str
+    value: str
+    unit: str | None = None
+
+
 class NormalizedLLM(BaseModel):
     clean_description: str
     short_pitch: str
@@ -133,11 +171,14 @@ class NormalizedLLM(BaseModel):
     target_audience: list[str]
     aliases: list[str]
     plan_features: list[PlanFeatureEntry]
+    kind: KindLiteral | None = None
+    brand: str | None = None
+    facets: list[FacetLLM] = Field(default_factory=list)
 
 
 class NormalizationRecordLLM(BaseModel):
     product_id: str
-    schema_version: int = 1
+    schema_version: int = 2
     normalized: NormalizedLLM
     confidence: float
     flags: list[Flag] = Field(default_factory=list)
@@ -155,15 +196,20 @@ class Offering(BaseModel):
     id: str
     name: str
     features: list[str]
-    billing_period: Literal["one_time", "monthly", "annual"] | None = None
+    pricing_type: PricingTypeLiteral | None = None
+    interval: IntervalLiteral | None = None
+    meter: str | None = None
     prices: list[StagedPrice]
 
 
 class CanonicalProduct(BaseModel):
     id: str
-    kind: Literal["service", "subscription", "digital_good"] = "service"
+    kind: KindLiteral = "physical_good"
     title: str
-    brand_or_provider: str | None = None
+    subtitle: str | None = None
+    brand: str | None = None
+    provider: str | None = None
+    unit: str | None = None
     category_path: str
     clean_description: str
     short_pitch: str
@@ -175,16 +221,22 @@ class CanonicalProduct(BaseModel):
     availability: Literal["available", "unavailable"] = "available"
     status: Literal["active", "retired"] = "active"
     offerings: list[Offering]
-    service_details: dict[str, Any] = Field(default_factory=dict)
-    attributes: dict[str, Any] = Field(default_factory=dict)
+    facets: list[Facet] = Field(default_factory=list)
+    kind_profile: dict[str, Any] = Field(default_factory=dict)
     content_hash: str
     review_pending: bool = False
-    schema_version: int = 1
+    schema_version: int = 2
 
 
 # ---------------------------------------------------------------------------
 # Search / Chat API
 # ---------------------------------------------------------------------------
+
+class AttributeFilter(BaseModel):
+    key: str
+    op: Literal["eq", "lte", "gte", "contains"] = "eq"
+    value: str | float | int | bool
+
 
 class SearchRequest(BaseModel):
     semantic_query: str
@@ -193,7 +245,10 @@ class SearchRequest(BaseModel):
     target_audience: list[str] = Field(default_factory=list)
     exclude_terms: list[str] = Field(default_factory=list)
     price_max: float | None = None
-    billing_period: str | None = None
+    pricing_type: str | None = None
+    attribute_filters: list[AttributeFilter] = Field(default_factory=list)
+    kind: str | None = None
+    brand: str | None = None
     top_k: int = 8
 
 
@@ -215,6 +270,8 @@ class ProductCard(BaseModel):
     pitch: str
     price_display: str
     plan_names: list[str] = Field(default_factory=list)
+    brand: str | None = None
+    facet_chips: list[str] = Field(default_factory=list)
 
 
 class HitDebug(BaseModel):
@@ -291,7 +348,10 @@ class CreatePriceRequest(BaseModel):
 class CreatePlanRequest(BaseModel):
     name: str
     feature_text: str | None = None
-    billing_period: Literal["one_time", "monthly", "annual"] | None = None
+    pricing_type: PricingTypeLiteral | None = None
+    interval: IntervalLiteral | None = None
+    meter: str | None = None
+    billing_period: Literal["one_time", "monthly", "annual"] | None = None  # legacy alias
     prices: list[CreatePriceRequest] = Field(min_length=1)
 
 
@@ -299,6 +359,9 @@ class CreateProductRequest(BaseModel):
     name: str
     description: str
     category: str | None = None
+    brand: str | None = None
+    unit: str | None = None
+    kind: KindLiteral | None = None
     plans: list[CreatePlanRequest] = Field(min_length=1)
 
 

@@ -23,6 +23,8 @@ export type ProductCard = {
   pitch: string;
   price_display: string;
   plan_names: string[];
+  brand?: string | null;
+  facet_chips?: string[];
 };
 
 export type DebugTrace = {

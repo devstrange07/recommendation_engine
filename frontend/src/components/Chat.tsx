@@ -23,7 +23,6 @@ type Props = {
     lastDebug: DebugTrace | null;
   }) => void;
   onDebug: (d: DebugTrace | null) => void;
-  onNewChat: () => void;
   onToggleDebug: () => void;
   debugOpen: boolean;
   onAddProducts: () => void;
@@ -41,7 +40,6 @@ export default function Chat({
   onCountryChange,
   onMessagesChange,
   onDebug,
-  onNewChat,
   onToggleDebug,
   debugOpen,
   onAddProducts,
@@ -115,9 +113,6 @@ export default function Chat({
           </label>
           <button type="button" className="ghost" onClick={onAddProducts}>
             Add products
-          </button>
-          <button type="button" className="ghost" onClick={onNewChat}>
-            New chat
           </button>
           <button
             type="button"

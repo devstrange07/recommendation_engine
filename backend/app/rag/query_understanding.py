@@ -13,6 +13,24 @@ def _category_path_description() -> str:
     return "One of: " + ", ".join(paths)
 
 
+def _facet_filter_description() -> str:
+    vocab = load_vocab()
+    facet_schemas = vocab.get("facet_schemas") or {}
+    if not facet_schemas:
+        return "Structured attribute filters (key/value pairs from facet vocabulary)"
+    lines = [
+        "Structured filters on product attributes. Available keys by domain:",
+    ]
+    for domain, facets in facet_schemas.items():
+        filterable = [f for f in (facets or []) if f.get("filterable")]
+        if not filterable:
+            continue
+        keys = [f"{f['key']} ({f.get('type', 'string')})" for f in filterable]
+        lines.append(f"  {domain}: {', '.join(keys)}")
+    lines.append("Use op='eq' for exact match, 'lte'/'gte' for numeric ranges, 'contains' for text.")
+    return "\n".join(lines)
+
+
 def build_search_products_tool() -> dict:
     """Responses API flat function-tool schema."""
     return {
@@ -32,6 +50,11 @@ def build_search_products_tool() -> dict:
             "exclude_terms=['Samsung']. WRONG: semantic_query='phones other than Samsung'.\n"
             "Example: 'almond chocolates, but not from Lindt' -> semantic_query='almond chocolates', "
             "exclude_terms=['Lindt'].\n\n"
+            "When the user mentions specific product attributes (e.g. '22K gold', 'petrol car', "
+            "'5mg tablet', 'under 6 grams'), extract them as attribute_filters with matching facet "
+            "keys from the vocabulary.\n"
+            "Example: '22K gold necklaces under 6 grams' -> attribute_filters=["
+            "{key:'purity', op:'eq', value:'22K'}, {key:'weight_g', op:'lte', value:6}].\n\n"
             "Call this before recommending products."
         ),
         "parameters": {
@@ -67,9 +90,37 @@ def build_search_products_tool() -> dict:
                     "type": ["number", "null"],
                     "description": "Max price as a bare number in the user's currency",
                 },
-                "billing_period": {
+                "pricing_type": {
                     "type": ["string", "null"],
-                    "description": "one_time | monthly | annual",
+                    "description": "one_time | recurring | usage | quote",
+                },
+                "kind": {
+                    "type": ["string", "null"],
+                    "description": (
+                        "One of: physical_good, digital_good, service, subscription, "
+                        "bundle, experience, venue_offering, financial_product"
+                    ),
+                },
+                "brand": {
+                    "type": ["string", "null"],
+                    "description": "Brand or manufacturer name to filter by",
+                },
+                "attribute_filters": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "key": {"type": "string"},
+                            "op": {
+                                "type": "string",
+                                "enum": ["eq", "lte", "gte", "contains"],
+                            },
+                            "value": {},
+                        },
+                        "required": ["key", "value"],
+                        "additionalProperties": False,
+                    },
+                    "description": _facet_filter_description(),
                 },
                 "top_k": {"type": "integer", "default": 8},
             },

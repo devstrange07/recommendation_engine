@@ -21,6 +21,7 @@ from app.pipeline.paths import TenantPaths
 from app.pipeline.progress import ProgressCallback, emit
 from app.pipeline.review_store import load_overrides, replace_queue
 from app.schemas import (
+    Facet,
     NormalizationBatchResponse,
     NormalizationRecord,
     NormalizationRecordLLM,
@@ -35,10 +36,13 @@ _NORMALIZATION_RULES = """You are a catalog data engineer. Normalize messy produ
 
 Rules:
 - Use ONLY values from the provided vocabulary for category_path, use_case_tags, and target_audience.
-- If category_raw is already one of the allowed category_paths, keep it exactly — do not remap real-estate inventory into unrelated categories.
+- If category_raw is already one of the allowed category_paths, keep it exactly — do not remap inventory into unrelated categories.
 - clean_description: 2-3 factual sentences. No marketing fluff, no prices, no HTML.
-- short_pitch: one factual line about the property (not SaaS-style pitches).
+- short_pitch: one factual line about the product (not marketing fluff).
 - plan_features: array of {plan_id, features[]} differentiators. If plans are indistinguishable, flag plans_indistinguishable.
+- kind: infer from category and description. One of: physical_good, digital_good, service, subscription, bundle, experience, venue_offering, financial_product.
+- brand: extract the brand/manufacturer name from the product name or description. Null if unclear.
+- facets: extract structured attributes from description and feature_text using ONLY the facet keys defined in facet_schemas for this product's category root (e.g. Jewellery root → jewellery facets). Return as [{key, value, unit?}]. Do not invent keys not in the vocabulary. Leave empty if no facets match. Coerce numeric facet values to strings.
 - Flag don't guess. Flag only filter-affecting ambiguity (cant_categorize, contradiction, missing_required, plans_indistinguishable, ambiguous_attribute, suspected_duplicate).
 - confidence: 0-1 reflecting certainty of the normalization.
 - Do not invent prices or IDs.
@@ -47,15 +51,18 @@ Rules:
 Example NormalizationRecord:
 {
   "product_id": "example_001",
-  "schema_version": 1,
+  "schema_version": 2,
   "normalized": {
     "clean_description": "Two factual sentences about the product.",
     "short_pitch": "One factual line.",
-    "category_path": "Electronics/Smartphones",
-    "use_case_tags": ["daily_driver"],
-    "target_audience": ["consumer"],
-    "aliases": ["Example Phone"],
-    "plan_features": [{"plan_id": "default", "features": ["5G", "128GB storage"]}]
+    "category_path": "Jewellery/Gold",
+    "use_case_tags": ["bridal"],
+    "target_audience": ["bridal_buyer"],
+    "aliases": ["Example Necklace"],
+    "plan_features": [{"plan_id": "default", "features": ["22K", "6g", "BIS hallmarked"]}],
+    "kind": "physical_good",
+    "brand": "Tanishq",
+    "facets": [{"key": "purity", "value": "22K"}, {"key": "weight_g", "value": "6", "unit": "g"}]
   },
   "confidence": 0.9,
   "flags": []
@@ -76,10 +83,19 @@ def load_vocab() -> dict:
     settings = get_settings()
     cats = yaml.safe_load((settings.vocab_dir / "categories.yaml").read_text(encoding="utf-8"))
     common = yaml.safe_load((settings.vocab_dir / "common.yaml").read_text(encoding="utf-8"))
+    facet_schemas: dict = {}
+    facets_dir = settings.vocab_dir / "facets"
+    if facets_dir.exists():
+        for path in sorted(facets_dir.glob("*.yaml")):
+            data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+            domain = data.get("domain")
+            if domain:
+                facet_schemas[domain] = data.get("facets") or []
     return {
         "category_paths": [c["path"] for c in cats["categories"]],
         "use_case_tags": common["use_case_tags"],
         "target_audience": common["target_audience"],
+        "facet_schemas": facet_schemas,
     }
 
 
@@ -90,12 +106,16 @@ def _product_payload(staged: StagedProduct, overrides: dict) -> dict:
         "category_raw": staged.category_raw,
         "description_text": staged.description_text,
         "unit": staged.unit,
+        "brand": staged.brand,
+        "kind": staged.kind,
         "plans": [
             {
                 "id": p.id,
                 "name": p.name,
                 "feature_text": p.feature_text,
-                "billing_period": p.billing_period,
+                "pricing_type": p.pricing_type,
+                "interval": p.interval,
+                "meter": p.meter,
             }
             for p in staged.plans
         ],
@@ -139,6 +159,50 @@ def _plan_features_to_dict(plan_features: object) -> dict[str, list[str]]:
     return {}
 
 
+def _coerce_facet_value(raw: object) -> str | float | int | bool:
+    if isinstance(raw, (int, float, bool)):
+        return raw
+    text = str(raw).strip()
+    if not text:
+        return text
+    try:
+        if "." in text:
+            return float(text)
+        return int(text)
+    except ValueError:
+        return text
+
+
+def _facets_from_llm(facets: object) -> list[Facet]:
+    out: list[Facet] = []
+    if not isinstance(facets, list):
+        return out
+    for item in facets:
+        if isinstance(item, dict):
+            key = str(item.get("key", "")).strip()
+            if not key:
+                continue
+            out.append(
+                Facet(
+                    key=key,
+                    value=_coerce_facet_value(item.get("value", "")),
+                    unit=item.get("unit"),
+                )
+            )
+        else:
+            key = str(getattr(item, "key", "")).strip()
+            if not key:
+                continue
+            out.append(
+                Facet(
+                    key=key,
+                    value=_coerce_facet_value(getattr(item, "value", "")),
+                    unit=getattr(item, "unit", None),
+                )
+            )
+    return out
+
+
 def _llm_record_to_normalization(rec: NormalizationRecordLLM) -> NormalizationRecord:
     n = rec.normalized
     return NormalizationRecord(
@@ -152,6 +216,9 @@ def _llm_record_to_normalization(rec: NormalizationRecordLLM) -> NormalizationRe
             target_audience=n.target_audience,
             aliases=n.aliases,
             plan_features=_plan_features_to_dict(n.plan_features),
+            kind=n.kind,
+            brand=n.brand,
+            facets=_facets_from_llm(n.facets),
         ),
         confidence=rec.confidence,
         flags=rec.flags,
@@ -161,8 +228,12 @@ def _llm_record_to_normalization(rec: NormalizationRecordLLM) -> NormalizationRe
 def _record_from_raw(raw: dict) -> NormalizationRecord:
     coerced = _coerce_flat_record(raw)
     nested = coerced.get("normalized")
-    if isinstance(nested, dict) and "plan_features" in nested:
-        nested = {**nested, "plan_features": _plan_features_to_dict(nested.get("plan_features"))}
+    if isinstance(nested, dict):
+        nested = {**nested}
+        if "plan_features" in nested:
+            nested["plan_features"] = _plan_features_to_dict(nested.get("plan_features"))
+        if "facets" in nested:
+            nested["facets"] = _facets_from_llm(nested.get("facets"))
         coerced = {**coerced, "normalized": nested}
     # Prefer LLM wire model (list plan_features), fall back to internal dict shape
     try:

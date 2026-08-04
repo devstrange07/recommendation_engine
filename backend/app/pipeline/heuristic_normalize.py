@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 
-from app.schemas import Flag, NormalizationRecord, Normalized, StagedProduct
+from app.schemas import Facet, Flag, KindLiteral, NormalizationRecord, Normalized, StagedProduct
 
 CATEGORY_KEYWORDS = [
     (
@@ -452,6 +452,145 @@ PITCH_BY_TOP = {
     "Paint": "paint product",
 }
 
+KIND_BY_ROOT: dict[str, KindLiteral] = {
+    "Electronics": "physical_good",
+    "Automobiles": "physical_good",
+    "Jewellery": "physical_good",
+    "Confectionery": "physical_good",
+    "Pharmaceuticals": "physical_good",
+    "Clothing": "physical_good",
+    "Hardware": "physical_good",
+    "Paint": "physical_good",
+    "Hygiene": "physical_good",
+    "SolarPanels": "physical_good",
+    "SolarManufacture": "physical_good",
+    "Residential": "physical_good",
+    "Commercial": "physical_good",
+    "Travel": "experience",
+    "FoodService": "venue_offering",
+    "Healthcare": "service",
+    "Finance": "financial_product",
+    "Education": "service",
+    "Photography": "service",
+    "NGO": "service",
+    "Trading": "financial_product",
+}
+
+
+def _infer_kind(category_path: str, staged: StagedProduct | None = None) -> KindLiteral:
+    if staged and staged.kind:
+        return staged.kind  # type: ignore[return-value]
+    root = (category_path or "").split("/")[0]
+    return KIND_BY_ROOT.get(root, "physical_good")
+
+
+def _extract_brand(staged: StagedProduct) -> str | None:
+    if staged.brand:
+        return staged.brand
+    name = (staged.name or "").strip()
+    if not name:
+        return None
+    # Common retail pattern: "Brand Product …"
+    first = name.split()[0]
+    if first and first[:1].isupper() and len(first) > 1:
+        return first
+    return None
+
+
+def _allowed_facet_keys(vocab: dict, category_path: str) -> set[str]:
+    root = (category_path or "").split("/")[0]
+    schemas = vocab.get("facet_schemas") or {}
+    facets = schemas.get(root) or []
+    return {str(f.get("key")) for f in facets if f.get("key")}
+
+
+def _extract_facets(staged: StagedProduct, category_path: str, vocab: dict) -> list[Facet]:
+    """Best-effort facet extraction from name + feature_text for offline / fallback normalize."""
+    allowed = _allowed_facet_keys(vocab, category_path)
+    blob = " ".join(
+        [
+            staged.name or "",
+            staged.description_text or "",
+            " ".join(p.feature_text or "" for p in staged.plans),
+        ]
+    )
+    lower = blob.lower()
+    found: dict[str, Facet] = {}
+
+    def add(key: str, value: str | float | int, unit: str | None = None) -> None:
+        if allowed and key not in allowed:
+            return
+        if key not in found:
+            found[key] = Facet(key=key, value=value, unit=unit)
+
+    # Jewellery
+    m = re.search(r"\b(\d{1,2})\s*k\b", lower)
+    if m:
+        add("purity", f"{m.group(1)}K")
+    m = re.search(r"\b(\d+(?:\.\d+)?)\s*g\b", lower)
+    if m:
+        add("weight_g", float(m.group(1)), "g")
+    if "hallmark" in lower or "bis" in lower:
+        add("hallmark", "BIS")
+    for occasion in ("wedding", "festive", "daily_wear", "gifting"):
+        if occasion.replace("_", " ") in lower or occasion in lower:
+            add("occasion", occasion)
+
+    # Automobiles
+    for fuel in ("petrol", "diesel", "electric", "hybrid", "cng"):
+        if re.search(rf"\b{fuel}\b", lower):
+            add("fuel", fuel)
+    for tx in ("manual", "automatic", "amt", "cvt", "dct"):
+        if re.search(rf"\b{tx}\b", lower):
+            add("transmission", tx)
+    m = re.search(r"\b(\d)\s*-?\s*seater\b", lower)
+    if m:
+        add("seats", int(m.group(1)))
+
+    # Pharma
+    for form in ("tablet", "capsule", "syrup", "injection", "cream", "ointment", "drops", "powder", "spray"):
+        if re.search(rf"\b{form}\b", lower):
+            add("form", form)
+    m = re.search(r"\b(\d+(?:\.\d+)?)\s*mg\b", lower)
+    if m:
+        add("strength", f"{m.group(1)}mg")
+
+    # Travel
+    m = re.search(r"\b(\d+)\s*n(?:ights?)?\b", lower)
+    if m:
+        add("nights", int(m.group(1)))
+    for season in ("summer", "winter", "monsoon", "peak", "off_season"):
+        if season.replace("_", " ") in lower or season in lower:
+            add("season", season)
+    for tier in ("budget", "standard", "deluxe", "luxury"):
+        if re.search(rf"\b{tier}\b", lower):
+            add("hotel_tier", tier)
+
+    # Electronics
+    m = re.search(r"\b(\d+)\s*gb\b", lower)
+    if m:
+        # Ambiguous RAM vs storage — prefer storage for larger values
+        gb = int(m.group(1))
+        if gb >= 64:
+            add("storage_gb", gb)
+        else:
+            add("ram_gb", gb)
+    if re.search(r"\b5g\b", lower):
+        add("connectivity", "5G")
+    elif re.search(r"\b4g\b", lower):
+        add("connectivity", "4G")
+
+    # FoodService
+    for meal in ("breakfast", "lunch", "dinner", "brunch", "thali", "buffet", "combo"):
+        if re.search(rf"\b{meal}\b", lower):
+            add("meal_type", meal)
+    if "vegetarian" in lower or " veg " in f" {lower} ":
+        add("dietary", "vegetarian")
+    elif "non-veg" in lower or "non vegetarian" in lower:
+        add("dietary", "non_vegetarian")
+
+    return list(found.values())
+
 
 def _guess_category(staged: StagedProduct, vocab_paths: list[str]) -> tuple[str, list[Flag]]:
     flags: list[Flag] = []
@@ -523,12 +662,14 @@ def normalize_one(staged: StagedProduct, vocab: dict) -> NormalizationRecord:
     top = category.split("/")[0] if category else "Residential"
     pitch_suffix = PITCH_BY_TOP.get(top, "listing")
     confidence = 0.9 if not flags else 0.55
+    resolved_category = category if category in paths else (paths[0] if paths else category)
     return NormalizationRecord(
         product_id=staged.id,
+        schema_version=2,
         normalized=Normalized(
-            clean_description=clean or f"{staged.name} is a property listing.",
+            clean_description=clean or f"{staged.name} is a product listing.",
             short_pitch=f"{staged.name} — {pitch_suffix}",
-            category_path=category if category in paths else (paths[0] if paths else category),
+            category_path=resolved_category,
             use_case_tags=[
                 t
                 for t in USE_CASE_BY_CAT.get(category, vocab["use_case_tags"][:2])
@@ -543,6 +684,9 @@ def normalize_one(staged: StagedProduct, vocab: dict) -> NormalizationRecord:
             or vocab["target_audience"][:2],
             aliases=[staged.name.split()[0]] if staged.name else [],
             plan_features=plan_features,
+            kind=_infer_kind(resolved_category, staged),
+            brand=_extract_brand(staged),
+            facets=_extract_facets(staged, resolved_category, vocab),
         ),
         confidence=confidence,
         flags=flags,

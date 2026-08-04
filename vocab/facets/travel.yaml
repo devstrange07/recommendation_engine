@@ -1,0 +1,19 @@
+domain: Travel
+facets:
+  - key: nights
+    type: int
+    filterable: true
+  - key: destination
+    type: string
+    filterable: true
+  - key: departure_city
+    type: string
+    filterable: true
+  - key: season
+    type: string
+    filterable: true
+    values: ["summer", "winter", "monsoon", "peak", "off_season"]
+  - key: hotel_tier
+    type: string
+    filterable: true
+    values: ["budget", "standard", "deluxe", "luxury"]

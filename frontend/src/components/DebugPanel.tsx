@@ -269,8 +269,16 @@ function HitDetail({
                   return (
                     <li key={String(off.name ?? i)}>
                       {String(off.name ?? `Plan ${i + 1}`)}
-                      {off.billing_period != null && (
-                        <span className="hit-detail__plan-meta"> · {String(off.billing_period)}</span>
+                      {((off.pricing_type ?? off.billing_period) != null) && (
+                        <span className="hit-detail__plan-meta">
+                          {" "}
+                          ·{" "}
+                          {String(
+                            off.pricing_type
+                              ? `${off.pricing_type}${off.interval ? `/${off.interval}` : ""}`
+                              : off.billing_period
+                          )}
+                        </span>
                       )}
                     </li>
                   );

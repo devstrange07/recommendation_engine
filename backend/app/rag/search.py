@@ -100,6 +100,7 @@ def _build_filter(
     price_max: float | None,
     use_tags: bool,
     use_category: bool = True,
+    use_facets: bool = True,
 ) -> models.Filter | None:
     must: list[models.FieldCondition | models.Filter] = [
         models.FieldCondition(key="status", match=models.MatchValue(value="active")),
@@ -118,13 +119,38 @@ def _build_filter(
                 key="target_audience", match=models.MatchAny(any=req.target_audience)
             )
         )
-    if req.billing_period:
+    if req.kind:
+        must.append(models.FieldCondition(key="kind", match=models.MatchValue(value=req.kind)))
+    if req.brand:
+        must.append(models.FieldCondition(key="brand", match=models.MatchValue(value=req.brand)))
+    if req.pricing_type:
         must.append(
             models.FieldCondition(
-                key="offerings[].billing_period",
-                match=models.MatchValue(value=req.billing_period),
+                key="offerings[].pricing_type",
+                match=models.MatchValue(value=req.pricing_type),
             )
         )
+    if use_facets:
+        for af in req.attribute_filters or []:
+            field = f"facets_indexed.{af.key}"
+            if af.op == "eq":
+                must.append(
+                    models.FieldCondition(key=field, match=models.MatchValue(value=af.value))
+                )
+            elif af.op == "lte":
+                must.append(
+                    models.FieldCondition(key=field, range=models.Range(lte=float(af.value)))
+                )
+            elif af.op == "gte":
+                must.append(
+                    models.FieldCondition(key=field, range=models.Range(gte=float(af.value)))
+                )
+            elif af.op == "contains":
+                # TEXT indexes are not created for facets; approximate with substring check
+                # is handled post-filter. Fall back to equality for Qdrant filter safety.
+                must.append(
+                    models.FieldCondition(key=field, match=models.MatchValue(value=af.value))
+                )
     if price_max is not None:
         # Filter: has a price for country with amount <= price_max
         must.append(
@@ -263,37 +289,49 @@ def search_products(
             "price_max": price,
             "use_tags": True,
             "use_category": True,
+            "use_facets": True,
             "label": "full_filters",
+        },
+        {
+            "price_max": price,
+            "use_tags": True,
+            "use_category": True,
+            "use_facets": False,
+            "label": "drop_facets",
         },
         {
             "price_max": (price * 1.2) if price is not None else None,
             "use_tags": True,
             "use_category": True,
+            "use_facets": False,
             "label": "relax_price_20pct",
         },
         {
             "price_max": price,
             "use_tags": False,
             "use_category": True,
+            "use_facets": False,
             "label": "drop_tags",
         },
         {
             "price_max": price,
             "use_tags": False,
             "use_category": False,
+            "use_facets": False,
             "label": "drop_category",
         },
         {
             "price_max": None,
             "use_tags": False,
             "use_category": False,
+            "use_facets": False,
             "label": "semantic_only",
         },
     ]
     seen: set[tuple] = set()
     unique_attempts = []
     for a in attempts:
-        key = (a["price_max"], a["use_tags"], a["use_category"])
+        key = (a["price_max"], a["use_tags"], a["use_category"], a["use_facets"])
         if key in seen:
             continue
         seen.add(key)
@@ -311,6 +349,7 @@ def search_products(
             price_max=a["price_max"],
             use_tags=a["use_tags"],
             use_category=a["use_category"],
+            use_facets=a["use_facets"],
         )
         points = _query(client, collection, dense, sparse, qfilter, max(req.top_k * 2, 16))
         point_ids = {
@@ -369,6 +408,9 @@ def search_products(
                         "category_path": payload.get("category_path"),
                         "short_pitch": payload.get("short_pitch"),
                         "price_min": payload.get("price_min"),
+                        "kind": payload.get("kind"),
+                        "brand": payload.get("brand"),
+                        "facets": payload.get("facets"),
                     },
                     review_pending=bool(payload.get("review_pending")),
                 )

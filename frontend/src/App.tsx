@@ -229,7 +229,6 @@ export default function App() {
                     onCountryChange={setCountry}
                     onMessagesChange={updateActive}
                     onDebug={setDebug}
-                    onNewChat={create}
                     onToggleDebug={toggleDebug}
                     debugOpen={debugOpen}
                     onAddProducts={goAddProducts}

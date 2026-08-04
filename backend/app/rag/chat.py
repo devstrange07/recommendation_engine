@@ -41,6 +41,8 @@ Rules:
 - If the user is making small talk with no product intent, reply briefly without searching.
 - Stay within this catalog's domain as described in CATALOG CONTEXT. Do not assume a different vertical.
 - When the user excludes something ("not X", "no X", "except X", "without X", "other than X"), pass X via search_products exclude_terms and remove X plus the negation phrase from semantic_query.
+- When pitching products, mention key distinguishing attributes (e.g. purity, fuel type, dosage form) from the product cards to help the user compare.
+- If attribute_filters narrow results to zero, relax them and mention what was relaxed.
 """
 
 
@@ -90,6 +92,22 @@ def _system_prompt(body: ChatRequest, tenant_id: str) -> str:
     )
 
 
+def _facet_chips(hit: dict[str, Any], limit: int = 3) -> list[str]:
+    chips: list[str] = []
+    for f in (hit.get("facets") or [])[:limit]:
+        if not isinstance(f, dict):
+            continue
+        key = f.get("key")
+        value = f.get("value")
+        if key is None or value is None:
+            continue
+        chip = f"{key}={value}"
+        if f.get("unit"):
+            chip += f" {f['unit']}"
+        chips.append(chip)
+    return chips
+
+
 def _cards_from_hits(hits: list[dict[str, Any]], country: str) -> list[ProductCard]:
     currency = COUNTRY_CURRENCY.get(country.upper(), "INR")
     cards = []
@@ -106,6 +124,8 @@ def _cards_from_hits(hits: list[dict[str, Any]], country: str) -> list[ProductCa
                 pitch=h.get("short_pitch") or "",
                 price_display=display,
                 plan_names=[o.get("name", "") for o in h.get("offerings") or []],
+                brand=h.get("brand"),
+                facet_chips=_facet_chips(h, limit=3),
             )
         )
     return cards
@@ -119,11 +139,17 @@ def _inject_block(hits: list[dict[str, Any]], country: str) -> str:
         plans = []
         for o in h.get("offerings") or []:
             feats = ", ".join(o.get("features") or [])
-            bp = o.get("billing_period") or ""
+            pt = o.get("pricing_type") or ""
+            iv = o.get("interval") or ""
+            bp = f"{pt}/{iv}" if pt and iv else pt
             plans.append(f"  - {o.get('name')} ({bp}): {feats}")
+        chips = _facet_chips(h, limit=4)
+        facets_line = f" [{', '.join(chips)}]" if chips else ""
+        brand = h.get("brand") or ""
+        brand_prefix = f"{brand} " if brand else ""
         lines.append(
-            f"[{h.get('id')}] {h.get('title')} — {h.get('short_pitch')} | {display}\n"
-            + "\n".join(plans)
+            f"[{h.get('id')}] {brand_prefix}{h.get('title')} — {h.get('short_pitch')}"
+            f"{facets_line} | {display}\n" + "\n".join(plans)
         )
     return "\n".join(lines)
 
@@ -226,14 +252,17 @@ def _apply_negation_backstop(req: SearchRequest, body: ChatRequest, debug: Debug
 
 
 def _heuristic_search_request(body: ChatRequest) -> SearchRequest:
-    from app.schemas import SearchRequest
+    from app.schemas import AttributeFilter, SearchRequest
 
     text = " ".join(m.content for m in body.messages if m.role == "user").lower()
     category = None
     tags: list[str] = []
     audience: list[str] = []
-    billing = None
+    pricing_type = None
     price_max = None
+    kind = None
+    brand = None
+    attribute_filters: list[AttributeFilter] = []
     if any(
         w in text
         for w in (
@@ -255,10 +284,12 @@ def _heuristic_search_request(body: ChatRequest) -> SearchRequest:
         category = "Electronics/Accessories"
         tags = ["accessory", "audio", "charging"]
         audience = ["consumer", "power_user"]
+        kind = "physical_good"
     elif any(w in text for w in ("foldable", "fold", "flip", "clamshell")):
         category = "Electronics/Foldables"
         tags = ["flagship", "compact", "daily_driver"]
         audience = ["consumer", "power_user", "creator"]
+        kind = "physical_good"
     elif any(
         w in text
         for w in ("smartphone", "phone", "mobile", "galaxy", "android", "iphone", "handset")
@@ -266,33 +297,79 @@ def _heuristic_search_request(body: ChatRequest) -> SearchRequest:
         category = "Electronics/Smartphones"
         tags = ["daily_driver", "flagship", "camera"]
         audience = ["consumer", "power_user", "creator"]
+        kind = "physical_good"
+    elif any(w in text for w in ("jewellery", "jewelry", "gold", "necklace", "bangle")):
+        category = "Jewellery/Gold"
+        tags = ["bridal", "festival", "daily_wear"]
+        audience = ["bridal_buyer", "family"]
+        kind = "physical_good"
+    elif any(w in text for w in ("car", "suv", "petrol", "diesel", "automobile")):
+        category = "Automobiles/Cars"
+        tags = ["family_car", "commute"]
+        audience = ["family", "consumer"]
+        kind = "physical_good"
+    elif any(w in text for w in ("tour", "holiday", "honeymoon", "pilgrimage")):
+        category = "Travel/Domestic"
+        tags = ["leisure_travel"]
+        audience = ["traveler", "family"]
+        kind = "experience"
+    elif any(w in text for w in ("restaurant", "cafe", "thali", "buffet")):
+        category = "FoodService/Restaurants"
+        tags = ["dine_in", "family_dining"]
+        audience = ["diner", "family_diner"]
+        kind = "venue_offering"
     elif any(w in text for w in ("retail", "shop", "showroom", "storefront")):
         category = "Commercial/Retail"
         tags = ["retail_frontage", "sale"]
         audience = ["retailer", "investor"]
+        kind = "physical_good"
     elif any(w in text for w in ("commercial", "office", "workspace", "business center")):
         category = "Commercial/Offices"
         tags = ["office_use", "sale"]
         audience = ["sme_office", "investor"]
+        kind = "physical_good"
     elif any(w in text for w in ("bungalow", "villa", "independent house")):
         category = "Residential/Bungalows"
         tags = ["primary_residence", "sale"]
         audience = ["family_buyer", "end_user_buyer"]
+        kind = "physical_good"
     elif any(w in text for w in ("plot", "land")):
         category = "Residential/Plots"
         tags = ["investment", "sale"]
         audience = ["investor", "end_user_buyer"]
+        kind = "physical_good"
     elif any(w in text for w in ("apartment", "flat", "bhk", "residential")):
         category = "Residential/Apartments"
         tags = ["primary_residence", "sale"]
         audience = ["end_user_buyer", "family_buyer"]
+        kind = "physical_good"
     if "lease" in text or "rent" in text:
-        billing = "monthly"
+        pricing_type = "recurring"
         if "lease" not in tags:
             tags = [*tags, "lease"] if tags else ["lease"]
     if "sale" in text or "buy" in text or "purchase" in text:
-        billing = billing or "one_time"
-    import re
+        pricing_type = pricing_type or "one_time"
+
+    # Offline facet extraction (best-effort)
+    m_k = re.search(r"\b(\d{1,2})\s*k\b", text)
+    if m_k:
+        attribute_filters.append(AttributeFilter(key="purity", op="eq", value=f"{m_k.group(1)}K"))
+    m_g = re.search(r"(?:under|below|<=?)\s*(\d+(?:\.\d+)?)\s*g\b", text) or re.search(
+        r"\b(\d+(?:\.\d+)?)\s*g\b", text
+    )
+    if m_g and ("under" in text or "below" in text or "gram" in text):
+        attribute_filters.append(
+            AttributeFilter(key="weight_g", op="lte", value=float(m_g.group(1)))
+        )
+    for fuel in ("petrol", "diesel", "electric", "hybrid", "cng"):
+        if re.search(rf"\b{fuel}\b", text):
+            attribute_filters.append(AttributeFilter(key="fuel", op="eq", value=fuel))
+            break
+    m_mg = re.search(r"\b(\d+(?:\.\d+)?)\s*mg\b", text)
+    if m_mg:
+        attribute_filters.append(
+            AttributeFilter(key="strength", op="eq", value=f"{m_mg.group(1)}mg")
+        )
 
     m = re.search(r"under\s+(\d+(?:\.\d+)?)", text) or re.search(r"below\s+(\d+(?:\.\d+)?)", text)
     if m:
@@ -303,7 +380,10 @@ def _heuristic_search_request(body: ChatRequest) -> SearchRequest:
         use_case_tags=tags,
         target_audience=audience,
         price_max=price_max,
-        billing_period=billing,
+        pricing_type=pricing_type,
+        kind=kind,
+        brand=brand,
+        attribute_filters=attribute_filters,
     )
 
 

@@ -1,0 +1,17 @@
+domain: FoodService
+facets:
+  - key: cuisine
+    type: string
+    filterable: true
+  - key: meal_type
+    type: string
+    filterable: true
+    values: ["breakfast", "lunch", "dinner", "brunch", "snack", "thali", "buffet", "combo"]
+  - key: dietary
+    type: string
+    filterable: true
+    values: ["vegetarian", "vegan", "non_vegetarian", "jain", "halal"]
+  - key: service_style
+    type: string
+    filterable: true
+    values: ["dine_in", "takeaway", "delivery", "cloud_kitchen", "buffet", "counter"]

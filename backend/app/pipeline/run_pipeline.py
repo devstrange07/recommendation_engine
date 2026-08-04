@@ -1,4 +1,13 @@
-"""Pipeline orchestrator CLI: python -m app.pipeline.run_pipeline"""
+"""Pipeline orchestrator CLI: python -m app.pipeline.run_pipeline
+
+CanonicalProduct schema_version=2 is a clean-slate bump.
+When upgrading from v1 data, wipe derived stages and re-index:
+
+  python -m app.pipeline.run_pipeline --tenant demo --clean-slate --force-reembed
+
+That deletes staged/normalized/canonical JSON + hash_ledger, drops the
+Qdrant collection, then re-runs s1→s4 from raw/catalog.jsonl.
+"""
 
 from __future__ import annotations
 
@@ -13,6 +22,54 @@ from app.pipeline.io_utils import ensure_data_dirs
 from app.pipeline.paths import DEMO_TENANT
 from app.pipeline.progress import ProgressCallback
 from app.schemas import ProgressEvent
+
+
+SCHEMA_VERSION = 2
+
+
+def clean_slate(tenant_id: str = DEMO_TENANT) -> dict:
+    """Wipe derived pipeline artifacts and Qdrant collection for a schema bump.
+
+    Keeps raw/catalog.jsonl. Deletes staged/, normalized/, canonical/,
+    overrides stay, hash_ledger.json resets, and the Qdrant collection is dropped.
+    """
+    paths = ensure_data_dirs(tenant_id)
+    deleted: dict[str, int] = {}
+    for label, folder in [
+        ("staged", paths.staged),
+        ("normalized", paths.normalized),
+        ("canonical", paths.canonical),
+    ]:
+        count = 0
+        if folder.exists():
+            for path in folder.glob("*.json"):
+                path.unlink()
+                count += 1
+        deleted[label] = count
+
+    if paths.hash_ledger.exists():
+        paths.hash_ledger.unlink()
+        deleted["hash_ledger"] = 1
+    else:
+        deleted["hash_ledger"] = 0
+
+    collection_deleted = False
+    try:
+        client = s4_index.get_qdrant()
+        existing = {c.name for c in client.get_collections().collections}
+        if paths.collection in existing:
+            client.delete_collection(collection_name=paths.collection)
+            collection_deleted = True
+    except Exception as exc:
+        deleted["qdrant_error"] = str(exc)  # type: ignore[assignment]
+
+    return {
+        "tenant_id": tenant_id,
+        "schema_version": SCHEMA_VERSION,
+        "deleted": deleted,
+        "collection": paths.collection,
+        "collection_deleted": collection_deleted,
+    }
 
 
 def measure_flag_recall(tenant_id: str = DEMO_TENANT) -> dict:
@@ -256,11 +313,22 @@ def main():
     parser.add_argument("--tenant", default=DEMO_TENANT)
     parser.add_argument("--skip-normalize", action="store_true")
     parser.add_argument("--force-reembed", action="store_true")
+    parser.add_argument(
+        "--clean-slate",
+        action="store_true",
+        help=(
+            "Wipe staged/normalized/canonical + Qdrant collection before running "
+            "(required when upgrading to CanonicalProduct schema_version=2)."
+        ),
+    )
     args = parser.parse_args()
+    if args.clean_slate:
+        result = clean_slate(args.tenant)
+        print(f"clean_slate={result}")
     run_all(
         args.tenant,
         skip_normalize=args.skip_normalize,
-        force_reembed=args.force_reembed,
+        force_reembed=args.force_reembed or args.clean_slate,
     )
 
 

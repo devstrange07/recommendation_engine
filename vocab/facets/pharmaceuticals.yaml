@@ -1,0 +1,19 @@
+domain: Pharmaceuticals
+facets:
+  - key: form
+    type: string
+    filterable: true
+    values: ["tablet", "capsule", "syrup", "injection", "cream", "ointment", "drops", "powder", "spray"]
+  - key: strength
+    type: string
+    filterable: true
+  - key: pack_size
+    type: string
+    filterable: true
+  - key: indication
+    type: string
+    filterable: true
+    values: ["pain_relief", "fever", "cough", "cold", "immunity", "chronic_care", "digestive", "skin"]
+  - key: storage
+    type: string
+    filterable: false

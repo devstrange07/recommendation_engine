@@ -1,0 +1,19 @@
+domain: Electronics
+facets:
+  - key: storage_gb
+    type: int
+    filterable: true
+  - key: ram_gb
+    type: int
+    filterable: true
+  - key: screen_size
+    type: string
+    filterable: false
+  - key: connectivity
+    type: string
+    filterable: true
+    values: ["5G", "4G", "WiFi", "Bluetooth", "NFC"]
+  - key: os
+    type: string
+    filterable: true
+    values: ["Android", "iOS", "HarmonyOS"]

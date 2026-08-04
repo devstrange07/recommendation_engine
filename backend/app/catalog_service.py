@@ -41,6 +41,21 @@ def _new_product_id() -> str:
     return f"user_{uuid.uuid4().hex[:8]}"
 
 
+def _legacy_billing_to_pricing(
+    billing_period: str | None,
+) -> tuple[str | None, str | None]:
+    if not billing_period:
+        return None, None
+    key = billing_period.strip().lower()
+    if key == "monthly":
+        return "recurring", "month"
+    if key == "annual":
+        return "recurring", "year"
+    if key == "one_time":
+        return "one_time", None
+    return None, None
+
+
 def create_product_request_to_raw(req: CreateProductRequest) -> RawProduct:
     plans: list[RawPlan] = []
     for i, plan in enumerate(req.plans, start=1):
@@ -53,12 +68,19 @@ def create_product_request_to_raw(req: CreateProductRequest) -> RawProduct:
             )
             for p in plan.prices
         ]
+        pricing_type = plan.pricing_type
+        interval = plan.interval
+        if pricing_type is None and plan.billing_period:
+            pricing_type, interval = _legacy_billing_to_pricing(plan.billing_period)
         plans.append(
             RawPlan(
                 id=f"plan_{i}",
                 name=plan.name,
                 feature_text=plan.feature_text,
                 billing_period=plan.billing_period,
+                pricing_type=pricing_type,
+                interval=interval,
+                meter=plan.meter,
                 price_lists=price_lists,
             )
         )
@@ -66,6 +88,9 @@ def create_product_request_to_raw(req: CreateProductRequest) -> RawProduct:
         id=_new_product_id(),
         name=req.name,
         category=req.category,
+        brand=req.brand,
+        unit=req.unit,
+        kind=req.kind,
         description=req.description,
         plans=plans,
         updated_at=_now_iso(),

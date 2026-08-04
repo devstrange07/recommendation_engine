@@ -1,0 +1,21 @@
+domain: Jewellery
+facets:
+  - key: purity
+    type: string
+    filterable: true
+    values: ["24K", "22K", "18K", "14K", "Sterling Silver"]
+  - key: weight_g
+    type: float
+    filterable: true
+  - key: hallmark
+    type: string
+    filterable: true
+    values: ["BIS", "none"]
+  - key: occasion
+    type: string
+    filterable: true
+    values: ["wedding", "festive", "daily_wear", "gifting"]
+  - key: finish
+    type: string
+    filterable: false
+    values: ["classic_polish", "matte", "antique", "rhodium"]
