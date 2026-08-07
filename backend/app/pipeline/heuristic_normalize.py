@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 
+from app.pipeline.vocab_facets import alias_entries, match_canonical_from_entries
 from app.schemas import Facet, Flag, KindLiteral, NormalizationRecord, Normalized, StagedProduct
 
 CATEGORY_KEYWORDS = [
@@ -536,13 +537,13 @@ def _extract_facets(staged: StagedProduct, category_path: str, vocab: dict) -> l
         if occasion.replace("_", " ") in lower or occasion in lower:
             add("occasion", occasion)
 
-    # Automobiles
-    for fuel in ("petrol", "diesel", "electric", "hybrid", "cng"):
-        if re.search(rf"\b{fuel}\b", lower):
-            add("fuel", fuel)
-    for tx in ("manual", "automatic", "amt", "cvt", "dct"):
-        if re.search(rf"\b{tx}\b", lower):
-            add("transmission", tx)
+    # Automobiles — longest alias wins (AMT before AT); short aliases are case-sensitive
+    for key in ("fuel", "transmission", "body_type"):
+        matched = match_canonical_from_entries(
+            blob, alias_entries(vocab, category_path, key)
+        )
+        if matched:
+            add(key, matched)
     m = re.search(r"\b(\d)\s*-?\s*seater\b", lower)
     if m:
         add("seats", int(m.group(1)))

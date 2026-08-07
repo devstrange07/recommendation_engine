@@ -13,8 +13,9 @@ from app.catalog_registry import ensure_meta
 from app.pipeline import run_pipeline
 from app.pipeline.io_utils import append_jsonl, ensure_data_dirs, load_hash_ledger, read_jsonl
 from app.pipeline.paths import TenantPaths
-from app.pipeline.progress import ProgressCallback
+from app.pipeline.progress import ProgressCallback, iter_from_thread
 from app.pipeline.review_store import load_queue
+from app.pipeline.run_metrics import PhaseTimer, merge_metrics, usage_scope
 from app.pipeline.s0_ingest import extract_products, parse_csv_text
 from app.pipeline.s4_index import get_qdrant
 from app.schemas import (
@@ -22,6 +23,7 @@ from app.schemas import (
     CreateProductRequest,
     IngestJobResponse,
     IngestValidateResponse,
+    PipelineRunMetrics,
     ProductIngestResult,
     ProductListItem,
     ProgressEvent,
@@ -182,6 +184,23 @@ def iter_ingest_and_run(
     ingest_mode: str = "append",
 ) -> Iterator[ProgressEvent]:
     """Yield ingest + pipeline progress; final done.detail is IngestJobResponse dict."""
+    yield from iter_from_thread(
+        lambda: _iter_ingest_and_run(
+            tenant_id,
+            products,
+            run_pipeline_after=run_pipeline_after,
+            ingest_mode=ingest_mode,
+        )
+    )
+
+
+def _iter_ingest_and_run(
+    tenant_id: str,
+    products: list[RawProduct],
+    *,
+    run_pipeline_after: bool = True,
+    ingest_mode: str = "append",
+) -> Iterator[ProgressEvent]:
     paths = ensure_data_dirs(tenant_id)
     ensure_meta(tenant_id)
     if not products:
@@ -189,41 +208,51 @@ def iter_ingest_and_run(
 
     id_to_name = {p.id: p.name for p in products}
 
-    yield ProgressEvent(type="phase_start", phase="ingest", message="Starting ingest")
-    if ingest_mode == "append":
+    with usage_scope() as bucket:
+        timer = PhaseTimer()
+        timer.start("ingest")
+        yield ProgressEvent(type="phase_start", phase="ingest", message="Starting ingest")
+        if ingest_mode == "append":
+            yield ProgressEvent(
+                type="subtask",
+                phase="ingest",
+                message=f"Appending {len(products)} product(s) to raw catalog",
+            )
+        append_products(paths, products)
         yield ProgressEvent(
-            type="subtask",
+            type="phase_done",
             phase="ingest",
-            message=f"Appending {len(products)} product(s) to raw catalog",
+            message=f"Wrote {len(products)} product(s) to raw catalog",
+            detail={"count": len(products)},
         )
-    append_products(paths, products)
-    yield ProgressEvent(
-        type="phase_done",
-        phase="ingest",
-        message=f"Wrote {len(products)} product(s) to raw catalog",
-        detail={"count": len(products)},
-    )
+        timer.stop()
+        ingest_phases = list(timer.phases)
 
-    summary = None
-    if run_pipeline_after:
-        for event in run_pipeline.iter_pipeline_progress(tenant_id):
-            if event.type == "done":
-                summary = (event.detail or {}).get("summary")
-                continue
-            yield event
+        summary = None
+        pipeline_metrics = None
+        if run_pipeline_after:
+            for event in run_pipeline._iter_pipeline_progress(tenant_id):
+                if event.type == "done":
+                    detail = event.detail or {}
+                    summary = detail.get("summary")
+                    pipeline_metrics = detail.get("metrics")
+                    continue
+                yield event
 
-    results = [_product_status(paths, pid, id_to_name[pid]) for pid in id_to_name]
-    response = IngestJobResponse(
-        tenant_id=paths.tenant_id,
-        products=results,
-        pipeline_summary=summary,
-    )
-    yield ProgressEvent(
-        type="done",
-        phase="done",
-        message="Ingest complete",
-        detail=response.model_dump(),
-    )
+        metrics = merge_metrics(ingest_phases, pipeline_metrics, bucket)
+        results = [_product_status(paths, pid, id_to_name[pid]) for pid in id_to_name]
+        response = IngestJobResponse(
+            tenant_id=paths.tenant_id,
+            products=results,
+            pipeline_summary=summary,
+            metrics=PipelineRunMetrics.model_validate(metrics),
+        )
+        yield ProgressEvent(
+            type="done",
+            phase="done",
+            message="Ingest complete",
+            detail=response.model_dump(),
+        )
 
 
 def ingest_and_run(
@@ -331,61 +360,90 @@ def iter_ingest_text(
     is_csv: bool = False,
     audit_path: str | None = None,
 ) -> Iterator[ProgressEvent]:
+    yield from iter_from_thread(
+        lambda: _iter_ingest_text(
+            tenant_id,
+            text,
+            source_name=source_name,
+            is_csv=is_csv,
+            audit_path=audit_path,
+        )
+    )
+
+
+def _iter_ingest_text(
+    tenant_id: str,
+    text: str,
+    *,
+    source_name: str | None = None,
+    is_csv: bool = False,
+    audit_path: str | None = None,
+) -> Iterator[ProgressEvent]:
     paths = ensure_data_dirs(tenant_id)
     if audit_path:
         audit_file = paths.raw_ingest / audit_path
         audit_file.parent.mkdir(parents=True, exist_ok=True)
         audit_file.write_text(text, encoding="utf-8")
 
-    yield ProgressEvent(type="phase_start", phase="ingest", message="Starting ingest")
-    yield ProgressEvent(
-        type="subtask",
-        phase="ingest",
-        message="Detecting input format",
-    )
-    products, fmt = _parse_ingest_text(text, source_name=source_name, is_csv=is_csv)
-    yield ProgressEvent(
-        type="subtask",
-        phase="ingest",
-        message=f"Parsed as {fmt} — {len(products)} product(s)",
-        detail={"format": fmt, "count": len(products)},
-    )
-    if not products:
-        raise ValueError("No products to ingest")
+    with usage_scope() as bucket:
+        timer = PhaseTimer()
+        timer.start("ingest")
+        yield ProgressEvent(type="phase_start", phase="ingest", message="Starting ingest")
+        yield ProgressEvent(
+            type="subtask",
+            phase="ingest",
+            message="Detecting input format",
+        )
+        products, fmt = _parse_ingest_text(text, source_name=source_name, is_csv=is_csv)
+        yield ProgressEvent(
+            type="subtask",
+            phase="ingest",
+            message=f"Parsed as {fmt} — {len(products)} product(s)",
+            detail={"format": fmt, "count": len(products)},
+        )
+        if not products:
+            raise ValueError("No products to ingest")
 
-    id_to_name = {p.id: p.name for p in products}
-    yield ProgressEvent(
-        type="subtask",
-        phase="ingest",
-        message=f"Appending {len(products)} product(s) to raw catalog",
-    )
-    append_products(paths, products)
-    yield ProgressEvent(
-        type="phase_done",
-        phase="ingest",
-        message=f"Wrote {len(products)} product(s) to raw catalog",
-        detail={"count": len(products), "format": fmt},
-    )
+        id_to_name = {p.id: p.name for p in products}
+        yield ProgressEvent(
+            type="subtask",
+            phase="ingest",
+            message=f"Appending {len(products)} product(s) to raw catalog",
+        )
+        append_products(paths, products)
+        yield ProgressEvent(
+            type="phase_done",
+            phase="ingest",
+            message=f"Wrote {len(products)} product(s) to raw catalog",
+            detail={"count": len(products), "format": fmt},
+        )
+        timer.stop()
+        ingest_phases = list(timer.phases)
 
-    summary = None
-    for event in run_pipeline.iter_pipeline_progress(tenant_id):
-        if event.type == "done":
-            summary = (event.detail or {}).get("summary")
-            continue
-        yield event
+        summary = None
+        pipeline_metrics = None
+        for event in run_pipeline._iter_pipeline_progress(tenant_id):
+            if event.type == "done":
+                detail = event.detail or {}
+                summary = detail.get("summary")
+                pipeline_metrics = detail.get("metrics")
+                continue
+            yield event
 
-    results = [_product_status(paths, pid, id_to_name[pid]) for pid in id_to_name]
-    response = IngestJobResponse(
-        tenant_id=paths.tenant_id,
-        products=results,
-        pipeline_summary=summary,
-    )
-    yield ProgressEvent(
-        type="done",
-        phase="done",
-        message="Ingest complete",
-        detail=response.model_dump(),
-    )
+        metrics = merge_metrics(ingest_phases, pipeline_metrics, bucket)
+        results = [_product_status(paths, pid, id_to_name[pid]) for pid in id_to_name]
+        response = IngestJobResponse(
+            tenant_id=paths.tenant_id,
+            products=results,
+            pipeline_summary=summary,
+            metrics=PipelineRunMetrics.model_validate(metrics),
+        )
+        yield ProgressEvent(
+            type="done",
+            phase="done",
+            message="Ingest complete",
+            detail=response.model_dump(),
+        )
 
 
 def ingest_text(
@@ -430,6 +488,16 @@ def iter_ingest_file(
     content: bytes,
 ) -> Iterator[ProgressEvent]:
     """ETL pipeline for binary file uploads — extract, then feed existing catalog pipeline."""
+    yield from iter_from_thread(
+        lambda: _iter_ingest_file(tenant_id, filename, content)
+    )
+
+
+def _iter_ingest_file(
+    tenant_id: str,
+    filename: str,
+    content: bytes,
+) -> Iterator[ProgressEvent]:
     from app.pipeline.file_etl.detect import is_text_format, detect_format
     from app.pipeline.file_etl.extract import extract_file
 
@@ -438,87 +506,97 @@ def iter_ingest_file(
     stem = Path(filename).stem.strip() or None
     ensure_meta(tenant_id, title=stem)
 
-    yield ProgressEvent(type="phase_start", phase="ingest", message="Starting file ingest")
+    with usage_scope() as bucket:
+        timer = PhaseTimer()
+        timer.start("ingest")
+        yield ProgressEvent(type="phase_start", phase="ingest", message="Starting file ingest")
 
-    fmt = detect_format(filename)
-    if fmt is None:
-        raise ValueError(f"Unsupported file type: {filename}")
+        fmt = detect_format(filename)
+        if fmt is None:
+            raise ValueError(f"Unsupported file type: {filename}")
 
-    progress_messages: list[str] = []
+        progress_messages: list[str] = []
 
-    def _on_progress(msg: str) -> None:
-        progress_messages.append(msg)
+        def _on_progress(msg: str) -> None:
+            progress_messages.append(msg)
 
-    if is_text_format(fmt):
-        yield ProgressEvent(type="subtask", phase="ingest", message=f"Detected text format ({fmt})")
-        text = content.decode("utf-8", errors="replace")
-        is_csv = filename.lower().endswith((".csv", ".tsv"))
-        products, fmt_label = _parse_ingest_text(text, source_name=filename, is_csv=is_csv)
+        if is_text_format(fmt):
+            yield ProgressEvent(type="subtask", phase="ingest", message=f"Detected text format ({fmt})")
+            text = content.decode("utf-8", errors="replace")
+            is_csv = filename.lower().endswith((".csv", ".tsv"))
+            products, fmt_label = _parse_ingest_text(text, source_name=filename, is_csv=is_csv)
+            yield ProgressEvent(
+                type="subtask",
+                phase="ingest",
+                message=f"Parsed as {fmt_label} — {len(products)} product(s)",
+                detail={"format": fmt_label, "count": len(products)},
+            )
+        else:
+            doc = extract_file(content, filename, on_progress=_on_progress)
+            for msg in progress_messages:
+                yield ProgressEvent(type="subtask", phase="ingest", message=msg)
+
+            prompt_text = doc.to_prompt_text()
+            if not prompt_text.strip():
+                raise ValueError("No extractable content found in file")
+
+            yield ProgressEvent(
+                type="subtask",
+                phase="ingest",
+                message="Extracting products via LLM…",
+                detail=doc.stats.to_dict(),
+            )
+            products = extract_products(prompt_text, source_name=filename)
+            yield ProgressEvent(
+                type="subtask",
+                phase="ingest",
+                message=f"LLM extracted {len(products)} product(s)",
+                detail={"count": len(products)},
+            )
+
+        if not products:
+            raise ValueError("No products extracted from file")
+
+        id_to_name = {p.id: p.name for p in products}
         yield ProgressEvent(
             type="subtask",
             phase="ingest",
-            message=f"Parsed as {fmt_label} — {len(products)} product(s)",
-            detail={"format": fmt_label, "count": len(products)},
+            message=f"Appending {len(products)} product(s) to raw catalog",
         )
-    else:
-        doc = extract_file(content, filename, on_progress=_on_progress)
-        for msg in progress_messages:
-            yield ProgressEvent(type="subtask", phase="ingest", message=msg)
-
-        prompt_text = doc.to_prompt_text()
-        if not prompt_text.strip():
-            raise ValueError("No extractable content found in file")
-
+        append_products(paths, products)
         yield ProgressEvent(
-            type="subtask",
+            type="phase_done",
             phase="ingest",
-            message="Extracting products via LLM…",
-            detail=doc.stats.to_dict(),
-        )
-        products = extract_products(prompt_text, source_name=filename)
-        yield ProgressEvent(
-            type="subtask",
-            phase="ingest",
-            message=f"LLM extracted {len(products)} product(s)",
+            message=f"Wrote {len(products)} product(s) to raw catalog",
             detail={"count": len(products)},
         )
+        timer.stop()
+        ingest_phases = list(timer.phases)
 
-    if not products:
-        raise ValueError("No products extracted from file")
+        summary = None
+        pipeline_metrics = None
+        for event in run_pipeline._iter_pipeline_progress(tenant_id):
+            if event.type == "done":
+                detail = event.detail or {}
+                summary = detail.get("summary")
+                pipeline_metrics = detail.get("metrics")
+                continue
+            yield event
 
-    id_to_name = {p.id: p.name for p in products}
-    yield ProgressEvent(
-        type="subtask",
-        phase="ingest",
-        message=f"Appending {len(products)} product(s) to raw catalog",
-    )
-    append_products(paths, products)
-    yield ProgressEvent(
-        type="phase_done",
-        phase="ingest",
-        message=f"Wrote {len(products)} product(s) to raw catalog",
-        detail={"count": len(products)},
-    )
-
-    summary = None
-    for event in run_pipeline.iter_pipeline_progress(tenant_id):
-        if event.type == "done":
-            summary = (event.detail or {}).get("summary")
-            continue
-        yield event
-
-    results = [_product_status(paths, pid, id_to_name[pid]) for pid in id_to_name]
-    response = IngestJobResponse(
-        tenant_id=paths.tenant_id,
-        products=results,
-        pipeline_summary=summary,
-    )
-    yield ProgressEvent(
-        type="done",
-        phase="done",
-        message="Ingest complete",
-        detail=response.model_dump(),
-    )
+        metrics = merge_metrics(ingest_phases, pipeline_metrics, bucket)
+        results = [_product_status(paths, pid, id_to_name[pid]) for pid in id_to_name]
+        response = IngestJobResponse(
+            tenant_id=paths.tenant_id,
+            products=results,
+            pipeline_summary=summary,
+            metrics=PipelineRunMetrics.model_validate(metrics),
+        )
+        yield ProgressEvent(
+            type="done",
+            phase="done",
+            message="Ingest complete",
+            detail=response.model_dump(),
+        )
 
 
 def delete_catalog(tenant_id: str) -> dict[str, object]:

@@ -5,6 +5,7 @@ from __future__ import annotations
 import base64
 
 from app.openai_client import chat_model, get_chat_client
+from app.pipeline.run_metrics import record_chat_usage
 
 VISION_SYSTEM = (
     "You are a product catalog analyst. Describe the content of this image factually. "
@@ -27,12 +28,14 @@ def describe_image(image_bytes: bytes, *, mime: str = "image/png", context: str 
     if context:
         user_parts.insert(0, {"type": "text", "text": context})
 
+    model = chat_model()
     resp = client.chat.completions.create(
-        model=chat_model(),
+        model=model,
         messages=[
             {"role": "system", "content": VISION_SYSTEM},
             {"role": "user", "content": user_parts},
         ],
         max_tokens=600,
     )
+    record_chat_usage(resp, model=model)
     return (resp.choices[0].message.content or "").strip()

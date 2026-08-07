@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import {
+  PipelineRunMetrics,
   ProgressEvent,
   ReviewFlagItem,
   getPipelineStatus,
@@ -10,6 +11,7 @@ import {
 import BentoGrid from "./BentoGrid";
 import BentoTile from "./BentoTile";
 import FlowMindmap from "./FlowMindmap";
+import PipelineRunSummaryModal from "./PipelineRunSummaryModal";
 import PipelineThoughtStream from "./PipelineThoughtStream";
 
 const STAT_KEYS = ["raw", "staged", "canonical", "review_queue"] as const;
@@ -22,6 +24,7 @@ export default function ReviewQueue({ tenantId = "demo" }: { tenantId?: string }
   const [msg, setMsg] = useState("");
   const [streamEvents, setStreamEvents] = useState<ProgressEvent[]>([]);
   const [streamError, setStreamError] = useState<string | null>(null);
+  const [runSummary, setRunSummary] = useState<PipelineRunMetrics | null>(null);
 
   async function refresh() {
     setItems(await getReviewQueue(tenantId));
@@ -56,6 +59,7 @@ export default function ReviewQueue({ tenantId = "demo" }: { tenantId?: string }
         setStreamEvents((prev) => [...prev, ev]);
       });
       setMsg(res.summary || "Pipeline complete");
+      if (res.metrics) setRunSummary(res.metrics);
       await refresh();
     } catch (e) {
       const err = String(e);
@@ -67,81 +71,89 @@ export default function ReviewQueue({ tenantId = "demo" }: { tenantId?: string }
   }
 
   return (
-    <BentoGrid layout="review">
-      <div className="stat-chips">
-        {STAT_KEYS.map((key) => (
-          <div key={key} className={`stat-chip stat-chip--${key}`}>
-            <div className="label">{key.replace("_", " ")}</div>
-            <div className="value">{status[key] ?? 0}</div>
-          </div>
-        ))}
-      </div>
-      <BentoTile
-        span="queue"
-        title="Review Queue"
-        headerRight={
-          <button className="primary" onClick={rerun} disabled={busy}>
-            {busy ? "Running…" : "Re-run pipeline"}
-          </button>
-        }
-      >
-        <PipelineThoughtStream
-          events={streamEvents}
-          running={busy}
-          error={streamError}
-          includeIngest={false}
-        />
-        {msg && !busy && <div className="debug-body">{msg}</div>}
-        <div className="review-list">
-          {items.length === 0 && <div className="empty">No flags in queue.</div>}
-          {items.map((item, idx) => {
-            const key = `${item.product_id}:${item.flag.field}:${idx}`;
-            return (
-              <div className="review-card" key={key}>
-                <h3>
-                  {item.product_name || item.product_id} — {item.flag.type}
-                </h3>
-                <div className="review-card__meta">
-                  field: {item.flag.field}
-                </div>
-                <p>{item.flag.issue}</p>
-                <div className="option-row">
-                  {item.flag.options.map((opt) => (
-                    <button
-                      key={opt}
-                      className={opt === item.flag.recommended ? "recommended" : ""}
-                      onClick={() => answer(item, opt)}
-                    >
-                      {opt}
-                      {opt === item.flag.recommended ? " ★" : ""}
-                    </button>
-                  ))}
-                </div>
-                <div className="option-row">
-                  <input
-                    placeholder="Custom value"
-                    value={custom[key] || ""}
-                    onChange={(e) => setCustom({ ...custom, [key]: e.target.value })}
-                  />
-                  <button
-                    onClick={() => custom[key] && answer(item, custom[key])}
-                    disabled={!custom[key]}
-                  >
-                    Save custom
-                  </button>
-                </div>
-              </div>
-            );
-          })}
+    <>
+      <BentoGrid layout="review">
+        <div className="stat-chips">
+          {STAT_KEYS.map((key) => (
+            <div key={key} className={`stat-chip stat-chip--${key}`}>
+              <div className="label">{key.replace("_", " ")}</div>
+              <div className="value">{status[key] ?? 0}</div>
+            </div>
+          ))}
         </div>
-      </BentoTile>
-      <BentoTile span="pipeline" title="Pipeline flow">
-        <FlowMindmap
-          mode="pipeline"
-          activeNodes={Object.keys(status).filter((k) => (status[k] ?? 0) > 0)}
-          stageCounts={status}
+        <BentoTile
+          span="queue"
+          title="Review Queue"
+          headerRight={
+            <button className="primary" onClick={rerun} disabled={busy}>
+              {busy ? "Running…" : "Re-run pipeline"}
+            </button>
+          }
+        >
+          <PipelineThoughtStream
+            events={streamEvents}
+            running={busy}
+            error={streamError}
+            includeIngest={false}
+          />
+          {msg && !busy && <div className="debug-body">{msg}</div>}
+          <div className="review-list">
+            {items.length === 0 && <div className="empty">No flags in queue.</div>}
+            {items.map((item, idx) => {
+              const key = `${item.product_id}:${item.flag.field}:${idx}`;
+              return (
+                <div className="review-card" key={key}>
+                  <h3>
+                    {item.product_name || item.product_id} — {item.flag.type}
+                  </h3>
+                  <div className="review-card__meta">
+                    field: {item.flag.field}
+                  </div>
+                  <p>{item.flag.issue}</p>
+                  <div className="option-row">
+                    {item.flag.options.map((opt) => (
+                      <button
+                        key={opt}
+                        className={opt === item.flag.recommended ? "recommended" : ""}
+                        onClick={() => answer(item, opt)}
+                      >
+                        {opt}
+                        {opt === item.flag.recommended ? " ★" : ""}
+                      </button>
+                    ))}
+                  </div>
+                  <div className="option-row">
+                    <input
+                      placeholder="Custom value"
+                      value={custom[key] || ""}
+                      onChange={(e) => setCustom({ ...custom, [key]: e.target.value })}
+                    />
+                    <button
+                      onClick={() => custom[key] && answer(item, custom[key])}
+                      disabled={!custom[key]}
+                    >
+                      Save custom
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </BentoTile>
+        <BentoTile span="pipeline" title="Pipeline flow">
+          <FlowMindmap
+            mode="pipeline"
+            activeNodes={Object.keys(status).filter((k) => (status[k] ?? 0) > 0)}
+            stageCounts={status}
+          />
+        </BentoTile>
+      </BentoGrid>
+      {runSummary && (
+        <PipelineRunSummaryModal
+          metrics={runSummary}
+          onClose={() => setRunSummary(null)}
         />
-      </BentoTile>
-    </BentoGrid>
+      )}
+    </>
   );
 }

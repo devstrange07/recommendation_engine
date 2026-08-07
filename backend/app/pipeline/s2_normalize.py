@@ -21,6 +21,8 @@ from app.pipeline.io_utils import ensure_data_dirs, write_json
 from app.pipeline.paths import TenantPaths
 from app.pipeline.progress import ProgressCallback, emit
 from app.pipeline.review_store import load_overrides, replace_queue
+from app.pipeline.run_metrics import bind_usage, current_usage, record_chat_usage, reset_usage
+from app.pipeline.vocab_facets import apply_facet_aliases
 from app.schemas import (
     Facet,
     NormalizationBatchResponse,
@@ -43,8 +45,8 @@ Rules:
 - plan_features: array of {plan_id, features[]} differentiators. If plans are indistinguishable, flag plans_indistinguishable.
 - kind: infer from category and description. One of: physical_good, digital_good, service, subscription, bundle, experience, venue_offering, financial_product.
 - brand: extract the brand/manufacturer name from the product name or description. Null if unclear.
-- facets: extract structured attributes from description and feature_text using ONLY the facet keys defined in facet_schemas for this product's category root (e.g. Jewellery root → jewellery facets). Return as [{key, value, unit?}]. Do not invent keys not in the vocabulary. Leave empty if no facets match. Coerce numeric facet values to strings.
-- Flag don't guess. Flag only filter-affecting ambiguity (cant_categorize, contradiction, missing_required, plans_indistinguishable, ambiguous_attribute, suspected_duplicate).
+- facets: extract structured attributes from description and feature_text using ONLY the facet keys defined in facet_schemas for this product's category root (e.g. Jewellery root → jewellery facets). Return as [{key, value, unit?}]. Do not invent keys not in the vocabulary. Leave empty if no facets match. Coerce numeric facet values to strings. When a facet defines aliases, map aliases to the listed canonical values (e.g. AT→automatic, AMT→amt, EV→electric). Do not invent values outside the canonical list.
+- Flag don't guess. Flag only filter-affecting ambiguity (cant_categorize, contradiction, missing_required, plans_indistinguishable, ambiguous_attribute, suspected_duplicate). Do not flag ambiguous_attribute for tokens that uniquely resolve via a facet's aliases map.
 - confidence: 0-1 reflecting certainty of the normalization.
 - Do not invent prices or IDs.
 - Each record MUST nest semantic fields under "normalized" (never flatten them to the top level).
@@ -345,8 +347,9 @@ def _normalize_batch(
 
     def _call_openai():
         client = get_chat_client()
+        model = chat_model()
         resp = client.chat.completions.parse(
-            model=chat_model(),
+            model=model,
             messages=[
                 {"role": "system", "content": NORMALIZATION_SYSTEM},
                 {
@@ -358,6 +361,7 @@ def _normalize_batch(
             response_format=NormalizationBatchResponse,
             **chat_completion_kwargs(),
         )
+        record_chat_usage(resp, model=model)
         message = resp.choices[0].message
         return _records_from_parsed(message.parsed, message.content)
 
@@ -499,18 +503,25 @@ def run(
             },
         )
 
+    usage_bucket = current_usage()
+
     def _process_batch(
         batch_idx: int, batch: list[StagedProduct]
     ) -> tuple[int, list[StagedProduct], list[NormalizationRecord]]:
-        records = _normalize_batch(
-            batch,
-            vocab,
-            paths,
-            on_progress=on_progress,
-            batch_idx=batch_idx,
-            batch_total=batch_total,
-        )
-        return batch_idx, batch, records
+        token = bind_usage(usage_bucket) if usage_bucket is not None else None
+        try:
+            records = _normalize_batch(
+                batch,
+                vocab,
+                paths,
+                on_progress=on_progress,
+                batch_idx=batch_idx,
+                batch_total=batch_total,
+            )
+            return batch_idx, batch, records
+        finally:
+            if token is not None:
+                reset_usage(token)
 
     workers = max(1, min(settings.normalize_concurrency, batch_total or 1))
     if batches:
@@ -522,6 +533,8 @@ def run(
             for future in as_completed(futures):
                 batch_idx, batch, records = future.result()
                 for record in records:
+                    staged = next((s for s in batch if s.id == record.product_id), None)
+                    record = apply_facet_aliases(record, vocab, staged)
                     overrides = load_overrides(paths, record.product_id)
                     if overrides:
                         record = _apply_overrides(record, overrides)

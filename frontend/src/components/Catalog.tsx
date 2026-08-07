@@ -4,6 +4,7 @@ import {
   CreateProductRequest,
   IngestJobResponse,
   IngestValidateResponse,
+  PipelineRunMetrics,
   ProductListItem,
   ProgressEvent,
   listCatalogProducts,
@@ -15,6 +16,7 @@ import {
 import { DEMO_CATALOG_ID } from "../hooks/useCatalogs";
 import BentoGrid from "./BentoGrid";
 import BentoTile from "./BentoTile";
+import PipelineRunSummaryModal, { sumMetrics } from "./PipelineRunSummaryModal";
 import PipelineThoughtStream from "./PipelineThoughtStream";
 
 type Tab = "upload" | "form" | "json";
@@ -67,6 +69,7 @@ export default function Catalog({
   const [streaming, setStreaming] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [lastResult, setLastResult] = useState<IngestJobResponse | null>(null);
+  const [runSummary, setRunSummary] = useState<PipelineRunMetrics | null>(null);
   const [validation, setValidation] = useState<IngestValidateResponse | null>(null);
   const [dragOver, setDragOver] = useState(false);
   const [streamEvents, setStreamEvents] = useState<ProgressEvent[]>([]);
@@ -138,6 +141,7 @@ export default function Catalog({
 
   function afterIngest(res: IngestJobResponse) {
     setLastResult(res);
+    if (res.metrics) setRunSummary(res.metrics);
     onCatalogReady?.();
   }
 
@@ -229,6 +233,7 @@ export default function Catalog({
       current: null,
     });
     const allProducts = [];
+    const metricsParts: PipelineRunMetrics[] = [];
     try {
       for (let i = 0; i < uploadQueue.length; i += 1) {
         const file = uploadQueue[i];
@@ -250,6 +255,7 @@ export default function Catalog({
         try {
           const res = await streamIngestFile(file, tenantId, onStreamEvent);
           allProducts.push(...res.products);
+          if (res.metrics) metricsParts.push(res.metrics);
           setQueueStats((prev) =>
             prev
               ? {
@@ -282,6 +288,8 @@ export default function Catalog({
         products: allProducts,
         pipeline_summary: null,
       });
+      const aggregated = sumMetrics(metricsParts);
+      if (aggregated) setRunSummary(aggregated);
       onCatalogReady?.();
       setUploadQueue([]);
       await refresh();
@@ -301,6 +309,7 @@ export default function Catalog({
   }
 
   return (
+    <>
     <BentoGrid layout="review">
       <BentoTile span="stat" title={`${title} · ${tenantId}`}>
         <div className="catalog-intro">
@@ -653,5 +662,12 @@ export default function Catalog({
         )}
       </BentoTile>
     </BentoGrid>
+    {runSummary && (
+      <PipelineRunSummaryModal
+        metrics={runSummary}
+        onClose={() => setRunSummary(null)}
+      />
+    )}
+    </>
   );
 }

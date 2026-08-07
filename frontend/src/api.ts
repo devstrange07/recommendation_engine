@@ -88,10 +88,31 @@ export type ProductIngestResult = {
   error?: string | null;
 };
 
+export type PhaseTiming = {
+  phase: string;
+  seconds: number;
+};
+
+export type TokenUsageSummary = {
+  prompt: number;
+  completion: number;
+  embedding: number;
+  total: number;
+};
+
+export type PipelineRunMetrics = {
+  total_seconds: number;
+  phases: PhaseTiming[];
+  tokens: TokenUsageSummary;
+  cost_usd: number;
+  cost_estimated: boolean;
+};
+
 export type IngestJobResponse = {
   tenant_id: string;
   products: ProductIngestResult[];
   pipeline_summary: string | null;
+  metrics?: PipelineRunMetrics | null;
 };
 
 export type IngestValidateResponse = {
@@ -423,15 +444,19 @@ export async function streamIngestFile(
 export async function streamPipelineRun(
   tenantId: string,
   onEvent: (event: ProgressEvent) => void
-): Promise<{ ok: boolean; summary?: string }> {
+): Promise<{ ok: boolean; summary?: string; metrics?: PipelineRunMetrics | null }> {
   const done = await streamSse(
     "/pipeline/run/stream",
     { method: "POST" },
     tenantId,
     onEvent
   );
-  const detail = (done.detail || {}) as { ok?: boolean; summary?: string };
-  return { ok: detail.ok !== false, summary: detail.summary };
+  const detail = (done.detail || {}) as {
+    ok?: boolean;
+    summary?: string;
+    metrics?: PipelineRunMetrics | null;
+  };
+  return { ok: detail.ok !== false, summary: detail.summary, metrics: detail.metrics ?? null };
 }
 
 // ---------------------------------------------------------------------------

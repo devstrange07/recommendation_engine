@@ -12,6 +12,7 @@ Qdrant collection, then re-runs s1→s4 from raw/catalog.jsonl.
 from __future__ import annotations
 
 import argparse
+import contextvars
 import json
 import queue
 import threading
@@ -20,7 +21,8 @@ from collections.abc import Iterator
 from app.pipeline import s1_preprocess, s2_normalize, s3_merge, s4_index
 from app.pipeline.io_utils import ensure_data_dirs
 from app.pipeline.paths import DEMO_TENANT
-from app.pipeline.progress import ProgressCallback
+from app.pipeline.progress import ProgressCallback, iter_from_thread
+from app.pipeline.run_metrics import PhaseTimer, build_run_metrics, usage_scope
 from app.schemas import ProgressEvent
 
 
@@ -137,186 +139,219 @@ def iter_pipeline_progress(
     force_reembed: bool = False,
 ) -> Iterator[ProgressEvent]:
     """Yield phase/subtask events while running s1→s4. Final event is type=done."""
+    yield from iter_from_thread(
+        lambda: _iter_pipeline_progress(
+            tenant_id,
+            skip_normalize=skip_normalize,
+            force_reembed=force_reembed,
+        )
+    )
+
+
+def _iter_pipeline_progress(
+    tenant_id: str = DEMO_TENANT,
+    *,
+    skip_normalize: bool = False,
+    force_reembed: bool = False,
+) -> Iterator[ProgressEvent]:
+    """Inner producer — call from a stable thread (or via iter_pipeline_progress)."""
     ensure_data_dirs(tenant_id)
     parts = [f"tenant={tenant_id}"]
 
-    yield ProgressEvent(
-        type="phase_start",
-        phase="preprocess",
-        message="Starting preprocess",
-    )
-    yield ProgressEvent(
-        type="subtask",
-        phase="preprocess",
-        message="Loading raw catalog",
-    )
-    yield ProgressEvent(
-        type="subtask",
-        phase="preprocess",
-        message="Cleaning and staging products",
-    )
-    s1 = s1_preprocess.run(tenant_id)
-    parts.append(f"s1={s1}")
-    yield ProgressEvent(
-        type="phase_done",
-        phase="preprocess",
-        message=(
-            f"Staged {s1.get('staged', 0)} products"
-            + (f", {s1.get('dead_letter', 0)} dead-lettered" if s1.get("dead_letter") else "")
-        ),
-        detail=s1,
-    )
+    with usage_scope() as bucket:
+        timer = PhaseTimer()
 
-    if not skip_normalize:
+        timer.start("preprocess")
         yield ProgressEvent(
             type="phase_start",
-            phase="normalize",
-            message="Starting normalize",
+            phase="preprocess",
+            message="Starting preprocess",
         )
         yield ProgressEvent(
             type="subtask",
-            phase="normalize",
-            message="Running LLM normalization",
+            phase="preprocess",
+            message="Loading raw catalog",
         )
-        event_queue: queue.Queue[ProgressEvent] = queue.Queue()
-        normalize_result: dict | None = None
-        normalize_error: Exception | None = None
-
-        def _emit_normalize_progress(event: ProgressEvent) -> None:
-            event_queue.put(event)
-
-        def _run_normalize() -> None:
-            nonlocal normalize_result, normalize_error
-            try:
-                normalize_result = s2_normalize.run(tenant_id, on_progress=_emit_normalize_progress)
-            except Exception as exc:  # pragma: no cover - bubbled to stream
-                normalize_error = exc
-
-        normalize_thread = threading.Thread(target=_run_normalize, daemon=True)
-        normalize_thread.start()
-        while normalize_thread.is_alive() or not event_queue.empty():
-            try:
-                yield event_queue.get(timeout=0.5)
-            except queue.Empty:
-                continue
-        normalize_thread.join()
-        if normalize_error is not None:
-            raise normalize_error
-        s2 = normalize_result or {}
-        parts.append(f"s2={s2}")
+        yield ProgressEvent(
+            type="subtask",
+            phase="preprocess",
+            message="Cleaning and staging products",
+        )
+        s1 = s1_preprocess.run(tenant_id)
+        parts.append(f"s1={s1}")
         yield ProgressEvent(
             type="phase_done",
-            phase="normalize",
+            phase="preprocess",
             message=(
-                f"Normalized {s2.get('normalized', 0)}"
-                f", skipped {s2.get('skipped_unchanged', 0)}"
-                f", flagged {s2.get('flags_queued', 0)}"
+                f"Staged {s1.get('staged', 0)} products"
+                + (f", {s1.get('dead_letter', 0)} dead-lettered" if s1.get("dead_letter") else "")
             ),
-            detail=s2,
+            detail=s1,
         )
-    else:
-        parts.append("s2=skipped")
+
+        if not skip_normalize:
+            timer.start("normalize")
+            yield ProgressEvent(
+                type="phase_start",
+                phase="normalize",
+                message="Starting normalize",
+            )
+            yield ProgressEvent(
+                type="subtask",
+                phase="normalize",
+                message="Running LLM normalization",
+            )
+            event_queue: queue.Queue[ProgressEvent] = queue.Queue()
+            normalize_result: dict | None = None
+            normalize_error: Exception | None = None
+
+            def _emit_normalize_progress(event: ProgressEvent) -> None:
+                event_queue.put(event)
+
+            def _run_normalize() -> None:
+                nonlocal normalize_result, normalize_error
+                try:
+                    normalize_result = s2_normalize.run(
+                        tenant_id, on_progress=_emit_normalize_progress
+                    )
+                except Exception as exc:  # pragma: no cover - bubbled to stream
+                    normalize_error = exc
+
+            # Propagate usage ContextVar into the normalize thread.
+            ctx = contextvars.copy_context()
+            normalize_thread = threading.Thread(
+                target=ctx.run, args=(_run_normalize,), daemon=True
+            )
+            normalize_thread.start()
+            while normalize_thread.is_alive() or not event_queue.empty():
+                try:
+                    yield event_queue.get(timeout=0.5)
+                except queue.Empty:
+                    continue
+            normalize_thread.join()
+            if normalize_error is not None:
+                raise normalize_error
+            s2 = normalize_result or {}
+            parts.append(f"s2={s2}")
+            yield ProgressEvent(
+                type="phase_done",
+                phase="normalize",
+                message=(
+                    f"Normalized {s2.get('normalized', 0)}"
+                    f", skipped {s2.get('skipped_unchanged', 0)}"
+                    f", flagged {s2.get('flags_queued', 0)}"
+                ),
+                detail=s2,
+            )
+        else:
+            timer.start("normalize")
+            parts.append("s2=skipped")
+            yield ProgressEvent(
+                type="phase_start",
+                phase="normalize",
+                message="Normalize skipped",
+            )
+            yield ProgressEvent(
+                type="phase_done",
+                phase="normalize",
+                message="Skipped",
+                detail={"skipped": True},
+            )
+
+        timer.start("merge")
         yield ProgressEvent(
             type="phase_start",
-            phase="normalize",
-            message="Normalize skipped",
+            phase="merge",
+            message="Starting merge",
         )
         yield ProgressEvent(
-            type="phase_done",
-            phase="normalize",
-            message="Skipped",
-            detail={"skipped": True},
+            type="subtask",
+            phase="merge",
+            message="Merging staged + normalized + overrides",
         )
-
-    yield ProgressEvent(
-        type="phase_start",
-        phase="merge",
-        message="Starting merge",
-    )
-    yield ProgressEvent(
-        type="subtask",
-        phase="merge",
-        message="Merging staged + normalized + overrides",
-    )
-    s3 = s3_merge.run(tenant_id)
-    parts.append(f"s3={s3}")
-    yield ProgressEvent(
-        type="phase_done",
-        phase="merge",
-        message=f"Wrote {s3.get('canonical', 0)} canonical products",
-        detail=s3,
-    )
-
-    yield ProgressEvent(
-        type="phase_start",
-        phase="index",
-        message="Starting index",
-    )
-    yield ProgressEvent(
-        type="subtask",
-        phase="index",
-        message="Embedding products",
-    )
-    yield ProgressEvent(
-        type="subtask",
-        phase="index",
-        message="Upserting to Qdrant",
-    )
-    s4 = s4_index.run(tenant_id, force_all=force_reembed)
-    parts.append(f"s4={s4}")
-    yield ProgressEvent(
-        type="phase_done",
-        phase="index",
-        message=(
-            f"Upserted {s4.get('upserted', 0)} points"
-            f" into {s4.get('collection', 'qdrant')}"
-        ),
-        detail=s4,
-    )
-
-    if tenant_id == DEMO_TENANT:
-        recall = measure_flag_recall(tenant_id)
-        parts.append(f"flag_metrics={recall}")
-
-    yield ProgressEvent(
-        type="phase_start",
-        phase="eval_profile",
-        message="Generating catalog profile for evals",
-    )
-    yield ProgressEvent(
-        type="subtask",
-        phase="eval_profile",
-        message="Summarizing canonical catalog",
-    )
-    try:
-        from app.evals.profile import generate_catalog_profile
-
-        profile = generate_catalog_profile(tenant_id)
-        parts.append(f"catalog_profile=products:{profile.get('product_count', 0)}")
+        s3 = s3_merge.run(tenant_id)
+        parts.append(f"s3={s3}")
         yield ProgressEvent(
             type="phase_done",
+            phase="merge",
+            message=f"Wrote {s3.get('canonical', 0)} canonical products",
+            detail=s3,
+        )
+
+        timer.start("index")
+        yield ProgressEvent(
+            type="phase_start",
+            phase="index",
+            message="Starting index",
+        )
+        yield ProgressEvent(
+            type="subtask",
+            phase="index",
+            message="Embedding products",
+        )
+        yield ProgressEvent(
+            type="subtask",
+            phase="index",
+            message="Upserting to Qdrant",
+        )
+        s4 = s4_index.run(tenant_id, force_all=force_reembed)
+        parts.append(f"s4={s4}")
+        yield ProgressEvent(
+            type="phase_done",
+            phase="index",
+            message=(
+                f"Upserted {s4.get('upserted', 0)} points"
+                f" into {s4.get('collection', 'qdrant')}"
+            ),
+            detail=s4,
+        )
+
+        if tenant_id == DEMO_TENANT:
+            recall = measure_flag_recall(tenant_id)
+            parts.append(f"flag_metrics={recall}")
+
+        timer.start("eval_profile")
+        yield ProgressEvent(
+            type="phase_start",
             phase="eval_profile",
-            message=f"Wrote catalog_profile ({profile.get('product_count', 0)} products)",
-            detail={"product_count": profile.get("product_count")},
+            message="Generating catalog profile for evals",
         )
-    except Exception as e:
-        print(f"WARN: catalog_profile generation failed: {e}")
-        parts.append(f"catalog_profile=error:{e}")
         yield ProgressEvent(
-            type="phase_done",
+            type="subtask",
             phase="eval_profile",
-            message=f"Catalog profile skipped: {e}",
-            detail={"error": str(e)},
+            message="Summarizing canonical catalog",
         )
+        try:
+            from app.evals.profile import generate_catalog_profile
 
-    summary = " | ".join(parts)
-    print(summary)
-    yield ProgressEvent(
-        type="done",
-        phase="done",
-        message="Pipeline complete",
-        detail={"ok": True, "summary": summary},
-    )
+            profile = generate_catalog_profile(tenant_id)
+            parts.append(f"catalog_profile=products:{profile.get('product_count', 0)}")
+            yield ProgressEvent(
+                type="phase_done",
+                phase="eval_profile",
+                message=f"Wrote catalog_profile ({profile.get('product_count', 0)} products)",
+                detail={"product_count": profile.get("product_count")},
+            )
+        except Exception as e:
+            print(f"WARN: catalog_profile generation failed: {e}")
+            parts.append(f"catalog_profile=error:{e}")
+            yield ProgressEvent(
+                type="phase_done",
+                phase="eval_profile",
+                message=f"Catalog profile skipped: {e}",
+                detail={"error": str(e)},
+            )
+
+        timer.stop()
+        metrics = build_run_metrics(timer.phases, bucket)
+        summary = " | ".join(parts)
+        print(summary)
+        yield ProgressEvent(
+            type="done",
+            phase="done",
+            message="Pipeline complete",
+            detail={"ok": True, "summary": summary, "metrics": metrics},
+        )
 
 
 def run_all(

@@ -41,6 +41,12 @@ class Settings(BaseSettings):
     normalize_max_retries: int = 4
     normalize_retry_base_delay_seconds: float = 1.0
 
+    # Optional overrides for pipeline cost estimates (USD per 1M tokens).
+    # When unset, model-specific defaults in run_metrics are used.
+    llm_input_usd_per_1m: float | None = None
+    llm_output_usd_per_1m: float | None = None
+    embedding_usd_per_1m: float | None = None
+
 
 def langsmith_key_present(settings: Settings | None = None) -> bool:
     s = settings or get_settings()

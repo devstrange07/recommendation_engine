@@ -15,6 +15,7 @@ from app.openai_client import (
     get_chat_client,
     is_deepseek,
 )
+from app.pipeline.run_metrics import record_chat_usage
 from app.schemas import ExtractProductsResponse, RawPlan, RawPriceList, RawProduct
 
 EXTRACT_SYSTEM = """You are a catalog data extractor. Convert messy product catalog text or partial JSON into strict RawProduct records.
@@ -163,8 +164,9 @@ def _llm_extract_openai(text: str, *, source_name: str | None = None) -> list[Ra
     }
 
     def _call():
+        model = chat_model()
         resp = client.chat.completions.create(
-            model=chat_model(),
+            model=model,
             messages=[
                 {"role": "system", "content": EXTRACT_SYSTEM},
                 {"role": "user", "content": json.dumps(user)},
@@ -172,6 +174,7 @@ def _llm_extract_openai(text: str, *, source_name: str | None = None) -> list[Ra
             response_format={"type": "json_object"},
             **chat_completion_kwargs(),
         )
+        record_chat_usage(resp, model=model)
         content = resp.choices[0].message.content or "{}"
         data = json.loads(content)
         rows = data.get("products", [])

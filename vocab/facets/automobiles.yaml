@@ -4,17 +4,35 @@ facets:
     type: string
     filterable: true
     values: ["petrol", "diesel", "electric", "hybrid", "cng"]
+    aliases:
+      Petrol: petrol
+      Diesel: diesel
+      CNG: cng
+      EV: electric
+      Electric: electric
+      Hybrid: hybrid
   - key: transmission
     type: string
     filterable: true
     values: ["manual", "automatic", "amt", "cvt", "dct"]
+    aliases:
+      AT: automatic
+      auto: automatic
+      Automatic: automatic
+      MT: manual
+      Manual: manual
+      AMT: amt
+      CVT: cvt
+      iCVT: cvt
+      DCT: dct
+      DSG: dct
   - key: seats
     type: int
     filterable: true
   - key: body_type
     type: string
     filterable: true
-    values: ["hatchback", "sedan", "suv", "muv", "coupe", "pickup"]
+    values: ["hatchback", "sedan", "suv", "muv", "mpv", "coupe", "pickup"]
   - key: color
     type: string
     filterable: false

@@ -12,6 +12,7 @@ from qdrant_client import QdrantClient, models
 from app.config import get_settings
 from app.openai_client import embedding_model, get_embedding_client, openai_key_present
 from app.pipeline.io_utils import ensure_data_dirs, load_hash_ledger, save_hash_ledger
+from app.pipeline.run_metrics import record_embedding_usage
 
 
 def product_uuid(product_id: str) -> str:
@@ -118,7 +119,9 @@ def _embed(texts: list[str]) -> list[list[float]]:
         return [_hash_embed(t) for t in texts]
     try:
         client = get_embedding_client()
-        resp = client.embeddings.create(model=embedding_model(), input=texts)
+        model = embedding_model()
+        resp = client.embeddings.create(model=model, input=texts)
+        record_embedding_usage(resp, model=model)
         by_idx = sorted(resp.data, key=lambda d: d.index)
         return [d.embedding for d in by_idx]
     except Exception as e:

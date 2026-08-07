@@ -13,6 +13,7 @@ from openai import OpenAI
 from pydantic import BaseModel
 
 from app.config import get_settings, langsmith_key_present
+from app.pipeline.run_metrics import record_chat_usage
 
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash"
@@ -257,6 +258,7 @@ def call_with_forced_tool(
             tool_choice=tool_choice,
             **kwargs,
         )
+        record_chat_usage(resp, model=model)
         message = resp.choices[0].message
         return parse_forced_tool_args(message, tool_name=tool_name, validate=validate)
 

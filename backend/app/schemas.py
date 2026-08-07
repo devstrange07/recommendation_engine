@@ -373,10 +373,31 @@ class ProductIngestResult(BaseModel):
     error: str | None = None
 
 
+class PhaseTiming(BaseModel):
+    phase: str
+    seconds: float
+
+
+class TokenUsageSummary(BaseModel):
+    prompt: int = 0
+    completion: int = 0
+    embedding: int = 0
+    total: int = 0
+
+
+class PipelineRunMetrics(BaseModel):
+    total_seconds: float
+    phases: list[PhaseTiming] = Field(default_factory=list)
+    tokens: TokenUsageSummary = Field(default_factory=TokenUsageSummary)
+    cost_usd: float = 0.0
+    cost_estimated: bool = True
+
+
 class IngestJobResponse(BaseModel):
     tenant_id: str
     products: list[ProductIngestResult]
     pipeline_summary: str | None = None
+    metrics: PipelineRunMetrics | None = None
 
 
 class ProductListItem(BaseModel):
