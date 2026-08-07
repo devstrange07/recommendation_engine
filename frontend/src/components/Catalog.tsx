@@ -24,10 +24,12 @@ type Tab = "upload" | "form" | "json";
 type Props = {
   tenantId: string;
   title: string;
+  /** Tab to show on mount (e.g. "upload" after New catalog). */
+  initialTab?: Tab;
   onTryInChat: (productName: string) => void;
   onCatalogReady?: () => void;
   onGoToChat?: () => void;
-  onNewCatalog?: () => void;
+  onNewCatalog?: () => void | Promise<void>;
 };
 
 const EMPTY_PLAN = (): CreatePlanRequest => ({
@@ -57,13 +59,14 @@ const ACCEPT =
 export default function Catalog({
   tenantId,
   title,
+  initialTab = "upload",
   onTryInChat,
   onCatalogReady,
   onGoToChat,
   onNewCatalog,
 }: Props) {
   const isDemo = tenantId === DEMO_CATALOG_ID;
-  const [tab, setTab] = useState<Tab>("upload");
+  const [tab, setTab] = useState<Tab>(initialTab);
   const [products, setProducts] = useState<ProductListItem[]>([]);
   const [busy, setBusy] = useState(false);
   const [streaming, setStreaming] = useState(false);

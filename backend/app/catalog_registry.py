@@ -33,6 +33,15 @@ def _count_products(paths: TenantPaths) -> int:
     return n
 
 
+def _fast_product_count(paths: TenantPaths) -> int:
+    """Prefer canonical file count over scanning raw JSONL when indexed."""
+    if paths.canonical.exists():
+        n = sum(1 for p in paths.canonical.glob("*.json") if p.is_file())
+        if n > 0:
+            return n
+    return _count_products(paths)
+
+
 def _has_content(paths: TenantPaths) -> bool:
     if paths.catalog_meta.exists():
         return True
@@ -43,6 +52,37 @@ def _has_content(paths: TenantPaths) -> bool:
     if paths.canonical.exists() and any(paths.canonical.glob("*.json")):
         return True
     return False
+
+
+def _iter_tenant_ids() -> list[str]:
+    root = _tenants_root()
+    root.mkdir(parents=True, exist_ok=True)
+    ids: list[str] = [DEMO_TENANT]
+    for child in sorted(root.iterdir()):
+        if not child.is_dir():
+            continue
+        tid = sanitize_tenant_id(child.name)
+        if tid == DEMO_TENANT:
+            continue
+        if child.name != tid:
+            continue
+        paths = TenantPaths.for_tenant(tid)
+        if _has_content(paths):
+            ids.append(tid)
+    return ids
+
+
+def _existing_titles() -> set[str]:
+    """Titles only — reads catalog.json meta, never scans product JSONL."""
+    titles: set[str] = set()
+    for tid in _iter_tenant_ids():
+        meta = read_meta(tid)
+        if meta and meta.get("title"):
+            titles.add(str(meta["title"]).strip().lower())
+            continue
+        if tid == DEMO_TENANT:
+            titles.add("demo catalog")
+    return titles
 
 
 def _title_from_ingest(paths: TenantPaths) -> str | None:
@@ -138,29 +178,13 @@ def _entry_from_tenant(tenant_id: str) -> dict:
         "title": meta["title"],
         "createdAt": meta["createdAt"],
         "updatedAt": meta["updatedAt"],
-        "productCount": _count_products(paths),
+        "productCount": _fast_product_count(paths),
     }
 
 
 def list_catalogs() -> list[dict]:
-    root = _tenants_root()
-    root.mkdir(parents=True, exist_ok=True)
     ensure_meta(DEMO_TENANT, title="Demo catalog")
-
-    ids: list[str] = [DEMO_TENANT]
-    for child in sorted(root.iterdir()):
-        if not child.is_dir():
-            continue
-        tid = sanitize_tenant_id(child.name)
-        if tid == DEMO_TENANT:
-            continue
-        if child.name != tid:
-            continue
-        paths = TenantPaths.for_tenant(tid)
-        if _has_content(paths):
-            ids.append(tid)
-
-    return [_entry_from_tenant(tid) for tid in ids]
+    return [_entry_from_tenant(tid) for tid in _iter_tenant_ids()]
 
 
 def create_catalog(title: str) -> dict:
@@ -169,7 +193,7 @@ def create_catalog(title: str) -> dict:
     now = _now_ms()
     resolved = (title or "").strip() or "New catalog"
     # Avoid colliding with an existing title by appending a suffix.
-    existing_titles = {e["title"].strip().lower() for e in list_catalogs()}
+    existing_titles = _existing_titles()
     base = resolved
     if base.lower() in existing_titles:
         suffix = 2
@@ -177,13 +201,12 @@ def create_catalog(title: str) -> dict:
             suffix += 1
         resolved = f"{base} {suffix}"
     write_meta(tid, title=resolved, created_at=now, updated_at=now)
-    paths = TenantPaths.for_tenant(tid)
     return {
         "id": tid,
         "title": resolved,
         "createdAt": now,
         "updatedAt": now,
-        "productCount": _count_products(paths),
+        "productCount": 0,
     }
 
 

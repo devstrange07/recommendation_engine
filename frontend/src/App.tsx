@@ -44,6 +44,10 @@ export default function App() {
   });
   const [onboarded, setOnboarded] = useState(() => isOnboardingDone());
   const [showTour, setShowTour] = useState(() => !isOnboardingDone());
+  const [creatingCatalog, setCreatingCatalog] = useState(false);
+  const [catalogInitialTab, setCatalogInitialTab] = useState<"upload" | "form" | "json">(
+    "upload"
+  );
 
   const {
     conversations,
@@ -113,12 +117,21 @@ export default function App() {
     })();
   }
 
-  function onNewCatalog() {
+  async function onNewCatalog() {
+    if (creatingCatalog) return;
     const name = window.prompt("Catalog name", suggestCatalogTitle("New catalog"));
     if (name === null) return;
-    void createCatalog(name.trim() || suggestCatalogTitle("New catalog")).then(() => {
+    setCreatingCatalog(true);
+    try {
+      await createCatalog(name.trim() || suggestCatalogTitle("New catalog"));
+      setCatalogInitialTab("upload");
       setPage("catalog");
-    });
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      window.alert(`Failed to create catalog: ${msg}`);
+    } finally {
+      setCreatingCatalog(false);
+    }
   }
 
   async function onDeleteCatalog() {
@@ -165,8 +178,13 @@ export default function App() {
                 </option>
               ))}
             </select>
-            <button type="button" className="ghost catalog-mode-link" onClick={onNewCatalog}>
-              New catalog
+            <button
+              type="button"
+              className="ghost catalog-mode-link"
+              onClick={onNewCatalog}
+              disabled={creatingCatalog}
+            >
+              {creatingCatalog ? "Creating…" : "New catalog"}
             </button>
             {catalogId !== DEMO_CATALOG_ID && (
               <button type="button" className="ghost catalog-mode-link" onClick={onDeleteCatalog}>
@@ -258,6 +276,7 @@ export default function App() {
               key={catalogId}
               tenantId={catalogId}
               title={catalogTitle}
+              initialTab={catalogInitialTab}
               onTryInChat={tryInChat}
               onGoToChat={() => setPage("chat")}
               onNewCatalog={onNewCatalog}
