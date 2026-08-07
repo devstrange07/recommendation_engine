@@ -100,12 +100,19 @@ export type TokenUsageSummary = {
   total: number;
 };
 
+export type CatalogRunStats = {
+  product_count: number;
+  category_count: number;
+  brand_count: number;
+};
+
 export type PipelineRunMetrics = {
   total_seconds: number;
   phases: PhaseTiming[];
   tokens: TokenUsageSummary;
   cost_usd: number;
   cost_estimated: boolean;
+  catalog?: CatalogRunStats | null;
 };
 
 export type IngestJobResponse = {

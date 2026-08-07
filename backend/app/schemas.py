@@ -385,12 +385,19 @@ class TokenUsageSummary(BaseModel):
     total: int = 0
 
 
+class CatalogRunStats(BaseModel):
+    product_count: int = 0
+    category_count: int = 0
+    brand_count: int = 0
+
+
 class PipelineRunMetrics(BaseModel):
     total_seconds: float
     phases: list[PhaseTiming] = Field(default_factory=list)
     tokens: TokenUsageSummary = Field(default_factory=TokenUsageSummary)
     cost_usd: float = 0.0
     cost_estimated: bool = True
+    catalog: CatalogRunStats | None = None
 
 
 class IngestJobResponse(BaseModel):

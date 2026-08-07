@@ -97,6 +97,26 @@ def aggregate_catalog_stats(products: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def catalog_run_stats(products: list[dict[str, Any]]) -> dict[str, int]:
+    """Compact catalog snapshot for pipeline run metrics."""
+    stats = aggregate_catalog_stats(products)
+    brands: set[str] = set()
+    for prod in products:
+        b = prod.get("brand") or prod.get("brand_or_provider") or prod.get("provider")
+        if b:
+            brands.add(str(b))
+    return {
+        "product_count": int(stats.get("product_count") or 0),
+        "category_count": len(stats.get("category_paths") or []),
+        "brand_count": len(brands),
+    }
+
+
+def catalog_run_stats_for_tenant(tenant_id: str) -> dict[str, int]:
+    paths = ensure_tenant_dirs(tenant_id)
+    return catalog_run_stats(_load_canonical(paths))
+
+
 def _heuristic_soft(stats: dict[str, Any]) -> SoftExpectationsOut:
     cats = stats.get("category_paths") or []
     facet_keys: list[str] = []

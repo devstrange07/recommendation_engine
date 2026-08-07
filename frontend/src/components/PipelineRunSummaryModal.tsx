@@ -72,6 +72,8 @@ export function sumMetrics(items: PipelineRunMetrics[]): PipelineRunMetrics | nu
   ];
 
   const cost = items.reduce((acc, m) => acc + (m.cost_usd ?? 0), 0);
+  // Catalog snapshot is tenant state after the last file — not additive.
+  const catalog = [...items].reverse().find((m) => m.catalog)?.catalog ?? null;
 
   return {
     total_seconds: Math.round(totalSeconds * 1000) / 1000,
@@ -84,6 +86,7 @@ export function sumMetrics(items: PipelineRunMetrics[]): PipelineRunMetrics | nu
     },
     cost_usd: Math.round(cost * 1_000_000) / 1_000_000,
     cost_estimated: true,
+    catalog,
   };
 }
 
@@ -122,6 +125,16 @@ export default function PipelineRunSummaryModal({ metrics, onClose }: Props) {
         <p className="run-summary-modal__total">
           Total time <strong>{formatSeconds(metrics.total_seconds)}</strong>
         </p>
+
+        {metrics.catalog && (
+          <p className="run-summary-catalog">
+            <strong>{metrics.catalog.product_count.toLocaleString()}</strong> products
+            {" · "}
+            <strong>{metrics.catalog.category_count.toLocaleString()}</strong> categories
+            {" · "}
+            <strong>{metrics.catalog.brand_count.toLocaleString()}</strong> brands
+          </p>
+        )}
 
         <table className="run-summary-table">
           <thead>

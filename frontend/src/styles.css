@@ -2524,6 +2524,17 @@ button.linkish {
   font-weight: 600;
 }
 
+.run-summary-catalog {
+  margin: -0.5rem 0 1rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.run-summary-catalog strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .run-summary-table {
   width: 100%;
   border-collapse: collapse;

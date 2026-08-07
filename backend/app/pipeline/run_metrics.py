@@ -216,6 +216,7 @@ def build_run_metrics(
     bucket: UsageBucket | None,
     *,
     total_seconds: float | None = None,
+    catalog: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     usage = bucket or UsageBucket()
     secs = (
@@ -224,7 +225,7 @@ def build_run_metrics(
         else round(sum(p.get("seconds", 0) for p in phases), 3)
     )
     cost = estimate_cost_usd(usage)
-    return {
+    out: dict[str, Any] = {
         "total_seconds": secs,
         "phases": [{"phase": p["phase"], "seconds": p["seconds"]} for p in phases],
         "tokens": {
@@ -236,6 +237,9 @@ def build_run_metrics(
         "cost_usd": cost,
         "cost_estimated": True,
     }
+    if catalog is not None:
+        out["catalog"] = catalog
+    return out
 
 
 def merge_metrics(
@@ -246,4 +250,5 @@ def merge_metrics(
     """Combine ingest-phase timings with pipeline done.detail metrics."""
     pipe_phases = list((pipeline_metrics or {}).get("phases") or [])
     phases = [*ingest_phases, *pipe_phases]
-    return build_run_metrics(phases, bucket)
+    catalog = (pipeline_metrics or {}).get("catalog")
+    return build_run_metrics(phases, bucket, catalog=catalog)

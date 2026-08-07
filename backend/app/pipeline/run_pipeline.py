@@ -343,7 +343,14 @@ def _iter_pipeline_progress(
             )
 
         timer.stop()
-        metrics = build_run_metrics(timer.phases, bucket)
+        try:
+            from app.evals.profile import catalog_run_stats_for_tenant
+
+            catalog = catalog_run_stats_for_tenant(tenant_id)
+        except Exception as e:  # pragma: no cover - non-fatal for metrics
+            print(f"WARN: catalog run stats failed: {e}")
+            catalog = None
+        metrics = build_run_metrics(timer.phases, bucket, catalog=catalog)
         summary = " | ".join(parts)
         print(summary)
         yield ProgressEvent(
