@@ -4,28 +4,34 @@ from __future__ import annotations
 
 import json
 import threading
+import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
 
-from app.evals.conclude import build_conclusion
+from app.evals.conclude import build_conclusion, summarize_promptfoo_results
 from app.evals.judge import build_retrieval_blob, default_judge_model, judge_turn, write_promptfoo_cases
 from app.evals.models import EvalScenario
 from app.evals.profile import load_catalog_profile, generate_catalog_profile
 from app.evals.query_agent import next_user_turn
 from app.evals.scenario_store import get_scenario, list_scenarios
-from app.pipeline.paths import ensure_tenant_dirs
-from app.rag.chat import run_chat_turn
+from app.pipeline.paths import ensure_tenant_dirs, safe_id
+from app.rag.chat import clear_session_filters, run_chat_turn
 from app.schemas import ChatMessage, ChatRequest
 
 ProgressCb = Callable[[dict[str, Any]], None]
 
 _run_lock = threading.Lock()
 _runs: dict[str, dict[str, Any]] = {}
+_active_runs: dict[str, bool] = {}
 
 
 def get_run_state(tenant_id: str, run_id: str) -> dict[str, Any] | None:
-    return _runs.get(f"{tenant_id}:{run_id}")
+    try:
+        rid = safe_id(run_id)
+    except ValueError:
+        return None
+    return _runs.get(f"{tenant_id}:{rid}")
 
 
 def list_run_dirs(tenant_id: str) -> list[dict[str, Any]]:
@@ -35,6 +41,10 @@ def list_run_dirs(tenant_id: str) -> list[dict[str, Any]]:
         return out
     for d in sorted(paths.evals_runs.iterdir(), reverse=True):
         if not d.is_dir():
+            continue
+        try:
+            safe_id(d.name)
+        except ValueError:
             continue
         manifest = {}
         mp = d / "manifest.json"
@@ -63,8 +73,12 @@ def list_run_dirs(tenant_id: str) -> list[dict[str, Any]]:
 
 
 def load_run(tenant_id: str, run_id: str) -> dict[str, Any] | None:
+    try:
+        rid = safe_id(run_id)
+    except ValueError:
+        return None
     paths = ensure_tenant_dirs(tenant_id)
-    run_dir = paths.evals_runs / run_id
+    run_dir = paths.evals_runs / rid
     if not run_dir.exists():
         return None
     manifest = {}
@@ -85,9 +99,9 @@ def load_run(tenant_id: str, run_id: str) -> dict[str, Any] | None:
                 if line.strip():
                     turns.append(json.loads(line))
             scenarios[f.stem] = turns
-    state = _runs.get(f"{tenant_id}:{run_id}") or {}
+    state = _runs.get(f"{tenant_id}:{rid}") or {}
     return {
-        "run_id": run_id,
+        "run_id": rid,
         "manifest": manifest,
         "conclusion": conclusion,
         "conclusion_md": conclusion_md,
@@ -105,9 +119,13 @@ def start_run(
     max_turns: int | None = None,
     catalog_title: str | None = None,
 ) -> str:
-    run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    key = f"{tenant_id}:{run_id}"
     with _run_lock:
+        if _active_runs.get(tenant_id):
+            raise ValueError("An eval run is already in progress for this tenant")
+        ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+        run_id = f"{ts}-{uuid.uuid4().hex[:6]}"
+        key = f"{tenant_id}:{run_id}"
+        _active_runs[tenant_id] = True
         _runs[key] = {
             "status": "pending",
             "progress": {"message": "starting", "event": "run_pending"},
@@ -136,6 +154,9 @@ def start_run(
             err_dir = paths.evals_runs / run_id
             err_dir.mkdir(parents=True, exist_ok=True)
             (err_dir / "error.txt").write_text(str(e), encoding="utf-8")
+        finally:
+            with _run_lock:
+                _active_runs[tenant_id] = False
 
     threading.Thread(target=_target, daemon=True).start()
     return run_id
@@ -143,7 +164,14 @@ def start_run(
 
 _LIVE_EVENT_CAP = 50
 _LIVE_EVENT_TYPES = frozenset(
-    {"scenario_start", "turn_start", "turn_complete", "turn_judged", "scenario_done"}
+    {
+        "scenario_start",
+        "turn_start",
+        "turn_complete",
+        "turn_judged",
+        "scenario_done",
+        "scenario_rescored",
+    }
 )
 
 
@@ -200,6 +228,7 @@ def _set_progress(tenant_id: str, run_id: str, **kwargs: Any) -> None:
                 "scenario_title": progress.get("scenario_title"),
                 "scenario_index": progress.get("scenario_index"),
                 "scenario_total": progress.get("scenario_total"),
+                "warning": progress.get("warning"),
             }
             live_events.append(snap)
             if len(live_events) > _LIVE_EVENT_CAP:
@@ -220,7 +249,11 @@ def _set_progress(tenant_id: str, run_id: str, **kwargs: Any) -> None:
 
 
 def get_live_events(tenant_id: str, run_id: str) -> list[dict[str, Any]]:
-    state = _runs.get(f"{tenant_id}:{run_id}") or {}
+    try:
+        rid = safe_id(run_id)
+    except ValueError:
+        return []
+    state = _runs.get(f"{tenant_id}:{rid}") or {}
     return list(state.get("live_events") or [])
 
 
@@ -244,14 +277,16 @@ def _execute_run(
         profile = generate_catalog_profile(tenant_id)
 
     all_scenarios = list_scenarios(tenant_id)
+    missing_scenario_ids: list[str] = []
     if scenario_ids:
         scenarios = [s for s in all_scenarios if s.id in scenario_ids]
-        # also allow lookup of missing by id
         for sid in scenario_ids:
             if not any(s.id == sid for s in scenarios):
                 sc = get_scenario(tenant_id, sid)
                 if sc:
                     scenarios.append(sc)
+                else:
+                    missing_scenario_ids.append(sid)
     else:
         scenarios = all_scenarios
 
@@ -261,19 +296,34 @@ def _execute_run(
     import hashlib
 
     profile_raw = paths.catalog_profile.read_bytes() if paths.catalog_profile.exists() else b""
+    warning = None
+    if missing_scenario_ids:
+        warning = (
+            f"{len(missing_scenario_ids)} of {len(scenario_ids or [])} requested "
+            f"scenarios were not found: {', '.join(missing_scenario_ids)}"
+        )
+
     manifest = {
         "run_id": run_id,
         "tenant_id": tenant_id,
         "country": country,
         "max_turns_override": max_turns,
         "scenario_ids": [s.id for s in scenarios],
+        "missing_scenario_ids": missing_scenario_ids,
         "judge_model": default_judge_model(),
         "profile_sha256": hashlib.sha256(profile_raw).hexdigest()[:16],
         "started_at": datetime.now(timezone.utc).isoformat(),
     }
     (run_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
-    _set_progress(tenant_id, run_id, status="running", message="Running scenarios", event="run_start")
+    _set_progress(
+        tenant_id,
+        run_id,
+        status="running",
+        message="Running scenarios",
+        event="run_start",
+        warning=warning,
+    )
 
     scenario_results: list[dict[str, Any]] = []
     pf_cases: list[dict[str, Any]] = []
@@ -297,7 +347,21 @@ def _execute_run(
         scenario_results.append(result)
 
     write_promptfoo_cases(run_dir, pf_cases)
-    conclusion = build_conclusion(run_dir, manifest, scenario_results)
+    promptfoo_summary = None
+    pf_results_path = run_dir / "promptfoo-results.json"
+    if pf_results_path.exists():
+        try:
+            pf_raw = json.loads(pf_results_path.read_text(encoding="utf-8"))
+            promptfoo_summary = summarize_promptfoo_results(pf_raw)
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"WARN: could not load promptfoo results: {e}")
+
+    conclusion = build_conclusion(
+        run_dir,
+        manifest,
+        scenario_results,
+        promptfoo_summary=promptfoo_summary,
+    )
     manifest["finished_at"] = datetime.now(timezone.utc).isoformat()
     manifest["overall"] = conclusion.get("overall")
     (run_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
@@ -341,196 +405,216 @@ def _run_scenario(
     last_retrieval: dict[str, Any] | None = None
     jsonl = run_dir / "scenarios" / f"{scenario.id}.jsonl"
 
-    _set_progress(
-        tenant_id,
-        run_id,
-        status="running",
-        event="scenario_start",
-        message=f"Starting {scenario.id}",
-        scenario_id=scenario.id,
-        scenario_title=scenario.title,
-        scenario_index=scenario_index,
-        scenario_total=scenario_total,
-        turn=None,
-    )
-
-    for turn_idx in range(1, max_turns + 1):
+    try:
         _set_progress(
             tenant_id,
             run_id,
             status="running",
-            event="turn_start",
-            message=f"{scenario.id} turn {turn_idx}",
+            event="scenario_start",
+            message=f"Starting {scenario.id}",
             scenario_id=scenario.id,
             scenario_title=scenario.title,
             scenario_index=scenario_index,
             scenario_total=scenario_total,
-            turn=turn_idx,
-        )
-        agent = next_user_turn(
-            scenario=scenario,
-            profile=profile,
-            messages=messages,
-            last_retrieval=last_retrieval,
-            turn_index=turn_idx,
-        )
-        # If agent says done before sending a message and we already have turns, stop
-        if agent.goal_met and turns_out:
-            break
-
-        user_msg = agent.user_message.strip()
-        if not user_msg:
-            break
-
-        messages.append({"role": "user", "content": user_msg})
-        body = ChatRequest(
-            session_id=session_id,
-            country=country,
-            messages=[ChatMessage(role=m["role"], content=m["content"]) for m in messages],  # type: ignore[arg-type]
-            catalog_title=catalog_title,
-        )
-        resp = run_chat_turn(body, tenant_id=tenant_id)
-        messages.append({"role": "assistant", "content": resp.reply})
-
-        filters = resp.debug.extracted_filters
-        hits = _hit_debug_dicts(resp.debug.hits)
-        fallback = resp.debug.fallback.model_dump() if resp.debug.fallback else None
-        last_retrieval = {
-            "extracted_filters": filters,
-            "hit_ids": [h.get("id") for h in hits],
-            "hit_titles": [
-                (h.get("payload_excerpt") or {}).get("title") for h in hits[:5]
-            ],
-            "fallback": fallback,
-        }
-
-        turn_payload = {
-            "user_message": user_msg,
-            "assistant_reply": (resp.reply or "")[:800],
-            "agent_rationale": agent.rationale,
-            "searched": filters is not None,
-            "extracted_filters": _compact_filters(filters if isinstance(filters, dict) else None),
-            "hits": _compact_hits(hits),
-            "fallback": {
-                "triggered": bool((fallback or {}).get("triggered")),
-                "action": (fallback or {}).get("action"),
-            },
-        }
-        _set_progress(
-            tenant_id,
-            run_id,
-            status="running",
-            event="turn_complete",
-            message=f"{scenario.id} turn {turn_idx} retrieved",
-            scenario_id=scenario.id,
-            scenario_title=scenario.title,
-            scenario_index=scenario_index,
-            scenario_total=scenario_total,
-            turn=turn_idx,
-            turn_payload=turn_payload,
+            turn=None,
         )
 
-        blob = build_retrieval_blob(
-            scenario=scenario.model_dump(mode="json"),
-            soft_expectations=scenario.soft_expectations.model_dump(),
-            user_message=user_msg,
-            extracted_filters=filters,
-            hits=hits,
-            fallback=fallback,
-        )
-        _set_progress(
-            tenant_id,
-            run_id,
-            status="running",
-            event="judging",
-            message=f"Judging {scenario.id} turn {turn_idx}",
-            scenario_id=scenario.id,
-            scenario_title=scenario.title,
-            turn=turn_idx,
-        )
-        rubric = judge_turn(blob)
-        rubric_dump = rubric.model_dump(by_alias=True)
-        dim_summary = [
-            {
-                "dimension": s.get("dimension"),
-                "pass": s.get("pass"),
+        for turn_idx in range(1, max_turns + 1):
+            _set_progress(
+                tenant_id,
+                run_id,
+                status="running",
+                event="turn_start",
+                message=f"{scenario.id} turn {turn_idx}",
+                scenario_id=scenario.id,
+                scenario_title=scenario.title,
+                scenario_index=scenario_index,
+                scenario_total=scenario_total,
+                turn=turn_idx,
+            )
+            agent = next_user_turn(
+                scenario=scenario,
+                profile=profile,
+                messages=messages,
+                last_retrieval=last_retrieval,
+                turn_index=turn_idx,
+            )
+            # If agent says done before sending a message and we already have turns, stop
+            if agent.goal_met and turns_out:
+                break
+
+            user_msg = agent.user_message.strip()
+            if not user_msg:
+                break
+
+            messages.append({"role": "user", "content": user_msg})
+            body = ChatRequest(
+                session_id=session_id,
+                country=country,
+                messages=[ChatMessage(role=m["role"], content=m["content"]) for m in messages],  # type: ignore[arg-type]
+                catalog_title=catalog_title,
+            )
+            resp = run_chat_turn(body, tenant_id=tenant_id)
+            messages.append({"role": "assistant", "content": resp.reply})
+
+            filters = resp.debug.extracted_filters
+            hits = _hit_debug_dicts(resp.debug.hits)
+            fallback = resp.debug.fallback.model_dump() if resp.debug.fallback else None
+            last_retrieval = {
+                "extracted_filters": filters,
+                "hit_ids": [h.get("id") for h in hits],
+                "hit_titles": [
+                    (h.get("payload_excerpt") or {}).get("title") for h in hits[:5]
+                ],
+                "fallback": fallback,
             }
-            for s in (rubric_dump.get("scores") or [])
-        ]
-        judged_payload = {
-            **turn_payload,
-            "rubric_pass": rubric_dump.get("pass"),
-            "rubric_reasoning": (rubric_dump.get("reasoning") or "")[:400],
-            "dimension_summary": dim_summary,
-        }
-        _set_progress(
-            tenant_id,
-            run_id,
-            status="running",
-            event="turn_judged",
-            message=f"Judged {scenario.id} turn {turn_idx}",
-            scenario_id=scenario.id,
-            scenario_title=scenario.title,
-            scenario_index=scenario_index,
-            scenario_total=scenario_total,
-            turn=turn_idx,
-            turn_payload=judged_payload,
-        )
 
-        turn_rec = {
-            "turn": turn_idx,
-            "user_message": user_msg,
-            "agent_rationale": agent.rationale,
-            "goal_met_signal": agent.goal_met,
-            "assistant_reply": resp.reply[:500],
-            "extracted_filters": filters,
-            "hits": [{"id": h.get("id"), "rrf_rank": h.get("rrf_rank"), "payload_excerpt": h.get("payload_excerpt")} for h in hits],
-            "fallback": fallback,
-            "rubric": rubric_dump,
-        }
-        turns_out.append(turn_rec)
-        with jsonl.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(turn_rec, ensure_ascii=False) + "\n")
+            turn_payload = {
+                "user_message": user_msg,
+                "assistant_reply": (resp.reply or "")[:800],
+                "agent_rationale": agent.rationale,
+                "searched": filters is not None,
+                "extracted_filters": _compact_filters(filters if isinstance(filters, dict) else None),
+                "hits": _compact_hits(hits),
+                "fallback": {
+                    "triggered": bool((fallback or {}).get("triggered")),
+                    "action": (fallback or {}).get("action"),
+                },
+            }
+            _set_progress(
+                tenant_id,
+                run_id,
+                status="running",
+                event="turn_complete",
+                message=f"{scenario.id} turn {turn_idx} retrieved",
+                scenario_id=scenario.id,
+                scenario_title=scenario.title,
+                scenario_index=scenario_index,
+                scenario_total=scenario_total,
+                turn=turn_idx,
+                turn_payload=turn_payload,
+            )
 
-        pf_cases.append(
-            {
-                "scenario_id": scenario.id,
+            blob = build_retrieval_blob(
+                scenario=scenario.model_dump(mode="json"),
+                soft_expectations=scenario.soft_expectations.model_dump(),
+                user_message=user_msg,
+                extracted_filters=filters,
+                hits=hits,
+                fallback=fallback,
+            )
+            _set_progress(
+                tenant_id,
+                run_id,
+                status="running",
+                event="judging",
+                message=f"Judging {scenario.id} turn {turn_idx}",
+                scenario_id=scenario.id,
+                scenario_title=scenario.title,
+                turn=turn_idx,
+            )
+            rubric = judge_turn(blob)
+            rubric_dump = rubric.model_dump(by_alias=True)
+            dim_summary = [
+                {
+                    "dimension": s.get("dimension"),
+                    "pass": s.get("pass"),
+                }
+                for s in (rubric_dump.get("scores") or [])
+            ]
+            judged_payload = {
+                **turn_payload,
+                "rubric_pass": rubric_dump.get("pass"),
+                "rubric_reasoning": (rubric_dump.get("reasoning") or "")[:400],
+                "dimension_summary": dim_summary,
+            }
+            _set_progress(
+                tenant_id,
+                run_id,
+                status="running",
+                event="turn_judged",
+                message=f"Judged {scenario.id} turn {turn_idx}",
+                scenario_id=scenario.id,
+                scenario_title=scenario.title,
+                scenario_index=scenario_index,
+                scenario_total=scenario_total,
+                turn=turn_idx,
+                turn_payload=judged_payload,
+            )
+
+            turn_rec = {
                 "turn": turn_idx,
-                "blob": blob,
+                "user_message": user_msg,
+                "agent_rationale": agent.rationale,
+                "goal_met_signal": agent.goal_met,
+                "assistant_reply": resp.reply[:500],
+                "extracted_filters": filters,
+                "hits": [{"id": h.get("id"), "rrf_rank": h.get("rrf_rank"), "payload_excerpt": h.get("payload_excerpt")} for h in hits],
+                "fallback": fallback,
+                "rubric": rubric_dump,
             }
+            turns_out.append(turn_rec)
+            with jsonl.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(turn_rec, ensure_ascii=False) + "\n")
+
+            pf_cases.append(
+                {
+                    "scenario_id": scenario.id,
+                    "turn": turn_idx,
+                    "blob": blob,
+                }
+            )
+
+            if agent.goal_met:
+                break
+
+        # Hard fail if must_use_search and never searched
+        searched = any(t.get("extracted_filters") for t in turns_out)
+        if scenario.soft_expectations.must_use_search and not searched and turns_out:
+            for t in turns_out:
+                rub = t.get("rubric") or {}
+                rub["pass"] = False
+                rub["reasoning"] = (rub.get("reasoning") or "") + " | must_use_search but no search_products"
+                t["rubric"] = rub
+            # rewrite jsonl
+            with jsonl.open("w", encoding="utf-8") as f:
+                for t in turns_out:
+                    f.write(json.dumps(t, ensure_ascii=False) + "\n")
+            # Notify live viewers so SSE matches final stored scores
+            _set_progress(
+                tenant_id,
+                run_id,
+                status="running",
+                event="scenario_rescored",
+                message=f"Rescored {scenario.id}: must_use_search but no search_products",
+                scenario_id=scenario.id,
+                scenario_title=scenario.title,
+                scenario_index=scenario_index,
+                scenario_total=scenario_total,
+                turn_payload={
+                    "rubric_pass": False,
+                    "rubric_reasoning": "must_use_search but no search_products",
+                    "rescored": True,
+                },
+            )
+
+        _set_progress(
+            tenant_id,
+            run_id,
+            status="running",
+            event="scenario_done",
+            message=f"Finished {scenario.id}",
+            scenario_id=scenario.id,
+            scenario_title=scenario.title,
+            scenario_index=scenario_index,
+            scenario_total=scenario_total,
         )
 
-        if agent.goal_met:
-            break
-
-    # Hard fail if must_use_search and never searched
-    searched = any(t.get("extracted_filters") for t in turns_out)
-    if scenario.soft_expectations.must_use_search and not searched and turns_out:
-        for t in turns_out:
-            rub = t.get("rubric") or {}
-            rub["pass"] = False
-            rub["reasoning"] = (rub.get("reasoning") or "") + " | must_use_search but no search_products"
-            t["rubric"] = rub
-        # rewrite jsonl
-        with jsonl.open("w", encoding="utf-8") as f:
-            for t in turns_out:
-                f.write(json.dumps(t, ensure_ascii=False) + "\n")
-
-    _set_progress(
-        tenant_id,
-        run_id,
-        status="running",
-        event="scenario_done",
-        message=f"Finished {scenario.id}",
-        scenario_id=scenario.id,
-        scenario_title=scenario.title,
-        scenario_index=scenario_index,
-        scenario_total=scenario_total,
-    )
-
-    return {
-        "scenario_id": scenario.id,
-        "title": scenario.title,
-        "soft_expectations": scenario.soft_expectations.model_dump(),
-        "turns": turns_out,
-    }
+        return {
+            "scenario_id": scenario.id,
+            "title": scenario.title,
+            "soft_expectations": scenario.soft_expectations.model_dump(),
+            "turns": turns_out,
+        }
+    finally:
+        clear_session_filters(session_id)

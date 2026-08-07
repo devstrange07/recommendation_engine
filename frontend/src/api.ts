@@ -514,9 +514,20 @@ export type EvalRunSummary = {
     scenario_pass_rate?: number;
     scenarios_passed?: number;
     scenarios_total?: number;
+    scenarios_skipped?: number;
     dimension_pass_rates?: Record<string, number | null>;
     per_scenario?: Array<Record<string, unknown>>;
     failure_themes?: Array<{ theme: string; count: number }>;
+    judge_source_counts?: Record<string, number>;
+    promptfoo_summary?: {
+      source?: string;
+      supplementary?: boolean;
+      passes?: number | null;
+      fails?: number | null;
+      total?: number | null;
+      pass_rate?: number | null;
+      note?: string;
+    };
   };
 };
 

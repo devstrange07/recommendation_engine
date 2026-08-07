@@ -165,6 +165,11 @@ _NEGATION_RE = re.compile(
 logger = logging.getLogger(__name__)
 
 
+def clear_session_filters(session_id: str) -> None:
+    """Drop in-process previous-filters memory for a chat/eval session."""
+    _PREV_FILTERS.pop(session_id, None)
+
+
 def _has_chat_key() -> bool:
     return chat_key_present()
 

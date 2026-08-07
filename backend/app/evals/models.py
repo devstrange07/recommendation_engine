@@ -93,7 +93,7 @@ class RubricJudgeOut(BaseModel):
 class StartEvalRunRequest(BaseModel):
     scenario_ids: list[str] | None = None
     country: str = "IN"
-    max_turns: int | None = None
+    max_turns: int | None = Field(default=None, ge=1, le=15)
 
 
 class ScenarioDraftRequest(BaseModel):
@@ -106,7 +106,7 @@ class ScenarioConfirmRequest(BaseModel):
 
 
 class GenerateScenariosRequest(BaseModel):
-    count: int = 5
+    count: int = Field(default=5, ge=1, le=20)
     replace: bool = False
 
 

@@ -11,11 +11,21 @@ from app.config import get_settings
 
 DEMO_TENANT = "demo"
 
+_SAFE_ID_RE = re.compile(r"^[A-Za-z0-9_\-]+$")
+
 
 def sanitize_tenant_id(tenant_id: str | None) -> str:
     tid = (tenant_id or DEMO_TENANT).strip().lower()
     tid = re.sub(r"[^a-z0-9_]", "_", tid)[:64]
     return tid or DEMO_TENANT
+
+
+def safe_id(value: str, *, max_len: int = 128) -> str:
+    """Validate opaque path segment ids (run_id, draft_id, scenario_id). Raises ValueError."""
+    v = (value or "").strip()
+    if not v or len(v) > max_len or ".." in v or not _SAFE_ID_RE.match(v):
+        raise ValueError(f"invalid id: {value!r}")
+    return v
 
 
 @dataclass(frozen=True)

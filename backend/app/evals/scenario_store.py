@@ -8,7 +8,7 @@ from pathlib import Path
 import yaml
 
 from app.evals.models import EvalScenario
-from app.pipeline.paths import TenantPaths, ensure_tenant_dirs
+from app.pipeline.paths import TenantPaths, ensure_tenant_dirs, safe_id
 
 
 def _slug(text: str) -> str:
@@ -17,7 +17,7 @@ def _slug(text: str) -> str:
 
 
 def scenario_path(paths: TenantPaths, scenario_id: str) -> Path:
-    safe = _slug(scenario_id)
+    safe = safe_id(_slug(scenario_id))
     return paths.evals_scenarios / f"{safe}.yaml"
 
 

@@ -10,12 +10,31 @@ from app.evals.scenario_store import list_scenarios, save_scenario
 from app.openai_client import call_with_forced_tool, chat_key_present
 
 
-def _heuristic_scenarios(profile: dict, count: int) -> list[EvalScenario]:
+def _covered_hints(scenarios: list[EvalScenario]) -> set[str]:
+    covered: set[str] = set()
+    for sc in scenarios:
+        for hint in sc.soft_expectations.expected_category_hints or []:
+            if hint:
+                covered.add(str(hint).strip().lower())
+    return covered
+
+
+def _heuristic_scenarios(
+    profile: dict,
+    count: int,
+    *,
+    skip_hints: set[str] | None = None,
+) -> list[EvalScenario]:
     domains = profile.get("domains") or []
     soft = profile.get("soft_expectations") or {}
+    skip = skip_hints or set()
     out: list[EvalScenario] = []
-    for i, d in enumerate(domains[:count]):
+    for i, d in enumerate(domains):
+        if len(out) >= count:
+            break
         cat = d.get("category_path") or f"domain_{i}"
+        if str(cat).strip().lower() in skip:
+            continue
         sid = f"auto_{cat.lower().replace('/', '_')}"[:64]
         facets = d.get("facet_keys") or []
         title_sample = (d.get("sample_titles") or ["products"])[0]
@@ -43,7 +62,7 @@ def _heuristic_scenarios(profile: dict, count: int) -> list[EvalScenario]:
                 ],
             )
         )
-    if not out:
+    if not out and not skip:
         out.append(
             EvalScenario(
                 id="auto_generic_browse",
@@ -73,8 +92,7 @@ def generate_scenarios(
         profile = generate_catalog_profile(tenant_id)
 
     existing = list_scenarios(tenant_id)
-    if existing and not replace:
-        return existing
+    skip_hints: set[str] = set()
 
     if replace:
         from app.evals.scenario_store import delete_scenario
@@ -82,6 +100,10 @@ def generate_scenarios(
         for sc in existing:
             if sc.source == "auto":
                 delete_scenario(tenant_id, sc.id)
+        existing = [sc for sc in existing if sc.source != "auto"]
+    else:
+        # Append mode: skip domains already covered by existing scenarios
+        skip_hints = _covered_hints(existing)
 
     if chat_key_present():
         try:
@@ -96,8 +118,10 @@ def generate_scenarios(
                         "sample_titles": (d.get("sample_titles") or [])[:3],
                     }
                     for d in (profile.get("domains") or [])[:15]
+                    if str(d.get("category_path") or "").strip().lower() not in skip_hints
                 ],
                 "count": count,
+                "avoid_category_hints": sorted(skip_hints),
             }
             bank = call_with_forced_tool(
                 messages=[
@@ -109,7 +133,8 @@ def generate_scenarios(
                             "Each scenario needs id, title, description, soft_expectations, goal, "
                             "max_turns=6, test_cases with intents/constraints. "
                             "source must be 'auto'. No gold product IDs. "
-                            "Focus on search_products filter/retrieval quality."
+                            "Focus on search_products filter/retrieval quality. "
+                            "Do not reuse category hints listed in avoid_category_hints."
                         ),
                     },
                     {"role": "user", "content": json.dumps(compact, ensure_ascii=False)},
@@ -122,14 +147,29 @@ def generate_scenarios(
             scenarios = bank.scenarios
             for sc in scenarios:
                 sc.source = "auto"
+            # Drop any that still collide with covered hints
+            filtered: list[EvalScenario] = []
+            for sc in scenarios:
+                hints = {h.strip().lower() for h in (sc.soft_expectations.expected_category_hints or []) if h}
+                if hints and hints.issubset(skip_hints):
+                    continue
+                filtered.append(sc)
+            scenarios = filtered
         except Exception as e:
             print(f"WARN: scenario LLM generate failed: {e}")
-            scenarios = _heuristic_scenarios(profile, count)
+            scenarios = _heuristic_scenarios(profile, count, skip_hints=skip_hints)
     else:
-        scenarios = _heuristic_scenarios(profile, count)
+        scenarios = _heuristic_scenarios(profile, count, skip_hints=skip_hints)
 
-    saved: list[EvalScenario] = []
+    saved_new: list[EvalScenario] = []
     for sc in scenarios[:count]:
         save_scenario(tenant_id, sc)
-        saved.append(sc)
-    return saved
+        saved_new.append(sc)
+
+    # Return full bank (existing kept + newly added) when appending
+    if replace:
+        return list_scenarios(tenant_id)
+    if not saved_new:
+        return existing
+    # Re-list so ids/slugs match disk
+    return list_scenarios(tenant_id)

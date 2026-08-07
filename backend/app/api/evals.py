@@ -20,9 +20,16 @@ from app.evals.models import (
 from app.evals.profile import generate_catalog_profile, load_catalog_profile
 from app.evals.runner import get_live_events, get_run_state, list_run_dirs, load_run, start_run
 from app.evals.scenario_store import delete_scenario, list_scenarios
-from app.pipeline.paths import TenantPaths
+from app.pipeline.paths import TenantPaths, safe_id
 
 router = APIRouter(prefix="/evals", tags=["evals"])
+
+
+def _require_safe_id(value: str) -> str:
+    try:
+        return safe_id(value)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e)) from e
 
 
 @router.get("/profile")
@@ -77,8 +84,11 @@ def post_scenario_confirm(
     tenant_id: str = Depends(get_tenant_id),
 ):
     try:
+        _require_safe_id(body.draft_id)
         sc = scenario_author.confirm_draft(tenant_id, body.draft_id, body.answers)
     except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e)) from e
+    except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e)) from e
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e)) from e
@@ -87,6 +97,10 @@ def post_scenario_confirm(
 
 @router.delete("/scenarios/{scenario_id}")
 def remove_scenario(scenario_id: str, tenant_id: str = Depends(get_tenant_id)):
+    try:
+        _require_safe_id(scenario_id)
+    except HTTPException:
+        raise
     ok = delete_scenario(tenant_id, scenario_id)
     if not ok:
         raise HTTPException(status_code=404, detail="scenario not found")
@@ -105,6 +119,11 @@ def post_start_run(
             country=body.country,
             max_turns=body.max_turns,
         )
+    except ValueError as e:
+        msg = str(e)
+        if "already in progress" in msg.lower():
+            raise HTTPException(status_code=409, detail=msg) from e
+        raise HTTPException(status_code=400, detail=msg) from e
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e)) from e
     return {"run_id": run_id}
@@ -117,10 +136,11 @@ def get_runs(tenant_id: str = Depends(get_tenant_id)):
 
 @router.get("/runs/{run_id}")
 def get_run(run_id: str, tenant_id: str = Depends(get_tenant_id)):
-    data = load_run(tenant_id, run_id)
+    rid = _require_safe_id(run_id)
+    data = load_run(tenant_id, rid)
     if data is None:
         raise HTTPException(status_code=404, detail="run not found")
-    state = get_run_state(tenant_id, run_id)
+    state = get_run_state(tenant_id, rid)
     if state:
         data["status"] = state.get("status", data.get("status"))
         data["progress"] = state.get("progress")
@@ -129,17 +149,18 @@ def get_run(run_id: str, tenant_id: str = Depends(get_tenant_id)):
 
 @router.get("/runs/{run_id}/stream")
 def stream_run(run_id: str, tenant_id: str = Depends(get_tenant_id)):
+    rid = _require_safe_id(run_id)
     paths = TenantPaths.for_tenant(tenant_id)
-    run_dir = paths.evals_runs / run_id
+    run_dir = paths.evals_runs / rid
 
     def events() -> Iterator[str]:
         # Replay backlog once so late subscribers catch earlier turns
-        for snap in get_live_events(tenant_id, run_id):
+        for snap in get_live_events(tenant_id, rid):
             yield f"data: {json.dumps(snap, ensure_ascii=False)}\n\n"
 
         last = ""
         for _ in range(3600):
-            state = get_run_state(tenant_id, run_id)
+            state = get_run_state(tenant_id, rid)
             progress_path = run_dir / "progress.json"
             payload: dict = {}
             if state:

@@ -311,6 +311,33 @@ export default function Evals({ tenantId, country }: Props) {
           payload.rubric_reasoning != null ? String(payload.rubric_reasoning) : undefined,
         dimensionSummary: dims,
       });
+      return;
+    }
+
+    if (event === "scenario_rescored" && scenarioId) {
+      const payload = (p.turn_payload || {}) as Record<string, unknown>;
+      const reason =
+        payload.rubric_reasoning != null
+          ? String(payload.rubric_reasoning)
+          : "must_use_search but no search_products";
+      setLiveCards((prev) =>
+        prev.map((c) =>
+          c.scenarioId === scenarioId
+            ? {
+                ...c,
+                status: "judged" as const,
+                rubricPass: false,
+                rubricReasoning: reason,
+              }
+            : c
+        )
+      );
+      setProgressMsg(String(p.message || `Rescored ${scenarioId}`));
+      return;
+    }
+
+    if (p.warning) {
+      setError(String(p.warning));
     }
   }
 
@@ -461,7 +488,7 @@ export default function Evals({ tenantId, country }: Props) {
               <h3>Scenarios</h3>
               <div className="evals-actions">
                 <button type="button" disabled={busy} onClick={() => onGenerateScenarios(false)}>
-                  Generate (keep existing)
+                  Add more
                 </button>
                 <button
                   type="button"
@@ -802,40 +829,100 @@ export default function Evals({ tenantId, country }: Props) {
                 ) : (
                   <p className="muted">No conclusion yet (status: {activeRun.status}).</p>
                 )}
+                {(() => {
+                  const jsc = activeRun.conclusion?.judge_source_counts || {};
+                  const stubN = Number(jsc.stub || 0);
+                  const totalJudged = Object.values(jsc).reduce(
+                    (a, b) => a + Number(b || 0),
+                    0
+                  );
+                  if (stubN <= 0) return null;
+                  return (
+                    <div className="evals-banner evals-banner--warn" role="status">
+                      {stubN} of {totalJudged} turns judged by fallback heuristic (stub), not the
+                      LLM judge. Treat scores as approximate.
+                    </div>
+                  );
+                })()}
+                {activeRun.conclusion?.promptfoo_summary && (
+                  <div className="evals-banner evals-banner--info" role="status">
+                    Promptfoo (supplementary, not blended into overall):{" "}
+                    {activeRun.conclusion.promptfoo_summary.passes ?? "—"}/
+                    {activeRun.conclusion.promptfoo_summary.total ?? "—"} passed
+                    {activeRun.conclusion.promptfoo_summary.pass_rate != null
+                      ? ` · rate ${activeRun.conclusion.promptfoo_summary.pass_rate}`
+                      : ""}
+                    {activeRun.conclusion.promptfoo_summary.note
+                      ? ` — ${activeRun.conclusion.promptfoo_summary.note}`
+                      : ""}
+                  </div>
+                )}
+                {(activeRun.conclusion?.per_scenario || []).some(
+                  (p) => String(p.verdict) === "skipped"
+                ) && (
+                  <div className="evals-banner evals-banner--info" role="status">
+                    Some scenarios were skipped (0 turns) and excluded from the pass-rate
+                    denominator.
+                  </div>
+                )}
+                {(activeRun.conclusion?.per_scenario || []).length > 0 && (
+                  <ul className="evals-verdict-list">
+                    {(activeRun.conclusion?.per_scenario || []).map((p) => (
+                      <li key={String(p.scenario_id)}>
+                        <span
+                          className={`evals-verdict evals-verdict--${String(p.verdict || "fail")}`}
+                        >
+                          {String(p.verdict)}
+                        </span>{" "}
+                        <code>{String(p.scenario_id)}</code>
+                        {p.turn_pass_rate != null ? ` · rate ${String(p.turn_pass_rate)}` : ""}
+                        {` · ${String(p.turns ?? 0)} turns`}
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 {activeRun.scenarios &&
                   Object.entries(activeRun.scenarios).map(([sid, turns]) => (
                     <details key={sid} className="evals-turn-block">
                       <summary>
                         {sid} · {turns.length} turns
+                        {turns.length === 0 ? " · skipped" : ""}
                       </summary>
-                      {turns.map((t) => {
-                        const rubric = (t.rubric || {}) as Record<string, unknown>;
-                        const scores = (rubric.scores || []) as Array<Record<string, unknown>>;
-                        return (
-                          <div key={String(t.turn)} className="evals-turn">
-                            <div>
-                              <strong>Turn {String(t.turn)}</strong>: {String(t.user_message)}
+                      {turns.length === 0 ? (
+                        <p className="muted">No turns recorded for this scenario.</p>
+                      ) : (
+                        turns.map((t) => {
+                          const rubric = (t.rubric || {}) as Record<string, unknown>;
+                          const scores = (rubric.scores || []) as Array<Record<string, unknown>>;
+                          return (
+                            <div key={String(t.turn)} className="evals-turn">
+                              <div>
+                                <strong>Turn {String(t.turn)}</strong>: {String(t.user_message)}
+                              </div>
+                              <div className="muted">
+                                Rubric: {rubric.pass ? "pass" : "fail"}
+                                {rubric.judge_source
+                                  ? ` [${String(rubric.judge_source)}]`
+                                  : ""}{" "}
+                                — {String(rubric.reasoning || "")}
+                              </div>
+                              <ul>
+                                {scores.map((s) => (
+                                  <li key={String(s.dimension)}>
+                                    {String(s.dimension)}: {s.pass ? "pass" : "fail"} —{" "}
+                                    {String(s.reasoning || "")}
+                                  </li>
+                                ))}
+                              </ul>
+                              {t.extracted_filters != null && (
+                                <pre className="evals-json">
+                                  {JSON.stringify(t.extracted_filters, null, 2)}
+                                </pre>
+                              )}
                             </div>
-                            <div className="muted">
-                              Rubric: {rubric.pass ? "pass" : "fail"} —{" "}
-                              {String(rubric.reasoning || "")}
-                            </div>
-                            <ul>
-                              {scores.map((s) => (
-                                <li key={String(s.dimension)}>
-                                  {String(s.dimension)}: {s.pass ? "pass" : "fail"} —{" "}
-                                  {String(s.reasoning || "")}
-                                </li>
-                              ))}
-                            </ul>
-                            {t.extracted_filters != null && (
-                              <pre className="evals-json">
-                                {JSON.stringify(t.extracted_filters, null, 2)}
-                              </pre>
-                            )}
-                          </div>
-                        );
-                      })}
+                          );
+                        })
+                      )}
                     </details>
                   ))}
               </>

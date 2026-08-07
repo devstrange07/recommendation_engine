@@ -19,12 +19,13 @@ from app.evals.models import (
 from app.evals.profile import load_catalog_profile, generate_catalog_profile
 from app.evals.scenario_store import save_scenario
 from app.openai_client import call_with_forced_tool, chat_key_present
-from app.pipeline.paths import ensure_tenant_dirs
+from app.pipeline.paths import ensure_tenant_dirs, safe_id
 
 
 def _draft_path(tenant_id: str, draft_id: str) -> Path:
     paths = ensure_tenant_dirs(tenant_id)
-    return paths.evals_drafts / f"{draft_id}.yaml"
+    sid = safe_id(draft_id)
+    return paths.evals_drafts / f"{sid}.yaml"
 
 
 def create_draft(tenant_id: str, description: str) -> dict:
