@@ -23,11 +23,19 @@ const PHASE_LABELS: Record<ProgressPhase, string> = {
 
 type PhaseState = "pending" | "active" | "done" | "error";
 
+type PhaseProgress = {
+  current: number;
+  total: number;
+  unit: "products" | "batches";
+};
+
 type PhaseView = {
   id: ProgressPhase;
   label: string;
   state: PhaseState;
   lines: string[];
+  latestMessage: string | null;
+  progress: PhaseProgress | null;
 };
 
 type Props = {
@@ -38,6 +46,48 @@ type Props = {
   includeIngest?: boolean;
 };
 
+type PhaseAccum = {
+  lines: string[];
+  latestMessage: string | null;
+  processed: number | null;
+  totalProducts: number | null;
+  batchTotal: number | null;
+  completedBatches: Set<number>;
+};
+
+function emptyAccum(): PhaseAccum {
+  return {
+    lines: [],
+    latestMessage: null,
+    processed: null,
+    totalProducts: null,
+    batchTotal: null,
+    completedBatches: new Set(),
+  };
+}
+
+function progressFromAccum(acc: PhaseAccum): PhaseProgress | null {
+  if (
+    acc.processed != null &&
+    acc.totalProducts != null &&
+    acc.totalProducts > 0
+  ) {
+    return {
+      current: Math.min(acc.processed, acc.totalProducts),
+      total: acc.totalProducts,
+      unit: "products",
+    };
+  }
+  if (acc.batchTotal != null && acc.batchTotal > 0) {
+    return {
+      current: Math.min(acc.completedBatches.size, acc.batchTotal),
+      total: acc.batchTotal,
+      unit: "batches",
+    };
+  }
+  return null;
+}
+
 function buildPhases(
   events: ProgressEvent[],
   includeIngest: boolean
@@ -46,7 +96,7 @@ function buildPhases(
     ? PHASE_ORDER
     : PHASE_ORDER.filter((p) => p !== "ingest");
 
-  const linesByPhase: Partial<Record<ProgressPhase, string[]>> = {};
+  const byPhase: Partial<Record<ProgressPhase, PhaseAccum>> = {};
   /** Index of the replaceable progress line for each (phase, batch_index). */
   const lastBatchLineIndex: Partial<Record<ProgressPhase, Record<number, number>>> = {};
   const started = new Set<ProgressPhase>();
@@ -54,22 +104,40 @@ function buildPhases(
   let errored: ProgressPhase | null = null;
 
   for (const ev of events) {
-    const bucket = linesByPhase[ev.phase] || [];
+    const acc = byPhase[ev.phase] || emptyAccum();
     const batchIndex = ev.detail?.batch_index;
+
     if (typeof batchIndex === "number") {
       const byBatch = lastBatchLineIndex[ev.phase] || {};
       const existing = byBatch[batchIndex];
       if (existing !== undefined) {
-        bucket[existing] = ev.message;
+        acc.lines[existing] = ev.message;
       } else {
-        byBatch[batchIndex] = bucket.length;
+        byBatch[batchIndex] = acc.lines.length;
         lastBatchLineIndex[ev.phase] = byBatch;
-        bucket.push(ev.message);
+        acc.lines.push(ev.message);
+      }
+      if (/\bcomplete\b/i.test(ev.message)) {
+        acc.completedBatches.add(batchIndex);
       }
     } else {
-      bucket.push(ev.message);
+      acc.lines.push(ev.message);
     }
-    linesByPhase[ev.phase] = bucket;
+
+    acc.latestMessage = ev.message;
+
+    const detail = ev.detail;
+    if (detail) {
+      if (typeof detail.processed === "number") acc.processed = detail.processed;
+      if (typeof detail.total_products === "number") {
+        acc.totalProducts = detail.total_products;
+      }
+      if (typeof detail.batch_total === "number") {
+        acc.batchTotal = detail.batch_total;
+      }
+    }
+
+    byPhase[ev.phase] = acc;
 
     if (ev.type === "error") {
       errored = ev.phase;
@@ -90,11 +158,14 @@ function buildPhases(
     else if (finished.has(id)) state = "done";
     else if (started.has(id)) state = "active";
 
+    const acc = byPhase[id] || emptyAccum();
     return {
       id,
       label: PHASE_LABELS[id],
       state,
-      lines: linesByPhase[id] || [],
+      lines: acc.lines,
+      latestMessage: acc.latestMessage,
+      progress: progressFromAccum(acc),
     };
   });
 }
@@ -107,15 +178,16 @@ export default function PipelineThoughtStream({
 }: Props) {
   const phases = useMemo(() => buildPhases(events, includeIngest), [events, includeIngest]);
   const [manualOpen, setManualOpen] = useState<Partial<Record<ProgressPhase, boolean>>>({});
+  const [detailsOpen, setDetailsOpen] = useState<Partial<Record<ProgressPhase, boolean>>>({});
   const logRefs = useRef<Partial<Record<ProgressPhase, HTMLDivElement | null>>>({});
 
   useEffect(() => {
     for (const phase of phases) {
-      if (phase.state !== "active") continue;
+      if (phase.state !== "active" || !detailsOpen[phase.id]) continue;
       const el = logRefs.current[phase.id];
       if (el) el.scrollTop = el.scrollHeight;
     }
-  }, [phases, events]);
+  }, [phases, events, detailsOpen]);
 
   if (!running && events.length === 0 && !error) {
     return null;
@@ -135,6 +207,13 @@ export default function PipelineThoughtStream({
           const defaultOpen = phase.state === "active" || phase.state === "error";
           const open =
             manualOpen[phase.id] !== undefined ? !!manualOpen[phase.id] : defaultOpen;
+          const showLive =
+            open &&
+            (phase.state === "active" || phase.state === "error") &&
+            (phase.progress != null || phase.latestMessage != null);
+          const showDetailsToggle = open && phase.lines.length > 1;
+          const details = !!detailsOpen[phase.id];
+
           return (
             <div
               key={phase.id}
@@ -158,11 +237,65 @@ export default function PipelineThoughtStream({
                         : "○"}
                 </span>
                 <span className="thought-phase__label">{phase.label}</span>
+                {phase.state === "active" && phase.progress && (
+                  <span className="thought-phase__fraction">
+                    {phase.progress.current}/{phase.progress.total}
+                  </span>
+                )}
                 {phase.state === "active" && (
                   <span className="thought-phase__pulse">running</span>
                 )}
               </button>
-              {open && phase.lines.length > 0 && (
+              {showLive && (
+                <div className="thought-phase__live">
+                  {phase.progress && (
+                    <div className="thought-phase__progress">
+                      <div
+                        className="thought-phase__bar"
+                        role="progressbar"
+                        aria-valuenow={phase.progress.current}
+                        aria-valuemin={0}
+                        aria-valuemax={phase.progress.total}
+                        aria-label={`${phase.label} progress`}
+                      >
+                        <div
+                          className="thought-phase__bar-fill"
+                          style={{
+                            width: `${Math.min(
+                              100,
+                              (phase.progress.current / phase.progress.total) * 100
+                            )}%`,
+                          }}
+                        />
+                      </div>
+                      <span className="thought-phase__progress-label">
+                        {phase.progress.current} / {phase.progress.total}{" "}
+                        {phase.progress.unit}
+                      </span>
+                    </div>
+                  )}
+                  {phase.latestMessage && (
+                    <div className="thought-phase__current" title={phase.latestMessage}>
+                      {phase.latestMessage}
+                    </div>
+                  )}
+                </div>
+              )}
+              {showDetailsToggle && (
+                <button
+                  type="button"
+                  className="thought-phase__details-toggle"
+                  onClick={() =>
+                    setDetailsOpen((prev) => ({
+                      ...prev,
+                      [phase.id]: !details,
+                    }))
+                  }
+                >
+                  {details ? "Hide details" : "Details"}
+                </button>
+              )}
+              {open && details && phase.lines.length > 0 && (
                 <div
                   className="thought-phase__log"
                   ref={(el) => {
@@ -176,6 +309,17 @@ export default function PipelineThoughtStream({
                   ))}
                 </div>
               )}
+              {open &&
+                phase.state === "done" &&
+                !details &&
+                phase.lines.length === 1 &&
+                phase.latestMessage && (
+                  <div className="thought-phase__live">
+                    <div className="thought-phase__current" title={phase.latestMessage}>
+                      {phase.latestMessage}
+                    </div>
+                  </div>
+                )}
             </div>
           );
         })}

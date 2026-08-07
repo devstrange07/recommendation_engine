@@ -2038,12 +2038,24 @@ select:focus {
   font-weight: 600;
 }
 
+.thought-phase__fraction {
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--zone-catalog);
+}
+
 .thought-phase__pulse {
   margin-left: auto;
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--zone-catalog);
   animation: thought-pulse 1.2s ease-in-out infinite;
+}
+
+.thought-phase__fraction + .thought-phase__pulse {
+  margin-left: 0.5rem;
 }
 
 @keyframes thought-pulse {
@@ -2056,14 +2068,90 @@ select:focus {
   }
 }
 
+.thought-phase__live {
+  padding: 0.15rem 0.4rem 0.45rem 1.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.thought-phase__progress {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.thought-phase__bar {
+  flex: 1;
+  min-width: 0;
+  height: 0.4rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--muted) 22%, transparent);
+  overflow: hidden;
+}
+
+.thought-phase__bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--zone-catalog);
+  transition: width 0.25s ease;
+}
+
+.thought-phase__progress-label {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.thought-phase__current {
+  font-family: ui-monospace, "Cascadia Code", "Segoe UI Mono", Menlo, monospace;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.thought-phase__details-toggle {
+  display: block;
+  margin: 0 0.4rem 0.35rem 1.7rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--zone-catalog);
+  cursor: pointer;
+  text-align: left;
+}
+
+.thought-phase__details-toggle:hover {
+  text-decoration: underline;
+}
+
 .thought-phase__log {
-  max-height: 7.5rem;
+  max-height: 16rem;
   overflow-y: auto;
   padding: 0.15rem 0.4rem 0.45rem 1.7rem;
   font-family: ui-monospace, "Cascadia Code", "Segoe UI Mono", Menlo, monospace;
   font-size: 0.75rem;
   line-height: 1.45;
   color: var(--muted);
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 55%, transparent) transparent;
+}
+
+.thought-phase__log::-webkit-scrollbar {
+  width: 8px;
+}
+
+.thought-phase__log::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--muted) 45%, transparent);
+  border-radius: 4px;
 }
 
 .thought-phase__line + .thought-phase__line {
