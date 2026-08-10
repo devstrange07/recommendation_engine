@@ -41,6 +41,10 @@ class Settings(BaseSettings):
     normalize_max_retries: int = 4
     normalize_retry_base_delay_seconds: float = 1.0
 
+    # Index stage: embed batch size + parallel OpenAI embedding requests
+    embed_batch_size: int = 64
+    embed_concurrency: int = 8
+
     # Optional overrides for pipeline cost estimates (USD per 1M tokens).
     # When unset, model-specific defaults in run_metrics are used.
     llm_input_usd_per_1m: float | None = None

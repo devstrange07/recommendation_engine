@@ -28,11 +28,7 @@ data/overrides/
 data/review_queue.jsonl
 data/dead_letter.jsonl
 data/hash_ledger.json
-data/tenants/*
-!data/tenants/demo/
-data/tenants/*/raw/ingest/
-data/tenants/*/evals/runs/
-data/tenants/*/evals/drafts/
+data/tenants/
 
 # OS / IDE
 .DS_Store

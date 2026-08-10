@@ -1,9 +1,0 @@
-{
-  "product_id": "shiv_003",
-  "fields": {
-    "name": {
-      "value": "merge",
-      "flag_type": "suspected_duplicate"
-    }
-  }
-}

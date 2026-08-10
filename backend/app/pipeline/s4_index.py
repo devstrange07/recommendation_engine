@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import uuid
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
 
 from qdrant_client import QdrantClient, models
@@ -12,7 +13,7 @@ from qdrant_client import QdrantClient, models
 from app.config import get_settings
 from app.openai_client import embedding_model, get_embedding_client, openai_key_present
 from app.pipeline.io_utils import ensure_data_dirs, load_hash_ledger, save_hash_ledger
-from app.pipeline.run_metrics import record_embedding_usage
+from app.pipeline.run_metrics import bind_usage, current_usage, record_embedding_usage, reset_usage
 
 
 def product_uuid(product_id: str) -> str:
@@ -143,6 +144,20 @@ def _bm25_vector(text: str) -> models.SparseVector:
     return models.SparseVector(indices=indices, values=values)
 
 
+def _embed_batch(
+    batch: list[dict[str, Any]],
+    usage_bucket: Any = None,
+) -> tuple[list[dict[str, Any]], list[list[float]]]:
+    """Embed one batch in a worker thread; bind usage bucket for metrics."""
+    token = bind_usage(usage_bucket) if usage_bucket is not None else None
+    try:
+        texts = [b["embedding_text"] for b in batch]
+        return batch, _embed(texts)
+    finally:
+        if token is not None:
+            reset_usage(token)
+
+
 def run(tenant_id: str = "demo", force_all: bool = False) -> dict:
     paths = ensure_data_dirs(tenant_id)
     client = get_qdrant()
@@ -161,29 +176,37 @@ def run(tenant_id: str = "demo", force_all: bool = False) -> dict:
             continue
         to_upsert.append(data)
 
+    settings = get_settings()
+    batch_size = max(1, min(settings.embed_batch_size, 2048))
+    batches = [to_upsert[i : i + batch_size] for i in range(0, len(to_upsert), batch_size)]
+    workers = max(1, min(settings.embed_concurrency, len(batches) or 1))
+    usage_bucket = current_usage()
+
     upserted = 0
-    batch_size = 16
-    for i in range(0, len(to_upsert), batch_size):
-        batch = to_upsert[i : i + batch_size]
-        texts = [b["embedding_text"] for b in batch]
-        dense = _embed(texts)
-        points = []
-        for item, vec in zip(batch, dense):
-            payload = {k: v for k, v in item.items()}
-            payload["facets_indexed"] = _flatten_facets(item)
-            points.append(
-                models.PointStruct(
-                    id=product_uuid(item["id"]),
-                    vector={
-                        "dense": vec,
-                        "bm25": _bm25_vector(item["embedding_text"]),
-                    },
-                    payload=payload,
-                )
-            )
-            ledger[item["id"]] = item["content_hash"]
-        client.upsert(collection_name=paths.collection, points=points)
-        upserted += len(points)
+    if batches:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {
+                executor.submit(_embed_batch, batch, usage_bucket): batch for batch in batches
+            }
+            for future in as_completed(futures):
+                batch, dense = future.result()
+                points = []
+                for item, vec in zip(batch, dense):
+                    payload = {k: v for k, v in item.items()}
+                    payload["facets_indexed"] = _flatten_facets(item)
+                    points.append(
+                        models.PointStruct(
+                            id=product_uuid(item["id"]),
+                            vector={
+                                "dense": vec,
+                                "bm25": _bm25_vector(item["embedding_text"]),
+                            },
+                            payload=payload,
+                        )
+                    )
+                    ledger[item["id"]] = item["content_hash"]
+                client.upsert(collection_name=paths.collection, points=points)
+                upserted += len(points)
 
     save_hash_ledger(paths, ledger)
 
