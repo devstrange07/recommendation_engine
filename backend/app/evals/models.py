@@ -7,12 +7,22 @@ from typing import Any, Literal
 from pydantic import BaseModel, Field
 
 
+class RankingOrderExpectation(BaseModel):
+    """Deterministic top-k numeric order check (hard-fail ranking_relevance)."""
+
+    field: Literal["price_min", "title_kwh"]
+    direction: Literal["asc", "desc"]
+    currency: str = "INR"
+    apply_if: list[str] = Field(default_factory=list)
+
+
 class SoftScenarioExpectations(BaseModel):
     must_use_search: bool = True
     expected_category_hints: list[str] = Field(default_factory=list)
     expected_facet_keys: list[str] = Field(default_factory=list)
     must_not_domains: list[str] = Field(default_factory=list)
     relevance_notes: str = ""
+    ranking_order: RankingOrderExpectation | None = None
 
 
 class ScenarioTestCase(BaseModel):

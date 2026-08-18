@@ -1,0 +1,1188 @@
+{
+  "all_turns": 14,
+  "pref_turns_count": 4,
+  "turns": [
+    {
+      "path": "c:\\neel\\POC\\x\\product-rag\\data\\tenants\\t_0e9dd0d08fd5\\evals\\runs\\20260810T083104Z-0fea70\\scenarios\\scenario_cng_hatchback_city_commute.jsonl",
+      "turn": 2,
+      "user_message": "Thanks, those look promising! My daily commute is pretty long though, so keeping running costs low is my top priority. Can you narrow it down to the ones under ₹8 lakh with the best fuel economy? Also, I'd prefer compact cars from Maruti, Hyundai, or Tata — do you have any CNG hatchbacks from those brands in that range?",
+      "semantic_query": "compact CNG hatchback with good fuel economy from Maruti Suzuki, Hyundai, or Tata",
+      "matched_words": [
+        "best"
+      ],
+      "attribute_filters": [
+        {
+          "key": "fuel",
+          "op": "eq",
+          "value": "CNG"
+        },
+        {
+          "key": "body_type",
+          "op": "eq",
+          "value": "hatchback"
+        }
+      ],
+      "price_max": 800000.0,
+      "category_path": "Automobiles/Cars",
+      "fallback": {
+        "triggered": true,
+        "action": "drop_facets",
+        "steps": [
+          {
+            "action": "full_filters",
+            "hits": 0
+          },
+          {
+            "action": "drop_facets",
+            "hits": 8
+          }
+        ]
+      },
+      "hit_object_keys": [
+        "id",
+        "payload_excerpt",
+        "rrf_rank"
+      ],
+      "top": [
+        {
+          "id": "auto_032",
+          "rrf_rank": 1,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Baleno S CNG - Stealth Black",
+          "price_min": {
+            "INR": 793000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_007",
+          "rrf_rank": 2,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift S CNG - Stealth Black",
+          "price_min": {
+            "INR": 793000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_028",
+          "rrf_rank": 3,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Baleno Base CNG - Titan Grey",
+          "price_min": {
+            "INR": 706000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Titan Grey",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_003",
+          "rrf_rank": 4,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift Base CNG - Titan Grey",
+          "price_min": {
+            "INR": 706000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Titan Grey",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_107",
+          "rrf_rank": 5,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Grand Vitara S CNG - Stealth Black",
+          "price_min": {
+            "INR": 793000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "suv",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_082",
+          "rrf_rank": 6,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Brezza S CNG - Stealth Black",
+          "price_min": {
+            "INR": 793000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "suv",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_078",
+          "rrf_rank": 7,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Brezza Base CNG - Titan Grey",
+          "price_min": {
+            "INR": 706000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "suv",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Titan Grey",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_103",
+          "rrf_rank": 8,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Grand Vitara Base CNG - Titan Grey",
+          "price_min": {
+            "INR": 706000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "cng",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "automatic",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "suv",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Titan Grey",
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "rubric_pass": true,
+      "rubric_reasoning": "The retrieval is acceptable for the scenario: search was used (required), domain and facets are correct, results are non-empty, and the top-ranked hits are Maruti CNG hatchbacks matching the user's request for compact, low-running-cost CNG cars under budget. The only weakness is the fallback dropping facets (which allows CNG SUVs into ranks 5–8), but those are ranked below the hatchbacks and do not constitute wrong-domain flooding. Overall PASS with the noted fallback caveat."
+    },
+    {
+      "path": "c:\\neel\\POC\\x\\product-rag\\data\\tenants\\t_0e9dd0d08fd5\\evals\\runs\\20260810T083104Z-0fea70\\scenarios\\scenario_long_range_electric_suv.jsonl",
+      "turn": 1,
+      "user_message": "Show me electric SUVs with the biggest battery. fuel: electric. body_type: SUV. battery capacity: highest (77 kWh)",
+      "semantic_query": "electric SUV with largest battery capacity 77 kWh",
+      "matched_words": [
+        "biggest",
+        "highest",
+        "largest"
+      ],
+      "attribute_filters": [
+        {
+          "key": "fuel",
+          "op": "eq",
+          "value": "electric"
+        },
+        {
+          "key": "body_type",
+          "op": "eq",
+          "value": "SUV"
+        }
+      ],
+      "price_max": null,
+      "category_path": "Automobiles/Electric",
+      "fallback": {
+        "triggered": true,
+        "action": "drop_facets",
+        "steps": [
+          {
+            "action": "full_filters",
+            "hits": 0
+          },
+          {
+            "action": "drop_facets",
+            "hits": 8
+          }
+        ]
+      },
+      "hit_object_keys": [
+        "id",
+        "payload_excerpt",
+        "rrf_rank"
+      ],
+      "top": [
+        {
+          "id": "auto_948",
+          "rrf_rank": 1,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG ZS EV 77kWh - Titan Grey",
+          "price_min": {
+            "INR": 1630000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Titan Grey",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_915",
+          "rrf_rank": 2,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG Comet EV 50kWh - Ruby Red",
+          "price_min": {
+            "INR": 1280000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Ruby Red",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_949",
+          "rrf_rank": 3,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG ZS EV 77kWh - Deep Blue",
+          "price_min": {
+            "INR": 1635000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Deep Blue",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_914",
+          "rrf_rank": 4,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG Comet EV 50kWh - Deep Blue",
+          "price_min": {
+            "INR": 1275000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Deep Blue",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_947",
+          "rrf_rank": 5,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG ZS EV 77kWh - Stealth Black",
+          "price_min": {
+            "INR": 1625000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_801",
+          "rrf_rank": 6,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Tata Tiago EV 30kWh - Arctic White",
+          "price_min": {
+            "INR": 850000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Arctic White",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_804",
+          "rrf_rank": 7,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Tata Tiago EV 30kWh - Deep Blue",
+          "price_min": {
+            "INR": 865000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Deep Blue",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_946",
+          "rrf_rank": 8,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG ZS EV 77kWh - Arctic White",
+          "price_min": {
+            "INR": 1620000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Arctic White",
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "rubric_pass": false,
+      "rubric_reasoning": "Search was correctly invoked in the Electric vertical and the #1 hit (MG ZS EV 77kWh) matches the goal, but the retrieval is not acceptable overall: the fallback dropped the body_type facet so non-SUVs (Comet, Tiago) flood half the result set, the battery-capacity facet was never applied despite explicit user request, and ranking places 50kWh/30kWh models above 77kWh variants, contradicting the relevance notes."
+    },
+    {
+      "path": "c:\\neel\\POC\\x\\product-rag\\data\\tenants\\t_0e9dd0d08fd5\\evals\\runs\\20260810T083104Z-0fea70\\scenarios\\scenario_long_range_electric_suv.jsonl",
+      "turn": 2,
+      "user_message": "Nice, the 77 kWh ZS EV is exactly the kind of range I'm after, and it fits within my overall budget. But before I commit, can you also show me EVs under ₹15 lakh that can still go a decent distance on a single charge — say at least 30 kWh of battery? I don't care about body type at that price point.",
+      "semantic_query": "EV electric car with at least 30 kWh battery under 15 lakh",
+      "matched_words": [
+        "least"
+      ],
+      "attribute_filters": [
+        {
+          "key": "fuel",
+          "op": "eq",
+          "value": "electric"
+        }
+      ],
+      "price_max": 1500000.0,
+      "category_path": "Automobiles/Electric",
+      "fallback": {
+        "triggered": false,
+        "action": null,
+        "steps": [
+          {
+            "action": "full_filters",
+            "hits": 8
+          }
+        ]
+      },
+      "hit_object_keys": [
+        "id",
+        "payload_excerpt",
+        "rrf_rank"
+      ],
+      "top": [
+        {
+          "id": "auto_979",
+          "rrf_rank": 1,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Mahindra XUV400 EV 30kWh - Deep Blue",
+          "price_min": {
+            "INR": 1415000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Deep Blue",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_877",
+          "rrf_rank": 2,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Tata Curvv EV 30kWh - Stealth Black",
+          "price_min": {
+            "INR": 855000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_819",
+          "rrf_rank": 3,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Tata Tiago EV 60kWh - Deep Blue",
+          "price_min": {
+            "INR": 1405000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "blue",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_927",
+          "rrf_rank": 4,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG ZS EV 30kWh - Stealth Black",
+          "price_min": {
+            "INR": 905000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_817",
+          "rrf_rank": 5,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Tata Tiago EV 60kWh - Stealth Black",
+          "price_min": {
+            "INR": 1395000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_952",
+          "rrf_rank": 6,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "MG Windsor EV 30kWh - Stealth Black",
+          "price_min": {
+            "INR": 905000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_852",
+          "rrf_rank": 7,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Tata Nexon EV 30kWh - Stealth Black",
+          "price_min": {
+            "INR": 855000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_976",
+          "rrf_rank": 8,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Mahindra XUV400 EV 30kWh - Arctic White",
+          "price_min": {
+            "INR": 1400000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "electric",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Arctic White",
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "rubric_pass": true,
+      "rubric_reasoning": "The retrieval satisfies the user's request: search was used, constrained to the Electric vertical, priced under ₹15 lakh, fuel=electric, and all hits are ≥30 kWh EVs. Domain is clean, hits are non-empty and plausible. Minor note: battery capacity was expressed via the semantic query rather than a dedicated facet, but the outcome is acceptable."
+    },
+    {
+      "path": "c:\\neel\\POC\\x\\product-rag\\data\\tenants\\t_0e9dd0d08fd5\\evals\\runs\\20260810T083104Z-0fea70\\scenarios\\scenario_maruti_manual_budget.jsonl",
+      "turn": 2,
+      "user_message": "I'm a first-time buyer, so the cheaper the better — could you show me the cheapest Maruti Suzuki hatchbacks you have, sorted from lowest price up? Manual transmission preferred.",
+      "semantic_query": "cheapest Maruti Suzuki hatchback cars manual transmission",
+      "matched_words": [
+        "cheapest",
+        "lowest"
+      ],
+      "attribute_filters": [
+        {
+          "key": "body_type",
+          "op": "eq",
+          "value": "hatchback"
+        },
+        {
+          "key": "transmission",
+          "op": "eq",
+          "value": "manual"
+        }
+      ],
+      "price_max": null,
+      "category_path": "Automobiles/Cars",
+      "fallback": {
+        "triggered": false,
+        "action": null,
+        "steps": [
+          {
+            "action": "full_filters",
+            "hits": 8
+          }
+        ]
+      },
+      "hit_object_keys": [
+        "id",
+        "payload_excerpt",
+        "rrf_rank"
+      ],
+      "top": [
+        {
+          "id": "auto_005",
+          "rrf_rank": 1,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift Base Diesel - Ruby Red",
+          "price_min": {
+            "INR": 742000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "diesel",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Ruby Red",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_001",
+          "rrf_rank": 2,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift Base Petrol - Arctic White",
+          "price_min": {
+            "INR": 650000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "petrol",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Arctic White",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_009",
+          "rrf_rank": 3,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift S Diesel - Deep Blue",
+          "price_min": {
+            "INR": 829000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "diesel",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Deep Blue",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_017",
+          "rrf_rank": 4,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift VX Diesel - Stealth Black",
+          "price_min": {
+            "INR": 1003000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "diesel",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_013",
+          "rrf_rank": 5,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift V Diesel - Titan Grey",
+          "price_min": {
+            "INR": 916000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "diesel",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Titan Grey",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_042",
+          "rrf_rank": 6,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Baleno VX Diesel - Stealth Black",
+          "price_min": {
+            "INR": 1003000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "diesel",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Stealth Black",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_026",
+          "rrf_rank": 7,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Baleno Base Petrol - Arctic White",
+          "price_min": {
+            "INR": 650000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "petrol",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Arctic White",
+              "unit": null
+            }
+          ]
+        },
+        {
+          "id": "auto_021",
+          "rrf_rank": 8,
+          "rrf_score": null,
+          "semantic_score": null,
+          "dense_score": null,
+          "sparse_score": null,
+          "title": "Maruti Suzuki Swift ZX Diesel - Arctic White",
+          "price_min": {
+            "INR": 1090000.0
+          },
+          "facets": [
+            {
+              "key": "fuel",
+              "value": "diesel",
+              "unit": null
+            },
+            {
+              "key": "transmission",
+              "value": "manual",
+              "unit": null
+            },
+            {
+              "key": "seats",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "key": "body_type",
+              "value": "hatchback",
+              "unit": null
+            },
+            {
+              "key": "color",
+              "value": "Arctic White",
+              "unit": null
+            }
+          ]
+        }
+      ],
+      "rubric_pass": true,
+      "rubric_reasoning": "Retrieval is fully acceptable for the scenario: search was used (must_use_search satisfied), filters correctly narrow to Maruti Suzuki manual hatchbacks in Automobiles/Cars, no forbidden-domain contamination, non-empty results, and top hits are plausibly ordered cheapest-first. The only minor gap (no explicit price filter) is justified because the user gave no numeric budget. Overall PASS."
+    }
+  ]
+}

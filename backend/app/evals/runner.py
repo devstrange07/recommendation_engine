@@ -10,8 +10,15 @@ from pathlib import Path
 from typing import Any, Callable
 
 from app.evals.conclude import build_conclusion, summarize_promptfoo_results
-from app.evals.judge import build_retrieval_blob, default_judge_model, judge_turn, write_promptfoo_cases
-from app.evals.models import EvalScenario
+from app.evals.judge import (
+    apply_ranking_order_hard_fail,
+    build_retrieval_blob,
+    default_judge_model,
+    judge_turn,
+    ranking_order_check,
+    write_promptfoo_cases,
+)
+from app.evals.models import EvalScenario, TurnRubric
 from app.evals.profile import load_catalog_profile, generate_catalog_profile
 from app.evals.query_agent import next_user_turn
 from app.evals.scenario_store import get_scenario, list_scenarios
@@ -109,6 +116,118 @@ def load_run(tenant_id: str, run_id: str) -> dict[str, Any] | None:
         "status": state.get("status") or ("done" if conclusion else "unknown"),
         "progress": state.get("progress"),
     }
+
+
+def rescore_run_ranking_order(tenant_id: str, run_id: str) -> dict[str, Any]:
+    """Re-apply ranking_order hard fails to an existing run's JSONL (no agent/LLM rejudge)."""
+    try:
+        rid = safe_id(run_id)
+    except ValueError as e:
+        raise ValueError(f"invalid run_id: {e}") from e
+    paths = ensure_tenant_dirs(tenant_id)
+    run_dir = paths.evals_runs / rid
+    if not run_dir.exists():
+        raise FileNotFoundError(f"run not found: {rid}")
+
+    manifest: dict[str, Any] = {}
+    if (run_dir / "manifest.json").exists():
+        manifest = json.loads((run_dir / "manifest.json").read_text(encoding="utf-8"))
+
+    scen_dir = run_dir / "scenarios"
+    scenario_results: list[dict[str, Any]] = []
+    stats = {
+        "turns_total": 0,
+        "assert_applied": 0,
+        "assert_failed": 0,
+        "rubrics_flipped": 0,
+        "per_turn": [],
+    }
+
+    jsonl_files = sorted(scen_dir.glob("*.jsonl")) if scen_dir.exists() else []
+    for f in jsonl_files:
+        scenario = get_scenario(tenant_id, f.stem)
+        soft = scenario.soft_expectations.model_dump() if scenario is not None else {}
+        turns_out: list[dict[str, Any]] = []
+        for line in f.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            turn = json.loads(line)
+            stats["turns_total"] += 1
+            hits = turn.get("hits") or []
+            user_message = str(turn.get("user_message") or "")
+            applies, ok, reason = ranking_order_check(
+                hits,
+                soft.get("ranking_order"),
+                user_message,
+            )
+            if applies:
+                stats["assert_applied"] += 1
+            if applies and not ok:
+                stats["assert_failed"] += 1
+
+            prior = turn.get("rubric") or {}
+            prior_pass = bool(prior.get("pass"))
+            rubric = TurnRubric.model_validate(prior) if prior else TurnRubric(judge_source="stub")
+            updated = apply_ranking_order_hard_fail(
+                rubric,
+                hits=hits,
+                soft_expectations=soft,
+                user_message=user_message,
+            )
+            updated_dump = updated.model_dump(by_alias=True)
+            flipped = prior_pass and not bool(updated_dump.get("pass"))
+            if flipped:
+                stats["rubrics_flipped"] += 1
+            turn["rubric"] = updated_dump
+            turns_out.append(turn)
+            stats["per_turn"].append(
+                {
+                    "scenario_id": f.stem,
+                    "turn": turn.get("turn"),
+                    "applies": applies,
+                    "order_ok": ok,
+                    "reason": reason,
+                    "rubric_pass": updated_dump.get("pass"),
+                    "flipped": flipped,
+                }
+            )
+
+        with f.open("w", encoding="utf-8") as out:
+            for t in turns_out:
+                out.write(json.dumps(t, ensure_ascii=False) + "\n")
+
+        scenario_results.append(
+            {
+                "scenario_id": f.stem,
+                "title": scenario.title if scenario else f.stem,
+                "soft_expectations": soft,
+                "turns": turns_out,
+            }
+        )
+
+    promptfoo_summary = None
+    pf_results_path = run_dir / "promptfoo-results.json"
+    if pf_results_path.exists():
+        try:
+            pf_raw = json.loads(pf_results_path.read_text(encoding="utf-8"))
+            promptfoo_summary = summarize_promptfoo_results(pf_raw)
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"WARN: could not load promptfoo results: {e}")
+
+    conclusion = build_conclusion(
+        run_dir,
+        manifest,
+        scenario_results,
+        promptfoo_summary=promptfoo_summary,
+    )
+    manifest["overall"] = conclusion.get("overall")
+    manifest["ranking_order_rescore"] = {
+        "assert_applied": stats["assert_applied"],
+        "assert_failed": stats["assert_failed"],
+        "rubrics_flipped": stats["rubrics_flipped"],
+    }
+    (run_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    return {"run_id": rid, "conclusion": conclusion, "stats": stats}
 
 
 def start_run(

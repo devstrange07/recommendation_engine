@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -11,7 +12,12 @@ from typing import Any
 
 import yaml
 
-from app.evals.models import RubricDimensionScore, RubricJudgeOut, TurnRubric
+from app.evals.models import (
+    RankingOrderExpectation,
+    RubricDimensionScore,
+    RubricJudgeOut,
+    TurnRubric,
+)
 from app.openai_client import call_with_forced_tool, chat_key_present, chat_model
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
@@ -27,6 +33,8 @@ DIMENSIONS = (
     "product_ids",
 )
 
+_TITLE_KWH_RE = re.compile(r"(\d+(?:\.\d+)?)\s*kWh", re.IGNORECASE)
+
 
 def build_retrieval_blob(
     *,
@@ -40,12 +48,17 @@ def build_retrieval_blob(
     hit_summaries = []
     for h in hits[:8]:
         excerpt = h.get("payload_excerpt") or {}
+        title = excerpt.get("title") or excerpt.get("name") or h.get("title")
+        price_min = excerpt.get("price_min") if excerpt else None
+        if price_min is None:
+            price_min = h.get("price_min")
         hit_summaries.append(
             {
                 "id": h.get("id"),
                 "rrf_rank": h.get("rrf_rank"),
-                "title": excerpt.get("title") or excerpt.get("name"),
-                "category_path": excerpt.get("category_path"),
+                "title": title,
+                "category_path": excerpt.get("category_path") or h.get("category_path"),
+                "price_min": price_min,
             }
         )
     return {
@@ -62,6 +75,151 @@ def build_retrieval_blob(
         "fallback": fallback,
         "searched": extracted_filters is not None,
     }
+
+
+def _hit_title(hit: dict[str, Any]) -> str:
+    excerpt = hit.get("payload_excerpt") or {}
+    return str(excerpt.get("title") or excerpt.get("name") or hit.get("title") or "")
+
+
+def _hit_price_min(hit: dict[str, Any], currency: str) -> float | None:
+    excerpt = hit.get("payload_excerpt") or {}
+    price_min = excerpt.get("price_min") if excerpt else None
+    if price_min is None:
+        price_min = hit.get("price_min")
+    if isinstance(price_min, dict):
+        raw = price_min.get(currency)
+        if raw is None:
+            return None
+        try:
+            return float(raw)
+        except (TypeError, ValueError):
+            return None
+    if isinstance(price_min, (int, float)):
+        return float(price_min)
+    return None
+
+
+def _hit_title_kwh(hit: dict[str, Any]) -> float | None:
+    m = _TITLE_KWH_RE.search(_hit_title(hit))
+    if not m:
+        return None
+    try:
+        return float(m.group(1))
+    except (TypeError, ValueError):
+        return None
+
+
+def _extract_order_value(
+    hit: dict[str, Any],
+    spec: RankingOrderExpectation,
+) -> float | None:
+    if spec.field == "price_min":
+        return _hit_price_min(hit, spec.currency)
+    if spec.field == "title_kwh":
+        return _hit_title_kwh(hit)
+    return None
+
+
+def ranking_order_check(
+    hits: list[dict[str, Any]],
+    spec: RankingOrderExpectation | dict[str, Any] | None,
+    user_message: str,
+) -> tuple[bool, bool, str]:
+    """Return (applies, ok, reason).
+
+    If the assert does not apply, ok is True and reason explains why.
+    """
+    if spec is None:
+        return False, True, "no ranking_order expectation"
+    if isinstance(spec, dict):
+        try:
+            spec = RankingOrderExpectation.model_validate(spec)
+        except Exception as e:
+            return False, True, f"invalid ranking_order: {e}"
+
+    msg = user_message or ""
+    if spec.apply_if:
+        msg_cf = msg.casefold()
+        if not any(token.casefold() in msg_cf for token in spec.apply_if if token):
+            return False, True, "ranking_order apply_if did not match user_message"
+
+    ranked = sorted(
+        hits,
+        key=lambda h: (h.get("rrf_rank") is None, h.get("rrf_rank") if h.get("rrf_rank") is not None else 0),
+    )
+    values: list[tuple[Any, float]] = []
+    for h in ranked:
+        val = _extract_order_value(h, spec)
+        if val is None:
+            continue
+        values.append((h.get("id"), val))
+
+    if len(values) < 2:
+        return True, True, f"ranking_order skipped: fewer than 2 extractable {spec.field} values"
+
+    for i in range(1, len(values)):
+        prev_id, prev_v = values[i - 1]
+        cur_id, cur_v = values[i]
+        if spec.direction == "asc" and cur_v < prev_v:
+            return (
+                True,
+                False,
+                f"ranking_order {spec.field} asc violated: {prev_id}={prev_v} before {cur_id}={cur_v}",
+            )
+        if spec.direction == "desc" and cur_v > prev_v:
+            return (
+                True,
+                False,
+                f"ranking_order {spec.field} desc violated: {prev_id}={prev_v} before {cur_id}={cur_v}",
+            )
+    return True, True, f"ranking_order {spec.field} {spec.direction} ok ({len(values)} values)"
+
+
+def apply_ranking_order_hard_fail(
+    rubric: TurnRubric,
+    *,
+    hits: list[dict[str, Any]],
+    soft_expectations: dict[str, Any] | None,
+    user_message: str,
+) -> TurnRubric:
+    """Force ranking_relevance + overall fail when numeric order is violated."""
+    spec = (soft_expectations or {}).get("ranking_order")
+    applies, ok, reason = ranking_order_check(hits, spec, user_message)
+    if not applies or ok:
+        return rubric
+
+    scores: list[RubricDimensionScore] = []
+    for s in rubric.scores:
+        if s.dimension == "ranking_relevance":
+            scores.append(
+                RubricDimensionScore(
+                    dimension="ranking_relevance",
+                    **{"pass": False},
+                    reasoning=(s.reasoning + " | " if s.reasoning else "") + reason,
+                )
+            )
+        else:
+            scores.append(s)
+    if not any(s.dimension == "ranking_relevance" for s in scores):
+        scores.append(
+            RubricDimensionScore(
+                dimension="ranking_relevance",
+                **{"pass": False},
+                reasoning=reason,
+            )
+        )
+
+    overall_reason = (rubric.reasoning or "").strip()
+    if reason not in overall_reason:
+        overall_reason = (overall_reason + " | " if overall_reason else "") + reason
+
+    return TurnRubric(
+        **{"pass": False},
+        scores=scores,
+        reasoning=overall_reason,
+        judge_source=rubric.judge_source,
+    )
 
 
 def _stub_rubric(blob: dict[str, Any]) -> TurnRubric:
@@ -203,10 +361,20 @@ def judge_turn(
     """Judge a single turn. Promptfoo is used in batch by the runner; per-turn uses OpenAI/stub."""
     if chat_key_present():
         try:
-            return _openai_rubric(blob)
+            rubric = _openai_rubric(blob)
         except Exception as e:
             print(f"WARN: openai rubric failed: {e}")
-    return _stub_rubric(blob)
+            rubric = _stub_rubric(blob)
+    else:
+        rubric = _stub_rubric(blob)
+
+    soft = ((blob.get("scenario") or {}).get("soft_expectations") or {})
+    return apply_ranking_order_hard_fail(
+        rubric,
+        hits=list(blob.get("hits") or []),
+        soft_expectations=soft,
+        user_message=str(blob.get("user_message") or ""),
+    )
 
 
 def write_promptfoo_cases(
